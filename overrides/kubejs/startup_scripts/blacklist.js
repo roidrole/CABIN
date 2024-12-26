@@ -535,7 +535,7 @@ global.itemBlacklist = [
 	'waterstrainer:strainer_survivalist_reinforced',
 
 	//Tconstruct
-	'tconstruct:coin_cast',
+	'tconstruct:coin_cast',	
 	'tconstruct:coin_sand_cast',
 	'tconstruct:coin_red_sand_cast',
 	'tconstruct:netherite_nugget',
@@ -553,6 +553,7 @@ global.itemBlacklist = [
 	'thermal:press_packing_2x2_die',
 	'thermal:press_packing_3x3_die',
 	'thermal:press_unpacking_die',
+	'thermal:gold_coin',
 	'thermal:iron_coin',
 	'thermal:copper_coin',
 	'thermal:tin_coin',

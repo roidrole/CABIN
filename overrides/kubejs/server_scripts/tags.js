@@ -428,7 +428,6 @@ onEvent('item.tags', event => {
 			.add('#market:export/smithing')
 			.add('thermal:machine_press')
 			.add('thermal:silver_coin')
-			.add('thermal:gold_coin')
 	//Dome!
 
 	event.get('create:upright_on_belt')

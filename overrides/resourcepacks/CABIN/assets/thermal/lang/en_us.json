@@ -12,7 +12,7 @@
 	"item.thermal.turbo_servo_attachment": "Attachment: Servo",
 	"item.thermal.raw_lead": "Concentrated Raw Lead",
 	"item.thermal.raw_nickel": "Concentrated Raw Nickel",
-	"item.thermal.raw_silver": "Concentrated Raw Silver"
+	"item.thermal.raw_silver": "Concentrated Raw Silver",
 	"item.thermal.lead_plate": "Lead Sheet",
   	"item.thermal.nickel_plate": "Nickel Sheet",
   	"item.thermal.silver_plate": "Silver Sheet",
@@ -21,8 +21,9 @@
   	"item.thermal.invar_plate": "Invar Sheet",
   	"item.thermal.enderium_plate": "Enderium Sheet",
   	"item.thermal.lumium_plate": "Lumium Sheet",
-  	"item.thermal.signalum_plate": "Signalum Sheet"
+  	"item.thermal.signalum_plate": "Signalum Sheet",
 	"item.thermal.heavy_oil_bucket": "Diesel Bucket",
+	"item.thermal.silver_coin": "Coin",
   	"item.thermal.light_oil_bucket": "Gasoline Bucket",
   	"fluid.thermal.creosote": "Creosote",
   	"fluid.thermal.heavy_oil": "Diesel",
