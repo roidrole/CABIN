@@ -2,7 +2,8 @@
 onEvent('recipes', event => {
 	event.remove({ input: '#forge:coins' })
 
-	event.recipes.thermal.numismatic_fuel(TE('silver_coin')).energy(100000)
+	event.recipes.thermal.numismatic_fuel(TE('silver_coin')).energy(100000)	
+	event.recipes.thermal.numismatic_fuel(TE('gold_coin')).energy(6400000)
 	//remove all press recipes
 	event.remove({ type: TE('press') })
 

@@ -163,6 +163,11 @@ onEvent('item.registry', event => {
 		{ in: MC('#arrows', 32), out: S(3) }
 	])
 
+	trade("Exchange Currencies", 0xEBA83A, 0xF4F4F4, [
+		{ in: G(1), out: S(64) },
+		{ in: S(64), out: G(1) }
+	], true)
+
 	let DATAGEN_QUESTS = false
 
 	let data = []
