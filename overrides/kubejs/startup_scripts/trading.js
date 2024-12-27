@@ -164,8 +164,8 @@ onEvent('item.registry', event => {
 	])
 
 	trade("Exchange Currencies", 0xEBA83A, 0xF4F4F4, [
-		{ in: G(1), out: S(64) },
-		{ in: S(64), out: G(1) }
+		{ in: TE('gold_coin', 1), out: S(64) },
+		{ in: S(64), out: S(64) }
 	], true)
 
 	let DATAGEN_QUESTS = false
