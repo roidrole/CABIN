@@ -73,6 +73,21 @@ onEvent('item.registry', event => {
 			.displayName(`Slimy Fern Blend`)
 	}
 
+	//Adds cake slices
+	//Combining and cutting should be added to server_scripts/mods/create_central_kitchen.js
+	//kubejs:cake_slices tag should be added in server_scripts/tags.js
+	let cake_types = ["earthslime", "skyslime", "blood", "enderslime", "magma"]
+	let cake_potions = ['minecraft:luck','minecraft:jump_boost','minecraft:regeneration','minecraft:levitation','minecraft:fire_resistance']
+	let cake_durations = [300, 400, 150, 200, 600]
+	for (let i = 0; i < cake_types.length; i++) {
+		event.create(cake_types[i] + '_cake_slice').food(cake => {cake
+			.hunger(1)
+			.saturation(0.133333)
+			.effect(cake_potions[i], cake_durations[i], 0, 1)
+			.fastToEat()
+		}).texture("cabin:item/cake_slice/"+cake_types[i])
+	}
+
 	// Misc / Integration
 	event.create('pipe_module_utility').texture("cabin:item/pipe_module_utility").displayName('Utility Pipe Module')
 	event.create('pipe_module_tier_1').texture("cabin:item/pipe_module_tier_1").displayName('Brass Pipe Module')
