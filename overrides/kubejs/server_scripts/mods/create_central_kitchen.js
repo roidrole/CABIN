@@ -61,4 +61,13 @@ if(Platform.isLoaded("create_central_kitchen")) {
 			event.recipes.createCompacting('8x buddycardsexp:buddycookie', ['2x #forge:flour', 'buddycardsexp:buddybean_paste'])
 		}
 	})
+
+	onEvent('item.tags', event => {
+		event.get('kubejs:cake_slices')
+			.add(KJ('earthslime_cake_slice'))
+			.add(KJ('skyslime_cake_slice'))
+			.add(KJ('blood_cake_slice'))
+			.add(KJ('enderslime_cake_slice'))
+			.add(KJ('magma_cake_slice'))
+	})
 }
