@@ -94,6 +94,7 @@ onEvent('item.registry', event => {
 	event.create('pipe_module_tier_2').texture("cabin:item/pipe_module_tier_2").displayName('Invar Pipe Module')
 	event.create('pipe_module_tier_3').texture("cabin:item/pipe_module_tier_3").displayName('Enderium Pipe Module')
 	
+	
 	event.create('circuit_scrap').texture("cabin:item/circuit_scrap").displayName('Circuit Scrap')
 	//event.create('charged_calculator').texture("cabin:item/charged_calculator").displayName('Calculator').maxDamage(64)
 	event.create('missingno').texture("cabin:item/missingno").displayName('∄')
@@ -106,6 +107,14 @@ onEvent('item.registry', event => {
 	//event.create('smoke_mote').texture("cabin:item/smoke_mote").displayName('Tiny Smoke Cloud')
 	event.create('incomplete_coke_chunk','create:sequenced_assembly').texture("cabin:item/incomplete_coke_chunk").displayName('Cut Coke')
 	event.create('coke_chunk').texture("cabin:item/coke_chunk").displayName('Coke Chunks')
+
+	event.create('incomplete_bowl_meal','create:sequenced_assembly').texture('minecraft:item/bowl')
+	event.create('incomplete_stick_meal','create:sequenced_assembly').texture('minecraft:item/stick')
+	event.create('incomplete_baked_potato_meal','create:sequenced_assembly').texture('minecraft:item/baked_potato')
+	event.create('incomplete_cooked_rice_meal','create:sequenced_assembly').texture('farmersdelight:item/cooked_rice')
+	event.create('incomplete_carrot_meal','create:sequenced_assembly').texture('minecraft:item/carrot')
+	event.create('incomplete_smoked_ham_meal','create:sequenced_assembly').texture('farmersdelight:item/smoked_ham')
+	event.create('incomplete_pie_crust_meal','create:sequenced_assembly').texture('farmersdelight:item/pie_crust')
 
 	event.create('matter_plastics').texture("cabin:item/matter_plastics").displayName('Matter Plastics')
 	event.create('nickel_compound').texture("cabin:item/nickel_compound").displayName('Nickel Compound')

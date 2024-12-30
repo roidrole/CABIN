@@ -74,6 +74,22 @@ onEvent('item.tags', event => {
 		.add(PR_C("draw_plate"))
 		.add(PR_C("multimeter"))
 
+	event.get('kubejs:fruit_slices').add(MC('melon_slice')).add(FD('pumpkin_slice')).add(MC('glistering_melon_slice'))
+	event.get('kubejs:barbecue_stick_ingredient')
+		.add('farmersdelight:cooked_bacon') 
+		.add('minecraft:cooked_porkchop') 
+		.add('farmersdelight:beef_patty') 
+		.add('minecraft:cooked_beef') 
+		.add('minecraft:cooked_rabbit') 
+		.add('farmersdelight:cooked_salmon_slice') 
+		.add('minecraft:cooked_salmon') 
+		.add('farmersdelight:cooked_cod_slice') 
+		.add('minecraft:cooked_cod') 
+		.add('farmersdelight:cooked_mutton_chops') 
+		.add('minecraft:cooked_mutton') 
+		.add('farmersdelight:cooked_chicken_cuts') 
+		.add('minecraft:cooked_chicken')
+
 	//crafting tools for the chapters
 	event.get('kubejs:saws').add('cb_microblock:stone_saw').add('cb_microblock:iron_saw').add('cb_microblock:diamond_saw')
 	event.get('kubejs:screwdrivers').add(PR_C('screwdriver'))

@@ -41,4 +41,7 @@ onEvent('recipes', event => {
 			})
 		}
 	})
+
+	//Fix creating sweet berry cookies with honey. Honey cookies exist.
+	event.remove({id:FD('honey_berry_cookie')})
 })
