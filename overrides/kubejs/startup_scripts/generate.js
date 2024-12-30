@@ -86,6 +86,7 @@ onEvent('item.registry', event => {
 			.effect(cake_potions[i], cake_durations[i], 0, 1)
 			.fastToEat()
 		}).texture("cabin:item/cake_slice/"+cake_types[i])
+		.displayName('Slice of '+cake_types[i][0].toUpperCase()+cake_types[i].substring(1)+' Cake')
 	}
 
 	// Misc / Integration
