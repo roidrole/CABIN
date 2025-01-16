@@ -13,7 +13,7 @@ onEvent('item.registry', event => {
 		event.create('small_' + id + '_crystal').texture("ae2:item/crystal_seed_" + id + "3").displayName('Small ' + e + ' Quartz Crystal')
 		event.create('growing_small_' + id + '_crystal','create:sequenced_assembly').texture("ae2:item/crystal_seed_" + id + "3").displayName('Small ' + e + ' Quartz Crystal')
 	});
-
+	
 	let processors = ["Calculation", "Logic", "Engineering"]
 	processors.forEach(name => {
 		let e = name.toLowerCase()
@@ -116,6 +116,8 @@ onEvent('item.registry', event => {
 	event.create('incomplete_carrot_meal','create:sequenced_assembly').texture('minecraft:item/carrot')
 	event.create('incomplete_smoked_ham_meal','create:sequenced_assembly').texture('farmersdelight:item/smoked_ham')
 	event.create('incomplete_pie_crust_meal','create:sequenced_assembly').texture('farmersdelight:item/pie_crust')
+	event.create('incomplete_hay_block_meal','create:sequenced_assembly').parentModel({"parent": "minecraft:block/hay_block"})
+	event.create('incomplete_canvas_meal','create:sequenced_assembly').texture('farmersdelight:item/canvas')
 
 	event.create('matter_plastics').texture("cabin:item/matter_plastics").displayName('Matter Plastics')
 	event.create('nickel_compound').texture("cabin:item/nickel_compound").displayName('Nickel Compound')
@@ -367,7 +369,18 @@ onEvent('fluid.registry', event => {
 	event.create('crude_oil').displayName(`Crude Oil`).stillTexture('thermal:block/fluids/crude_oil_still').flowingTexture('thermal:block/fluids/crude_oil_flow').bucketColor(0x222118)
 	event.create('volatile_sky_solution').displayName(`Volatile Sky Solution`).stillTexture('tconstruct:block/fluid/obsidian/still').flowingTexture('tconstruct:block/fluid/obsidian/flowing').color(0x8feebf).bucketColor(0x1A1123)
 	event.create('chromatic_waste').displayName(`Chromatic Waste`).stillTexture('tconstruct:block/fluid/enderium/still').flowingTexture('tconstruct:block/fluid/enderium/flowing').color(0x0B3E36)
-//	event.create('liquid_smoke').displayName(`Liquid Smoke`).stillTexture('advancedrocketry:blocks/fluid/oxygen_still').flowingTexture('advancedrocketry:blocks/fluid/oxygen_flow').bucketColor(0xEBEBEB)
+	event.create('ink').stillTexture('thermal:block/fluids/crude_oil_still').flowingTexture('thermal:block/fluids/crude_oil_flow').bucketColor(0x222118)
+
+	//	event.create('liquid_smoke').displayName(`Liquid Smoke`).stillTexture('advancedrocketry:blocks/fluid/oxygen_still').flowingTexture('advancedrocketry:blocks/fluid/oxygen_flow').bucketColor(0xEBEBEB)
+
+	function makeStew(event, id, color){
+		event.create(id).color(color).stillTexture('tconstruct:block/fluid/stew/still').flowingTexture('tconstruct:block/fluid/stew/flowing');
+	}
+	makeStew(event, 'buddybean_paste', 0x5578b9)
+	makeStew(event, 'hard_stew', 0x7d8d94)
+	makeStew(event, 'sticky_stew', 0x7fe0f6)
+	makeStew(event, 'fluorescent_stew', 0xcefe85)
+	makeStew(event, 'glow_berry_custard', 0xd1834c)
 })
 
 onEvent('item.modification', event => {

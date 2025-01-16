@@ -75,6 +75,7 @@ onEvent('item.tags', event => {
 		.add(PR_C("multimeter"))
 
 	event.get('kubejs:fruit_slices').add(MC('melon_slice')).add(FD('pumpkin_slice')).add(MC('glistering_melon_slice'))
+	event.get('kubejs:mushroom_stews').add(MC('mushroom_stew')).add(EXP('sticky_stew')).add(EXP('hard_stew')).add(EXP('fluorescent_stew'))
 	event.get('kubejs:barbecue_stick_ingredient')
 		.add('farmersdelight:cooked_bacon') 
 		.add('minecraft:cooked_porkchop') 
@@ -89,6 +90,8 @@ onEvent('item.tags', event => {
 		.add('minecraft:cooked_mutton') 
 		.add('farmersdelight:cooked_chicken_cuts') 
 		.add('minecraft:cooked_chicken')
+	event.get('kubejs:broth_ingredients').add(F('#mushrooms')).add(MC('glow_berries')).add(MC('glow_lichen')).add(MC('hanging_roots'))
+	event.get('kubejs:dumpling_ingredients').add(F('#raw_chicken')).add(F('#raw_pork')).add(F('#raw_beef')).add(MC('brown_mushroom'))
 
 	//crafting tools for the chapters
 	event.get('kubejs:saws').add('cb_microblock:stone_saw').add('cb_microblock:iron_saw').add('cb_microblock:diamond_saw')
@@ -225,6 +228,15 @@ onEvent('item.tags', event => {
 
 	//This tag auto adds the beacon_payment_items tag which we don't want
 	event.remove(CR('create_ingots'), CR('andesite_alloy'))
+})
+
+onEvent('tags.fluids', event => {
+	event.get(KJ('mushroom_stews'))
+		.add(TC('mushroom_stew'))
+		.add(KJ('hard_stew'))
+		.add(KJ('sticky_stew'))
+		.add(KJ('fluorescent_stew'))
+	event.get(F('ink')).add(KJ('ink'))
 })
 
 onEvent('block.tags', event => {

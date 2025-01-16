@@ -44,4 +44,21 @@ onEvent('recipes', event => {
 
 	//Fix creating sweet berry cookies with honey. Honey cookies exist.
 	event.remove({id:FD('honey_berry_cookie')})
+
+	//More mushrooms exist
+	event.remove({id:FD('cooking/rabbit_stew')})
+	event.custom({
+		type: "farmersdelight:cooking",
+		recipe_book_tab: "meals",
+		ingredients: [
+			Ingredient.of(MC('baked_potato')).toJson(),
+			Ingredient.of(MC('rabbit')).toJson(),
+			Ingredient.of(MC('carrot')).toJson(),
+			Ingredient.of(F('#mushrooms')).toJson()
+		],
+		result: Ingredient.of(MC('rabbit_stew')).toJson(),
+		experience: 1.0,
+		cookingtime: 200,
+		container:Ingredient.of(MC('bowl')).toJson()
+  })
 })
