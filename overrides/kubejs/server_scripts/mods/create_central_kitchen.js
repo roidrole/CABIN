@@ -236,6 +236,8 @@ if(Platform.isLoaded("create_central_kitchen")) {
 				event.recipes.createDeploying(transitional, [transitional, '#aquaculture:turtle'])
 			]).loops(1)
 		}
+		//Popsicle needs freezing
+		if(Platform.isLoaded('thermal')){event.recipes.thermal.chiller(FD('melon_popsicle'), [Fluid.of(CK('melon_juice'), 250), MC('stick')])}
 
 		//A few cooking recipes missing - Slice and Dice no longer needed (disable mixer recipes in the config)
 		event.recipes.createMixing(FD('cabbage_rolls'), [F('#salad_ingredients/cabbage'), FD('#cabbage_roll_ingredients')]).heated()
