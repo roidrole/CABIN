@@ -485,7 +485,7 @@
 																	id: "minecraft:barrel"
 																	tag: {
 																		BlockEntityTag: {
-																			LootTable: "cabin:chests/the_market/patience/1"
+																			LootTable: "kubejs:chests/the_market/patience/1"
 																		}
 																		display: {
 																			Lore: ["{\"italic\":true,\"color\":\"gray\",\"text\":\"The fabled prize awaits at the bottom...\"}"]
@@ -595,7 +595,7 @@
 					id: "minecraft:chest"
 					tag: {
 						BlockEntityTag: {
-							LootTable: "cabin:chests/the_market/tinkerbox"
+							LootTable: "kubejs:chests/the_market/tinkerbox"
 							id: "minecraft:chest"
 						}
 						display: {

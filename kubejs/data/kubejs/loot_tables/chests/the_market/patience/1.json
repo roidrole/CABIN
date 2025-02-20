@@ -454,7 +454,7 @@
 			  {
 				"function": "minecraft:set_loot_table",
 				"type": "minecraft:chest",
-				"name": "cabin:chests/the_market/patience/1"
+				"name": "kubejs:chests/the_market/patience/1"
 			  },
 			  {
 				"function": "minecraft:set_lore",
@@ -476,7 +476,7 @@
 			  {
 				"function": "minecraft:set_loot_table",
 				"type": "minecraft:chest",
-				"name": "cabin:chests/the_market/patience/2"
+				"name": "kubejs:chests/the_market/patience/2"
 			  },
 			  {
 				"function": "minecraft:set_name",
