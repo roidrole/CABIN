@@ -455,8 +455,8 @@ const addOregenOverworld = function(event, featureName, blockName, heightType, h
 		minInclusive = {"above_bottom": heightMin+64}
 		maxInclusive = {"above_bottom": heightMax+64}
 	} else if (heightMax>320) {
-		minInclusive = {"below_top": heightMin-320}
-		maxInclusive = {"below_top": heightMax-320}
+		minInclusive = {"below_top": -(heightMin-320)}
+		maxInclusive = {"below_top": -(heightMax-320)}
 	}
 
 	event.addJson(`${namespace}:worldgen/placed_feature/${identifier}`, {
