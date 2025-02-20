@@ -18,7 +18,7 @@
 !/KNOWN-ISSUES.md
 !/mods/systeams*
 !/mods/ExtendedCrafting*
-
+!/ldlib
 /mods/.index
 /mods/.connector
 /mods/memoryleakfix*

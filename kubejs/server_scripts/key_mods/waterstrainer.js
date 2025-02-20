@@ -4,6 +4,6 @@ ServerEvents.recipes(event => {
 	event.remove({ output: 'strainers:iron_mesh' })
 
 	let strainerPattern = ['SSS', 'MAM', 'SSS']
-	event.shaped('strainers:iron_mesh', strainerPattern,
+	event.shaped('kubejs:strainer_filter', strainerPattern,
 	{ A: FD('canvas'), M: FD('canvas'), S: 'minecraft:stick' }).id('kubejs:sediment_strainer')
 })
