@@ -4181,8 +4181,104 @@
 				type: "item"
 			}]
 			title: "16x Cherry Log"
-			x: -2.5d
+			x: 3.5d
 			y: 4.5d
+		}
+		{
+			icon: "minecraft:sculk"
+			id: "25D02F1FB231C466"
+			rewards: [
+				{
+					auto: "enabled"
+					id: "3C7C6226724A6520"
+					item: "kubejs:trade_card_sculk"
+					type: "item"
+				}
+				{
+					auto: "no_toast"
+					icon: "thermal:machine_cycle_augment"
+					id: "4A6ADA35AEFF4AF7"
+					tags: ["reset"]
+					title: "Repeatable"
+					type: "custom"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "6 Silver"
+			tasks: [{
+				count: 10L
+				icon: "kubejs:silver_coin"
+				id: "7F47D8C44B117CAD"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			title: "1x Sculk Block"
+			x: 1.5d
+			y: 17.0d
+		}
+		{
+			icon: "minecraft:pink_petals"
+			id: "3C79A7679BA1AA3C"
+			rewards: [
+				{
+					auto: "enabled"
+					id: "3A35385CDE57FC2D"
+					item: "kubejs:trade_card_pink_petals"
+					type: "item"
+				}
+				{
+					auto: "no_toast"
+					icon: "thermal:machine_cycle_augment"
+					id: "6759A62FD047DEB4"
+					tags: ["reset"]
+					title: "Repeatable"
+					type: "custom"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "3 Silver"
+			tasks: [{
+				count: 10L
+				icon: "kubejs:silver_coin"
+				id: "0A78CA8250889047"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			title: "8x Pink Petals"
+			x: 2.5d
+			y: 17.0d
+		}
+		{
+			icon: "minecraft:big_dripleaf"
+			id: "5F32791B5284E321"
+			rewards: [
+				{
+					auto: "enabled"
+					id: "068A1A1CEB5E7F76"
+					item: "kubejs:trade_card_big_dripleaf"
+					type: "item"
+				}
+				{
+					auto: "no_toast"
+					icon: "thermal:machine_cycle_augment"
+					id: "7A95B159914EF1BC"
+					tags: ["reset"]
+					title: "Repeatable"
+					type: "custom"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "3 Silver"
+			tasks: [{
+				count: 10L
+				icon: "kubejs:silver_coin"
+				id: "04FE0978D895D8FE"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			title: "4x Big Dripleaf"
+			x: 3.5d
+			y: 17.0d
 		}
 	]
 	title: "&a Shipments"

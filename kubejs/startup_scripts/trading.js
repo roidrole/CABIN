@@ -473,7 +473,10 @@ StartupEvents.registry('item', event => {
 		simple("Moss Block", MC('moss_block', 1), 8, S, 0x4D5B23, 0x6F902C)
 		simple("Glowing Moss Block", BOP('glowing_moss_block', 1), 12, S, 0x144B6A, 0x153044)
 		simple("Tree Fertilizer", CR('tree_fertilizer', 1), 6, S, 0xCF8469, 0x71933A)
-		
+		simple("Sculk", MC('sculk', 1), 6, S, 0x073b60, 0xb2d39)
+		simple("Pink Petals", MC('pink_petals', 8), 3, S, 0xFF69B4, 0xFFC0CB)
+		simple("Big Dripleaf", MC('big_dripleaf', 4), 3, S, 0x228B22, 0x32CD32)
+
 		next_group()
 		entry_cost = 10
 		simple("Daub", SP('daub', 16), 5, S, 0xBFBAAA, 0xCBC8B6)
