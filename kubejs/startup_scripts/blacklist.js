@@ -173,6 +173,9 @@ global.itemBlacklist = [
 	'create:sturdy_sheet',
 	'create:unprocessed_obsidian_sheet',
 
+	//Create Central Kitchen
+	'create_central_kitchen:creative_tab_icon',
+
 	//Create Deco
 	'createdeco:copper_coin',
 	'createdeco:copper_coinstack',
@@ -342,6 +345,9 @@ global.itemBlacklist = [
 	'metalbarrels:obsidian_barrel',
 	'metalbarrels:netherite_barrel',
 	'metalbarrels:obsidian_to_netherite',
+
+	//moonlight
+	'moonlight:placeable_item',
 
 	//Occultism
 	'occultism:obsidian_dust',
@@ -619,6 +625,9 @@ global.randomiumBlacklist = [
 	'expcaves:small_quartz_treasure_pot',
 	'expcaves:quartz_treasure_amphora',
 	'occultism:miner_debug_unspecialized',
+	'trials:trial_spawner',
+	'trials:trial_vault',
+	'trials:trial_vault_ominous',
 
 
 	//Tconstruct molten fluid buckets
@@ -632,6 +641,9 @@ global.randomiumBlacklist = [
 	'tconstruct:molten_uranium_bucket',
 
 	//ritual dummys
+	'occultism:ritual_dummy/summon_demonic_wife',
+	'occultism:ritual_dummy/summon_demonic_husband',
+	'occultism:ritual_dummy/resurrect_familiar',
 	'occultism:ritual_dummy/custom_ritual',
 	'occultism:ritual_dummy/craft_dimensional_matrix',
 	'occultism:ritual_dummy/craft_dimensional_mineshaft',
@@ -671,6 +683,12 @@ global.randomiumBlacklist = [
 	'occultism:ritual_dummy/possess_endermite',
 	'occultism:ritual_dummy/possess_skeleton',
 	'occultism:ritual_dummy/possess_ghast',
+	'occultism:ritual_dummy/possess_phantom',
+	'occultism:ritual_dummy/possess_weak_shulker',
+	'occultism:ritual_dummy/possess_shulker',
+	'occultism:ritual_dummy/possess_elder_guardian',
+	'occultism:ritual_dummy/possess_warden',
+	'occultism:ritual_dummy/possess_hoglin',
 	'occultism:ritual_dummy/summon_afrit_rain_weather',
 	'occultism:ritual_dummy/summon_afrit_thunder_weather',
 	'occultism:ritual_dummy/summon_djinni_clear_weather',
@@ -744,6 +762,10 @@ global.randomiumBlacklist = [
 	'prettypipes:high_retrieval_module',
 	'prettypipes:high_extraction_module',
 	'prettypipes:high_speed_module',
+	'functionalstorage:fluid_1',
+	'functionalstorage:fluid_2',
+	'functionalstorage:fluid_4',
+	'functionalstorage:ender_drawer',
 	// Chapter 4
 	'ae2:silicon',
 	'ae2:printed_silicon',
@@ -952,7 +974,9 @@ global.randomiumBlacklist = [
 	'storagedrawers:creative_storage_upgrade',
 	'storagedrawers:creative_vending_upgrade',
 	'computercraft:computer_command',
-	'modonomicon:modonomicon'
+	'modonomicon:modonomicon',
+	'functionalstorage:max_storage_upgrade',
+	'functionalstorage:creative_vending_upgrade'
 ]
 
 global.jeiFluidBlacklist = [
