@@ -125,7 +125,7 @@ ServerEvents.recipes(event => {
 	andesiteMachine(event, Item.of('create:portable_storage_interface', 2))
 	andesiteMachine(event, Item.of('create:encased_fan', 1), CR('propeller'))
 	andesiteMachine(event, Item.of('create:mechanical_press', 1), MC('iron_block'))
-	andesiteMachine(event, Item.of('strainers:wooden_strainer', 1), MC('iron_bars'))
+	andesiteMachine(event, Item.of('mbd2:strainer', 1), MC('iron_bars'))
 	andesiteMachine(event, Item.of('create:mechanical_mixer', 1), CR('whisk'))
 	andesiteMachine(event, Item.of('create:mechanical_drill', 1), TE('drill_head'))
 	andesiteMachine(event, Item.of('create:mechanical_saw', 1), TE('saw_blade'))
