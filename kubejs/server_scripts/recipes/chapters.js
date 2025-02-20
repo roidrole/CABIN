@@ -962,7 +962,7 @@ ServerEvents.recipes(event => {
 	event.recipes.createMechanicalCrafting("ad_astra:space_boots", pattern, materials)
 
 	// Rocket Launch Pad
-	createMachine(AP('heavy_stone_bricks'), event, Item.of("ad_astra:launch_pad", 5), KJ("matter_plastics"))
+	createMachine(AP('heavy_stone_bricks'), event, Item.of("ad_astra:launch_pad"), KJ("matter_plastics"))
 
 	// oil refining
 	event.custom({

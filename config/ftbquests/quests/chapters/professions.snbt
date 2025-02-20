@@ -1,1414 +1,1435 @@
 {
-	id: "1634333847CCE52A"
-	group: "0810E42B2DD79973"
-	order_index: 0
-	filename: "professions"
-	title: "&a Bulletin Board"
-	icon: "minecraft:item_frame"
-	default_quest_shape: ""
 	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "professions"
+	group: "0810E42B2DD79973"
+	icon: "minecraft:item_frame"
+	id: "1634333847CCE52A"
+	order_index: 0
+	quest_links: [ ]
 	quests: [
 		{
-			title: "Miner"
+			dependencies: ["59B17CA4AA6D0DD4"]
+			description: ["Sell &6Igneous Rocks&f, &6Metal Ores&f, &6Gems&f and more with the Mining permit."]
+			hide_dependency_lines: true
 			icon: {
+				Count: 1
 				id: "tconstruct:pickaxe"
-				Count: 1b
 				tag: {
-					tic_stats: {
-						"tconstruct:attack_speed": 1.2f
-						"tconstruct:mining_speed": 7.475f
-						"tconstruct:attack_damage": 2.25f
-						"tconstruct:harvest_tier": "minecraft:diamond"
-						"tconstruct:durability": 721.0f
-					}
+					Damage: 0
 					tic_broken: 0b
-					tic_modifiers: [
-						{
-							name: "tconstruct:piercing"
-							level: 1s
-						}
-						{
-							name: "tconstruct:maintained"
-							level: 1s
-						}
-						{
-							name: "tconstruct:temperate"
-							level: 1s
-						}
-						{
-							name: "tconstruct:experienced"
-							level: 1s
-						}
-					]
 					tic_materials: [
 						"tconstruct:bronze"
 						"tconstruct:constantan"
 						"tconstruct:electrum"
 					]
-					Damage: 0
+					tic_modifiers: [
+						{
+							level: 1
+							name: "tconstruct:maintained"
+						}
+						{
+							level: 1
+							name: "tconstruct:temperate"
+						}
+						{
+							level: 1
+							name: "tconstruct:experienced"
+						}
+						{
+							level: 1
+							name: "tconstruct:pierce"
+						}
+					]
+					tic_persistent: { }
 					tic_persistent_data: {
+						abilities: 1
+						upgrades: 3
+					}
+					tic_stats: {
+						"tconstruct:attack_damage": 3.25f
+						"tconstruct:attack_speed": 1.2f
+						"tconstruct:durability": 722.0f
+						"tconstruct:harvest_tier": "minecraft:diamond"
+						"tconstruct:mining_speed": 7.475f
+					}
+					tic_volatile_data: {
 						abilities: 1
 						upgrades: 3
 					}
 				}
 			}
-			x: -6.0d
-			y: -8.0d
-			shape: "hexagon"
-			description: ["Sell &6Igneous Rocks&f, &6Metal Ores&f, &6Gems&f and more with the Mining permit."]
-			hide_dependency_lines: true
-			dependencies: ["59B17CA4AA6D0DD4"]
 			id: "1E26046FA8177616"
-			tasks: [{
-				id: "121ECE09FBC2490A"
-				type: "item"
-				icon: "kubejs:silver_coin"
-				item: "thermal:silver_coin"
-				count: 30L
-			}]
 			rewards: [
 				{
-					id: "556BBA8B09E4BA0C"
-					type: "item"
 					auto: "enabled"
+					id: "556BBA8B09E4BA0C"
 					item: "kubejs:profession_card_mining"
+					type: "item"
 				}
 				{
-					id: "78B7B98BE67CCA84"
-					type: "custom"
-					title: "Repeatable"
-					icon: "thermal:machine_cycle_augment"
-					tags: ["reset"]
 					auto: "no_toast"
+					icon: "thermal:machine_cycle_augment"
+					id: "78B7B98BE67CCA84"
+					tags: ["reset"]
+					title: "Repeatable"
+					type: "custom"
 				}
 			]
+			shape: "hexagon"
+			tasks: [{
+				count: 30L
+				icon: "kubejs:silver_coin"
+				id: "121ECE09FBC2490A"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			title: "Miner"
+			x: -6.0d
+			y: -8.0d
 		}
 		{
-			title: "Farmer"
+			dependencies: ["59B17CA4AA6D0DD4"]
+			description: ["Sell &6Crops&f, &6Flowers&f, &6Honey&f and more with the Farming permit."]
+			hide_dependency_lines: true
 			icon: {
+				Count: 1
 				id: "tconstruct:kama"
-				Count: 1b
 				tag: {
+					Damage: 0
+					tic_broken: 0b
+					tic_materials: [
+						"tconstruct:bronze"
+						"tconstruct:constantan"
+						"tconstruct:electrum"
+					]
+					tic_modifiers: [
+						{
+							level: 1
+							name: "tconstruct:maintained"
+						}
+						{
+							level: 1
+							name: "tconstruct:temperate"
+						}
+						{
+							level: 1
+							name: "tconstruct:experienced"
+						}
+						{
+							level: 1
+							name: "tconstruct:tilling"
+						}
+						{
+							level: 1
+							name: "tconstruct:shears"
+						}
+						{
+							level: 1
+							name: "tconstruct:harvest"
+						}
+					]
 					tic_multipliers: {
 						"tconstruct:attack_damage": 0.5f
 					}
-					tic_stats: {
-						"tconstruct:attack_speed": 1.6f
-						"tconstruct:mining_speed": 7.475f
-						"tconstruct:attack_damage": 1.625f
-						"tconstruct:harvest_tier": "minecraft:diamond"
-						"tconstruct:durability": 721.0f
-					}
-					tic_broken: 0b
-					tic_modifiers: [
-						{
-							name: "tconstruct:maintained"
-							level: 1s
-						}
-						{
-							name: "tconstruct:temperate"
-							level: 1s
-						}
-						{
-							name: "tconstruct:experienced"
-							level: 1s
-						}
-						{
-							name: "tconstruct:shears"
-							level: 1s
-						}
-						{
-							name: "tconstruct:harvest"
-							level: 1s
-						}
-					]
-					tic_materials: [
-						"tconstruct:bronze"
-						"tconstruct:constantan"
-						"tconstruct:electrum"
-					]
-					Damage: 0
+					tic_persistent: { }
 					tic_persistent_data: {
+						abilities: 1
+						upgrades: 3
+					}
+					tic_stats: {
+						"tconstruct:attack_damage": 1.625f
+						"tconstruct:attack_speed": 1.6f
+						"tconstruct:durability": 722.0f
+						"tconstruct:harvest_tier": "minecraft:diamond"
+						"tconstruct:mining_speed": 7.475f
+					}
+					tic_volatile_data: {
 						abilities: 1
 						upgrades: 3
 					}
 				}
 			}
+			id: "12B37E99B1D3837E"
+			rewards: [
+				{
+					auto: "enabled"
+					id: "4F0E97B8E88BF530"
+					item: "kubejs:profession_card_farming"
+					type: "item"
+				}
+				{
+					auto: "no_toast"
+					icon: "thermal:machine_cycle_augment"
+					id: "4630E4354593D196"
+					tags: ["reset"]
+					title: "Repeatable"
+					type: "custom"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				count: 30L
+				icon: "kubejs:silver_coin"
+				id: "40D5C78A3738FC5E"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			title: "Farmer"
 			x: -8.0d
 			y: -8.0d
-			shape: "hexagon"
-			description: ["Sell &6Crops&f, &6Flowers&f, &6Honey&f and more with the Farming permit."]
-			hide_dependency_lines: true
-			dependencies: ["59B17CA4AA6D0DD4"]
-			id: "12B37E99B1D3837E"
-			tasks: [{
-				id: "40D5C78A3738FC5E"
-				type: "item"
-				icon: "kubejs:silver_coin"
-				item: "thermal:silver_coin"
-				count: 30L
-			}]
-			rewards: [
-				{
-					id: "4F0E97B8E88BF530"
-					type: "item"
-					auto: "enabled"
-					item: "kubejs:profession_card_farming"
-				}
-				{
-					id: "4630E4354593D196"
-					type: "custom"
-					title: "Repeatable"
-					icon: "thermal:machine_cycle_augment"
-					tags: ["reset"]
-					auto: "no_toast"
-				}
-			]
 		}
 		{
-			title: "Carpenter"
+			dependencies: ["59B17CA4AA6D0DD4"]
+			description: ["Sell &6Wood Logs&f with the Carpentry permit."]
+			hide_dependency_lines: true
 			icon: {
+				Count: 1
 				id: "tconstruct:hand_axe"
-				Count: 1b
 				tag: {
-					tic_stats: {
-						"tconstruct:attack_speed": 0.9f
-						"tconstruct:mining_speed": 7.475f
-						"tconstruct:attack_damage": 8.25f
-						"tconstruct:harvest_tier": "minecraft:diamond"
-						"tconstruct:durability": 721.0f
-					}
+					Damage: 0
 					tic_broken: 0b
-					tic_modifiers: [
-						{
-							name: "tconstruct:maintained"
-							level: 1s
-						}
-						{
-							name: "tconstruct:temperate"
-							level: 1s
-						}
-						{
-							name: "tconstruct:experienced"
-							level: 1s
-						}
-						{
-							name: "tconstruct:stripping"
-							level: 1s
-						}
-						{
-							name: "tconstruct:axe_scrape"
-							level: 1s
-						}
-						{
-							name: "tconstruct:axe_wax_off"
-							level: 1s
-						}
-					]
 					tic_materials: [
 						"tconstruct:bronze"
 						"tconstruct:constantan"
 						"tconstruct:electrum"
 					]
-					Damage: 0
+					tic_modifiers: [
+						{
+							level: 1
+							name: "tconstruct:maintained"
+						}
+						{
+							level: 1
+							name: "tconstruct:temperate"
+						}
+						{
+							level: 1
+							name: "tconstruct:experienced"
+						}
+						{
+							level: 1
+							name: "tconstruct:stripping"
+						}
+					]
+					tic_persistent: { }
 					tic_persistent_data: {
+						abilities: 1
+						upgrades: 3
+					}
+					tic_stats: {
+						"tconstruct:attack_damage": 8.25f
+						"tconstruct:attack_speed": 0.9f
+						"tconstruct:durability": 722.0f
+						"tconstruct:harvest_tier": "minecraft:diamond"
+						"tconstruct:mining_speed": 7.475f
+					}
+					tic_volatile_data: {
 						abilities: 1
 						upgrades: 3
 					}
 				}
 			}
-			x: -7.0d
-			y: -8.0d
-			shape: "hexagon"
-			description: ["Sell &6Wood Logs&f with the Carpentry permit."]
-			hide_dependency_lines: true
-			dependencies: ["59B17CA4AA6D0DD4"]
 			id: "3A48FDC224D029BF"
-			tasks: [{
-				id: "1D8BF49B36108A4D"
-				type: "item"
-				icon: "kubejs:silver_coin"
-				item: "thermal:silver_coin"
-				count: 30L
-			}]
 			rewards: [
 				{
-					id: "570B46650865045E"
-					type: "item"
 					auto: "enabled"
+					id: "570B46650865045E"
 					item: "kubejs:profession_card_carpentry"
+					type: "item"
 				}
 				{
-					id: "168DD43A1A6C846C"
-					type: "custom"
-					title: "Repeatable"
-					icon: "thermal:machine_cycle_augment"
-					tags: ["reset"]
 					auto: "no_toast"
+					icon: "thermal:machine_cycle_augment"
+					id: "168DD43A1A6C846C"
+					tags: ["reset"]
+					title: "Repeatable"
+					type: "custom"
 				}
 			]
+			shape: "hexagon"
+			tasks: [{
+				count: 30L
+				icon: "kubejs:silver_coin"
+				id: "1D8BF49B36108A4D"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			title: "Carpenter"
+			x: -7.0d
+			y: -8.0d
 		}
 		{
-			title: "Chef"
+			dependencies: ["59B17CA4AA6D0DD4"]
+			description: ["Sell &6Prepared Food&f with the Cooking permit."]
+			hide_dependency_lines: true
 			icon: {
+				Count: 1
 				id: "farmersdelight:golden_knife"
-				Count: 1b
 				tag: {
 					Damage: 0
 				}
 			}
-			x: -2.0d
-			y: -8.0d
-			shape: "hexagon"
-			description: ["Sell &6Prepared Food&f with the Cooking permit."]
-			hide_dependency_lines: true
-			dependencies: ["59B17CA4AA6D0DD4"]
 			id: "66DA9BE9277FABF1"
-			tasks: [{
-				id: "7DB85322979AEF65"
-				type: "item"
-				icon: "kubejs:silver_coin"
-				item: "thermal:silver_coin"
-				count: 30L
-			}]
 			rewards: [
 				{
-					id: "382E25CBB362EB84"
-					type: "item"
 					auto: "enabled"
+					id: "382E25CBB362EB84"
 					item: "kubejs:profession_card_cooking"
+					type: "item"
 				}
 				{
-					id: "402618EF59D8798B"
-					type: "custom"
-					title: "Repeatable"
-					icon: "thermal:machine_cycle_augment"
-					tags: ["reset"]
 					auto: "no_toast"
+					icon: "thermal:machine_cycle_augment"
+					id: "402618EF59D8798B"
+					tags: ["reset"]
+					title: "Repeatable"
+					type: "custom"
 				}
 			]
+			shape: "hexagon"
+			tasks: [{
+				count: 30L
+				icon: "kubejs:silver_coin"
+				id: "7DB85322979AEF65"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			title: "Chef"
+			x: -2.0d
+			y: -8.0d
 		}
 		{
-			title: "Mason"
+			dependencies: ["59B17CA4AA6D0DD4"]
+			description: ["Sell mass-produced &6Building Blocks&f for a profit with the Masonry permit."]
+			hide_dependency_lines: true
 			icon: {
+				Count: 1
 				id: "tconstruct:sledge_hammer"
-				Count: 1b
 				tag: {
-					tic_multipliers: {
-						"tconstruct:mining_speed": 0.4f
-						"tconstruct:attack_damage": 1.35f
-						"tconstruct:durability": 4.0f
-					}
-					tic_stats: {
-						"tconstruct:attack_speed": 0.75f
-						"tconstruct:mining_speed": 3.45f
-						"tconstruct:attack_damage": 6.58125f
-						"tconstruct:harvest_tier": "minecraft:diamond"
-						"tconstruct:durability": 1868.0f
-					}
+					Damage: 0
 					tic_broken: 0b
-					tic_modifiers: [
-						{
-							name: "tconstruct:smite"
-							level: 2s
-						}
-						{
-							name: "tconstruct:experienced"
-							level: 1s
-						}
-						{
-							name: "tconstruct:temperate"
-							level: 1s
-						}
-						{
-							name: "tconstruct:maintained"
-							level: 2s
-						}
-					]
 					tic_materials: [
 						"tconstruct:electrum"
 						"tconstruct:constantan"
 						"tconstruct:bronze"
 						"tconstruct:bronze"
 					]
-					Damage: 0
+					tic_modifiers: [
+						{
+							level: 1
+							name: "tconstruct:experienced"
+						}
+						{
+							level: 1
+							name: "tconstruct:temperate"
+						}
+						{
+							level: 2
+							name: "tconstruct:maintained"
+						}
+						{
+							level: 2
+							name: "tconstruct:smite"
+						}
+					]
+					tic_multipliers: {
+						"tconstruct:attack_damage": 1.35f
+						"tconstruct:durability": 4.0f
+						"tconstruct:mining_speed": 0.4f
+					}
+					tic_persistent: { }
 					tic_persistent_data: {
+						abilities: 1
+						upgrades: 2
+					}
+					tic_stats: {
+						"tconstruct:attack_damage": 6.58125f
+						"tconstruct:attack_speed": 0.75f
+						"tconstruct:durability": 1871.5f
+						"tconstruct:harvest_tier": "minecraft:diamond"
+						"tconstruct:mining_speed": 3.45f
+					}
+					tic_volatile_data: {
 						abilities: 1
 						upgrades: 2
 					}
 				}
 			}
-			x: 0.0d
-			y: -8.0d
-			shape: "hexagon"
-			description: ["Sell mass-produced &6Building Blocks&f for a profit with the Masonry permit."]
-			hide_dependency_lines: true
-			dependencies: ["59B17CA4AA6D0DD4"]
 			id: "683AA93BE7DEA512"
-			tasks: [{
-				id: "30824E76C57A8679"
-				type: "item"
-				icon: "kubejs:silver_coin"
-				item: "thermal:silver_coin"
-				count: 30L
-			}]
 			rewards: [
 				{
-					id: "1617766BFFC620D2"
-					type: "item"
 					auto: "enabled"
+					id: "1617766BFFC620D2"
 					item: "kubejs:profession_card_masonry"
+					type: "item"
 				}
 				{
-					id: "0059672C40C04303"
-					type: "custom"
-					title: "Repeatable"
-					icon: "thermal:machine_cycle_augment"
-					tags: ["reset"]
 					auto: "no_toast"
+					icon: "thermal:machine_cycle_augment"
+					id: "0059672C40C04303"
+					tags: ["reset"]
+					title: "Repeatable"
+					type: "custom"
 				}
 			]
+			shape: "hexagon"
+			tasks: [{
+				count: 30L
+				icon: "kubejs:silver_coin"
+				id: "30824E76C57A8679"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			title: "Mason"
+			x: 0.0d
+			y: -8.0d
 		}
 		{
-			title: "Hunter"
+			dependencies: ["59B17CA4AA6D0DD4"]
+			description: ["Sell all manner of &6Monster Loot&f with the Hunting permit."]
+			hide_dependency_lines: true
 			icon: {
+				Count: 1
 				id: "tconstruct:sword"
-				Count: 1b
 				tag: {
-					tic_multipliers: {
-						"tconstruct:mining_speed": 0.5f
-						"tconstruct:durability": 1.1f
-					}
-					tic_stats: {
-						"tconstruct:attack_speed": 1.6f
-						"tconstruct:mining_speed": 3.7375f
-						"tconstruct:attack_damage": 5.25f
-						"tconstruct:harvest_tier": "minecraft:diamond"
-						"tconstruct:durability": 793.10004f
-					}
+					Damage: 0
 					tic_broken: 0b
-					tic_modifiers: [
-						{
-							name: "tconstruct:maintained"
-							level: 1s
-						}
-						{
-							name: "tconstruct:temperate"
-							level: 2s
-						}
-						{
-							name: "tconstruct:silky_shears"
-							level: 1s
-						}
-					]
 					tic_materials: [
 						"tconstruct:bronze"
 						"tconstruct:constantan"
 						"tconstruct:constantan"
 					]
-					Damage: 0
+					tic_modifiers: [
+						{
+							level: 1
+							name: "tconstruct:maintained"
+						}
+						{
+							level: 2
+							name: "tconstruct:temperate"
+						}
+						{
+							level: 1
+							name: "tconstruct:silky_shears"
+						}
+					]
+					tic_multipliers: {
+						"tconstruct:durability": 1.1f
+						"tconstruct:mining_speed": 0.5f
+					}
+					tic_persistent: { }
 					tic_persistent_data: {
+						abilities: 1
+						upgrades: 3
+					}
+					tic_stats: {
+						"tconstruct:attack_damage": 5.25f
+						"tconstruct:attack_speed": 1.6f
+						"tconstruct:durability": 794.2f
+						"tconstruct:harvest_tier": "minecraft:diamond"
+						"tconstruct:mining_speed": 3.7375f
+					}
+					tic_volatile_data: {
 						abilities: 1
 						upgrades: 3
 					}
 				}
 			}
-			x: -5.0d
-			y: -8.0d
-			shape: "hexagon"
-			description: ["Sell all manner of &6Monster Loot&f with the Hunting permit."]
-			hide_dependency_lines: true
-			dependencies: ["59B17CA4AA6D0DD4"]
 			id: "66DDDE912A191E57"
-			tasks: [{
-				id: "3F3272C9BFC25003"
-				type: "item"
-				icon: "kubejs:silver_coin"
-				item: "thermal:silver_coin"
-				count: 30L
-			}]
 			rewards: [
 				{
-					id: "242009705F048500"
-					type: "item"
 					auto: "enabled"
+					id: "242009705F048500"
 					item: "kubejs:profession_card_hunting"
+					type: "item"
 				}
 				{
-					id: "3EB7FB58B5D3D097"
-					type: "custom"
-					title: "Repeatable"
-					icon: "thermal:machine_cycle_augment"
-					tags: ["reset"]
 					auto: "no_toast"
+					icon: "thermal:machine_cycle_augment"
+					id: "3EB7FB58B5D3D097"
+					tags: ["reset"]
+					title: "Repeatable"
+					type: "custom"
 				}
 			]
+			shape: "hexagon"
+			tasks: [{
+				count: 30L
+				icon: "kubejs:silver_coin"
+				id: "3F3272C9BFC25003"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			title: "Hunter"
+			x: -5.0d
+			y: -8.0d
 		}
 		{
-			title: "Professions"
-			icon: "minecraft:writable_book"
-			x: -3.5d
-			y: -8.5d
-			shape: "circle"
+			dependencies: ["36E02479368EAF04"]
 			description: [
 				"Taking on a &6Profession&r gives you access to a more consistent source of income."
 				""
 				"The Profession Cards bought here act as a \"Permit\". All they do is unlock the respective recipes in the Trading Machine. You can absolutely have multiple of these."
 			]
-			dependencies: ["36E02479368EAF04"]
+			icon: "minecraft:writable_book"
 			id: "59B17CA4AA6D0DD4"
+			shape: "circle"
 			tasks: [{
 				id: "0423DFD47CB1DCE3"
 				type: "checkmark"
 			}]
+			title: "Professions"
+			x: -3.5d
+			y: -8.5d
 		}
 		{
-			title: "The Bulletin Board"
-			icon: "minecraft:oak_sign"
-			x: -3.5d
-			y: -6.5d
-			shape: "hexagon"
 			description: [
 				"&6The Bulletin Board&r provides means to earn currency for Trading."
 				"Here you can complete various errands or buy a profession permit for use in the Trading Machine."
 			]
-			size: 2.0d
+			icon: "minecraft:oak_sign"
 			id: "36E02479368EAF04"
+			shape: "hexagon"
+			size: 2.0d
 			tasks: [{
 				id: "3FE411FC2A966816"
 				type: "checkmark"
 			}]
+			title: "The Bulletin Board"
+			x: -3.5d
+			y: -6.5d
 		}
 		{
-			title: "Sapling Collection"
 			icon: "minecraft:oak_sapling"
-			x: -4.5d
-			y: -4.0d
-			subtitle: "25 Silver"
 			id: "41BB50843EF5EF10"
+			rewards: [{
+				count: 25
+				icon: "kubejs:silver_coin"
+				id: "60DDCBCC377BA8B6"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			subtitle: "25 Silver"
 			tasks: [
 				{
 					id: "488C968F61E4B260"
-					type: "item"
 					item: "minecraft:oak_sapling"
+					type: "item"
 				}
 				{
 					id: "42D3B8604E57BF0C"
-					type: "item"
 					item: "minecraft:spruce_sapling"
+					type: "item"
 				}
 				{
 					id: "72143D74D89A814A"
-					type: "item"
 					item: "minecraft:birch_sapling"
+					type: "item"
 				}
 				{
 					id: "67A6AAF07DECFBB6"
-					type: "item"
 					item: "minecraft:acacia_sapling"
+					type: "item"
 				}
 				{
 					id: "1AFB1184CADE0663"
-					type: "item"
 					item: "minecraft:jungle_sapling"
+					type: "item"
 				}
 				{
 					id: "1378A6451110CC4C"
-					type: "item"
 					item: "minecraft:dark_oak_sapling"
+					type: "item"
 				}
 			]
-			rewards: [{
-				id: "60DDCBCC377BA8B6"
-				type: "item"
-				icon: "kubejs:silver_coin"
-				item: "thermal:silver_coin"
-				count: 25
-			}]
+			title: "Sapling Collection"
+			x: -4.5d
+			y: -4.0d
 		}
 		{
-			title: "Fisherman"
-			icon: {
-				id: "aquaculture:gold_fishing_rod"
-				Count: 1b
-				tag: {
-					Damage: 0
-				}
-			}
-			x: -1.0d
-			y: -8.0d
-			shape: "hexagon"
+			dependencies: ["59B17CA4AA6D0DD4"]
 			description: ["Sell &6Fish&f and Subterranean &6Treasure&f with the Fishing permit."]
 			hide_dependency_lines: true
-			dependencies: ["59B17CA4AA6D0DD4"]
-			id: "6C0EC278451434AC"
-			tasks: [{
-				id: "79BD40CF4A57DA36"
-				type: "item"
-				icon: "kubejs:silver_coin"
-				item: "thermal:silver_coin"
-				count: 30L
-			}]
-			rewards: [
-				{
-					id: "70312C750F6E2115"
-					type: "item"
-					auto: "enabled"
-					item: "kubejs:profession_card_fishing"
-				}
-				{
-					id: "4F7B79488825D2ED"
-					type: "custom"
-					title: "Repeatable"
-					icon: "thermal:machine_cycle_augment"
-					tags: ["reset"]
-					auto: "no_toast"
-				}
-			]
-		}
-		{
-			title: "Government Funding"
-			icon: "minecraft:book"
-			x: -2.5d
-			y: -3.5d
-			subtitle: "15 Silver"
-			description: ["Write an application explaining why exactly your organisation is worth investing in."]
-			id: "736FC31210F334F2"
-			tasks: [{
-				id: "7D2F867FD8A5A68A"
-				type: "item"
-				item: {
-					id: "minecraft:written_book"
-					Count: 1b
-					tag: { }
-				}
-			}]
-			rewards: [{
-				id: "6C5F42C1888F0C63"
-				type: "item"
-				icon: "kubejs:silver_coin"
-				item: "thermal:silver_coin"
-				count: 15
-			}]
-		}
-		{
-			title: "Blacksmith"
 			icon: {
-				id: "minecraft:golden_chestplate"
-				Count: 1b
+				Count: 1
+				id: "aquaculture:gold_fishing_rod"
 				tag: {
 					Damage: 0
 				}
 			}
-			x: 1.0d
-			y: -8.0d
-			shape: "hexagon"
-			description: ["Sell &6Tools&f, &6Armour&f and more with the Smithing permit."]
-			hide_dependency_lines: true
-			dependencies: ["59B17CA4AA6D0DD4"]
-			id: "32C46B11BDAD7632"
-			tasks: [{
-				id: "042431BBCD1966C4"
-				type: "item"
-				icon: "kubejs:silver_coin"
-				item: "thermal:silver_coin"
-				count: 30L
-			}]
+			id: "6C0EC278451434AC"
 			rewards: [
 				{
-					id: "2E450774C09EF266"
-					type: "item"
 					auto: "enabled"
-					item: "kubejs:profession_card_smithing"
+					id: "70312C750F6E2115"
+					item: "kubejs:profession_card_fishing"
+					type: "item"
 				}
 				{
-					id: "5B00E0FDDDA7EEB0"
-					type: "custom"
-					title: "Repeatable"
-					icon: "thermal:machine_cycle_augment"
-					tags: ["reset"]
 					auto: "no_toast"
+					icon: "thermal:machine_cycle_augment"
+					id: "4F7B79488825D2ED"
+					tags: ["reset"]
+					title: "Repeatable"
+					type: "custom"
 				}
 			]
+			shape: "hexagon"
+			tasks: [{
+				count: 30L
+				icon: "kubejs:silver_coin"
+				id: "79BD40CF4A57DA36"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			title: "Fisherman"
+			x: -1.0d
+			y: -8.0d
 		}
 		{
-			title: "Plentiful Sapling Collection"
-			icon: "biomesoplenty:flowering_oak_sapling"
-			x: -4.5d
-			y: -2.5d
-			subtitle: "45 Silver"
+			description: ["Write an application explaining why exactly your organisation is worth investing in."]
+			icon: "minecraft:book"
+			id: "736FC31210F334F2"
+			rewards: [{
+				count: 15
+				icon: "kubejs:silver_coin"
+				id: "6C5F42C1888F0C63"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			subtitle: "15 Silver"
+			tasks: [{
+				id: "7D2F867FD8A5A68A"
+				item: {
+					Count: 1
+					id: "minecraft:written_book"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Government Funding"
+			x: -2.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["59B17CA4AA6D0DD4"]
+			description: ["Sell &6Tools&f, &6Armour&f and more with the Smithing permit."]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "minecraft:golden_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "32C46B11BDAD7632"
+			rewards: [
+				{
+					auto: "enabled"
+					id: "2E450774C09EF266"
+					item: "kubejs:profession_card_smithing"
+					type: "item"
+				}
+				{
+					auto: "no_toast"
+					icon: "thermal:machine_cycle_augment"
+					id: "5B00E0FDDDA7EEB0"
+					tags: ["reset"]
+					title: "Repeatable"
+					type: "custom"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				count: 30L
+				icon: "kubejs:silver_coin"
+				id: "042431BBCD1966C4"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			title: "Blacksmith"
+			x: 1.0d
+			y: -8.0d
+		}
+		{
 			dependencies: ["41BB50843EF5EF10"]
+			icon: "biomesoplenty:flowering_oak_sapling"
 			id: "08DB1CFAE4555525"
+			rewards: [{
+				count: 45
+				icon: "kubejs:silver_coin"
+				id: "5CEE44BA4F587BB2"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			subtitle: "45 Silver"
 			tasks: [
 				{
 					id: "6467B7BC46B95AB7"
-					type: "item"
 					item: "biomesoplenty:white_cherry_sapling"
+					type: "item"
 				}
 				{
 					id: "53B388480793BD58"
-					type: "item"
 					item: "biomesoplenty:maple_sapling"
+					type: "item"
 				}
 				{
 					id: "57263F412DD5DF08"
-					type: "item"
 					item: "biomesoplenty:fir_sapling"
+					type: "item"
 				}
 				{
 					id: "657B38C214414E2B"
-					type: "item"
 					item: "biomesoplenty:redwood_sapling"
+					type: "item"
 				}
 				{
 					id: "3E7A122FD86E017F"
-					type: "item"
 					item: "biomesoplenty:flowering_oak_sapling"
+					type: "item"
 				}
 				{
 					id: "7CBBC7FB7C7F5D7E"
-					type: "item"
 					item: "biomesoplenty:palm_sapling"
+					type: "item"
 				}
 			]
-			rewards: [{
-				id: "5CEE44BA4F587BB2"
-				type: "item"
-				icon: "kubejs:silver_coin"
-				item: "thermal:silver_coin"
-				count: 45
-			}]
+			title: "Plentiful Sapling Collection"
+			x: -4.5d
+			y: -2.5d
 		}
 		{
-			title: "Mineral Collection"
 			icon: "thermal:sulfur"
-			x: -1.0d
-			y: -4.5d
-			subtitle: "25 Silver"
 			id: "128F1A9528CA4130"
+			rewards: [{
+				count: 25
+				icon: "kubejs:silver_coin"
+				id: "7FA1F28AC13E3742"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			subtitle: "25 Silver"
 			tasks: [
 				{
 					id: "05FA6BA978E2C59F"
-					type: "item"
 					item: "ae2:certus_quartz_crystal"
+					type: "item"
 				}
 				{
 					id: "4DC845907E010B7E"
-					type: "item"
 					item: "thermal:sulfur"
+					type: "item"
 				}
 				{
 					id: "40D6184B28DD1B00"
-					type: "item"
 					item: "thermal:cinnabar"
+					type: "item"
 				}
 				{
 					id: "6EC680AD06AEAE3E"
-					type: "item"
 					item: "thermal:niter"
+					type: "item"
 				}
 				{
 					id: "394B5E7E3AD55394"
-					type: "item"
 					item: "thermal:apatite"
+					type: "item"
 				}
 			]
-			rewards: [{
-				id: "7FA1F28AC13E3742"
-				type: "item"
-				icon: "kubejs:silver_coin"
-				item: "thermal:silver_coin"
-				count: 25
-			}]
+			title: "Mineral Collection"
+			x: -1.0d
+			y: -4.5d
 		}
 		{
-			title: "Plentiful Mineral Collection"
-			icon: "thermal:ruby"
-			x: -1.0d
-			y: -3.0d
-			subtitle: "45 Silver"
 			dependencies: ["128F1A9528CA4130"]
+			icon: "thermal:ruby"
 			id: "669D57A1E1B09CD8"
+			rewards: [{
+				count: 45
+				icon: "kubejs:silver_coin"
+				id: "158BDC6AB3DED2C8"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			subtitle: "45 Silver"
 			tasks: [
 				{
 					id: "18D9327C3A3FC945"
-					type: "item"
 					item: "thermal:ruby"
+					type: "item"
 				}
 				{
 					id: "0129F312595D379D"
-					type: "item"
 					item: "thermal:sapphire"
+					type: "item"
 				}
 				{
 					id: "5AA9BAAE6336FE84"
-					type: "item"
 					item: "minecraft:diamond"
+					type: "item"
 				}
 				{
 					id: "4B1BE14A56875A44"
-					type: "item"
 					item: "minecraft:emerald"
+					type: "item"
 				}
 				{
 					id: "570BED1488497EDD"
-					type: "item"
 					item: "minecraft:lapis_lazuli"
+					type: "item"
 				}
 			]
-			rewards: [{
-				id: "158BDC6AB3DED2C8"
-				type: "item"
-				icon: "kubejs:silver_coin"
-				item: "thermal:silver_coin"
-				count: 45
-			}]
+			title: "Plentiful Mineral Collection"
+			x: -1.0d
+			y: -3.0d
 		}
 		{
-			title: "The lost Tapes"
-			icon: "minecraft:music_disc_13"
-			x: -6.0d
-			y: -4.5d
-			subtitle: "32 Silver"
 			description: ["A friendly Record Collector is interested in any discs you find on your travels."]
+			icon: "minecraft:music_disc_13"
 			id: "436DA1A1AB8C0734"
+			rewards: [
+				{
+					auto: "enabled"
+					count: 32
+					icon: "kubejs:silver_coin"
+					id: "76F8080C0E176A08"
+					item: "thermal:silver_coin"
+					type: "item"
+				}
+				{
+					auto: "no_toast"
+					icon: "thermal:machine_cycle_augment"
+					id: "7FF7001764116001"
+					tags: ["reset"]
+					title: "Repeatable"
+					type: "custom"
+				}
+			]
+			subtitle: "32 Silver"
 			tasks: [{
 				id: "28EC11DE8335B74A"
-				type: "item"
-				title: "Any Record"
 				item: {
+					Count: 1
 					id: "itemfilters:or"
-					Count: 1b
 					tag: {
 						items: [
 							{
+								Count: 1b
 								id: "minecraft:music_disc_13"
-								Count: 1b
 							}
 							{
+								Count: 1b
 								id: "minecraft:music_disc_cat"
-								Count: 1b
 							}
 							{
+								Count: 1b
 								id: "minecraft:music_disc_blocks"
-								Count: 1b
 							}
 							{
+								Count: 1b
 								id: "minecraft:music_disc_chirp"
-								Count: 1b
 							}
 							{
+								Count: 1b
 								id: "minecraft:music_disc_far"
-								Count: 1b
 							}
 							{
+								Count: 1b
 								id: "minecraft:music_disc_mall"
-								Count: 1b
 							}
 							{
+								Count: 1b
 								id: "minecraft:music_disc_mellohi"
-								Count: 1b
 							}
 							{
+								Count: 1b
 								id: "minecraft:music_disc_stal"
-								Count: 1b
 							}
 							{
+								Count: 1b
 								id: "minecraft:music_disc_strad"
-								Count: 1b
 							}
 							{
+								Count: 1b
 								id: "minecraft:music_disc_ward"
-								Count: 1b
 							}
 							{
+								Count: 1b
 								id: "minecraft:music_disc_11"
-								Count: 1b
 							}
 							{
+								Count: 1b
 								id: "minecraft:music_disc_wait"
-								Count: 1b
 							}
 							{
+								Count: 1b
 								id: "minecraft:music_disc_otherside"
-								Count: 1b
 							}
 							{
+								Count: 1b
 								id: "minecraft:music_disc_pigstep"
-								Count: 1b
 							}
 							{
+								Count: 1b
 								id: "biomesoplenty:music_disc_wanderer"
-								Count: 1b
 							}
 							{
+								Count: 1b
 								id: "enlightened_end:sprog_music_disc"
-								Count: 1b
 							}
 							{
-								id: "supplementaries:pancake_disc"
 								Count: 1b
+								id: "supplementaries:pancake_disc"
 							}
 						]
 					}
 				}
+				title: "Any Record"
+				type: "item"
 			}]
-			rewards: [
-				{
-					id: "76F8080C0E176A08"
-					type: "item"
-					icon: "kubejs:silver_coin"
-					auto: "enabled"
-					item: "thermal:silver_coin"
-					count: 32
-				}
-				{
-					id: "7FF7001764116001"
-					type: "custom"
-					title: "Repeatable"
-					icon: "thermal:machine_cycle_augment"
-					tags: ["reset"]
-					auto: "no_toast"
-				}
-			]
+			title: "The lost Tapes"
+			x: -6.0d
+			y: -4.5d
 		}
 		{
-			title: "Igneous Sample Collection"
 			icon: "minecraft:granite"
+			id: "2A9AAED667A95C6E"
+			rewards: [{
+				count: 25
+				icon: "kubejs:silver_coin"
+				id: "3D573B952A099408"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			subtitle: "25 Silver"
+			tasks: [
+				{
+					count: 8L
+					id: "107EBA54BFA18FD9"
+					item: "minecraft:andesite"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "18A900D9A3914F00"
+					item: "minecraft:diorite"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "53041ECE4D386D55"
+					item: "minecraft:granite"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "63909F521730B80A"
+					item: "create:limestone"
+					type: "item"
+				}
+			]
+			title: "Igneous Sample Collection"
 			x: 0.5d
 			y: -4.0d
-			subtitle: "25 Silver"
-			id: "2A9AAED667A95C6E"
-			tasks: [
-				{
-					id: "107EBA54BFA18FD9"
-					type: "item"
-					item: "minecraft:andesite"
-					count: 8L
-				}
-				{
-					id: "18A900D9A3914F00"
-					type: "item"
-					item: "minecraft:diorite"
-					count: 8L
-				}
-				{
-					id: "53041ECE4D386D55"
-					type: "item"
-					item: "minecraft:granite"
-					count: 8L
-				}
-				{
-					id: "63909F521730B80A"
-					type: "item"
-					item: "create:limestone"
-					count: 8L
-				}
-			]
-			rewards: [{
-				id: "3D573B952A099408"
-				type: "item"
-				icon: "kubejs:silver_coin"
-				item: "thermal:silver_coin"
-				count: 25
-			}]
 		}
 		{
-			title: "Plentiful Igneous Sample Collection"
+			dependencies: ["2A9AAED667A95C6E"]
 			icon: "minecraft:basalt"
+			id: "7D92D05B4A67FD78"
+			rewards: [{
+				count: 45
+				icon: "kubejs:silver_coin"
+				id: "191FAA4E0A99AF43"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			subtitle: "45 Silver"
+			tasks: [
+				{
+					count: 8L
+					id: "202DC6687EAB3378"
+					item: "minecraft:basalt"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "5EC196FF10FD67EE"
+					item: "minecraft:blackstone"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "731A6B9678CE71D8"
+					item: "forbidden_arcanus:darkstone"
+					type: "item"
+				}
+			]
+			title: "Plentiful Igneous Sample Collection"
 			x: 0.5d
 			y: -2.5d
-			subtitle: "45 Silver"
-			dependencies: ["2A9AAED667A95C6E"]
-			id: "7D92D05B4A67FD78"
-			tasks: [
-				{
-					id: "202DC6687EAB3378"
-					type: "item"
-					item: "minecraft:basalt"
-					count: 8L
-				}
-				{
-					id: "5EC196FF10FD67EE"
-					type: "item"
-					item: "minecraft:blackstone"
-					count: 8L
-				}
-				{
-					id: "731A6B9678CE71D8"
-					type: "item"
-					item: "forbidden_arcanus:darkstone"
-					count: 8L
-				}
-			]
-			rewards: [{
-				id: "191FAA4E0A99AF43"
-				type: "item"
-				icon: "kubejs:silver_coin"
-				item: "thermal:silver_coin"
-				count: 45
-			}]
 		}
 		{
+			description: ["If you've been terraforming, feel free to send some excess dirt to this Project."]
+			id: "1C5EA1173F4E592B"
+			rewards: [{
+				count: 15
+				icon: "kubejs:silver_coin"
+				id: "3125103507C80C78"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			subtitle: "15 Silver"
+			tasks: [{
+				count: 256L
+				id: "0A99B239D9EA5B0B"
+				item: "minecraft:dirt"
+				type: "item"
+			}]
 			title: "Landfill Dropoff"
 			x: 2.0d
 			y: -5.0d
-			subtitle: "15 Silver"
-			description: ["If you've been terraforming, feel free to send some excess dirt to this Project."]
-			id: "1C5EA1173F4E592B"
-			tasks: [{
-				id: "0A99B239D9EA5B0B"
-				type: "item"
-				item: "minecraft:dirt"
-				count: 256L
-			}]
-			rewards: [{
-				id: "3125103507C80C78"
-				type: "item"
-				icon: "kubejs:silver_coin"
-				item: "thermal:silver_coin"
-				count: 15
-			}]
 		}
 		{
-			title: "Crops Collection"
 			icon: "minecraft:carrot"
+			id: "4D07666ECE75D9B5"
+			rewards: [{
+				count: 25
+				icon: "kubejs:silver_coin"
+				id: "001C0326E6B6F1FF"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			subtitle: "25 Silver"
+			tasks: [
+				{
+					count: 3L
+					id: "583272656AABAD03"
+					item: "minecraft:carrot"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "19A897A26BEE9DC3"
+					item: "minecraft:wheat"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "26D3EBEE2A65DC26"
+					item: "minecraft:potato"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "4BCA88E713BFF541"
+					item: "farmersdelight:onion"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "59E905250653DB9A"
+					item: "farmersdelight:tomato"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "0863A4006B84F0F6"
+					item: "farmersdelight:cabbage"
+					type: "item"
+				}
+			]
+			title: "Crops Collection"
 			x: -7.5d
 			y: -4.0d
-			subtitle: "25 Silver"
-			id: "4D07666ECE75D9B5"
-			tasks: [
-				{
-					id: "583272656AABAD03"
-					type: "item"
-					item: "minecraft:carrot"
-					count: 3L
-				}
-				{
-					id: "19A897A26BEE9DC3"
-					type: "item"
-					item: "minecraft:wheat"
-					count: 3L
-				}
-				{
-					id: "26D3EBEE2A65DC26"
-					type: "item"
-					item: "minecraft:potato"
-					count: 3L
-				}
-				{
-					id: "4BCA88E713BFF541"
-					type: "item"
-					item: "farmersdelight:onion"
-					count: 3L
-				}
-				{
-					id: "59E905250653DB9A"
-					type: "item"
-					item: "farmersdelight:tomato"
-					count: 3L
-				}
-				{
-					id: "0863A4006B84F0F6"
-					type: "item"
-					item: "farmersdelight:cabbage"
-					count: 3L
-				}
-			]
-			rewards: [{
-				id: "001C0326E6B6F1FF"
-				type: "item"
-				icon: "kubejs:silver_coin"
-				item: "thermal:silver_coin"
-				count: 25
-			}]
 		}
 		{
-			title: "Plentiful Crops Collection"
+			dependencies: ["4D07666ECE75D9B5"]
 			icon: "farmersdelight:rice_panicle"
+			id: "3F2FB159F1B8875F"
+			rewards: [{
+				count: 45
+				icon: "kubejs:silver_coin"
+				id: "2EE90E45D02D23F1"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			subtitle: "45 Silver"
+			tasks: [
+				{
+					count: 3L
+					id: "35195894FE238A3E"
+					item: "farmersdelight:rice_panicle"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "5AE85D27C59EDB92"
+					item: "minecraft:beetroot"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "46748564E10CA41F"
+					item: "supplementaries:flax"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "3172958C368155FE"
+					item: "minecraft:melon_slice"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "19E6E248E2E1056F"
+					item: "farmersdelight:pumpkin_slice"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "35DBA0B40123BE4B"
+					item: "minecraft:sweet_berries"
+					type: "item"
+				}
+			]
+			title: "Plentiful Crops Collection"
 			x: -7.5d
 			y: -2.5d
-			subtitle: "45 Silver"
-			dependencies: ["4D07666ECE75D9B5"]
-			id: "3F2FB159F1B8875F"
-			tasks: [
-				{
-					id: "35195894FE238A3E"
-					type: "item"
-					item: "farmersdelight:rice_panicle"
-					count: 3L
-				}
-				{
-					id: "5AE85D27C59EDB92"
-					type: "item"
-					item: "minecraft:beetroot"
-					count: 3L
-				}
-				{
-					id: "46748564E10CA41F"
-					type: "item"
-					item: "supplementaries:flax"
-					count: 3L
-				}
-				{
-					id: "3172958C368155FE"
-					type: "item"
-					item: "minecraft:melon_slice"
-					count: 3L
-				}
-				{
-					id: "19E6E248E2E1056F"
-					type: "item"
-					item: "farmersdelight:pumpkin_slice"
-					count: 3L
-				}
-				{
-					id: "35DBA0B40123BE4B"
-					type: "item"
-					item: "minecraft:sweet_berries"
-					count: 3L
-				}
-			]
-			rewards: [{
-				id: "2EE90E45D02D23F1"
-				type: "item"
-				icon: "kubejs:silver_coin"
-				item: "thermal:silver_coin"
-				count: 45
-			}]
 		}
 		{
-			title: "Ancient Life"
 			icon: "minecraft:bone"
-			x: -9.0d
-			y: -3.0d
-			subtitle: "55 Silver"
 			id: "7932D19BE114264A"
+			rewards: [{
+				count: 55
+				icon: "kubejs:silver_coin"
+				id: "652AE60D13691604"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			subtitle: "55 Silver"
 			tasks: [
 				{
-					id: "1B971FF02438A787"
-					type: "item"
-					item: "minecraft:bone_block"
 					count: 16L
+					id: "1B971FF02438A787"
+					item: "minecraft:bone_block"
+					type: "item"
 				}
 				{
-					id: "682A8719CE780D9A"
-					type: "item"
-					item: "minecraft:bone"
 					count: 8L
+					id: "682A8719CE780D9A"
+					item: "minecraft:bone"
+					type: "item"
 				}
 				{
 					id: "77DF03F6422FE09D"
-					type: "item"
 					item: "reliquary:rib_bone"
+					type: "item"
 				}
 				{
 					id: "5B926A8BCD627407"
-					type: "item"
 					item: "minecraft:skeleton_skull"
+					type: "item"
 				}
 			]
-			rewards: [{
-				id: "652AE60D13691604"
-				type: "item"
-				icon: "kubejs:silver_coin"
-				item: "thermal:silver_coin"
-				count: 55
-			}]
+			title: "Ancient Life"
+			x: -9.0d
+			y: -3.0d
 		}
 		{
+			id: "7C270AB26CD9AAB8"
+			rewards: [{
+				count: 30
+				icon: "kubejs:silver_coin"
+				id: "15ACAE1E4D900E4C"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			subtitle: "30 Silver"
+			tasks: [{
+				entity: "minecraft:zombie"
+				icon: "minecraft:zombie_head"
+				id: "0C72441783664753"
+				type: "kill"
+				value: 50L
+			}]
 			title: "Hunt the Undead"
 			x: -2.5d
 			y: -1.5d
-			subtitle: "30 Silver"
-			id: "7C270AB26CD9AAB8"
-			tasks: [{
-				id: "0C72441783664753"
-				type: "kill"
-				icon: "minecraft:zombie_head"
-				entity: "minecraft:zombie"
-				value: 50L
-			}]
-			rewards: [{
-				id: "15ACAE1E4D900E4C"
-				type: "item"
-				icon: "kubejs:silver_coin"
-				item: "thermal:silver_coin"
-				count: 30
-			}]
 		}
 		{
+			id: "29B58A9EDA478E7D"
+			rewards: [{
+				count: 50
+				icon: "kubejs:silver_coin"
+				id: "57CF6CE48FF1115D"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			subtitle: "50 Silver"
+			tasks: [{
+				entity: "minecraft:skeleton"
+				icon: "minecraft:skeleton_skull"
+				id: "6C65780CF2751821"
+				type: "kill"
+				value: 40L
+			}]
 			title: "Hunt the Undead II"
 			x: -1.0d
 			y: -1.0d
-			subtitle: "50 Silver"
-			id: "29B58A9EDA478E7D"
-			tasks: [{
-				id: "6C65780CF2751821"
-				type: "kill"
-				icon: "minecraft:skeleton_skull"
-				entity: "minecraft:skeleton"
-				value: 40L
-			}]
-			rewards: [{
-				id: "57CF6CE48FF1115D"
-				type: "item"
-				icon: "kubejs:silver_coin"
-				item: "thermal:silver_coin"
-				count: 50
-			}]
 		}
 		{
+			id: "1AA2C3EECE1832EE"
+			rewards: [{
+				count: 50
+				icon: "kubejs:silver_coin"
+				id: "5D7DB09D0FA7B0A5"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			subtitle: "50 Silver"
+			tasks: [{
+				entity: "minecraft:spider"
+				icon: "tconstruct:spider_head"
+				id: "60B3526FA0D6A2AF"
+				type: "kill"
+				value: 30L
+			}]
 			title: "Hunt the Arthropods"
 			x: -4.0d
 			y: -1.0d
-			subtitle: "50 Silver"
-			id: "1AA2C3EECE1832EE"
-			tasks: [{
-				id: "60B3526FA0D6A2AF"
-				type: "kill"
-				icon: "tconstruct:spider_head"
-				entity: "minecraft:spider"
-				value: 30L
-			}]
-			rewards: [{
-				id: "5D7DB09D0FA7B0A5"
-				type: "item"
-				icon: "kubejs:silver_coin"
-				item: "thermal:silver_coin"
-				count: 50
-			}]
 		}
 		{
+			id: "3F00084D9474C381"
+			rewards: [{
+				count: 2
+				icon: "kubejs:gold_coin"
+				id: "0D8EB996DBC24C64"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			subtitle: "2 Gold"
+			tasks: [{
+				id: "2CA6E7602A5FBCF5"
+				item: "supplementaries:globe"
+				type: "item"
+			}]
 			title: "Traders' Finest"
 			x: -6.0d
 			y: -2.0d
-			subtitle: "2 Gold"
-			id: "3F00084D9474C381"
-			tasks: [{
-				id: "2CA6E7602A5FBCF5"
-				type: "item"
-				item: "supplementaries:globe"
-			}]
-			rewards: [{
-				id: "0D8EB996DBC24C64"
-				type: "item"
-				icon: "kubejs:gold_coin"
-				item: "thermal:gold_coin"
-				count: 2
-			}]
 		}
 		{
+			id: "562696C1D01B2685"
+			rewards: [{
+				count: 15
+				icon: "kubejs:silver_coin"
+				id: "76F2C38DE80E75F0"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			subtitle: "15 Silver"
+			tasks: [{
+				icon: "minecraft:wheat"
+				id: "07132D69A1BA37B5"
+				stat: "minecraft:animals_bred"
+				title: "Breed 10 Animals"
+				type: "stat"
+				value: 10
+			}]
 			title: "The Ranch"
 			x: -9.5d
 			y: -1.5d
-			subtitle: "15 Silver"
-			id: "562696C1D01B2685"
-			tasks: [{
-				id: "07132D69A1BA37B5"
-				type: "stat"
-				title: "Breed 10 Animals"
-				icon: "minecraft:wheat"
-				stat: "minecraft:animals_bred"
-				value: 10
-			}]
-			rewards: [{
-				id: "76F2C38DE80E75F0"
-				type: "item"
-				icon: "kubejs:silver_coin"
-				item: "thermal:silver_coin"
-				count: 15
-			}]
 		}
 		{
-			title: "Ore Collection"
 			icon: "create:crushed_raw_gold"
-			x: 2.5d
-			y: -3.0d
-			subtitle: "30 Silver"
 			id: "39D56A2B01DBD865"
+			rewards: [{
+				count: 30
+				icon: "kubejs:silver_coin"
+				id: "1727FE45C409A64E"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			subtitle: "30 Silver"
 			tasks: [
 				{
+					count: 5L
 					id: "592A29507FE620D0"
-					type: "item"
 					item: "create:crushed_raw_iron"
-					count: 5L
+					type: "item"
 				}
 				{
+					count: 5L
 					id: "5CAA30D3A26DE48A"
-					type: "item"
 					item: "create:crushed_raw_copper"
-					count: 5L
+					type: "item"
 				}
 				{
+					count: 5L
 					id: "58D69FCA7C1035F5"
-					type: "item"
 					item: "create:crushed_raw_zinc"
-					count: 5L
+					type: "item"
 				}
 				{
+					count: 5L
 					id: "4C2DB8A65AD97FAB"
-					type: "item"
 					item: "create:crushed_raw_nickel"
-					count: 5L
+					type: "item"
 				}
 				{
+					count: 5L
 					id: "73726468F48CE993"
-					type: "item"
 					item: "create:crushed_raw_lead"
-					count: 5L
+					type: "item"
 				}
 				{
-					id: "176CF773DF3BBBD0"
-					type: "item"
-					item: "create:crushed_raw_gold"
 					count: 5L
+					id: "176CF773DF3BBBD0"
+					item: "create:crushed_raw_gold"
+					type: "item"
 				}
 			]
-			rewards: [{
-				id: "1727FE45C409A64E"
-				type: "item"
-				icon: "kubejs:silver_coin"
-				item: "thermal:silver_coin"
-				count: 30
-			}]
+			title: "Ore Collection"
+			x: 2.5d
+			y: -3.0d
 		}
 		{
-			title: "Revenge"
+			description: ["Defeat those intruders, and you'll have the support from nearby villages."]
 			icon: {
+				Count: 1
 				id: "minecraft:crossbow"
-				Count: 1b
 				tag: {
 					Damage: 0
 				}
 			}
-			x: -9.5d
-			y: -4.5d
-			subtitle: "10 Silver"
-			description: ["Defeat those intruders, and you'll have the support from nearby villages."]
 			id: "76E3B76D47A1F889"
+			rewards: [
+				{
+					auto: "enabled"
+					count: 10
+					icon: "kubejs:silver_coin"
+					id: "72ADE787CA674127"
+					item: "thermal:silver_coin"
+					type: "item"
+				}
+				{
+					auto: "no_toast"
+					icon: "farmersdelight:milk_bottle"
+					id: "0D666C3C352901FA"
+					tags: ["bad_omen"]
+					team_reward: false
+					title: "Clear Bad Omen"
+					type: "custom"
+				}
+				{
+					auto: "no_toast"
+					icon: "thermal:machine_cycle_augment"
+					id: "77DE41861FF4DDCB"
+					tags: ["reset"]
+					team_reward: true
+					title: "Repeatable"
+					type: "custom"
+				}
+			]
+			subtitle: "10 Silver"
 			tasks: [
 				{
 					id: "7CEFF147708B6647"
-					type: "item"
 					item: {
+						Count: 1
 						id: "minecraft:white_banner"
-						Count: 1b
 						tag: {
-							HideFlags: 32
 							BlockEntityTag: {
 								Patterns: [
 									{
-										Pattern: "mr"
 										Color: 9
+										Pattern: "mr"
 									}
 									{
+										Color: 8
 										Pattern: "bs"
-										Color: 8
 									}
 									{
-										Pattern: "cs"
 										Color: 7
+										Pattern: "cs"
 									}
 									{
-										Pattern: "bo"
 										Color: 8
+										Pattern: "bo"
 									}
 									{
+										Color: 15
 										Pattern: "ms"
-										Color: 15
 									}
 									{
+										Color: 8
 										Pattern: "hh"
-										Color: 8
 									}
 									{
+										Color: 8
 										Pattern: "mc"
-										Color: 8
 									}
 									{
-										Pattern: "bo"
 										Color: 15
+										Pattern: "bo"
 									}
 								]
 							}
+							HideFlags: 32
 							display: {
 								Name: "{\"color\":\"gold\",\"translate\":\"block.minecraft.ominous_banner\"}"
 							}
 						}
 					}
+					type: "item"
 				}
 				{
-					id: "2FDA048387F90ED7"
-					type: "kill"
+					entity: "minecraft:pillager"
 					icon: {
+						Count: 1
 						id: "minecraft:crossbow"
-						Count: 1b
 						tag: {
 							Damage: 0
 						}
 					}
-					entity: "minecraft:pillager"
+					id: "2FDA048387F90ED7"
+					type: "kill"
 					value: 3L
 				}
 			]
-			rewards: [
-				{
-					id: "72ADE787CA674127"
-					type: "item"
-					icon: "kubejs:silver_coin"
-					auto: "enabled"
-					item: "thermal:silver_coin"
-					count: 10
-				}
-				{
-					id: "0D666C3C352901FA"
-					type: "custom"
-					title: "Clear Bad Omen"
-					icon: "farmersdelight:milk_bottle"
-					tags: ["bad_omen"]
-					team_reward: false
-					auto: "no_toast"
-				}
-				{
-					id: "77DE41861FF4DDCB"
-					type: "custom"
-					title: "Repeatable"
-					icon: "thermal:machine_cycle_augment"
-					tags: ["reset"]
-					team_reward: true
-					auto: "no_toast"
-				}
-			]
+			title: "Revenge"
+			x: -9.5d
+			y: -4.5d
 		}
 		{
-			title: "Keeping in Shape"
-			x: 2.0d
-			y: -1.5d
-			subtitle: "60 Silver"
 			id: "2F2BA8C2AC2E0B93"
+			rewards: [{
+				count: 60
+				icon: "kubejs:silver_coin"
+				id: "52C6094274D540AB"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			subtitle: "60 Silver"
 			tasks: [{
-				id: "374CDBF68F90BDC9"
-				type: "stat"
-				title: "Jump 16000 Times"
 				icon: {
+					Count: 1
 					id: "minecraft:golden_boots"
-					Count: 1b
 					tag: {
 						Damage: 0
 					}
 				}
+				id: "374CDBF68F90BDC9"
 				stat: "minecraft:jump"
+				title: "Jump 16000 Times"
+				type: "stat"
 				value: 16000
 			}]
-			rewards: [{
-				id: "52C6094274D540AB"
-				type: "item"
-				icon: "kubejs:silver_coin"
-				item: "thermal:silver_coin"
-				count: 60
-			}]
+			title: "Keeping in Shape"
+			x: 2.0d
+			y: -1.5d
 		}
 	]
-	quest_links: [ ]
+	title: "&a Bulletin Board"
 }

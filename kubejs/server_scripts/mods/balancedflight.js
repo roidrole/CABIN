@@ -12,5 +12,7 @@ if(Platform.isLoaded("balancedflight")) {
 	]).loops(1)
 	.transitionalItem('kubejs:incomplete_flight_anchor')
 	.id('kubejs:compat/balancedflight/flight_anchor')
+
+	event.remove({output: 'balancedflight:ascended_flight_ring'})
   })
 }
