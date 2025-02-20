@@ -116,6 +116,20 @@ StartupEvents.registry('item', event => {
 
 StartupEvents.registry("block", event => {
 
+	event.create('trial_copper_block').model('minecraft:block/copper_block').soundType('metal').tagBlock("mineable/pickaxe").tagBlock("needs_stone_tool").requiresTool(true).hardness(3.0).resistance(6.0).displayName("Illusionary Block of Copper")
+	event.create('trial_cut_copper').model('minecraft:block/cut_copper').soundType('metal').tagBlock("mineable/pickaxe").tagBlock("needs_stone_tool").requiresTool(true).hardness(3.0).resistance(6.0).displayName("Illusionary Cut Copper")
+	event.create('trial_chiseled_copper').model('trials:block/chiseled_copper').soundType('metal').tagBlock("mineable/pickaxe").tagBlock("needs_stone_tool").requiresTool(true).hardness(3.0).resistance(6.0).displayName("Illusionary Chiseled Copper")
+	event.create('trial_copper_grate').model('trials:block/copper_grate').soundType('metal').tagBlock("mineable/pickaxe").tagBlock("needs_stone_tool").requiresTool(true).hardness(3.0).resistance(6.0).displayName("Illusionary Copper Grate").notSolid().waterlogged()
+	event.create('trial_cut_copper_stairs', "stairs").textureAll('minecraft:block/cut_copper').soundType('metal').tagBlock("mineable/pickaxe").tagBlock("needs_stone_tool").requiresTool(true).hardness(3.0).resistance(6.0).displayName("Illusionary Cut Copper Stairs")
+	event.create('trial_cut_copper_slab', "slab").textureAll('minecraft:block/cut_copper').soundType('metal').tagBlock("mineable/pickaxe").tagBlock("needs_stone_tool").requiresTool(true).hardness(3.0).resistance(6.0).displayName("Illusionary Cut Copper Slab")
+	
+	event.create('trial_oxidized_copper_block').model('minecraft:block/oxidized_copper').soundType('metal').tagBlock("mineable/pickaxe").tagBlock("needs_stone_tool").requiresTool(true).hardness(3.0).resistance(6.0).displayName("Illusionary Oxidized Block of Copper")
+	event.create('trial_oxidized_cut_copper').model('minecraft:block/oxidized_cut_copper').soundType('metal').tagBlock("mineable/pickaxe").tagBlock("needs_stone_tool").requiresTool(true).hardness(3.0).resistance(6.0).displayName("Illusionary Oxidized Cut Copper")
+	event.create('trial_oxidized_chiseled_copper').model('trials:block/chiseled_copper_oxidized').soundType('metal').tagBlock("mineable/pickaxe").tagBlock("needs_stone_tool").requiresTool(true).hardness(3.0).resistance(6.0).displayName("Illusionary Oxidized Chiseled Copper")
+	event.create('trial_oxidized_copper_grate').model('trials:block/copper_grate_oxidized').soundType('metal').tagBlock("mineable/pickaxe").tagBlock("needs_stone_tool").requiresTool(true).hardness(3.0).resistance(6.0).displayName("Illusionary Oxidized Copper Grate").notSolid().waterlogged()
+	event.create('trial_oxidized_cut_copper_stairs', "stairs").textureAll('minecraft:block/oxidized_cut_copper').soundType('metal').tagBlock("mineable/pickaxe").tagBlock("needs_stone_tool").requiresTool(true).hardness(3.0).resistance(6.0).displayName("Illusionary Oxidized Cut Copper Stairs")
+	event.create('trial_oxidized_cut_copper_slab', "slab").textureAll('minecraft:block/oxidized_cut_copper').soundType('metal').tagBlock("mineable/pickaxe").tagBlock("needs_stone_tool").requiresTool(true).hardness(3.0).resistance(6.0).displayName("Illusionary Oxidized Cut Copper Slab")
+
 	event.create('enderium_casing').model('cabin:block/enderium_casing').soundType('metal').tagBlock("mineable/pickaxe").tagBlock("create:wrench_pickup").requiresTool(true).hardness(4.0).displayName('Ender Casing')
 	event.create('zinc_casing').textureAll('cabin:block/zinc_casing').soundType('metal').tagBlock("mineable/pickaxe").tagBlock("create:wrench_pickup").requiresTool(true).hardness(3.0).displayName('Zinc Casing')
 	event.create('invar_casing').textureAll('cabin:block/invar_casing').soundType('metal').tagBlock("mineable/pickaxe").tagBlock("create:wrench_pickup").requiresTool(true).hardness(3.0).displayName('Invar Casing')
