@@ -2700,13 +2700,13 @@
 		}
 		{
 			disable_toast: true
-			icon: "supplementaries:copper_lantern"
+			icon: "minecraft:soul_lantern"
 			id: "6BC9B96B2C6684DC"
 			rewards: [
 				{
 					auto: "enabled"
 					id: "7902C2C3CA649D96"
-					item: "kubejs:trade_card_copper_lantern"
+					item: "kubejs:trade_card_soul_lantern"
 					type: "item"
 				}
 				{
@@ -2727,19 +2727,19 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			title: "1x Copper Lantern"
+			title: "1x Soul Lantern"
 			x: 3.5d
 			y: 19.5d
 		}
 		{
 			disable_toast: true
-			icon: "supplementaries:brass_lantern"
+			icon: "createdeco:brass_sheet_metal"
 			id: "44CDD45033A93614"
 			rewards: [
 				{
 					auto: "enabled"
 					id: "45FEF3A32F7766AD"
-					item: "kubejs:trade_card_brass_lantern"
+					item: "kubejs:trade_card_brass_sheet_metal"
 					type: "item"
 				}
 				{
@@ -2752,7 +2752,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "1 Silver"
+			subtitle: "3 Silver"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -2760,19 +2760,19 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			title: "1x Brass Lantern"
+			title: "16x Brass Sheet Metal"
 			x: 2.5d
 			y: 18.5d
 		}
 		{
 			disable_toast: true
-			icon: "supplementaries:crimson_lantern"
+			icon: "createdeco:industrial_iron_sheet_metal"
 			id: "7B7A161B4BAB89AD"
 			rewards: [
 				{
 					auto: "enabled"
 					id: "2E705AE0E825C6B5"
-					item: "kubejs:trade_card_crimson_lantern"
+					item: "kubejs:trade_card_industrial_iron_sheet_metal"
 					type: "item"
 				}
 				{
@@ -2785,7 +2785,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "1 Silver"
+			subtitle: "3 Silver"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -2793,7 +2793,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			title: "1x Crimson Lantern"
+			title: "16x Industrial Iron Sheet Metal"
 			x: 3.5d
 			y: 18.5d
 		}
@@ -3884,6 +3884,7 @@
 				}
 			]
 			shape: "hexagon"
+			subtitle: "3 Silver"
 			tasks: [{
 				consume_items: true
 				count: 10L
@@ -4149,6 +4150,39 @@
 			title: "1x Bitumen"
 			x: -0.5d
 			y: 7.0d
+		}
+		{
+			disable_toast: true
+			icon: "minecraft:cherry_log"
+			id: "52C7EF47A0423CAB"
+			rewards: [
+				{
+					auto: "enabled"
+					id: "0F61EDD703FCC266"
+					item: "kubejs:trade_card_cherry_log"
+					type: "item"
+				}
+				{
+					auto: "no_toast"
+					icon: "thermal:machine_cycle_augment"
+					id: "1EA93EAF7BE1943A"
+					tags: ["reset"]
+					title: "Repeatable"
+					type: "custom"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "8 Silver"
+			tasks: [{
+				count: 10L
+				icon: "kubejs:silver_coin"
+				id: "11D27390CC0F95A7"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			title: "16x Cherry Log"
+			x: -2.5d
+			y: 4.5d
 		}
 	]
 	title: "&a Shipments"

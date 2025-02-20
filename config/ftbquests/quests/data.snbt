@@ -9,7 +9,7 @@
 	disable_toast: true
 	drop_loot_crates: false
 	emergency_items_cooldown: 300
-	grid_scale: 1.0d
+	grid_scale: 0.5d
 	icon: "kubejs:gold_machine"
 	lock_message: ""
 	loot_crate_no_drop: {

@@ -408,6 +408,7 @@ StartupEvents.registry('item', event => {
 		simple("Dark Oak Log", MC('dark_oak_log', 16), 4, S, 0x2C1B0D, 0x422B15)
 		simple("Crimson Stem", MC('crimson_stem', 16), 8, S, 0x442332, 0x7A3852)
 		simple("Warped Stem", MC('warped_stem', 16), 8, S, 0x3E1E2D, 0x347776)
+		simple("Cherry Log", MC('cherry_log', 16), 8, S, 0xd6b8ad, 0x3a222c)
 		
 		next_group()
 		entry_cost = 10
@@ -479,6 +480,8 @@ StartupEvents.registry('item', event => {
 		simple("Clear Glass", TC('clear_glass', 16), 4, S, 0xA9C3CF, 0xE8E8E8)
 		simple("Copper Shingles", CR('copper_shingles', 16), 3, S, 0xB5654B, 0xE4BB79)
 		simple("Iron Sheet Metal", CD('iron_sheet_metal', 16), 3, S, 0xE3E3E3, 0x717171)
+		simple("Brass Sheet Metal", CD('brass_sheet_metal', 16), 3, S, 0xfbe88a, 0x8f6f3f)
+		simple("Industrial Iron Sheet Metal", CD('industrial_iron_sheet_metal', 16), 3, S, 0x68666e, 0x3a383c)
 		simple("Algal Bricks", AP('algal_bricks', 32), 6, S, 0x292926, 0x3D4D48)
 		simple("Olivestone Bricks", AP('olivestone_bricks', 32), 8, S, 0x3A3C2E, 0x57553E)
 		simple("Sunmetal", AP('sunmetal_block', 32), 8, S, 0x603E38, 0xB48764)
@@ -487,11 +490,9 @@ StartupEvents.registry('item', event => {
 		simple("Osseous Bricks", AP('osseous_bricks', 32), 8, S, 0x9D976F, 0xD3D0BF)
 		simple("Seared Stone", TC('seared_stone', 16), 32, S, 0x393734, 0x59534F)
 		simple("Scorched Stone", TC('scorched_stone', 16), 32, S, 0x382C25, 0x4C3F37)
-		
+
 		simple("Lantern", MC('lantern', 1), 1, S, 0x484F64, 0xF6C765)
-		simple("Copper Lantern", SP('copper_lantern', 1), 1, S, 0xB36535, 0xF3B154)
-		simple("Brass Lantern", SP('brass_lantern', 1), 1, S, 0xA47C37, 0xFAEACF)
-		simple("Crimson Lantern", SP('crimson_lantern', 1), 1, S, 0x9C0E2C, 0xE7EB56)
+		simple("Soul Lantern", MC('soul_lantern', 1), 1, S, 0x1c8c94, 0x333343)
 		
 		next_group()
 		entry_cost = 10

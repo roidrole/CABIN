@@ -386,7 +386,7 @@
 			y: -2.0d
 		}
 		{
-			description: ["Early on it might help to import some dirt for base building."]
+			description: ["Early on, it might help to import some dirt for base building."]
 			icon: "minecraft:dirt"
 			id: "4B01606CE7AF3121"
 			rewards: [
@@ -871,12 +871,6 @@
 					count: 8
 					id: "26A16DC998FEF595"
 					item: "farmersdelight:organic_compost"
-					type: "item"
-				}
-				{
-					count: 16
-					id: "68B1199F9AE6B8FE"
-					item: "supplementaries:planter_rich"
 					type: "item"
 				}
 				{

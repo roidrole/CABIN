@@ -584,7 +584,10 @@ global.jeiItemBlacklist = [
 	'ad_astra:rover',
 	'ad_astra:rocket_t2',
 	'ad_astra:rocket_t3',
-	'ad_astra:rocket_t4'
+	'ad_astra:rocket_t4',
+	"cb_microblock:microblock",
+	"ae2:facade",
+	'chiselsandbits:block_bit'
 ]
 
 //Items blacklisted from randomium for balance reasons or otherwise
