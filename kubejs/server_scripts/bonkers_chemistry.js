@@ -46,7 +46,7 @@ function attackNearby(level, x, y, z) {
         let entity = e
         if (!entity.isLiving())
             return
-        entity.attack("magic", 6)
+        entity.attack(entity.level.damageSources().generic(), 6)
     })
 }
 
@@ -90,7 +90,7 @@ function process(level, block, entity, face) {
         }
     }
 
-    let nbt = entity.getFullNBT()
+    let nbt = entity.nbt
     let items = nbt.Items
 
     // Laser Recipe
@@ -184,13 +184,13 @@ function process(level, block, entity, face) {
             resultItemNBT.put("Slot", i)
             resultItemNBT.put("id", resultItem)
             resultItemNBT.put("Count", Math.min(64, resultCount))
-            nbt.Items.add(actualIndex, resultItemNBT.toNBT())
+            nbt.Items.add(actualIndex, resultItemNBT)
             actualIndex++
 
             resultCount = resultCount - 64
         }
 
-        entity.setFullNBT(nbt)
+        entity.setNbt(nbt)
         return
     }
 
@@ -307,7 +307,7 @@ function process(level, block, entity, face) {
             resultCounts[itemIndex] = resultCounts[itemIndex] - 64
         }
 
-        entity.setFullNBT(nbt)
+        entity.setNbt(nbt)
         return
     }
 
@@ -485,7 +485,7 @@ function process(level, block, entity, face) {
         nbt.Items.add(1, resultItemNBT.toNBT())
     }
 
-    entity.setFullNBT(nbt)
+    entity.setNbt(nbt)
 
 }
 
@@ -566,11 +566,11 @@ BlockEvents.leftClicked(event => {
             let entity = e
             if (!entity.type.equals("minecraft:hopper_minecart")) {
                 if (!entity.type.equals("minecraft:item"))
-                    entity.attack("magic", 6)
+                    entity.attack(entity.level.damageSources().generic(), 6)
                 return
             }
             process(level, block, entity, face)
-            entity.attack("magic", 1)
+            entity.attack(entity.level.damageSources().generic(), 1)
         })
 
         sound = true
