@@ -22,6 +22,13 @@ const POTIONS = [ //The order that we create these rei entries in is important!
     ["minecraft:slow_falling", ['long']]
 ];
 
+if (Platform.isLoaded('trials')) {
+    POTIONS.push(["trials:winded", []])
+    POTIONS.push(["trials:infested", []])
+    POTIONS.push(["trials:weaving", []])
+    POTIONS.push(["trials:oozing", []])
+}
+
 //Add Potion fluids to REI
 JEIEvents.add('fluid', event => {
     POTION_BOTTLES.forEach(bottle=>{
