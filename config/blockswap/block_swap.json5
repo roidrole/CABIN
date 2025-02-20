@@ -86,6 +86,10 @@ to make editing this file much easier.
 	*/
 	"swapper": { 
 		"minecraft:redstone_ore": "thermal:cinnabar_ore"
-		"minecraft:deepslate_redstone_ore": "thermal:deepslate_cinnabar_ore"
+		"minecraft:deepslate_redstone_ore": "thermal:deepslate_cinnabar_ore",
+		"ae2:flawless_budding_quartz": "ae2:quartz_block",
+		"ae2:flawed_budding_quartz": "ae2:quartz_block",
+		"ae2:chipped_budding_quartz": "ae2:quartz_block",
+		"ae2:damaged_budding_quartz": "ae2:quartz_block"
 	}
 }
