@@ -283,9 +283,12 @@ ServerEvents.recipes(event => {
 	}
 
 	// Infinite Sky Stone
+
 	event.recipes.createMilling([AE2('sky_dust'), AE2('sky_stone_block')], AE2('sky_stone_block')).processingTime(1000)
 
 	//Infinite Certus Quartz
+	event.shapeless('2x kubejs:certus_crystal_seed', [AE2('certus_quartz_dust'), MC('#sand')])
+	event.remove({ id: AE2('transform/certus_quartz_crystals') })
 	event.recipes.createMilling([AE2('certus_quartz_dust')], AE2('#all_certus_quartz')).processingTime(200)
 	event.recipes.createMilling([TE('quartz_dust')], MC("quartz")).processingTime(200)
 

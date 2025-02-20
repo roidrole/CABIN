@@ -55,11 +55,7 @@
 				"2FFFE1C5366930BB"
 			]
 			dependency_requirement: "one_completed"
-			description: [
-				"This piece of quartz is too small. With enough water we might get somewhere."
-				""
-				"If you're not too stoked about waiting hours on crystal growth, you can set up Water Spouts to greatly accellerate the process. "
-			]
+			description: ["This piece of quartz is too small. With enough water we might get somewhere."]
 			id: "345B94F6D17605CD"
 			shape: "circle"
 			subtitle: "Contraption 12-1"

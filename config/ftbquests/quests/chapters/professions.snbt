@@ -666,16 +666,6 @@
 			subtitle: "45 Silver"
 			tasks: [
 				{
-					id: "6467B7BC46B95AB7"
-					item: "biomesoplenty:white_cherry_sapling"
-					type: "item"
-				}
-				{
-					id: "53B388480793BD58"
-					item: "biomesoplenty:maple_sapling"
-					type: "item"
-				}
-				{
 					id: "57263F412DD5DF08"
 					item: "biomesoplenty:fir_sapling"
 					type: "item"

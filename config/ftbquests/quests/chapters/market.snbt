@@ -790,25 +790,15 @@
 			y: -2.0d
 		}
 		{
-			description: ["Ah the joy of gambling."]
-			icon: "buddycards:buddycard_pack_mystery"
+			description: ["Be the best version of yourself."]
+			icon: "minecraft:netherite_upgrade_smithing_template"
 			id: "093FB7B7FEC6B886"
-			rewards: [
-				{
-					auto: "enabled"
-					id: "198DC310752F341F"
-					item: "buddycards:buddycard_pack_mystery"
-					type: "item"
-				}
-				{
-					auto: "no_toast"
-					icon: "thermal:machine_cycle_augment"
-					id: "423CFA69329BD06E"
-					tags: ["reset"]
-					title: "Repeatable"
-					type: "custom"
-				}
-			]
+			rewards: [{
+				auto: "enabled"
+				id: "198DC310752F341F"
+				item: "minecraft:netherite_upgrade_smithing_template"
+				type: "item"
+			}]
 			subtitle: "2 Gold"
 			tasks: [{
 				count: 2L
@@ -817,7 +807,7 @@
 				item: "thermal:gold_coin"
 				type: "item"
 			}]
-			title: "Expensive Hobby"
+			title: "Maximum Power"
 			x: 0.5d
 			y: 1.5d
 		}
