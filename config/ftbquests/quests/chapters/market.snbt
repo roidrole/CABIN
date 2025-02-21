@@ -1198,6 +1198,43 @@
 			x: 0.5d
 			y: -1.5d
 		}
+		{
+			description: [
+				"Rumors say that this map leads to a chamber used by an ancient civilization to train their strongest fighters. This place is bound to contain priceless weapons, metals, and artifacts."
+				""
+				"(Unlike Vanilla, trial vaults can be re-opened every 30 minutes) "
+			]
+			icon: "trials:trial_spawner"
+			id: "42A7073F3681626C"
+			rewards: [{
+				id: "4DEC158A5EA3208C"
+				item: {
+					Count: 1
+					id: "supplementaries:cartographers_quill"
+					tag: {
+						decoration: "target_x"
+						display: {
+							Name: "{\"translate\":\"filled_map.trials.chambers\"}"
+						}
+						maxSearchRadius: 100
+						skinKnown: 1b
+						targetStructure: "trials:trials_chambers"
+						zoomLevel: 2
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "2 Gold"
+			tasks: [{
+				count: 2L
+				id: "50824DA7246920CA"
+				item: { Count: 2, id: "thermal:gold_coin" }
+				type: "item"
+			}]
+			title: "Trial Tracker"
+			x: -8.0d
+			y: 2.0d
+		}
 	]
 	title: "&a The Market"
 }
