@@ -139,15 +139,15 @@ StartupEvents.registry("block", event => {
 
 	event.create('ponder_laser_lamp').model('cabin:block/ponder_laser_lamp').notSolid().renderType("translucent").displayName('Laser Lamp (For Ponder)')
 	event.create('ponder_laser_lamp_on').model('cabin:block/ponder_laser_lamp_on').notSolid().lightLevel(15).renderType("translucent").displayName('Laser Lamp (For Ponder)')
-	event.create('navigation_computer').model('cabin:block/navigation_computer').soundType('metal').tagBlock("mineable/pickaxe").hardness(3.0).requiresTool(true).displayName('Navigation Computer')
-	event.create('lander_deployer').model('cabin:block/lander_deployer').soundType('metal').tagBlock("mineable/pickaxe").hardness(3.0).requiresTool(true).displayName('Lander Deployer')
+	event.create('navigation_computer', 'cardinal').model('cabin:block/navigation_computer').soundType('metal').tagBlock("mineable/pickaxe").hardness(3.0).requiresTool(true).displayName('Navigation Computer')
+	event.create('lander_deployer', 'cardinal').model('cabin:block/lander_deployer').soundType('metal').tagBlock("mineable/pickaxe").hardness(3.0).requiresTool(true).displayName('Lander Deployer')
 
 	
 
 
 	let machine = (name, layer) => {
 		let id = name.toLowerCase()
-		return event.create(id + '_machine')
+		return event.create(id + '_machine', 'cardinal')
 			.model('cabin:block/' + id + '_machine')
 			.soundType('lantern')
 			.hardness(3.0)
@@ -156,13 +156,14 @@ StartupEvents.registry("block", event => {
 			.displayName(name + ' Machine')
 			.notSolid()
 			.renderType(layer)
+			.redstoneConductor(false)
 			.tagBlock("create:wrench_pickup")
 	}
 
-	machine('Andesite', "solid").tagBlock("mineable/axe")
-	machine('Brass', "translucent").tagBlock("mineable/axe")
-	machine('Copper', "cutout").tagBlock("mineable/axe")
-	machine('Gold', "solid").tagBlock("mineable/axe")
+	machine('Andesite', "solid").tagBlock("mineable/axe").box(0, 0, 3, 16, 16, 16).box(3, 14, 3, 13, 18, 17)
+	machine('Brass', "translucent").tagBlock("mineable/axe").box(0, 0, 0, 16, 4, 16).box(0, 0, 3, 16, 10, 13).box(8, 3, 4, 16, 16, 16).box(1, 10, 5, 7, 21, 11)
+	machine('Copper', "cutout").tagBlock("mineable/axe").box(0, 0, 0, 16, 4, 16).box(1.9, 2, -2, 14.9, 10, 10).box(6, 4, 6, 16, 20, 16).box(0, 4, 6, 10, 24, 16)
+	machine('Gold', "solid").tagBlock("mineable/axe").box(0, 0, 4, 16, 16, 14)
 	machine('Zinc', "cutout")
 	machine('Enderium', "cutout")
 
