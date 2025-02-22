@@ -12,14 +12,14 @@ const RESOURCE_VERSION = (MAJOR_VERSION<<16)+(MINOR_VERSION<<8)+PATCH_VERSION;
 const FILE_NAME = 'kubejs_client_data.json';
 {
 
-	//read data from the file saved in the client's Kubejs folder
+	//read data from the file saved in the client's Minecraft folder
 	let data = JsonIO.read(FILE_NAME) || {}
 
 	if (data.resourceOptionsVersion!=RESOURCE_VERSION) {
 		let instance = Minecraft.getInstance()
 		let resourcePacks = ResourceOverridesManager.getDefaultResourcePacks(true)
 
-		//If we set options to use our list of resource packs here, it'll load up the game using these resources
+		//In client_scripts, If we set the resource packs in options to our list of resource packs we want to use, it'll load up the game using those resources
 		instance.options.resourcePacks.clear()
 		for(let i=0;i<resourcePacks.size();++i) {
 			instance.options.resourcePacks.add(resourcePacks.get(i))
