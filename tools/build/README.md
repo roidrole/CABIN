@@ -1,5 +1,5 @@
-# Panpack template build script
-
+# CABIN build script
+# Cloned from Panpack Template
 Uses juke from <https://github.com/tgstation/tgstation>
 
 
