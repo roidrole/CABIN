@@ -28,6 +28,7 @@ const includeList = [
     "defaultconfigs",
     "kubejs",
     "mods",
+    "ldlib",
     "resourcepacks"
 ]
 
