@@ -33,6 +33,7 @@
 /kubejs/config/probejs.json
 /kubejs/config/probe-settings.json
 /kubejs/*/jsconfig.json
+/kubejs/jsconfig.json
 /config/iconexporter-common.toml
 
 # Configs we don't want to keep
