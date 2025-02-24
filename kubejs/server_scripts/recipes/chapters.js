@@ -136,7 +136,7 @@ ServerEvents.recipes(event => {
 	andesiteMachine(event, Item.of('create:mechanical_plough', 2))
 	andesiteMachine(event, Item.of('create:contraption_controls', 1))
 	andesiteMachine(event, Item.of('thermal:device_tree_extractor', 1), MC('bucket'))
-	andesiteMachine(event, Item.of(AE2('meteorite_compass'), 1), AE2('charged_certus_quartz_crystal'))
+	andesiteMachine(event, Item.of(AE2('meteorite_compass'), 1), MC('compass'))
 	andesiteMachine(event, Item.of(AE2('charger'), 1), AE2('certus_quartz_crystal'))
 	andesiteMachine(event, Item.of('thermal:dynamo_stirling', 1), TE('rf_coil'))
 	andesiteMachine(event, Item.of('create:andesite_funnel', 4))
