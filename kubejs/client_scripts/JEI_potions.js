@@ -22,25 +22,31 @@ const POTIONS = [ //The order that we create these rei entries in is important!
     ["minecraft:slow_falling", ['long']]
 ];
 
-if (Platform.isLoaded('trials')) {
-    POTIONS.push(["trials:winded", []])
-    POTIONS.push(["trials:infested", []])
-    POTIONS.push(["trials:weaving", []])
-    POTIONS.push(["trials:oozing", []])
-}
 
 //Add Potion fluids to REI
-JEIEvents.add('fluid', event => {
+ClientEvents.highPriorityAssets(event => {
+    let json = {
+        added: []
+    }
     POTION_BOTTLES.forEach(bottle=>{
         for (let i=0;i<POTIONS.length;++i) {
             let potionName = POTIONS[i][0];
-            event.add(Fluid.of("create:potion", `{Bottle: "${bottle}", Potion: "${potionName}"}`));
+            json.added.unshift({
+                "stack": "fluid:create:potion"+`{Bottle: "${bottle}", Potion: "${potionName}"}`,
+                "after": "fluid:create:chocolate"
+            })
             for (let j=0;j<POTIONS[i][1].length;++j) {
                 let subPotionNameArray = potionName.split(':');
                 subPotionNameArray.splice(1, 0, ':',POTIONS[i][1][j],'_');
                 let subPotionName = subPotionNameArray.join('');
-                event.add(Fluid.of("create:potion", `{Bottle: "${bottle}", Potion: "${subPotionName}"}`));
+                
+                json.added.unshift({
+                    "stack": "fluid:create:potion"+`{Bottle: "${bottle}", Potion: "${subPotionName}"}`,
+                    "after": "fluid:create:chocolate"
+                })
             }
         }
     })
+
+    event.add('emi:index/stacks/kubejs_potion_fluids', json)
 })
