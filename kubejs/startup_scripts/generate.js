@@ -112,6 +112,7 @@ StartupEvents.registry('item', event => {
 	event.create('silver_coin').texture("cabin:item/silver_coin").displayName('Silver Coin Stack Icon')
 	event.create('gold_coin').texture("cabin:item/gold_coin").displayName('Gold Coin Stack Icon')
 	event.create('strainer_filter').texture("waterstrainer:items/strainer_survivalist").displayName('Strainer Filter').maxDamage(120)
+	event.create('circuit_pottery_sherd').texture("cabin:item/circuit_pottery_sherd").displayName('Circuit Pottery Sherd').tag("minecraft:decorated_pot_ingredients").tag("minecraft:decorated_pot_sherds")
 })
 
 StartupEvents.registry("block", event => {
