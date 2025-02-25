@@ -137,16 +137,16 @@ function process(level, block, entity, face) {
             resultItem = "thermal:basalz_rod"
             particle = "flame"
         }
-        if (validTool.id.startsWith(staff)) {
-            if (!toProcess.equals("kubejs:smoke_mote"))
-                return
-            let energy = validTool.tag.getDouble("internalCurrentPower") - 40 * processAmount
-            if (energy < 0)
-                return
-            validTool.tag.putDouble("internalCurrentPower", energy)
-            resultItem = "thermal:blitz_rod"
-            particle = "firework"
-        }
+        // if (validTool.id.startsWith(staff)) {
+        //     if (!toProcess.equals("kubejs:smoke_mote"))
+        //         return
+        //     let energy = validTool.tag.getDouble("internalCurrentPower") - 40 * processAmount
+        //     if (energy < 0)
+        //         return
+        //     validTool.tag.putDouble("internalCurrentPower", energy)
+        //     resultItem = "thermal:blitz_rod"
+        //     particle = "firework"
+        // }
         if (validTool.id.startsWith(entropy)) {
             if (!toProcess.equals("minecraft:snowball"))
                 return
@@ -519,16 +519,15 @@ BlockEvents.leftClicked(event => {
         let laser = block.offset(face)
 
 
-        if (!laser.id.startsWith("createdeco:"))
+        if (!laser.hasTag('kubejs:alchemical_laser_lamp'))
             return
 
-        if (!laser.id.endsWith("_lamp"))
-            return
+        let color = ''
 
-        // let valid = false
-        let words = laser.id.replace("createdeco:","").split("_");
-
-        let color = words[0]
+        if (laser.hasTag('kubejs:alchemical_laser_lamp/yellow')) color = 'yellow'
+        else if (laser.hasTag('kubejs:alchemical_laser_lamp/red')) color = 'red'
+        else if (laser.hasTag('kubejs:alchemical_laser_lamp/green')) color = 'green'
+        else if (laser.hasTag('kubejs:alchemical_laser_lamp/blue')) color = 'blue'
 		
         // let te = laser.getEntity()
         // if (!te)

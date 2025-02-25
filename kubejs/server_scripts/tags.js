@@ -75,6 +75,16 @@ ServerEvents.tags('item', event => {
 	event.get('kubejs:transaction_cards').add('#kubejs:transaction_cards/import')
 	event.get('kubejs:transaction_cards').add('#kubejs:transaction_cards/profession')
 
+	let lampColours = ['yellow', 'red', 'green', 'blue']
+	let lampMaterials = ['andesite', 'brass', 'iron', 'copper', 'industrial_iron', 'zinc']
+	for (let i=0;i<lampColours.length;++i) {
+		for (let j=0;j<lampMaterials.length;++j) {
+			let lamp = `createdeco:${lampColours[i]}_${lampMaterials[j]}_lamp`
+			event.add('kubejs:alchemical_laser_lamp', lamp)
+			event.add(`kubejs:alchemical_laser_lamp/${lampColours[i]}`, lamp)
+		}
+	}
+	
 	//This tag prevents items from being consumed in press (market) recipes
 	event.get('thermal:crafting/dies').add('#kubejs:transaction_cards')
 	event.get('thermal:crafting/dies').add('kubejs:missingno')
@@ -204,6 +214,16 @@ ServerEvents.tags('item', event => {
 })
 
 ServerEvents.tags('block', event => {
+	let lampColours = ['yellow', 'red', 'green', 'blue']
+	let lampMaterials = ['andesite', 'brass', 'iron', 'copper', 'industrial_iron', 'zinc']
+	for (let i=0;i<lampColours.length;++i) {
+		for (let j=0;j<lampMaterials.length;++j) {
+			let lamp = `createdeco:${lampColours[i]}_${lampMaterials[j]}_lamp`
+			event.add('kubejs:alchemical_laser_lamp', lamp)
+			event.add(`kubejs:alchemical_laser_lamp/${lampColours[i]}`, lamp)
+		}
+	}
+
 	event.remove('minecraft:beacon_base_blocks', 'thermal:bronze_block')
 
 	//Not sure if anything checks for this block tag but don't want to risk it.

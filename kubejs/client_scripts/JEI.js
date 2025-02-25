@@ -16,6 +16,14 @@ ClientEvents.highPriorityAssets(event=>{
       {
         "stack": "item:create:shadow_steel",
         "after": "item:create:refined_radiance"
+      },
+      {
+        "stack": "item:tconstruct:tinkers_anvil{'texture':'create:zinc_block'}",
+        "after": "item:tconstruct:modifier_worktable"
+      },
+      {
+        "stack": "item:tconstruct:scorched_anvil{'texture':'create:zinc_block'}",
+        "after": "item:tconstruct:tinkers_anvil"
       }
     ]
   }
