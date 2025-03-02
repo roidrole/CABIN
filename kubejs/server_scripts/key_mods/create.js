@@ -7,10 +7,10 @@ ServerEvents.recipes(event => {
 	}
 	tweak_casing('andesite', [CR('andesite_alloy'), '#minecraft:logs'], CR)
 	tweak_casing('copper', [CR('copper_sheet'), '#minecraft:logs'], CR)
-	tweak_casing('gold', [CR('golden_sheet'), 'minecraft:deepslate'], CR)
+	tweak_casing('railway', [CR('golden_sheet'), 'minecraft:deepslate'], CR)
 	tweak_casing('brass', [CR('brass_sheet'), '#minecraft:logs'], CR)
-	tweak_casing('zinc', [CD('zinc_sheet'), 'minecraft:stone'], KJ)
-	tweak_casing('lead', [TE('lead_plate'), 'minecraft:deepslate'], CR)
+	tweak_casing('zinc', [CR('zinc_ingot'), 'minecraft:stone'], KJ)
+	tweak_casing('lead', [TE('lead_plate'), 'minecraft:deepslate'], KJ)
 	tweak_casing('invar', [TE('invar_ingot'), 'minecraft:stone'], KJ)
 	tweak_casing('enderium', [MC('ender_pearl'), 'minecraft:obsidian'], KJ)
 	tweak_casing('fluix', [TE('lead_plate'), 'minecraft:blackstone'], KJ)

@@ -135,8 +135,26 @@ ServerEvents.recipes(event => {
 	//mixing alloys
 	let moltenAlloy = function (fluidAlloy, fluid1, fluid2) {
 		//Recipe ids are actually important here since the id that comes later in alphabetical order is the one that is prioritized
-		event.recipes.createMixing(Fluid.of(TC(fluidAlloy), 3), [Fluid.of(fluid1, 3), Fluid.of(fluid2, 3)]).processingTime(1).id(`kubejs:mixing/${fluidAlloy}_3`)
-		event.recipes.createMixing(Fluid.of(TC(fluidAlloy), 1), [Fluid.of(fluid1, 1), Fluid.of(fluid2, 1)]).processingTime(1).id(`kubejs:mixing/${fluidAlloy}_1`)
+		event.custom({
+			"type": "create:mixing",
+			"ingredients": [
+				{ "amount": 3, "fluid": fluid1 },
+				{ "amount": 3, "fluid": fluid2 }
+			],
+			"results": [
+				{ "amount": 3, "fluid": TC(fluidAlloy) }
+			]
+		}).id(`kubejs:mixing/${fluidAlloy}_3`)
+		event.custom({
+			"type": "create:mixing",
+			"ingredients": [
+				{ "amount": 1, "fluid": fluid1 },
+				{ "amount": 1, "fluid": fluid2 }
+			],
+			"results": [
+				{ "amount": 1, "fluid": TC(fluidAlloy) }
+			]
+		}).id(`kubejs:mixing/${fluidAlloy}_1`)
 	}
 	moltenAlloy('molten_brass', TC('molten_copper'), TC('molten_zinc'))
 	moltenAlloy('molten_constantan', TC('molten_copper'), TC('molten_nickel'))

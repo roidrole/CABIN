@@ -161,9 +161,38 @@ ServerEvents.recipes(event => {
 	event.remove({ id: 'thermal:rubber_from_dandelion' })
 	event.remove({ id: 'thermal:rubber_from_vine' })
 
-	event.recipes.createCompacting(TE("rubber"), [Fluid.of(MC('water'), 250), F("#vines", 4)])
-	event.recipes.createCompacting(TE("rubber"), [Fluid.of(MC('water'), 250), '4x #minecraft:flowers'])
-	event.recipes.createCompacting(TE("rubber"), [Fluid.of(TE('resin'), 250)])
+	event.custom({
+		"type": "create:mixing",
+		"heatRequirement": "heated",
+		"ingredients": [
+			{ "item": "#vines", "count": 4 },
+			{ "fluid": "minecraft:water", "amount": 250 }
+		],
+		"results": [
+			{ "item": "thermal:rubber" }
+		]
+	})
+	event.custom({
+		"type": "create:mixing",
+		"heatRequirement": "heated",
+		"ingredients": [
+			{ "item": "#minecraft:flowers", "count": 4 },
+			{ "fluid": "minecraft:water", "amount": 250 }
+		],
+		"results": [
+			{ "item": "thermal:rubber" }
+		]
+	})
+	event.custom({
+		"type": "create:mixing",
+		"heatRequirement": "heated",
+		"ingredients": [
+			{ "fluid": "thermal:resin", "amount": 250 }
+		],
+		"results": [
+			{ "item": "thermal:rubber" }
+		]
+	})
 
 	//Belts
 	event.remove({ id: CR('crafting/kinetics/belt_connector') })
@@ -222,16 +251,68 @@ ServerEvents.recipes(event => {
 	event.blasting(MC('magma_block'), MC('deepslate'))
 	//Magma to obsidian is a vanilla create recipe
 	//reinforced mechanism assembly
-	transitional = KJ('incomplete_reinforced_mechanism')
-	event.recipes.createSequencedAssembly([
-		KJ('reinforced_mechanism'),
-	], KJ('kinetic_mechanism'), [
-		event.recipes.createDeploying(transitional, [transitional, MC('obsidian')]),
-		event.recipes.createDeploying(transitional, [transitional, MC('obsidian')]),
-		event.recipes.createPressing(transitional, [transitional])
-	]).transitionalItem(transitional)
-		.loops(1)
-		.id('kubejs:reinforced_mechanism')
+	event.custom({
+		"type": "create:sequenced_assembly",
+		"ingredient": {
+			"item": "kubejs:kinetic_mechanism"
+		},
+		"loops": 1,
+		"results": [
+			{
+				"item": "kubejs:reinforced_mechanism"
+			}
+		],
+		"sequence": [
+			{
+				"type": "create:deploying",
+				"ingredients": [
+					{
+						"item": "kubejs:incomplete_reinforced_mechanism"
+					},
+					{
+						"item": "minecraft:obsidian"
+					}
+				],
+				"results": [
+					{
+						"item": "kubejs:incomplete_reinforced_mechanism"
+					}
+				]
+			},
+			{
+				"type": "create:deploying",
+				"ingredients": [
+					{
+						"item": "kubejs:incomplete_reinforced_mechanism"
+					},
+					{
+						"item": "minecraft:obsidian"
+					}
+				],
+				"results": [
+					{
+						"item": "kubejs:incomplete_reinforced_mechanism"
+					}
+				]
+			},
+			{
+				"type": "create:pressing",
+				"ingredients": [
+					{
+						"item": "kubejs:incomplete_reinforced_mechanism"
+					}
+				],
+				"results": [
+					{
+						"item": "kubejs:incomplete_reinforced_mechanism"
+					}
+				]
+			}
+		],
+		"transitionalItem": {
+			"item": "kubejs:incomplete_reinforced_mechanism"
+		}
+	})
 	//manual crafting
 	event.shaped(KJ('reinforced_mechanism'), [
 		'OCO'
@@ -239,20 +320,22 @@ ServerEvents.recipes(event => {
 		C: KJ('kinetic_mechanism'),
 		O: MC('obsidian')
 	})
-	//gold machine
+	//Gold machine
 	donutCraft(event, KJ('gold_machine'), CR('railway_casing'), KJ('reinforced_mechanism'))
 
 	// Machine Crafting
 	goldMachine(event, Item.of('create:controls', 1))
 	goldMachine(event, Item.of('create:track_station', 2))
 	goldMachine(event, Item.of('create:track_signal', 4))
-	goldMachine(event, Item.of('railways:semaphore', 4))
 	goldMachine(event, Item.of('create:schedule', 4))
 	goldMachine(event, Item.of('create:track_observer', 2))
+	if(Platform.isLoaded("railways")) {
+	goldMachine(event, Item.of('railways:semaphore', 4))
 	goldMachine(event, Item.of('railways:conductor_whistle', 4))
 	goldMachine(event, Item.of('railways:track_coupler', 2))
 	goldMachine(event, Item.of('railways:track_switch_andesite', 1), 'create:andesite_alloy')
 	goldMachine(event, Item.of('railways:track_switch_brass', 1), 'create:brass_ingot')
+	}
 
 	// - - - - - Chapter 2 - - - - -
 	event.remove({ id: CR('milling/compat/ae2/sky_stone_block') })
@@ -296,11 +379,23 @@ ServerEvents.recipes(event => {
 	event.recipes.createMechanicalCrafting(Item.of(KJ('fluix_crystal_seed'), 2), ['A'], { A: AE2('fluix_crystal') })
 
 	let grow = (from, via, to) => {
-		event.recipes.createSequencedAssembly([to], from, [
-			event.recipes.createFilling(via, [via, Fluid.of(MC("water"), 500)]),
-		]).transitionalItem(via)
-			.loops(4)
-			.id('kubejs:grow_' + to.split(':')[1])
+		event.custom({
+			"type": "create:sequenced_assembly",
+			"ingredient": { "item": from },
+			"loops": 4,
+			"results": [{ "item": to }],
+			"sequence": [
+				{
+					"type": "create:filling",
+					"ingredients": [
+						{ "item": via },
+						{ "fluid": "minecraft:water", "amount": 500 }
+					],
+					"results": [{ "item": via }]
+				}
+			],
+			"transitionalItem": { "item": via }
+		}).id('kubejs:grow_' + to.split(':')[1])
 	}
 	grow(KJ("certus_crystal_seed"), KJ('growing_certus_seed'), KJ('tiny_certus_crystal'))
 	grow(KJ("fluix_crystal_seed"), KJ('growing_fluix_seed'), KJ('tiny_fluix_crystal'))
@@ -310,15 +405,52 @@ ServerEvents.recipes(event => {
 	grow(KJ("small_fluix_crystal"), KJ('growing_small_fluix_crystal'), AE2('fluix_crystal'))
 
 	//Volatile Sky Solution
-	event.recipes.createMixing(Fluid.of(KJ('volatile_sky_solution'), 500), [AE2('sky_dust'), AE2('sky_dust'), AE2('sky_dust'), AE2('sky_dust'), Fluid.of(MC('water'), 500)])
+	event.custom({
+		"type": "create:mixing",
+		"ingredients": [
+			{ "item": "ae2:sky_dust", "count": 4 },
+			{ "fluid": "minecraft:water", "amount": 500 }
+		],
+		"results": [
+			{ "fluid": "kubejs:volatile_sky_solution", "amount": 500 }
+		]
+	})
 	//Destabilized Redstone
-	event.recipes.createMixing([AE2('certus_quartz_crystal'), Fluid.of(TE("redstone"), 250)], [AE2('charged_certus_quartz_crystal'), Fluid.of(KJ('volatile_sky_solution'), 250)])
+	event.custom({
+		"type": "create:mixing",
+		"ingredients": [
+			{ "item": "ae2:charged_certus_quartz_crystal" },
+			{ "fluid": "kubejs:volatile_sky_solution", "amount": 250 }
+		],
+		"results": [
+			{ "item": "ae2:certus_quartz_crystal" },
+			{ "fluid": "thermal:redstone", "amount": 250 }
+		]
+	})
 	//Rose Quartz
 	event.shapeless('create:rose_quartz', [[MC('quartz'), AE2('certus_quartz_crystal'), AE2('charged_certus_quartz_crystal')], MC("redstone"), MC("redstone"), MC("redstone"), MC("redstone")])
 	//Polished Rose Quartz
-	event.recipes.createMixing(['create:polished_rose_quartz'], [AE2('certus_quartz_crystal'), Fluid.of(TE("redstone"), 250)])
+	event.custom({
+		"type": "create:mixing",
+		"ingredients": [
+			{ "item": "ae2:certus_quartz_crystal" },
+			{ "fluid": "thermal:redstone", "amount": 250 }
+		],
+		"results": [
+			{ "item": "create:polished_rose_quartz" }
+		]
+	})
 	//Electron tubes
-	event.recipes.createFilling(CR("electron_tube"), [CR('polished_rose_quartz'), Fluid.of(TC('molten_iron'), 10)])
+	event.custom({
+		"type": "create:filling",
+		"ingredients": [
+			{ "item": "create:polished_rose_quartz" },
+			{ "fluid": "tconstruct:molten_iron", "amount": 10 }
+		],
+		"results": [
+			{ "item": "create:electron_tube" }
+		]
+	})
 
 	//Precision mechanisms
 	event.remove({ id: CR("sequenced_assembly/precision_mechanism") })
@@ -363,17 +495,57 @@ ServerEvents.recipes(event => {
 	event.recipes.createMixing(Fluid.of(TC("liquid_soul"), 500), [MC('twisting_vines'), MC('weeping_vines')]).heated()
 
 	// Infernal Mechanisms
-	transitional = KJ('incomplete_infernal_mechanism')
-	event.recipes.createSequencedAssembly([
-		KJ('infernal_mechanism'),
-	], CR('precision_mechanism'), [
-		event.recipes.createFilling(transitional, [transitional, Fluid.of(TC("liquid_soul"), 500)]),
-		event.recipes.createFilling(transitional, [transitional, Fluid.of(MC("lava"), 1000)]),
-		event.recipes.createFilling(transitional, [transitional, Fluid.of(MC("lava"), 1000)]),
-		event.recipes.createFilling(transitional, [transitional, Fluid.of(MC("lava"), 1000)])
-	]).transitionalItem(transitional)
-		.loops(1)
-		.id('kubejs:infernal_mechanism')
+	event.custom({
+		"type": "create:sequenced_assembly",
+		"ingredient": { "item": CR('precision_mechanism') },
+		"loops": 1,
+		"results": [
+			{ "item": KJ('infernal_mechanism') }
+		],
+		"sequence": [
+			{
+				"type": "create:filling",
+				"ingredients": [
+					{ "item": KJ('incomplete_infernal_mechanism') },
+					{ "fluid": TC("liquid_soul"), "amount": 500 }
+				],
+				"results": [
+					{ "item": KJ('incomplete_infernal_mechanism') }
+				]
+			},
+			{
+				"type": "create:filling",
+				"ingredients": [
+					{ "item": KJ('incomplete_infernal_mechanism') },
+					{ "fluid": MC("lava"), "amount": 1000 }
+				],
+				"results": [
+					{ "item": KJ('incomplete_infernal_mechanism') }
+				]
+			},
+			{
+				"type": "create:filling",
+				"ingredients": [
+					{ "item": KJ('incomplete_infernal_mechanism') },
+					{ "fluid": MC("lava"), "amount": 1000 }
+				],
+				"results": [
+					{ "item": KJ('incomplete_infernal_mechanism') }
+				]
+			},
+			{
+				"type": "create:filling",
+				"ingredients": [
+					{ "item": KJ('incomplete_infernal_mechanism') },
+					{ "fluid": MC("lava"), "amount": 1000 }
+				],
+				"results": [
+					{ "item": KJ('incomplete_infernal_mechanism') }
+				]
+			}
+		],
+		"transitionalItem": { "item": KJ('incomplete_infernal_mechanism') }
+	}).id('kubejs:infernal_mechanism')
 
 	// Zinc Machines
 	donutCraft(event, KJ('zinc_machine'), KJ('zinc_casing'), KJ('infernal_mechanism'))
@@ -396,17 +568,47 @@ ServerEvents.recipes(event => {
 
 	// Logistic Mechanisms
 	// TODO: make the line for this, uses above as a placeholder 
-	transitional = KJ('incomplete_logistic_mechanism')
-	event.recipes.createSequencedAssembly([
-		KJ('logistic_mechanism'),
-	], CR('precision_mechanism'), [
-		// event.recipes.createFilling(transitional, [transitional, Fluid.of(KJS("liquid_pulp"), 500)]),
-		event.recipes.createFilling(transitional, [transitional, Fluid.of(MC("lava"), 1000)]),
-		event.recipes.createFilling(transitional, [transitional, Fluid.of(MC("lava"), 1000)]),
-		event.recipes.createFilling(transitional, [transitional, Fluid.of(MC("lava"), 1000)])
-	]).transitionalItem(transitional)
-		.loops(1)
-		.id('kubejs:logistic_mechanism')
+	event.custom({
+		"type": "create:sequenced_assembly",
+		"ingredient": { "item": CR('precision_mechanism') },
+		"loops": 1,
+		"results": [
+			{ "item": KJ('logistic_mechanism') }
+		],
+		"sequence": [
+			{
+				"type": "create:filling",
+				"ingredients": [
+					{ "item": KJ('incomplete_logistic_mechanism') },
+					{ "fluid": "minecraft:lava", "amount": 1000 }
+				],
+				"results": [
+					{ "item": KJ('incomplete_logistic_mechanism') }
+				]
+			},
+			{
+				"type": "create:filling",
+				"ingredients": [
+					{ "item": KJ('incomplete_logistic_mechanism') },
+					{ "fluid": "minecraft:lava", "amount": 1000 }
+				],
+				"results": [
+					{ "item": KJ('incomplete_logistic_mechanism') }
+				]
+			},
+			{
+				"type": "create:filling",
+				"ingredients": [
+					{ "item": KJ('incomplete_logistic_mechanism') },
+					{ "fluid": "minecraft:lava", "amount": 1000 }
+				],
+				"results": [
+					{ "item": KJ('incomplete_logistic_mechanism') }
+				]
+			}
+		],
+		"transitionalItem": { "item": KJ('incomplete_logistic_mechanism') }
+	}).id('kubejs:logistic_mechanism')
 
 	donutCraft(event, KJ('lead_machine'), KJ('lead_casing'), KJ('logistic_mechanism'))
 
@@ -589,15 +791,29 @@ ServerEvents.recipes(event => {
 	//Coal Coke
 	thermalPyrolyzer(event, [TE("coal_coke"), Fluid.of(TE('creosote'), 50)], MC("charcoal"), 2000, { experience: 0.15 })
 	//Coke Chunk
-	transitional = KJ('incomplete_coke_chunk')
-	event.recipes.createSequencedAssembly([
-		KJ('coke_chunk'),
-	], TE('coal_coke'), [
-		event.recipes.createFilling(transitional, [transitional, Fluid.of(MC("water"), 250)]),
-		event.recipes.createCutting(transitional, transitional).processingTime(100)
-	]).transitionalItem(transitional)
-		.loops(2)
-		.id('kubejs:coke_cutting')
+	event.custom({
+		"type": "create:sequenced_assembly",
+		"ingredient": { "item": TE('coal_coke') },
+		"loops": 2,
+		"results": [{ "item": KJ('coke_chunk') }],
+		"sequence": [
+			{
+				"type": "create:filling",
+				"ingredients": [
+					{ "item": KJ('incomplete_coke_chunk') },
+					{ "fluid": "minecraft:water", "amount": 250 }
+				],
+				"results": [{ "item": KJ('incomplete_coke_chunk') }]
+			},
+			{
+				"type": "create:cutting",
+				"ingredients": [{ "item": KJ('incomplete_coke_chunk') }],
+				"results": [{ "item": KJ('incomplete_coke_chunk') }],
+				"processingTime": 100
+			}
+		],
+		"transitionalItem": { "item": KJ('incomplete_coke_chunk') }
+	}).id('kubejs:coke_cutting')
 	//Sand Ball
 	event.recipes.createSplashing([
 		Item.of(KJ("sand_ball")).withChance(0.125)
@@ -652,7 +868,17 @@ ServerEvents.recipes(event => {
 		[KJ("rough_sand"), TE("earth_charge")],
 		5000)
 	// Silicon Compound
-	event.recipes.createCompacting(KJ("silicon_compound"), [Fluid.of(KJ("fine_sand"), 500), KJ("purified_sand"), KJ("coke_chunk")])
+	event.custom({
+		"type": "create:compacting",
+		"ingredients": [
+			{ "fluid": "kubejs:fine_sand", "amount": 500 },
+			{ "item": "kubejs:purified_sand" },
+			{ "item": "kubejs:coke_chunk" }
+		],
+		"results": [
+			{ "item": "kubejs:silicon_compound" }
+		]
+	})
 	// Silicon
 	thermalSmelter(event,
 		[AE2("silicon")],
@@ -698,16 +924,69 @@ ServerEvents.recipes(event => {
 	//Processors
 	let processorTypes = ["calculation", "logic", "engineering"]
 	processorTypes.forEach(e => {
-		transitional = KJ('incomplete_' + e + '_processor')
-		event.recipes.createSequencedAssembly([
-			AE2(e + '_processor'),
-		], AE2('printed_silicon'), [
-			event.recipes.createDeploying(transitional, [transitional, AE2('printed_' + e + "_processor")]),
-			event.recipes.createFilling(transitional, [transitional, Fluid.of(TE("redstone"), 250)]),
-			event.recipes.createPressing(transitional, transitional)
-		]).transitionalItem(transitional)
-			.loops(1)
-			.id('kubejs:' + e + "_processor")
+		event.custom({
+			"type": "create:sequenced_assembly",
+			"ingredient": {
+				"item": AE2('printed_silicon')
+			},
+			"loops": 1,
+			"results": [
+				{
+					"item": AE2(e + '_processor')
+				}
+			],
+			"sequence": [
+				{
+					"type": "create:deploying",
+					"ingredients": [
+						{
+							"item": KJ('incomplete_' + e + '_processor')
+						},
+						{
+							"item": AE2('printed_' + e + '_processor')
+						}
+					],
+					"results": [
+						{
+							"item": KJ('incomplete_' + e + '_processor')
+						}
+					]
+				},
+				{
+					"type": "create:filling",
+					"ingredients": [
+						{
+							"item": KJ('incomplete_' + e + '_processor')
+						},
+						{
+							"fluid": TE("redstone"),
+							"amount": 250
+						}
+					],
+					"results": [
+						{
+							"item": KJ('incomplete_' + e + '_processor')
+						}
+					]
+				},
+				{
+					"type": "create:pressing",
+					"ingredients": [
+						{
+							"item": KJ('incomplete_' + e + '_processor')
+						}
+					],
+					"results": [
+						{
+							"item": KJ('incomplete_' + e + '_processor')
+						}
+					]
+				}
+			],
+			"transitionalItem": {
+				"item": KJ('incomplete_' + e + '_processor')
+			}
+		}).id('kubejs:' + e + "_processor")
 	})
 	// Flash Drive
 	event.shaped(KJ('flash_drive'), [
@@ -919,82 +1198,82 @@ ServerEvents.recipes(event => {
 
 	// Remove all the recipes we don't want from Beyond Earth
 	// We're in an awkward situation where we want half of the recipes and don't want the other half
-	let begoneEarth = [
-		"nasa_workbenching/tier1", "nasa_workbenching/tier2", "nasa_workbenching/tier3", "nasa_workbenching/tier4", "rover",
-		"oxygen_mask", "space_suit", "space_leggings", "space_boots",
-		"hammer", "iron_stick", "oxygen_gear", "oxygen_tank", "wheel", "engine_frame", "engine_fan", "rocket_nose_cone",
-		"iron_engine", "gold_engine", "diamond_engine", "calorite_engine",
-		"iron_tank", "gold_tank", "diamond_tank", "calorite_tank",
-		"rocket_fin", "iron_plate", "desh_plate",
-		"rocket_launch_pad", "nasa_workbench",
-		"solar_panel", "coal_generator", "compressor", "fuel_refinery", "oxygen_loader", "oxygen_distributer", "water_pump"
-	]
-	begoneEarth.forEach(begone => { event.remove({ output: AA(begone) }) })
+	// let begoneEarth = [
+	// 	"nasa_workbenching/tier1", "nasa_workbenching/tier2", "nasa_workbenching/tier3", "nasa_workbenching/tier4", "rover",
+	// 	"oxygen_mask", "space_suit", "space_leggings", "space_boots",
+	// 	"hammer", "iron_stick", "oxygen_gear", "oxygen_tank", "wheel", "engine_frame", "engine_fan", "rocket_nose_cone",
+	// 	"iron_engine", "gold_engine", "diamond_engine", "calorite_engine",
+	// 	"iron_tank", "gold_tank", "diamond_tank", "calorite_tank",
+	// 	"rocket_fin", "iron_plate", "desh_plate",
+	// 	"rocket_launch_pad", "nasa_workbench",
+	// 	"solar_panel", "coal_generator", "compressor", "fuel_refinery", "oxygen_loader", "oxygen_distributer", "water_pump"
+	// ]
+	// begoneEarth.forEach(begone => { event.remove({ output: AA(begone) }) })
 	// Matter Plastics
-	event.recipes.createCompacting(KJ("matter_plastics"), [AE2("matter_ball"), AE2("matter_ball"), AE2("matter_ball"), AE2("matter_ball"), AE2("matter_ball"), AE2("matter_ball"), AE2("matter_ball"), AE2("matter_ball"), AE2("matter_ball")]).superheated()
-	//Saves a lot of code to reuse an object with the materials here
-	let materials = {
-		A: KJ("matter_plastics"),
-		M: AE2("controller"),
-		G: TE("diamond_gear"),
-		S: KJ("computation_matrix")
-	}
-	// Navigation Computer
-	event.recipes.createMechanicalCrafting("kubejs:navigation_computer", [
-		'AAAAA',
-		'ASSSA',
-		'GS SG',
-		'ASSSA',
-		'AAMAA'
-	], materials)
-	// Oxygen Loader
-	materials.S = MC("bucket")
-	event.recipes.createMechanicalCrafting("ad_astra:oxygen_loader", [
-		'AAA',
-		'GSG',
-		'AMA'
-	], materials)
-	// Oxygen Bubble Distributor
-	materials.S = CR("propeller")
-	event.recipes.createMechanicalCrafting("ad_astra:oxygen_distributor", [
-		'AAA',
-		'GSG',
-		'AMA'
-	], materials)
-	// Lander Deployer
-	materials.S = CR("empty_schematic")
-	event.recipes.createMechanicalCrafting("kubejs:lander_deployer", [
-		'AAA',
-		'GSG',
-		'AMA'
-	], materials)
+	// event.recipes.createCompacting(KJ("matter_plastics"), [AE2("matter_ball"), AE2("matter_ball"), AE2("matter_ball"), AE2("matter_ball"), AE2("matter_ball"), AE2("matter_ball"), AE2("matter_ball"), AE2("matter_ball"), AE2("matter_ball")]).superheated()
+	// //Saves a lot of code to reuse an object with the materials here
+	// let materials = {
+	// 	A: KJ("matter_plastics"),
+	// 	M: AE2("controller"),
+	// 	G: TE("diamond_gear"),
+	// 	S: KJ("computation_matrix")
+	// }
+	// // Navigation Computer
+	// event.recipes.createMechanicalCrafting("kubejs:navigation_computer", [
+	// 	'AAAAA',
+	// 	'ASSSA',
+	// 	'GS SG',
+	// 	'ASSSA',
+	// 	'AAMAA'
+	// ], materials)
+	// // Oxygen Loader
+	// materials.S = MC("bucket")
+	// event.recipes.createMechanicalCrafting("ad_astra:oxygen_loader", [
+	// 	'AAA',
+	// 	'GSG',
+	// 	'AMA'
+	// ], materials)
+	// // Oxygen Bubble Distributor
+	// materials.S = CR("propeller")
+	// event.recipes.createMechanicalCrafting("ad_astra:oxygen_distributor", [
+	// 	'AAA',
+	// 	'GSG',
+	// 	'AMA'
+	// ], materials)
+	// // Lander Deployer
+	// materials.S = CR("empty_schematic")
+	// event.recipes.createMechanicalCrafting("kubejs:lander_deployer", [
+	// 	'AAA',
+	// 	'GSG',
+	// 	'AMA'
+	// ], materials)
 
-	// Space Suit.
-	let pattern = [
-		' A ',
-		'GSG',
-		' A '
-	];
+	// // Space Suit.
+	// let pattern = [
+	// 	' A ',
+	// 	'GSG',
+	// 	' A '
+	// ];
 
-	materials = {
-		A: KJ("matter_plastics"),
-		G: F("#plates/gold"),
-		S: MC("iron_chestplate")
-	}
-	//chestplate
-	event.recipes.createMechanicalCrafting("ad_astra:space_suit", pattern, materials)
-	//helmet
-	materials.S = MC("iron_helmet")
-	event.recipes.createMechanicalCrafting("ad_astra:space_helmet", pattern, materials)
-	//leggings
-	materials.S = MC("iron_leggings")
-	event.recipes.createMechanicalCrafting("ad_astra:space_pants", pattern, materials)
-	//boots
-	materials.S = MC("iron_boots")
-	event.recipes.createMechanicalCrafting("ad_astra:space_boots", pattern, materials)
+	// materials = {
+	// 	A: KJ("matter_plastics"),
+	// 	G: F("#plates/gold"),
+	// 	S: MC("iron_chestplate")
+	// }
+	// //chestplate
+	// event.recipes.createMechanicalCrafting("ad_astra:space_suit", pattern, materials)
+	// //helmet
+	// materials.S = MC("iron_helmet")
+	// event.recipes.createMechanicalCrafting("ad_astra:space_helmet", pattern, materials)
+	// //leggings
+	// materials.S = MC("iron_leggings")
+	// event.recipes.createMechanicalCrafting("ad_astra:space_pants", pattern, materials)
+	// //boots
+	// materials.S = MC("iron_boots")
+	// event.recipes.createMechanicalCrafting("ad_astra:space_boots", pattern, materials)
 
-	// Rocket Launch Pad
-	createMachine(AP('heavy_stone_bricks'), event, Item.of("ad_astra:launch_pad"), KJ("matter_plastics"))
+	// // Rocket Launch Pad
+	// createMachine(AP('heavy_stone_bricks'), event, Item.of("ad_astra:launch_pad"), KJ("matter_plastics"))
 
 	// oil refining
 	event.custom({
@@ -1017,29 +1296,29 @@ ServerEvents.recipes(event => {
 		],
 		"energy": 6000
 	})
-	// Rocket Fuel
-	event.recipes.createMixing(
-		[Fluid.of('ad_astra:fuel', 2)],
-		[Fluid.of(TE('refined_fuel'), 30), Fluid.of(TE('heavy_oil'), 20)]
-	).heated()
+	// // Rocket Fuel
+	// event.recipes.createMixing(
+	// 	[Fluid.of('ad_astra:fuel', 2)],
+	// 	[Fluid.of(TE('refined_fuel'), 30), Fluid.of(TE('heavy_oil'), 20)]
+	// ).heated()
 
 	// The Rocket
-	event.recipes.createMechanicalCrafting('ad_astra:tier_1_rocket', [
-		'    I    ',
-		'   IPI   ',
-		'   IGI   ',
-		'   IGI   ',
-		'  IPNPI  ',
-		'  IPLPI  ',
-		' IPPPPPI ',
-		'  IIIII  ',
-		'  C C C  '
-	], {
-		I: 'minecraft:iron_block',
-		P: 'create:iron_sheet',
-		G: '#forge:glass_panes/colorless',
-		N: 'kubejs:navigation_computer',
-		L: 'kubejs:lander_deployer',
-		C: 'thermal:dynamo_compression'
-	})
+// 	event.recipes.createMechanicalCrafting('ad_astra:tier_1_rocket', [
+// 		'    I    ',
+// 		'   IPI   ',
+// 		'   IGI   ',
+// 		'   IGI   ',
+// 		'  IPNPI  ',
+// 		'  IPLPI  ',
+// 		' IPPPPPI ',
+// 		'  IIIII  ',
+// 		'  C C C  '
+// 	], {
+// 		I: 'minecraft:iron_block',
+// 		P: 'create:iron_sheet',
+// 		G: '#forge:glass_panes/colorless',
+// 		N: 'kubejs:navigation_computer',
+// 		L: 'kubejs:lander_deployer',
+// 		C: 'thermal:dynamo_compression'
+// 	})
 })
