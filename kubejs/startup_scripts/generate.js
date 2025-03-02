@@ -132,7 +132,7 @@ StartupEvents.registry("block", event => {
 	event.create('trial_oxidized_cut_copper_slab', "slab").textureAll('minecraft:block/oxidized_cut_copper').soundType('metal').tagBlock("mineable/pickaxe").tagBlock("needs_stone_tool").requiresTool(true).hardness(3.0).resistance(6.0).displayName("Illusionary Oxidized Cut Copper Slab")
 
 	event.create('enderium_casing').model('cabin:block/enderium_casing').soundType('metal').tagBlock("mineable/pickaxe").tagBlock("create:wrench_pickup").requiresTool(true).hardness(4.0).displayName('Ender Casing')
-	event.create('lead_casing').textureAll('cabin:block/invar_casing').soundType('metal').tagBlock("mineable/pickaxe").tagBlock("create:wrench_pickup").requiresTool(true).hardness(3.0).displayName('Lead Casing')
+	event.create('lead_casing').textureAll('cabin:block/lead_casing').soundType('metal').tagBlock("mineable/pickaxe").tagBlock("create:wrench_pickup").requiresTool(true).hardness(3.0).displayName('Lead Casing')
 	event.create('zinc_casing').textureAll('cabin:block/zinc_casing').soundType('metal').tagBlock("mineable/pickaxe").tagBlock("create:wrench_pickup").requiresTool(true).hardness(3.0).displayName('Zinc Casing')
 	event.create('invar_casing').textureAll('cabin:block/invar_casing').soundType('metal').tagBlock("mineable/pickaxe").tagBlock("create:wrench_pickup").requiresTool(true).hardness(3.0).displayName('Invar Casing')
 	event.create('fluix_casing').textureAll('cabin:block/fluix_casing').soundType('metal').tagBlock("mineable/pickaxe").tagBlock("create:wrench_pickup").requiresTool(true).hardness(3.0).displayName('Fluix Casing')
