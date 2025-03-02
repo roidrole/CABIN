@@ -63,11 +63,34 @@ ServerEvents.recipes(event => {
 	event.remove({ id: TC('smeltery/casting/cheese_block')})
 	event.remove({ id: TC('smeltery/casting/cheese_ingot_gold_cast')})
 	event.remove({ id: TC('smeltery/casting/cheese_ingot_sand_cast')})
+
+	//Buffs melting of beetroots into soup
+	event.remove({id:TC('smeltery/melting/slime/beetroot_soup')})
+	event.custom({
+		"type": "tconstruct:melting",
+		"ingredient": {"item": "minecraft:beetroot"},
+		"result": {"fluid": "tconstruct:beetroot_soup", "amount": 75},
+		"temperature": 100,
+		"time": 32
+	})
+	//Ink
+	event.custom({"type": "tconstruct:melting",
+		ingredient: {item:'minecraft:ink_sac'},
+		result: {
+			"fluid":'kubejs:ink',
+			"amount":250
+		},
+		temperature: 100,
+		time: 32
+	})
 })
 
 ServerEvents.tags('item', event => {
 	//zinc anvils
 	event.get('tconstruct:anvil_metal').add(CR('zinc_block'))
+
+	//Necrotic bones are bones
+	event.get('forge:bones').add('tconstruct:necrotic_bone')
 })
 
 ServerEvents.tags('block', event => {

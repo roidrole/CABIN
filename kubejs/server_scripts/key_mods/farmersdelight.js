@@ -41,4 +41,25 @@ ServerEvents.recipes(event => {
 			})
 		}
 	})
+
+
+	//Fix creating sweet berry cookies with honey. Honey cookies exist.
+	event.remove({id:FD('honey_berry_cookie')})
+
+	//More mushrooms exist
+	event.remove({id:FD('cooking/rabbit_stew')})
+	event.custom({
+		type: "farmersdelight:cooking",
+		recipe_book_tab: "meals",
+		ingredients: [
+			Ingredient.of('minecraft:baked_potato').toJson(),
+			Ingredient.of('minecraft:rabbit').toJson(),
+			Ingredient.of('minecraft:carrot').toJson(),
+			Ingredient.of('#forge:mushrooms').toJson()
+		],
+		result: Ingredient.of('minecraft:rabbit_stew').toJson(),
+		experience: 1.0,
+		cookingtime: 200,
+		container:Ingredient.of('minecraft:bowl').toJson()
+  })
 })

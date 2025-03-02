@@ -66,6 +66,33 @@ ServerEvents.tags('item', event => {
 		.add(PR_C("draw_plate"))
 		.add(PR_C("multimeter"))
 
+	event.get('kubejs:fruit_slices').add(MC('melon_slice')).add(FD('pumpkin_slice')).add(MC('glistering_melon_slice'))
+	event.get('kubejs:barbecue_stick_ingredient')
+		.add('farmersdelight:cooked_bacon') 
+		.add('minecraft:cooked_porkchop') 
+		.add('farmersdelight:beef_patty') 
+		.add('minecraft:cooked_beef') 
+		.add('minecraft:cooked_rabbit') 
+		.add('farmersdelight:cooked_salmon_slice') 
+		.add('minecraft:cooked_salmon') 
+		.add('farmersdelight:cooked_cod_slice') 
+		.add('minecraft:cooked_cod') 
+		.add('farmersdelight:cooked_mutton_chops') 
+		.add('minecraft:cooked_mutton') 
+		.add('farmersdelight:cooked_chicken_cuts') 
+		.add('minecraft:cooked_chicken')
+	event.get("forge:mushrooms").add("minecraft:crimson_fungus", "minecraft:warped_fungus")
+	event.get('kubejs:broth_ingredients').add(F('#mushrooms')).add(MC('glow_berries')).add(MC('glow_lichen')).add(MC('hanging_roots'))
+	event.get('kubejs:dumpling_ingredients').add(F('#raw_chicken')).add(F('#raw_pork')).add(F('#raw_beef')).add(MC('brown_mushroom'))
+	event.get("kubejs:cake_slices")
+		.add("farmersdelight:cake_slice")
+		.add("kubejs:earth_cake_slice")
+		.add("kubejs:sky_cake_slice")
+		.add("kubejs:blood_cake_slice")
+		.add("kubejs:ender_cake_slice")
+		.add("kubejs:magma_cake_slice")
+	
+
 	//crafting tools for the chapters
 	event.get('kubejs:saws').add('cb_microblock:stone_saw').add('cb_microblock:iron_saw').add('cb_microblock:diamond_saw')
 	event.get('kubejs:screwdrivers').add(PR_C('screwdriver'))
@@ -211,6 +238,10 @@ ServerEvents.tags('item', event => {
 
 	//This tag auto adds the beacon_payment_items tag which we don't want
 	event.remove(CR('create_ingots'), CR('andesite_alloy'))
+})
+
+ServerEvents.tags("fluid", event => {
+	event.get('forge:ink').add('kubejs:ink')
 })
 
 ServerEvents.tags('block', event => {

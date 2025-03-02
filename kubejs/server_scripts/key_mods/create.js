@@ -48,4 +48,8 @@ ServerEvents.recipes(event => {
 		Item.of(MC('gold_nugget', 2)).withChance(0.125),
 		Item.of(MC('dead_bush')).withChance(0.05)
 	], 'minecraft:red_sand')
+
+
+	//ink was added
+	event.recipes.createCompacting([Fluid.of('kubejs:ink',250)], 'minecraft:ink_sac')
 })

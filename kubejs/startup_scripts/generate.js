@@ -74,6 +74,23 @@ StartupEvents.registry('item', event => {
 			.displayName(`Slimy Fern Blend`)
 	}
 
+	//Adds cake slices
+	//Combining and cutting should be added to server_scripts/mods/create_central_kitchen.js
+	//kubejs:cake_slices tag should be added in server_scripts/tags.js
+	let cake_types = ["earth", "sky", "blood", "ender", "magma"]
+	let cake_potions = ['minecraft:luck','minecraft:jump_boost','minecraft:regeneration','minecraft:levitation','minecraft:fire_resistance']
+	let cake_durations = [300, 400, 150, 200, 600]
+	for (let i = 0; i < cake_types.length; i++) {
+		event.create(cake_types[i] + '_cake_slice').food(cake => {cake
+			.hunger(1)
+			.saturation(0.133333)
+			.effect(cake_potions[i], cake_durations[i], 0, 1)
+			.fastToEat()
+		}).texture("cabin:item/cake_slice/"+cake_types[i])
+		.displayName('Slice of '+cake_types[i][0].toUpperCase()+cake_types[i].substring(1)+' Cake')
+	}
+	event.create('pasta').food(food => {food.hunger(2).saturation(0.133333)}).texture("cabin:item/pasta_plate") //Todo : Return a bowl when eaten
+
 	// Misc / Integration
 	event.create('pipe_module_utility').texture("cabin:item/pipe_module_utility").displayName('Utility Pipe Module')
 	event.create('pipe_module_tier_1').texture("cabin:item/pipe_module_tier_1").displayName('Brass Pipe Module')
@@ -92,6 +109,18 @@ StartupEvents.registry('item', event => {
 	//event.create('smoke_mote').texture("cabin:item/smoke_mote").displayName('Tiny Smoke Cloud')
 	event.create('incomplete_coke_chunk','create:sequenced_assembly').texture("cabin:item/incomplete_coke_chunk").displayName('Cut Coke')
 	event.create('coke_chunk').texture("cabin:item/coke_chunk").displayName('Coke Chunks')
+	
+	event.create('incomplete_bowl_meal','create:sequenced_assembly').texture('minecraft:item/bowl')
+	event.create('incomplete_stick_meal','create:sequenced_assembly').texture('minecraft:item/stick')
+	event.create('incomplete_baked_potato_meal','create:sequenced_assembly').texture('minecraft:item/baked_potato')
+	event.create('incomplete_bread_meal','create:sequenced_assembly').texture('minecraft:item/bread')
+	event.create('incomplete_cooked_rice_meal','create:sequenced_assembly').texture('farmersdelight:item/cooked_rice')
+	event.create('incomplete_carrot_meal','create:sequenced_assembly').texture('minecraft:item/carrot')
+	event.create('incomplete_smoked_ham_meal','create:sequenced_assembly').texture('farmersdelight:item/smoked_ham')
+	event.create('incomplete_pie_crust_meal','create:sequenced_assembly').texture('farmersdelight:item/pie_crust')
+	event.create('incomplete_hay_block_meal','create:sequenced_assembly').parentModel({"parent": "minecraft:block/hay_block"})
+	event.create('incomplete_canvas_meal','create:sequenced_assembly').texture('farmersdelight:item/canvas')
+	event.create('incomplete_pasta_meal','create:sequenced_assembly').texture('cabin:item/pasta_plate')
 
 	event.create('matter_plastics').texture("cabin:item/matter_plastics").displayName('Matter Plastics')
 	event.create('nickel_compound').texture("cabin:item/nickel_compound").displayName('Nickel Compound')
@@ -360,6 +389,13 @@ StartupEvents.registry("fluid", event => {
 	event.create('volatile_sky_solution').displayName(`Volatile Sky Solution`).stillTexture('tconstruct:block/fluid/obsidian/still').flowingTexture('tconstruct:block/fluid/obsidian/flowing').color(0x8feebf).bucketColor(0x1A1123)
 	event.create('chromatic_waste').displayName(`Chromatic Waste`).stillTexture('tconstruct:block/fluid/enderium/still').flowingTexture('tconstruct:block/fluid/enderium/flowing').color(0x0B3E36)
 //	event.create('liquid_smoke').displayName(`Liquid Smoke`).stillTexture('advancedrocketry:blocks/fluid/oxygen_still').flowingTexture('advancedrocketry:blocks/fluid/oxygen_flow').bucketColor(0xEBEBEB)
+	event.create('ink').stillTexture('thermal:block/fluids/crude_oil_still').flowingTexture('thermal:block/fluids/crude_oil_flow').bucketColor(0x222118)
+
+	function makeStew(event, id, color){
+		event.create(id).color(color).stillTexture('tconstruct:block/fluid/food/stew/still').flowingTexture('tconstruct:block/fluid/food/stew/flowing');
+	}
+	makeStew(event, 'buddybean_paste', 0x5578b9)
+	makeStew(event, 'glow_berry_custard', 0xd1834c)
 })
 
 ItemEvents.modification(event => {

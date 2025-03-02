@@ -265,6 +265,17 @@ global.itemBlacklist = [
 	'create_central_kitchen:incomplete_cherry_pie',
 	'create_central_kitchen:incomplete_truffle_pie',
 	'create_central_kitchen:incomplete_mulberry_pie',
+	'incomplete_bowl_meal',
+	'incomplete_stick_meal',
+	'incomplete_baked_potato_meal',
+	'incomplete_bread_meal',
+	'incomplete_cooked_rice_meal',
+	'incomplete_carrot_meal',
+	'incomplete_smoked_ham_meal',
+	'incomplete_pie_crust_meal',
+	'incomplete_hay_block_meal',
+	'incomplete_canvas_meal',
+	'incomplete_pasta_meal',
 
 	//Decorative Blocks
 	'decorative_blocks:blockstate_copy_item',
