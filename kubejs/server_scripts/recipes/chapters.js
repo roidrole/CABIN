@@ -23,7 +23,7 @@ ServerEvents.recipes(event => {
 	//Wood slab cutting
 	let plankCutting = (wood) => {
 		let planks = wood + '_planks'
-		let slab = wood+'_slab'
+		let slab = wood + '_slab'
 		if (!Item.exists(slab)) {
 			//Some mods name their wood slabs 'planks slab' for some reason
 			slab = wood + '_planks_slab'
@@ -90,8 +90,8 @@ ServerEvents.recipes(event => {
 		event.recipes.createDeploying(transitional, [transitional, CR('andesite_alloy')]),
 		event.recipes.createDeploying(transitional, [transitional, KJ('#saws')])
 	]).transitionalItem(transitional)
-	.loops(1)
-	.id('kubejs:kinetic_mechanism')
+		.loops(1)
+		.id('kubejs:kinetic_mechanism')
 	//Handcrafting recipe
 	event.shapeless(KJ('kinetic_mechanism'), [KJ('#saws'), CR('cogwheel'), CR('andesite_alloy'), '#minecraft:logs']).id("kubejs:kinetic_mechanism_manual_only")
 
@@ -147,10 +147,10 @@ ServerEvents.recipes(event => {
 	createMachine(TE("dynamo_stirling"), event, TE("dynamo_gourmand"), MC("golden_apple"))
 
 	// - - - - - Chapter 1A - - - - -
-	event.remove({type:'thermal:tree_extractor'})
-	wood_types.forEach(wood=>{
-		if (Item.exists(wood+'_log') && Item.exists(wood+'_leaves')&& Item.exists(wood+'_sapling')) {
-			addTreeOutput(event, wood+'_log', wood+'_leaves').id('kubejs:devices/tree_extractor/tree_extractor_'+wood.split(':')[1])
+	event.remove({ type: 'thermal:tree_extractor' })
+	wood_types.forEach(wood => {
+		if (Item.exists(wood + '_log') && Item.exists(wood + '_leaves') && Item.exists(wood + '_sapling')) {
+			addTreeOutput(event, wood + '_log', wood + '_leaves').id('kubejs:devices/tree_extractor/tree_extractor_' + wood.split(':')[1])
 		}
 	})
 	// addTreeOutput( TC('greenheart_log'), TC('earth_slime_leaves'), {fluid: TC("earth_slime"), amount: 10})
@@ -212,7 +212,7 @@ ServerEvents.recipes(event => {
 	event.remove({ id: TC("smeltery/melting/metal/copper/smeltery_controller") })
 	donutCraft(event, TC('smeltery_controller'), TC('#seared_blocks'), KJ('sealed_mechanism')).modifyResult((grid, result) => {
 		let item = grid.find(TC("#seared_blocks"))
-		return result.withNBT({texture: item.id})
+		return result.withNBT({ texture: item.id })
 	})
 
 	// - - - - - Chapter 1B - - - - -
@@ -253,7 +253,7 @@ ServerEvents.recipes(event => {
 	goldMachine(event, Item.of('railways:track_coupler', 2))
 	goldMachine(event, Item.of('railways:track_switch_andesite', 1), 'create:andesite_alloy')
 	goldMachine(event, Item.of('railways:track_switch_brass', 1), 'create:brass_ingot')
-	
+
 	// - - - - - Chapter 2 - - - - -
 	event.remove({ id: CR('milling/compat/ae2/sky_stone_block') })
 	event.remove({ id: CR('milling/compat/ae2/nether_quartz') })
@@ -389,8 +389,37 @@ ServerEvents.recipes(event => {
 	event.remove({ id: TC('smeltery/melting/obsidian/foundry_controller') })
 	donutCraft(event, TC('foundry_controller'), TC('#scorched_blocks'), KJ('infernal_mechanism')).modifyResult((grid, result) => {
 		let item = grid.find(TC("#scorched_blocks"))
-		return result.withNBT({texture: item.id})
+		return result.withNBT({ texture: item.id })
 	})
+
+	// - - - - - Chapter 2b - - - - -
+
+	// Logistic Mechanisms
+	// TODO: make the line for this, uses above as a placeholder 
+	transitional = KJ('incomplete_logistic_mechanism')
+	event.recipes.createSequencedAssembly([
+		KJ('logistic_mechanism'),
+	], CR('precision_mechanism'), [
+		// event.recipes.createFilling(transitional, [transitional, Fluid.of(KJS("liquid_pulp"), 500)]),
+		event.recipes.createFilling(transitional, [transitional, Fluid.of(MC("lava"), 1000)]),
+		event.recipes.createFilling(transitional, [transitional, Fluid.of(MC("lava"), 1000)]),
+		event.recipes.createFilling(transitional, [transitional, Fluid.of(MC("lava"), 1000)])
+	]).transitionalItem(transitional)
+		.loops(1)
+		.id('kubejs:logistic_mechanism')
+
+	donutCraft(event, KJ('lead_machine'), KJ('lead_casing'), KJ('logistic_mechanism'))
+
+	leadMachine(event, Item.of('create:package_frogport', 1), MC('slime_ball'))
+	leadMachine(event, Item.of('create:item_hatch', 4))
+	leadMachine(event, Item.of('create:packager', 1), 'create:cardboard_block')
+	leadMachine(event, Item.of('create:repackager', 1), 'create:bound_cardboard_block')
+	leadMachine(event, Item.of('create:redstone_requester', 1), 'create:stock_link')
+	leadMachine(event, Item.of('create:factory_gauge', 2))
+
+	// Stock Link Recipe
+	event.replaceInput({ id: 'create:crafting/logistics/stock_link' }, CR('item_vault'), KJ('lead_casing'))
+
 	// - - - - - Chapter 3 - - - - -
 	//Fern Transmutation
 	let fern1 = KJ("ender_slimy_fern_leaf")
@@ -496,7 +525,7 @@ ServerEvents.recipes(event => {
 	invarMachine(event, Item.of(TE('dynamo_compression'), 1), TE('rf_coil'))
 	invarMachine(event, Item.of('kubejs:pipe_module_tier_2', 4))
 	// Disenchantment Upgrade
-	createMachine(TE("dynamo_compression"), event, Item.of(TE("dynamo_disenchantment"),1), "forbidden_arcanus:rune")
+	createMachine(TE("dynamo_compression"), event, Item.of(TE("dynamo_disenchantment"), 1), "forbidden_arcanus:rune")
 	// Default thermal machine recipes are kept in.
 	// Check older versions of the script to see commented out code for thermal machine crafting recipes
 
@@ -542,7 +571,7 @@ ServerEvents.recipes(event => {
 	enderiumMachine(event, Item.of('kubejs:pipe_module_tier_3', 4))
 
 	// Fluid Cells moved to enderium due to being able to transport fluids more efficiently than pipes
-	event.replaceInput( {id: TE('fluid_cell_frame')}, F('#glass'), [TE('fluid_duct'),TE('fluid_duct_windowed')])
+	event.replaceInput({ id: TE('fluid_cell_frame') }, F('#glass'), [TE('fluid_duct'), TE('fluid_duct_windowed')])
 	// Windowed fluiducts
 	event.remove({ output: TE('fluid_duct_windowed') })
 	event.shapeless(TE('fluid_duct_windowed'), [TE('fluid_duct')])
@@ -556,9 +585,9 @@ ServerEvents.recipes(event => {
 	event.shaped(KJ("circuit_scrap", 2), [" A ", "ABA", " A "], { A: TE("invar_ingot"), B: KJ("#circuit_press") })
 	// Pyrolyzer charcoal
 	event.remove({ id: TE("machines/pyrolyzer/pyrolyzer_logs") })
-	thermalPyrolyzer(event, [MC("charcoal", 2), Fluid.of(TE('creosote'), 50)], MC("#logs"), 1000, {experience: 0.15})
+	thermalPyrolyzer(event, [MC("charcoal", 2), Fluid.of(TE('creosote'), 50)], MC("#logs"), 1000, { experience: 0.15 })
 	//Coal Coke
-	thermalPyrolyzer(event, [TE("coal_coke"), Fluid.of(TE('creosote'), 50)], MC("charcoal"), 2000, {experience: 0.15})
+	thermalPyrolyzer(event, [TE("coal_coke"), Fluid.of(TE('creosote'), 50)], MC("charcoal"), 2000, { experience: 0.15 })
 	//Coke Chunk
 	transitional = KJ('incomplete_coke_chunk')
 	event.recipes.createSequencedAssembly([
@@ -613,19 +642,19 @@ ServerEvents.recipes(event => {
 	event.recipes.createCrushing([Item.of(blizz, 1), Item.of(blizz, 1).withChance(.5)], TE("blizz_rod"))
 	event.recipes.createCrushing([Item.of(basalz, 1), Item.of(basalz, 1).withChance(.5)], TE("basalz_rod"))
 	//Ice and Earth Charges
-	event.remove({ id: TE("ice_charge_3")})
-	event.remove({ id: TE("earth_charge_3")})
+	event.remove({ id: TE("ice_charge_3") })
+	event.remove({ id: TE("earth_charge_3") })
 	event.recipes.createCompacting(TE("ice_charge"), [blizz, blizz, blizz, blizz, blizz, blizz, blizz, blizz])
 	event.recipes.createCompacting(TE("earth_charge"), [basalz, basalz, basalz, basalz, basalz, basalz, basalz, basalz])
 	// Purified Sand
-	thermalSmelter(event, 
+	thermalSmelter(event,
 		[KJ("purified_sand")],
 		[KJ("rough_sand"), TE("earth_charge")],
 		5000)
 	// Silicon Compound
 	event.recipes.createCompacting(KJ("silicon_compound"), [Fluid.of(KJ("fine_sand"), 500), KJ("purified_sand"), KJ("coke_chunk")])
 	// Silicon
-	thermalSmelter(event, 
+	thermalSmelter(event,
 		[AE2("silicon")],
 		[KJ("silicon_compound"), TE("ice_charge")],
 		5000)
@@ -900,7 +929,7 @@ ServerEvents.recipes(event => {
 		"rocket_launch_pad", "nasa_workbench",
 		"solar_panel", "coal_generator", "compressor", "fuel_refinery", "oxygen_loader", "oxygen_distributer", "water_pump"
 	]
-	begoneEarth.forEach(begone=>{event.remove({ output: AA(begone) })})
+	begoneEarth.forEach(begone => { event.remove({ output: AA(begone) }) })
 	// Matter Plastics
 	event.recipes.createCompacting(KJ("matter_plastics"), [AE2("matter_ball"), AE2("matter_ball"), AE2("matter_ball"), AE2("matter_ball"), AE2("matter_ball"), AE2("matter_ball"), AE2("matter_ball"), AE2("matter_ball"), AE2("matter_ball")]).superheated()
 	//Saves a lot of code to reuse an object with the materials here
@@ -939,7 +968,7 @@ ServerEvents.recipes(event => {
 		'GSG',
 		'AMA'
 	], materials)
-	
+
 	// Space Suit.
 	let pattern = [
 		' A ',
@@ -972,19 +1001,19 @@ ServerEvents.recipes(event => {
 		"type": "thermal:refinery",
 		"ingredient": { "fluid": "kubejs:crude_oil", "amount": 100 },
 		"result": [
-			{	"fluid": "thermal:heavy_oil",	"amount": 40 },
-			{	"fluid": "thermal:light_oil",	"amount": 60 },
-			{	"item": "thermal:bitumen", "chance": 0.10	}
+			{ "fluid": "thermal:heavy_oil", "amount": 40 },
+			{ "fluid": "thermal:light_oil", "amount": 60 },
+			{ "item": "thermal:bitumen", "chance": 0.10 }
 		],
 		"energy": 6000
 	})
 	event.custom({
 		"type": "thermal:refinery",
-		"ingredient": {	"fluid": "ad_astra:oil", "amount": 100 },
+		"ingredient": { "fluid": "ad_astra:oil", "amount": 100 },
 		"result": [
-			{	"fluid": "thermal:heavy_oil",	"amount": 40 },
-			{	"fluid": "thermal:light_oil",	"amount": 60 },
-			{	"item": "thermal:bitumen", "chance": 0.10 }
+			{ "fluid": "thermal:heavy_oil", "amount": 40 },
+			{ "fluid": "thermal:light_oil", "amount": 60 },
+			{ "item": "thermal:bitumen", "chance": 0.10 }
 		],
 		"energy": 6000
 	})
