@@ -93,6 +93,8 @@ if(Platform.isLoaded("create_central_kitchen")) {
 		let nood = (event, output, input, loop) => meal(event, output, input, "kubejs:pasta", loop)
 
 		//All farmers delight foods
+		meal(event, "farmersdelight:sweet_berry_cheesecake", ["fluidTag:'forge:milk',250","minecraft:sweet_berries","minecraft:sweet_berries"], 'farmersdelight:pie_crust', 2)
+		meal(event, 'farmersdelight:apple_pie', ["minecraft:sugar", "minecraft:apple", "minecraft:wheat"], 'farmersdelight:pie_crust', 2)
 		if(Platform.isLoaded("thermal")){event.custom({"result":[{"item":"farmersdelight:melon_popsicle"}],
 				"type":"thermal:chiller",
 				"ingredients":[
