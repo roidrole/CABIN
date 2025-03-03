@@ -329,6 +329,7 @@ ServerEvents.recipes(event => {
 	goldMachine(event, Item.of('create:track_signal', 4))
 	goldMachine(event, Item.of('create:schedule', 4))
 	goldMachine(event, Item.of('create:track_observer', 2))
+
 	if(Platform.isLoaded("railways")) {
 	goldMachine(event, Item.of('railways:semaphore', 4))
 	goldMachine(event, Item.of('railways:conductor_whistle', 4))
@@ -1221,86 +1222,86 @@ ServerEvents.recipes(event => {
 		"cooling_time": 20
 	})
 
-	// Remove all the recipes we don't want from Beyond Earth
-	// We're in an awkward situation where we want half of the recipes and don't want the other half
-	// let begoneEarth = [
-	// 	"nasa_workbenching/tier1", "nasa_workbenching/tier2", "nasa_workbenching/tier3", "nasa_workbenching/tier4", "rover",
-	// 	"oxygen_mask", "space_suit", "space_leggings", "space_boots",
-	// 	"hammer", "iron_stick", "oxygen_gear", "oxygen_tank", "wheel", "engine_frame", "engine_fan", "rocket_nose_cone",
-	// 	"iron_engine", "gold_engine", "diamond_engine", "calorite_engine",
-	// 	"iron_tank", "gold_tank", "diamond_tank", "calorite_tank",
-	// 	"rocket_fin", "iron_plate", "desh_plate",
-	// 	"rocket_launch_pad", "nasa_workbench",
-	// 	"solar_panel", "coal_generator", "compressor", "fuel_refinery", "oxygen_loader", "oxygen_distributer", "water_pump"
-	// ]
-	// begoneEarth.forEach(begone => { event.remove({ output: AA(begone) }) })
+//	Remove all the recipes we don't want from Ad Astra
+//	We're in an awkward situation where we want half of the recipes and don't want the other half
+	let begoneEarth = [
+		"nasa_workbenching/tier1", "nasa_workbenching/tier2", "nasa_workbenching/tier3", "nasa_workbenching/tier4", "rover",
+		"oxygen_mask", "space_suit", "space_leggings", "space_boots",
+		"hammer", "iron_stick", "oxygen_gear", "oxygen_tank", "wheel", "engine_frame", "engine_fan", "rocket_nose_cone",
+		"iron_engine", "gold_engine", "diamond_engine", "calorite_engine",
+		"iron_tank", "gold_tank", "diamond_tank", "calorite_tank",
+		"rocket_fin", "iron_plate", "desh_plate",
+		"rocket_launch_pad", "nasa_workbench",
+		"solar_panel", "coal_generator", "compressor", "fuel_refinery", "oxygen_loader", "oxygen_distributer", "water_pump"
+	]
+	begoneEarth.forEach(begone => { event.remove({ output: AA(begone) }) })
 	// Matter Plastics
-	// event.recipes.createCompacting(KJ("matter_plastics"), [AE2("matter_ball"), AE2("matter_ball"), AE2("matter_ball"), AE2("matter_ball"), AE2("matter_ball"), AE2("matter_ball"), AE2("matter_ball"), AE2("matter_ball"), AE2("matter_ball")]).superheated()
-	// //Saves a lot of code to reuse an object with the materials here
-	// let materials = {
-	// 	A: KJ("matter_plastics"),
-	// 	M: AE2("controller"),
-	// 	G: TE("diamond_gear"),
-	// 	S: KJ("computation_matrix")
-	// }
-	// // Navigation Computer
-	// event.recipes.createMechanicalCrafting("kubejs:navigation_computer", [
-	// 	'AAAAA',
-	// 	'ASSSA',
-	// 	'GS SG',
-	// 	'ASSSA',
-	// 	'AAMAA'
-	// ], materials)
-	// // Oxygen Loader
-	// materials.S = MC("bucket")
-	// event.recipes.createMechanicalCrafting("ad_astra:oxygen_loader", [
-	// 	'AAA',
-	// 	'GSG',
-	// 	'AMA'
-	// ], materials)
-	// // Oxygen Bubble Distributor
-	// materials.S = CR("propeller")
-	// event.recipes.createMechanicalCrafting("ad_astra:oxygen_distributor", [
-	// 	'AAA',
-	// 	'GSG',
-	// 	'AMA'
-	// ], materials)
-	// // Lander Deployer
-	// materials.S = CR("empty_schematic")
-	// event.recipes.createMechanicalCrafting("kubejs:lander_deployer", [
-	// 	'AAA',
-	// 	'GSG',
-	// 	'AMA'
-	// ], materials)
+	event.recipes.createCompacting(KJ("matter_plastics"), [AE2("matter_ball"), AE2("matter_ball"), AE2("matter_ball"), AE2("matter_ball"), AE2("matter_ball"), AE2("matter_ball"), AE2("matter_ball"), AE2("matter_ball"), AE2("matter_ball")]).superheated()
+	//Saves a lot of code to reuse an object with the materials here
+	let materials = {
+		A: KJ("matter_plastics"),
+		M: AE2("controller"),
+		G: TE("diamond_gear"),
+		S: KJ("computation_matrix")
+	}
+	// Navigation Computer
+	event.recipes.createMechanicalCrafting("kubejs:navigation_computer", [
+		'AAAAA',
+		'ASSSA',
+		'GS SG',
+		'ASSSA',
+		'AAMAA'
+	], materials)
+	// Oxygen Loader
+	materials.S = MC("bucket")
+	event.recipes.createMechanicalCrafting("ad_astra:oxygen_loader", [
+		'AAA',
+		'GSG',
+		'AMA'
+	], materials)
+	// Oxygen Bubble Distributor
+	materials.S = CR("propeller")
+	event.recipes.createMechanicalCrafting("ad_astra:oxygen_distributor", [
+		'AAA',
+		'GSG',
+		'AMA'
+	], materials)
+	// Lander Deployer
+	materials.S = CR("empty_schematic")
+	event.recipes.createMechanicalCrafting("kubejs:lander_deployer", [
+		'AAA',
+		'GSG',
+		'AMA'
+	], materials)
 
-	// // Space Suit.
-	// let pattern = [
-	// 	' A ',
-	// 	'GSG',
-	// 	' A '
-	// ];
+	// Space Suit.
+	let pattern = [
+		' A ',
+		'GSG',
+		' A '
+	];
 
-	// materials = {
-	// 	A: KJ("matter_plastics"),
-	// 	G: F("#plates/gold"),
-	// 	S: MC("iron_chestplate")
-	// }
-	// //chestplate
-	// event.recipes.createMechanicalCrafting("ad_astra:space_suit", pattern, materials)
-	// //helmet
-	// materials.S = MC("iron_helmet")
-	// event.recipes.createMechanicalCrafting("ad_astra:space_helmet", pattern, materials)
-	// //leggings
-	// materials.S = MC("iron_leggings")
-	// event.recipes.createMechanicalCrafting("ad_astra:space_pants", pattern, materials)
-	// //boots
-	// materials.S = MC("iron_boots")
-	// event.recipes.createMechanicalCrafting("ad_astra:space_boots", pattern, materials)
+	materials = {
+		A: KJ("matter_plastics"),
+		G: F("#plates/gold"),
+		S: MC("iron_chestplate")
+	}
+	//chestplate
+	event.recipes.createMechanicalCrafting("ad_astra:space_suit", pattern, materials)
+	//helmet
+	materials.S = MC("iron_helmet")
+	event.recipes.createMechanicalCrafting("ad_astra:space_helmet", pattern, materials)
+	//leggings
+	materials.S = MC("iron_leggings")
+	event.recipes.createMechanicalCrafting("ad_astra:space_pants", pattern, materials)
+	//boots
+	materials.S = MC("iron_boots")
+	event.recipes.createMechanicalCrafting("ad_astra:space_boots", pattern, materials)
 
-	// // Rocket Launch Pad
-	// createMachine(AP('heavy_stone_bricks'), event, Item.of("ad_astra:launch_pad"), KJ("matter_plastics"))
+	// Rocket Launch Pad
+	createMachine(AP('heavy_stone_bricks'), event, Item.of("ad_astra:launch_pad"), KJ("matter_plastics"))
 
-	// oil refining
+//	oil refining
 	event.custom({
 		"type": "thermal:refinery",
 		"ingredient": { "fluid": "kubejs:crude_oil", "amount": 100 },
@@ -1321,29 +1322,36 @@ ServerEvents.recipes(event => {
 		],
 		"energy": 6000
 	})
-	// // Rocket Fuel
-	// event.recipes.createMixing(
-	// 	[Fluid.of('ad_astra:fuel', 2)],
-	// 	[Fluid.of(TE('refined_fuel'), 30), Fluid.of(TE('heavy_oil'), 20)]
-	// ).heated()
+	// Rocket Fuel
+	event.custom({
+		"type": "create:mixing",
+		"heatRequirement": "heated",
+		"ingredients": [
+			{ "fluid": "thermal:refined_fuel", "amount": 30 },
+			{ "fluid": "thermal:heavy_oil", "amount": 20 }
+		],
+		"results": [
+			{ "fluid": "ad_astra:fuel", "amount": 2 }
+		]
+	})
 
 	// The Rocket
-// 	event.recipes.createMechanicalCrafting('ad_astra:tier_1_rocket', [
-// 		'    I    ',
-// 		'   IPI   ',
-// 		'   IGI   ',
-// 		'   IGI   ',
-// 		'  IPNPI  ',
-// 		'  IPLPI  ',
-// 		' IPPPPPI ',
-// 		'  IIIII  ',
-// 		'  C C C  '
-// 	], {
-// 		I: 'minecraft:iron_block',
-// 		P: 'create:iron_sheet',
-// 		G: '#forge:glass_panes/colorless',
-// 		N: 'kubejs:navigation_computer',
-// 		L: 'kubejs:lander_deployer',
-// 		C: 'thermal:dynamo_compression'
-// 	})
+	event.recipes.createMechanicalCrafting('ad_astra:tier_1_rocket', [
+		'    I    ',
+		'   IPI   ',
+		'   IGI   ',
+		'   IGI   ',
+		'  IPNPI  ',
+		'  IPLPI  ',
+		' IPPPPPI ',
+		'  IIIII  ',
+		'  C C C  '
+	], {
+		I: 'minecraft:iron_block',
+		P: 'create:iron_sheet',
+		G: '#forge:glass_panes/colorless',
+		N: 'kubejs:navigation_computer',
+		L: 'kubejs:lander_deployer',
+		C: 'thermal:dynamo_compression'
+	})
 })
