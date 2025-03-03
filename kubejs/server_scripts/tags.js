@@ -79,9 +79,11 @@ ServerEvents.tags('item', event => {
 	let lampMaterials = ['andesite', 'brass', 'iron', 'copper', 'industrial_iron', 'zinc']
 	for (let i=0;i<lampColours.length;++i) {
 		for (let j=0;j<lampMaterials.length;++j) {
-			let lamp = `createdeco:${lampColours[i]}_${lampMaterials[j]}_lamp`
-			event.add('kubejs:alchemical_laser_lamp', lamp)
-			event.add(`kubejs:alchemical_laser_lamp/${lampColours[i]}`, lamp)
+			let lamp = [`createdeco:${lampColours[i]}_${lampMaterials[j]}_lamp`, `ad_astra:small_${lampColours[i]}_industrial_lamp`]
+			lamp.forEach(l => {
+				event.add('kubejs:alchemical_laser_lamp', l)
+				event.add(`kubejs:alchemical_laser_lamp/${lampColours[i]}`, l)
+			})
 		}
 	}
 	
@@ -214,16 +216,6 @@ ServerEvents.tags('item', event => {
 })
 
 ServerEvents.tags('block', event => {
-	let lampColours = ['yellow', 'red', 'green', 'blue']
-	let lampMaterials = ['andesite', 'brass', 'iron', 'copper', 'industrial_iron', 'zinc']
-	for (let i=0;i<lampColours.length;++i) {
-		for (let j=0;j<lampMaterials.length;++j) {
-			let lamp = `createdeco:${lampColours[i]}_${lampMaterials[j]}_lamp`
-			event.add('kubejs:alchemical_laser_lamp', lamp)
-			event.add(`kubejs:alchemical_laser_lamp/${lampColours[i]}`, lamp)
-		}
-	}
-
 	event.remove('minecraft:beacon_base_blocks', 'thermal:bronze_block')
 
 	//Not sure if anything checks for this block tag but don't want to risk it.
