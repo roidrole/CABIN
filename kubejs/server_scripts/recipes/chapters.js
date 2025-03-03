@@ -163,9 +163,8 @@ ServerEvents.recipes(event => {
 
 	event.custom({
 		"type": "create:mixing",
-		"heatRequirement": "heated",
 		"ingredients": [
-			{ "item": "#vines", "count": 4 },
+			{ "item": "minecraft:vine", "count": 4 },
 			{ "fluid": "minecraft:water", "amount": 250 }
 		],
 		"results": [
@@ -174,9 +173,8 @@ ServerEvents.recipes(event => {
 	})
 	event.custom({
 		"type": "create:mixing",
-		"heatRequirement": "heated",
 		"ingredients": [
-			{ "item": "#minecraft:flowers", "count": 4 },
+			{ "tag": "minecraft:flowers", "count": 4 },
 			{ "fluid": "minecraft:water", "amount": 250 }
 		],
 		"results": [
@@ -184,8 +182,7 @@ ServerEvents.recipes(event => {
 		]
 	})
 	event.custom({
-		"type": "create:mixing",
-		"heatRequirement": "heated",
+		"type": "create:compacting",
 		"ingredients": [
 			{ "fluid": "thermal:resin", "amount": 250 }
 		],
