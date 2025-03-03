@@ -498,7 +498,7 @@ ServerEvents.recipes(event => {
 	event.custom({
 		"type": "create:sequenced_assembly",
 		"ingredient": { "item": CR('precision_mechanism') },
-		"loops": 1,
+		"loops": 6,
 		"results": [
 			{ "item": KJ('infernal_mechanism') }
 		],
@@ -568,6 +568,21 @@ ServerEvents.recipes(event => {
 
 	// Logistic Mechanisms
 	// TODO: make the line for this, uses above as a placeholder 
+
+
+		//Liquid Pulp
+		event.custom({
+			"type": "create:mixing",
+			"heatRequirement": "heated",
+			"ingredients": [
+				{ "item": "create:pulp", "count": 4 },
+				{ "fluid": "minecraft:water", "amount": 500 }
+			],
+			"results": [
+				{ "fluid": "kubejs:liquid_pulp", "amount": 500 }
+			]
+		})
+		
 	event.custom({
 		"type": "create:sequenced_assembly",
 		"ingredient": { "item": CR('precision_mechanism') },
@@ -580,7 +595,7 @@ ServerEvents.recipes(event => {
 				"type": "create:filling",
 				"ingredients": [
 					{ "item": KJ('incomplete_logistic_mechanism') },
-					{ "fluid": "minecraft:lava", "amount": 1000 }
+					{ "fluid": "create:potion","nbt":{"Bottle":"REGULAR","Potion":"kubejs:haste"}, "amount": 1000}
 				],
 				"results": [
 					{ "item": KJ('incomplete_logistic_mechanism') }
@@ -590,7 +605,7 @@ ServerEvents.recipes(event => {
 				"type": "create:filling",
 				"ingredients": [
 					{ "item": KJ('incomplete_logistic_mechanism') },
-					{ "fluid": "minecraft:lava", "amount": 1000 }
+					{ "fluid": "kubejs:liquid_pulp", "amount": 1000 }
 				],
 				"results": [
 					{ "item": KJ('incomplete_logistic_mechanism') }
@@ -600,7 +615,17 @@ ServerEvents.recipes(event => {
 				"type": "create:filling",
 				"ingredients": [
 					{ "item": KJ('incomplete_logistic_mechanism') },
-					{ "fluid": "minecraft:lava", "amount": 1000 }
+					{ "fluid": "kubejs:liquid_pulp", "amount": 1000 }
+				],
+				"results": [
+					{ "item": KJ('incomplete_logistic_mechanism') }
+				]
+			},
+			{
+				"type": "create:filling",
+				"ingredients": [
+					{ "item": KJ('incomplete_logistic_mechanism') },
+					{ "fluid": "kubejs:liquid_pulp", "amount": 1000 }
 				],
 				"results": [
 					{ "item": KJ('incomplete_logistic_mechanism') }

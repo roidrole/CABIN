@@ -20,6 +20,7 @@ ItemEvents.tooltip( tooltip => {
     bonus_assembly('kubejs:reinforced_mechanism', "1B")
     main_assembly('create:precision_mechanism', "2")
     bonus_assembly('kubejs:infernal_mechanism', "2A")
+    bonus_assembly('kubejs:logistic_mechanism', "2B")
     main_assembly('kubejs:inductive_mechanism', "3")
     bonus_assembly('kubejs:abstruse_mechanism', "3A")
     main_assembly('kubejs:calculation_mechanism', "4")

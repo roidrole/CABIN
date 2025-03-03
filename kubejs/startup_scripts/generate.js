@@ -360,8 +360,9 @@ StartupEvents.registry("fluid", event => {
 	event.create('matrix').displayName(`Liquified Computation Matrix`).stillTexture('cabin:fluid/matrix_still').flowingTexture('cabin:fluid/matrix_flow').bucketColor(colors[0])
 	event.create('fine_sand').displayName(`Fine Sand`).stillTexture('cabin:fluid/fine_sand_still').flowingTexture('cabin:fluid/fine_sand_flow').bucketColor(0xE3DBB0)
 	event.create('crude_oil').displayName(`Crude Oil`).stillTexture('thermal:block/fluids/crude_oil_still').flowingTexture('thermal:block/fluids/crude_oil_flow').bucketColor(0x222118)
-	event.create('volatile_sky_solution').displayName(`Volatile Sky Solution`).stillTexture('tconstruct:block/fluid/obsidian/still').flowingTexture('tconstruct:block/fluid/obsidian/flowing').color(0x8feebf).bucketColor(0x1A1123)
-	event.create('chromatic_waste').displayName(`Chromatic Waste`).stillTexture('tconstruct:block/fluid/enderium/still').flowingTexture('tconstruct:block/fluid/enderium/flowing').color(0x0B3E36)
+	event.create('volatile_sky_solution').displayName(`Volatile Sky Solution`).stillTexture('tconstruct:fluid/molten/compat_alloy/refined_obsidian/still').flowingTexture('tconstruct:fluid/molten/compat_alloy/refined_obsidian/flowing').color(0x8feebf).bucketColor(0x1A1123)
+	event.create('chromatic_waste').displayName(`Chromatic Waste`).stillTexture('tconstruct:fluid/molten/compat_alloy/enderium/still').flowingTexture('tconstruct:fluid/molten/compat_alloy/enderium/flowing').color(0x0B3E36)
+	event.create('liquid_pulp').displayName(`Liquid Pulp`).stillTexture('tconstruct:fluid/molten/compat_alloy/pewter/still').flowingTexture('tconstruct:fluid/molten/compat_alloy/pewter/still').color(0xb4a498)
 //	event.create('liquid_smoke').displayName(`Liquid Smoke`).stillTexture('advancedrocketry:blocks/fluid/oxygen_still').flowingTexture('advancedrocketry:blocks/fluid/oxygen_flow').bucketColor(0xEBEBEB)
 })
 
@@ -378,3 +379,27 @@ ItemEvents.modification(event => {
 	})
 })
 
+StartupEvents.registry("potion", (event) => {
+    let createCustomPotion = (name, effect, duration, long_duration, strong_duration) => {
+        event.create(name).effect(
+            effect,
+            20 * duration,
+            0
+        )
+
+        event.create('long_'+name).effect(
+            effect,
+            20 * long_duration,
+            0
+        )
+
+        if (strong_duration != undefined)
+		event.create('strong_'+name).effect(
+            effect,
+            20 * strong_duration,
+            1
+        )
+    }
+
+    createCustomPotion('haste', 'minecraft:haste', 180, 480, 90)
+  })
