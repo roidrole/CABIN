@@ -785,16 +785,13 @@
 			y: -3.0d
 		}
 		{
-			description: [
-				"If you know LUA (or are willing to learn), computercraft is can be a very strong tool in your factory, as computercraft can read information from create blocks."
-				""
-				"CC:C Bridge extends this a bit futher, with the Target and Source blocks able to read and write to create display targets perspectively."
-			]
+			description: ["If you know LUA (or are willing to learn), computercraft is can be a very strong tool in your factory, as computercraft can read information from create blocks."]
 			icon: "computercraft:computer_normal"
 			id: "374933A06E016CE9"
 			rewards: [{
+				count: 16
 				id: "071BEECB37AFECB4"
-				item: "cccbridge:target_block"
+				item: "projectred_core:red_ingot"
 				type: "item"
 			}]
 			tasks: [{

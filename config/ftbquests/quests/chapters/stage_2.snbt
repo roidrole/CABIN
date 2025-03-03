@@ -757,20 +757,28 @@
 				"4B891E9ED8DE6BB2"
 			]
 			description: ["Brew them together and you get haste, no beacon required!"]
-			icon: {
-				Count: 1
-				id: "tconstruct:potion_bucket"
-				tag: {
-					Potion: "kubejs:haste"
-				}
-			}
+			icon: "minecraft:brewing_stand"
 			id: "2131996D22A87667"
 			subtitle: "Contraption 19-3"
-			tasks: [{
-				id: "167359588B9F2739"
-				title: "Automated"
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					id: "62442CDD0E1A7A52"
+					item: {
+						Count: 1
+						id: "tconstruct:potion_bucket"
+						tag: {
+							Potion: "kubejs:haste"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0BD3CEE8D36CA74E"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
 			title: "Fast Fluid"
 			x: 2.0d
 			y: 15.5d
@@ -780,7 +788,7 @@
 				"19715EBCBBA1B4AD"
 				"6EDA86E4BE0F096B"
 			]
-			description: ["Glow Berries have a couple of ways to be automated, so pick whichever suits your base best."]
+			description: ["Glow Berries have a couple of ways to be automated, so pick whichever suits you best."]
 			hide_dependency_lines: true
 			icon: "minecraft:glow_berries"
 			id: "4B891E9ED8DE6BB2"
@@ -850,7 +858,7 @@
 		}
 		{
 			dependencies: ["44540B11F341AE09"]
-			description: ["Excellent! Now you can move into high automation and packaging with haste!"]
+			description: ["Excellent! Now you can move into high automation and packaging with haste! These newfound tools will surely help your push forward."]
 			id: "7BE0F4512FE4936D"
 			rewards: [
 				{
