@@ -554,7 +554,6 @@ BlockEvents.leftClicked(event => {
         // let aabb = AABB.CUBE.func_72317_d(x, y, z).func_72321_a(4 * face.x, 4 * face.y, 4 * face.z)
         
         // let list = level.minecraftWorld.func_217394_a(null, aabb, e => true)
-        console.log("Processing laser")
 
         let entities = level.getEntitiesWithin(AABB.of(x-2,y-2,z-2,x+2,y+2,z+2))
 
