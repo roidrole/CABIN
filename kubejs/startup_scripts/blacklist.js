@@ -248,7 +248,7 @@ global.itemBlacklist = [
 	'kubejs:incomplete_sealed_mechanism',
 	'kubejs:incomplete_reinforced_mechanism',
 	'kubejs:incomplete_infernal_mechanism',
-	'kubejs:incomplete_logistic_mechanism'
+	'kubejs:incomplete_logistic_mechanism',
 	'kubejs:incomplete_inductive_mechanism',
 	'kubejs:incomplete_abstruse_mechanism',
 	'kubejs:incomplete_calculation_mechanism',
