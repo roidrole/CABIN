@@ -575,7 +575,7 @@ ServerEvents.recipes(event => {
 			"type": "create:mixing",
 			"heatRequirement": "heated",
 			"ingredients": [
-				{ "item": "create:pulp", "count": 4 },
+				{ "item": "create:pulp", "count": 3 },
 				{ "fluid": "minecraft:water", "amount": 500 }
 			],
 			"results": [
@@ -586,7 +586,7 @@ ServerEvents.recipes(event => {
 	event.custom({
 		"type": "create:sequenced_assembly",
 		"ingredient": { "item": CR('precision_mechanism') },
-		"loops": 1,
+		"loops": 4,
 		"results": [
 			{ "item": KJ('logistic_mechanism') }
 		],
@@ -605,7 +605,7 @@ ServerEvents.recipes(event => {
 				"type": "create:filling",
 				"ingredients": [
 					{ "item": KJ('incomplete_logistic_mechanism') },
-					{ "fluid": "kubejs:liquid_pulp", "amount": 1000 }
+					{ "fluid": "kubejs:liquid_pulp", "amount": 500 }
 				],
 				"results": [
 					{ "item": KJ('incomplete_logistic_mechanism') }
@@ -615,7 +615,7 @@ ServerEvents.recipes(event => {
 				"type": "create:filling",
 				"ingredients": [
 					{ "item": KJ('incomplete_logistic_mechanism') },
-					{ "fluid": "kubejs:liquid_pulp", "amount": 1000 }
+					{ "fluid": "kubejs:liquid_pulp", "amount": 500 }
 				],
 				"results": [
 					{ "item": KJ('incomplete_logistic_mechanism') }
@@ -625,7 +625,7 @@ ServerEvents.recipes(event => {
 				"type": "create:filling",
 				"ingredients": [
 					{ "item": KJ('incomplete_logistic_mechanism') },
-					{ "fluid": "kubejs:liquid_pulp", "amount": 1000 }
+					{ "fluid": "kubejs:liquid_pulp", "amount": 500 }
 				],
 				"results": [
 					{ "item": KJ('incomplete_logistic_mechanism') }

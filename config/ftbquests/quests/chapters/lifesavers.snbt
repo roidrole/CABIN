@@ -827,16 +827,18 @@
 			description: [
 				"Rechiseled adds a variety of block varients to give you more options when building your base."
 				""
-				"Rechiseled: CABIN Additions adds a variety of blocks, including classic chisel and xtones blocks, to give you even more options."
-				""
-				"Rechiseled: Create adds even more blocks, as well as a way to automate the chiseling of all of the above, with the mechanical chisel."
+				"If loaded, Rechiseled: Create adds even more blocks, as well as a way to automate the chiseling of all of the above, with the mechanical chisel."
 			]
-			icon: "rechiseledcreate:mechanical_chisel"
+			icon: {
+				Count: 1
+				id: "rechiseled:chisel"
+				tag: { }
+			}
 			id: "78A8751AF86E0E32"
 			rewards: [{
 				count: 16
 				id: "65589D633E5A9F73"
-				item: "rechiseledcabinadditions:checkertile"
+				item: "rechiseled:cobblestone_stripes_connecting"
 				type: "item"
 			}]
 			tasks: [{
