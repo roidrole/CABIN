@@ -627,6 +627,10 @@ global.randomiumBlacklist = [
 	'trials:trial_spawner',
 	'trials:trial_vault',
 	'trials:trial_vault_ominous',
+	"ae2:flawless_budding_quartz",
+	"ae2:flawed_budding_quartz",
+	"ae2:chipped_budding_quartz",
+	"ae2:damaged_budding_quartz",
 
 
 	//Tconstruct molten fluid buckets
