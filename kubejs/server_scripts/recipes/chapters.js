@@ -603,7 +603,7 @@ ServerEvents.recipes(event => {
 				"type": "create:filling",
 				"ingredients": [
 					{ "item": KJ('incomplete_logistic_mechanism') },
-					{ "fluid": "kubejs:liquid_pulp", "amount": 500 }
+					{ "fluid": "kubejs:liquid_pulp", "amount": 300 }
 				],
 				"results": [
 					{ "item": KJ('incomplete_logistic_mechanism') }
@@ -613,7 +613,7 @@ ServerEvents.recipes(event => {
 				"type": "create:filling",
 				"ingredients": [
 					{ "item": KJ('incomplete_logistic_mechanism') },
-					{ "fluid": "kubejs:liquid_pulp", "amount": 500 }
+					{ "fluid": "kubejs:liquid_pulp", "amount": 300 }
 				],
 				"results": [
 					{ "item": KJ('incomplete_logistic_mechanism') }
@@ -623,7 +623,7 @@ ServerEvents.recipes(event => {
 				"type": "create:filling",
 				"ingredients": [
 					{ "item": KJ('incomplete_logistic_mechanism') },
-					{ "fluid": "kubejs:liquid_pulp", "amount": 500 }
+					{ "fluid": "kubejs:liquid_pulp", "amount": 300 }
 				],
 				"results": [
 					{ "item": KJ('incomplete_logistic_mechanism') }
