@@ -533,7 +533,7 @@ global.itemBlacklist = [
 	'tconstruct:cheese_block',
 
 	//thermal
-	'thermal:laser_diode', //I don't even know what this thing it
+	'thermal:laser_diode', //I don't even know what this thing is
 	'thermal:rs_control_augment',
 	'thermal:side_config_augment',
 	'thermal:press_coin_die',
@@ -570,10 +570,6 @@ global.itemBlacklist = [
 	'thermal:tin_gear',
 	'thermal:raw_tin',
 	'thermal:raw_tin_block',
-	'thermal:invar_plate',
-	'thermal:bronze_nugget',
-	'thermal:bronze_ingot',
-	'thermal:bronze_plate',
 	'thermal:netherite_nugget',
 	'thermal:copper_nugget',
 	'thermal:ender_pearl_dust',

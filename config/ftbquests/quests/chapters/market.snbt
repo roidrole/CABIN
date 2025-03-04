@@ -30,6 +30,7 @@
 			y: -1.5d
 		}
 		{
+			can_repeat: true
 			description: [
 				"Aimlessly traversing the nether is just the worst. This reward will give you the exact location of the nearest fortress."
 				""
@@ -270,6 +271,7 @@
 			y: -4.0d
 		}
 		{
+			can_repeat: true
 			dependencies: ["0F870BEA235D662D"]
 			description: ["Here you can exchange a Gold Coin back to a Stack of Silver."]
 			icon: "kubejs:silver_coin"
@@ -304,6 +306,7 @@
 			y: -4.0d
 		}
 		{
+			can_repeat: true
 			dependencies: ["0F870BEA235D662D"]
 			description: ["Some trades require you to hand in Gold Coins. These are worth a stack of Silver each."]
 			icon: "kubejs:silver_coin"
@@ -751,6 +754,7 @@
 			y: 2.0d
 		}
 		{
+			can_repeat: true
 			description: ["Squeak"]
 			icon: "minecraft:axolotl_bucket"
 			id: "6C00F2935F27C2AD"
@@ -1092,6 +1096,7 @@
 			y: 0.0d
 		}
 		{
+			can_repeat: true
 			icon: "minecraft:bee_nest"
 			id: "003E0D1CE60B166A"
 			rewards: [
