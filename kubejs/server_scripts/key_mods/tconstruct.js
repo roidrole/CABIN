@@ -64,6 +64,19 @@ ServerEvents.recipes(event => {
 	event.remove({ id: TC('smeltery/casting/cheese_ingot_gold_cast')})
 	event.remove({ id: TC('smeltery/casting/cheese_ingot_sand_cast')})
 
+	//Broken cake recipe in 1.20.1
+	event.remove({"id":"tconstruct:gadgets/cake/blood"})
+	event.shaped('tconstruct:blood_cake', [
+		"FFF",
+		"GEG",
+		"WWW"
+	], {
+		"F":'tconstruct:meat_soup_bucket',
+		"G":"minecraft:glowstone_dust",
+		"E":"minecraft:egg",
+		"W":'tconstruct:blood_slime_tall_grass'
+	})
+
 	//Buffs melting of beetroots into soup
 	event.remove({id:'tconstruct:smeltery/melting/slime/beetroot_soup'})
 	event.custom({
