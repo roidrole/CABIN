@@ -96,11 +96,6 @@ ServerEvents.recipes(event => {
 	event.remove({ id: TE("storage/netherite_ingot_from_nuggets")})
 	event.remove({ id: TC("common/materials/netherite_ingot_from_nuggets")})
 
-	event.remove({ id: TE('storage/bronze_nugget_from_ingot')})
-	event.remove({ id: TE('storage/bronze_ingot_from_nuggets')})
-	event.remove({ id: TE('storage/bronze_ingot_from_block')})
-	event.remove({ id: TE('storage/bronze_block')})
-
 	//Remove unwanted Alloying recipes
 	event.remove({ id: CR('mixing/brass_ingot') })
 	event.remove({id: /centrifuge_bronze_dust/})
@@ -134,7 +129,17 @@ ServerEvents.recipes(event => {
 	//Create new alloying recipes
 	//mixing alloys
 	let moltenAlloy = function (fluidAlloy, fluid1, fluid2) {
-		event.recipes.createMixing(Fluid.of(TC(fluidAlloy), 2), [Fluid.of(fluid1, 2), Fluid.of(fluid2, 2)]).processingTime(1).id(`kubejs:mixing/${fluidAlloy}`)
+		//Recipe ids are actually important here since the id that comes later in alphabetical order is the one that is prioritized
+		event.custom({
+			"type": "create:mixing",
+			"ingredients": [
+				{ "amount": 2, "fluid": fluid1 },
+				{ "amount": 2, "fluid": fluid2 }
+			],
+			"results": [
+				{ "amount": 2, "fluid": TC(fluidAlloy) }
+			]
+		}).id(`kubejs:mixing/${fluidAlloy}_2`)
 	}
 	moltenAlloy('molten_brass', TC('molten_copper'), TC('molten_zinc'))
 	moltenAlloy('molten_constantan', TC('molten_copper'), TC('molten_nickel'))
@@ -150,7 +155,7 @@ ServerEvents.recipes(event => {
 	event.replaceInput({ id: TE("machines/smelter/smelter_alloy_electrum")}, F('#dusts/silver'), TE("silver_ingot"))
 	event.replaceInput({ id: TE("machines/smelter/smelter_alloy_netherite")}, F('#dusts/gold'), MC("gold_ingot"))
 	//bronze
-	thermalSmelter(event, "3x alloyed:bronze_ingot", [MC("copper_ingot", 3), '#forge:sand'])
+	thermalSmelter(event, "3x thermal:bronze_ingot", [MC("copper_ingot", 3), '#forge:sand'])
 	
 	// Nickel Compound
 	event.shapeless(KJ('nickel_compound'), [TE('nickel_ingot'), TE("iron_dust"), TE("iron_dust"), TE("iron_dust"), TE("iron_dust")])
@@ -262,7 +267,7 @@ ServerEvents.recipes(event => {
 	
 	//other metal unification
 	event.replaceOutput({}, '#forge:ingots/silver', TE('silver_ingot'))
-	event.replaceOutput({}, '#forge:ingots/bronze', 'alloyed:bronze_ingot')
+	event.replaceOutput({}, '#forge:ingots/bronze', 'thermal:bronze_ingot')
 	event.replaceOutput({ id:OC('crafting/silver_block')}, '#forge:storage_blocks/silver', TE('silver_block'))
 
 	//Ore processing

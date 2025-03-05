@@ -72,6 +72,8 @@ ServerEvents.tags('item', event => {
 	event.get('kubejs:chromatic_resonators').add(KJ('chromatic_resonator'))
 	event.get('kubejs:flash_drives').add(KJ('flash_drive'))
 
+	event.get('kubejs:sellable_discs').add('minecraft:music_disc_13', 'minecraft:music_disc_cat', 'minecraft:music_disc_blocks', 'minecraft:music_disc_chirp', 'minecraft:music_disc_far', 'minecraft:music_disc_mall', 'minecraft:music_disc_mellohi', 'minecraft:music_disc_stal', 'minecraft:music_disc_strad', 'minecraft:music_disc_ward', 'minecraft:music_disc_11', 'minecraft:music_disc_wait', 'minecraft:music_disc_otherside', 'minecraft:music_disc_5', 'minecraft:music_disc_pigstep', 'minecraft:music_disc_relic', 'supplementaries:music_disc_heave_ho', 'quark:music_disc_endermosh', 'trials:music_disc_creator_box', 'trials:music_disc_precipice', 'trials:music_disc_creator', 'biomesoplenty:music_disc_wanderer', 'integrated_stronghold:music_disc_sight', 'integrated_stronghold:music_disc_forlorn');
+
 	event.get('kubejs:transaction_cards').add('#kubejs:transaction_cards/import')
 	event.get('kubejs:transaction_cards').add('#kubejs:transaction_cards/profession')
 
@@ -79,9 +81,11 @@ ServerEvents.tags('item', event => {
 	let lampMaterials = ['andesite', 'brass', 'iron', 'copper', 'industrial_iron', 'zinc']
 	for (let i=0;i<lampColours.length;++i) {
 		for (let j=0;j<lampMaterials.length;++j) {
-			let lamp = `createdeco:${lampColours[i]}_${lampMaterials[j]}_lamp`
-			event.add('kubejs:alchemical_laser_lamp', lamp)
-			event.add(`kubejs:alchemical_laser_lamp/${lampColours[i]}`, lamp)
+			let lamp = [`createdeco:${lampColours[i]}_${lampMaterials[j]}_lamp`, `ad_astra:small_${lampColours[i]}_industrial_lamp`]
+			lamp.forEach(l => {
+				event.add('kubejs:alchemical_laser_lamp', l)
+				event.add(`kubejs:alchemical_laser_lamp/${lampColours[i]}`, l)
+			})
 		}
 	}
 	
@@ -214,16 +218,6 @@ ServerEvents.tags('item', event => {
 })
 
 ServerEvents.tags('block', event => {
-	let lampColours = ['yellow', 'red', 'green', 'blue']
-	let lampMaterials = ['andesite', 'brass', 'iron', 'copper', 'industrial_iron', 'zinc']
-	for (let i=0;i<lampColours.length;++i) {
-		for (let j=0;j<lampMaterials.length;++j) {
-			let lamp = `createdeco:${lampColours[i]}_${lampMaterials[j]}_lamp`
-			event.add('kubejs:alchemical_laser_lamp', lamp)
-			event.add(`kubejs:alchemical_laser_lamp/${lampColours[i]}`, lamp)
-		}
-	}
-
 	event.remove('minecraft:beacon_base_blocks', 'thermal:bronze_block')
 
 	//Not sure if anything checks for this block tag but don't want to risk it.

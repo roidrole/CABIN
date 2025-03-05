@@ -97,7 +97,7 @@
 		enabled = true
 
 	[tweaks.traders_open_doors]
-		#Allows traders to open doors (because they couldnt aparently)
+		#Allows traders to open doors (because they couldn't apparently)
 		enabled = true
 
 	[tweaks.noteblocks_scare]
@@ -116,7 +116,7 @@
 
 	[tweaks.sus_recipes]
 		#Adds recipes to craft suspicious gravel and suspicious sand
-		enabled = true
+		enabled = false
 
 	[tweaks.slimed_effect]
 		enabled = true
@@ -133,6 +133,10 @@
 		#Chance that a slime mob will apply slimed effect on successful attack. Multiplied by the slime size
 		#Range: 0.0 ~ 1.0
 		chance_per_slime_size = 0.15
+
+	[tweaks.dragon_banner_pattern]
+		#Adds dragon banner pattern made from dragon head
+		enabled = true
 
 #General settings
 [general]
@@ -392,8 +396,6 @@
 	sconce = true
 	sconce_lever = true
 	pancake = true
-	netherite_door = true
-	netherite_trapdoor = true
 	checker_block = true
 	raked_gravel = true
 	feather_block = true
@@ -536,6 +538,10 @@
 		#Makes so flower boxes can only contain one tall flower item per block
 		simple_mode = true
 
+	[building.netherite_doors]
+		door = true
+		trapdoor = true
+
 [tools]
 	candy = true
 	stasis = true
@@ -594,7 +600,7 @@
 
 	[tools.rope_arrow]
 		enabled = true
-		#Max number of robe items allowed to be stored inside a rope arrow
+		#Max number of rope items allowed to be stored inside a rope arrow
 		#Range: 1 ~ 256
 		capacity = 32
 		#Makes rope arrows exclusive to crossbows

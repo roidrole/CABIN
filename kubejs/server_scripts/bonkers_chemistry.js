@@ -508,9 +508,6 @@ BlockEvents.leftClicked(event => {
     
 //    if (player.name.text != "Deployer")
 //        return
-    
-
-    
     let sound = false
 
     Direction.ALL.values().forEach(face => {
@@ -518,17 +515,16 @@ BlockEvents.leftClicked(event => {
             return
         let laser = block.offset(face)
 
-
-        if (!laser.hasTag('kubejs:alchemical_laser_lamp'))
+        if (!laser.id.startsWith("ad_astra:small_"))
             return
 
-        let color = ''
+        if (!laser.id.endsWith("_industrial_lamp"))
+            return
 
-        if (laser.hasTag('kubejs:alchemical_laser_lamp/yellow')) color = 'yellow'
-        else if (laser.hasTag('kubejs:alchemical_laser_lamp/red')) color = 'red'
-        else if (laser.hasTag('kubejs:alchemical_laser_lamp/green')) color = 'green'
-        else if (laser.hasTag('kubejs:alchemical_laser_lamp/blue')) color = 'blue'
-		
+        // let valid = false
+        let words = laser.id.split("_");
+        let color = words[2];
+
         // let te = laser.getEntity()
         // if (!te)
         //     return

@@ -785,16 +785,13 @@
 			y: -3.0d
 		}
 		{
-			description: [
-				"If you know LUA (or are willing to learn), computercraft is can be a very strong tool in your factory, as computercraft can read information from create blocks."
-				""
-				"CC:C Bridge extends this a bit futher, with the Target and Source blocks able to read and write to create display targets perspectively."
-			]
+			description: ["If you know LUA (or are willing to learn), computercraft is can be a very strong tool in your factory, as computercraft can read information from create blocks."]
 			icon: "computercraft:computer_normal"
 			id: "374933A06E016CE9"
 			rewards: [{
+				count: 16
 				id: "071BEECB37AFECB4"
-				item: "cccbridge:target_block"
+				item: "projectred_core:red_ingot"
 				type: "item"
 			}]
 			tasks: [{
@@ -827,16 +824,18 @@
 			description: [
 				"Rechiseled adds a variety of block varients to give you more options when building your base."
 				""
-				"Rechiseled: CABIN Additions adds a variety of blocks, including classic chisel and xtones blocks, to give you even more options."
-				""
-				"Rechiseled: Create adds even more blocks, as well as a way to automate the chiseling of all of the above, with the mechanical chisel."
+				"If loaded, Rechiseled: Create adds even more blocks, as well as a way to automate the chiseling of all of the above, with the mechanical chisel."
 			]
-			icon: "rechiseledcreate:mechanical_chisel"
+			icon: {
+				Count: 1
+				id: "rechiseled:chisel"
+				tag: { }
+			}
 			id: "78A8751AF86E0E32"
 			rewards: [{
 				count: 16
 				id: "65589D633E5A9F73"
-				item: "rechiseledcabinadditions:checkertile"
+				item: "rechiseled:cobblestone_stripes_connecting"
 				type: "item"
 			}]
 			tasks: [{

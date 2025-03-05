@@ -54,6 +54,7 @@ StartupEvents.registry('item', event => {
 	mechanism('Sealed')
 	mechanism('Reinforced')
 	mechanism('Infernal', 'uncommon')
+	mechanism('Logistic', 'uncommon')
 	mechanism('Inductive', 'uncommon')
 	mechanism('Abstruse', 'rare')
 	mechanism('Calculation', 'rare')
@@ -131,6 +132,7 @@ StartupEvents.registry("block", event => {
 	event.create('trial_oxidized_cut_copper_slab', "slab").textureAll('minecraft:block/oxidized_cut_copper').soundType('metal').tagBlock("mineable/pickaxe").tagBlock("needs_stone_tool").requiresTool(true).hardness(3.0).resistance(6.0).displayName("Illusionary Oxidized Cut Copper Slab")
 
 	event.create('enderium_casing').model('cabin:block/enderium_casing').soundType('metal').tagBlock("mineable/pickaxe").tagBlock("create:wrench_pickup").requiresTool(true).hardness(4.0).displayName('Ender Casing')
+	event.create('lead_casing').textureAll('cabin:block/lead_casing').soundType('metal').tagBlock("mineable/pickaxe").tagBlock("create:wrench_pickup").requiresTool(true).hardness(3.0).displayName('Lead Casing')
 	event.create('zinc_casing').textureAll('cabin:block/zinc_casing').soundType('metal').tagBlock("mineable/pickaxe").tagBlock("create:wrench_pickup").requiresTool(true).hardness(3.0).displayName('Zinc Casing')
 	event.create('invar_casing').textureAll('cabin:block/invar_casing').soundType('metal').tagBlock("mineable/pickaxe").tagBlock("create:wrench_pickup").requiresTool(true).hardness(3.0).displayName('Invar Casing')
 	event.create('fluix_casing').textureAll('cabin:block/fluix_casing').soundType('metal').tagBlock("mineable/pickaxe").tagBlock("create:wrench_pickup").requiresTool(true).hardness(3.0).displayName('Fluix Casing')
@@ -164,6 +166,7 @@ StartupEvents.registry("block", event => {
 	machine('Brass', "translucent").tagBlock("mineable/axe").box(0, 0, 0, 16, 4, 16).box(0, 0, 3, 16, 10, 13).box(8, 3, 4, 16, 16, 16).box(1, 10, 5, 7, 21, 11)
 	machine('Copper', "cutout").tagBlock("mineable/axe").box(0, 0, 0, 16, 4, 16).box(1.9, 2, -2, 14.9, 10, 10).box(6, 4, 6, 16, 20, 16).box(0, 4, 6, 10, 24, 16)
 	machine('Gold', "solid").tagBlock("mineable/axe").box(0, 0, 4, 16, 16, 14)
+	machine('Lead', "cutout")
 	machine('Zinc', "cutout")
 	machine('Enderium', "cutout")
 
@@ -357,8 +360,9 @@ StartupEvents.registry("fluid", event => {
 	event.create('matrix').displayName(`Liquified Computation Matrix`).stillTexture('cabin:fluid/matrix_still').flowingTexture('cabin:fluid/matrix_flow').bucketColor(colors[0])
 	event.create('fine_sand').displayName(`Fine Sand`).stillTexture('cabin:fluid/fine_sand_still').flowingTexture('cabin:fluid/fine_sand_flow').bucketColor(0xE3DBB0)
 	event.create('crude_oil').displayName(`Crude Oil`).stillTexture('thermal:block/fluids/crude_oil_still').flowingTexture('thermal:block/fluids/crude_oil_flow').bucketColor(0x222118)
-	event.create('volatile_sky_solution').displayName(`Volatile Sky Solution`).stillTexture('tconstruct:block/fluid/obsidian/still').flowingTexture('tconstruct:block/fluid/obsidian/flowing').color(0x8feebf).bucketColor(0x1A1123)
-	event.create('chromatic_waste').displayName(`Chromatic Waste`).stillTexture('tconstruct:block/fluid/enderium/still').flowingTexture('tconstruct:block/fluid/enderium/flowing').color(0x0B3E36)
+	event.create('volatile_sky_solution').displayName(`Volatile Sky Solution`).stillTexture('tconstruct:fluid/molten/compat_alloy/refined_obsidian/still').flowingTexture('tconstruct:fluid/molten/compat_alloy/refined_obsidian/flowing').color(0x8feebf).bucketColor(0x1A1123)
+	event.create('chromatic_waste').displayName(`Chromatic Waste`).stillTexture('tconstruct:fluid/molten/compat_alloy/enderium/still').flowingTexture('tconstruct:fluid/molten/compat_alloy/enderium/flowing').color(0x0B3E36)
+	event.create('liquid_pulp').displayName(`Liquid Pulp`).stillTexture('tconstruct:fluid/molten/compat_alloy/pewter/still').flowingTexture('tconstruct:fluid/molten/compat_alloy/pewter/still').color(0xb4a498)
 //	event.create('liquid_smoke').displayName(`Liquid Smoke`).stillTexture('advancedrocketry:blocks/fluid/oxygen_still').flowingTexture('advancedrocketry:blocks/fluid/oxygen_flow').bucketColor(0xEBEBEB)
 })
 
@@ -375,3 +379,27 @@ ItemEvents.modification(event => {
 	})
 })
 
+StartupEvents.registry("potion", (event) => {
+    let createCustomPotion = (name, effect, duration, long_duration, strong_duration) => {
+        event.create(name).effect(
+            effect,
+            20 * duration,
+            0
+        )
+
+        event.create('long_'+name).effect(
+            effect,
+            20 * long_duration,
+            0
+        )
+
+        if (strong_duration != undefined)
+		event.create('strong_'+name).effect(
+            effect,
+            20 * strong_duration,
+            1
+        )
+    }
+
+    createCustomPotion('haste', 'minecraft:haste', 180, 480, 90)
+  })

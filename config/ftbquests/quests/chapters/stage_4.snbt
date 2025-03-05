@@ -666,6 +666,8 @@
 				"Inventors can familiarise themselves with the necessary machinery components via JEI or via entering"
 				""
 				" &6/c ponder kubejs:alchemical_laser"
+				""
+				"&9...once PonderJS is ported. &r"
 			]
 			icon: "kubejs:alchemical_laser"
 			id: "6D26DAB7D0FF6E90"
