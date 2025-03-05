@@ -242,6 +242,14 @@ ServerEvents.tags('item', event => {
 
 ServerEvents.tags("fluid", event => {
 	event.get('forge:ink').add('kubejs:ink')
+	event.get("forge:soups/fish").add("kubejs:cod_soup","kubejs:fish_soup")
+	event.get("forge:soups/meat")
+		.add("tconstruct:meat_soup")
+		.add("#forge:soups/fish")
+		.add("kubejs:beef_soup")
+		.add("kubejs:chicken_soup")
+		.add("kubejs:pork_soup")
+		.add("kubejs:rabbit_soup")
 })
 
 ServerEvents.tags('block', event => {

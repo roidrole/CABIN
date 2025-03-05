@@ -65,7 +65,7 @@ ServerEvents.recipes(event => {
 	event.remove({ id: TC('smeltery/casting/cheese_ingot_sand_cast')})
 
 	//Buffs melting of beetroots into soup
-	event.remove({id:TC('smeltery/melting/slime/beetroot_soup')})
+	event.remove({id:'tconstruct:smeltery/melting/slime/beetroot_soup'})
 	event.custom({
 		"type": "tconstruct:melting",
 		"ingredient": {"item": "minecraft:beetroot"},
@@ -82,6 +82,57 @@ ServerEvents.recipes(event => {
 		},
 		temperature: 100,
 		time: 32
+	})
+
+	//More specific Mob Melting meat soup
+	event.remove({"id":"tconstruct:smeltery/entity_melting/meat_soup"})
+	event.remove({"id":"tconstruct:smeltery/casting/soup/meat"})
+	function createStew(fluid, entityList, ingredient){
+		event.custom({"type":"tconstruct:entity_melting",
+			"damage":2,
+			"entity":entityList,
+			"result":{
+				"amount":50,
+				"fluid":fluid
+			}
+		})
+		if (arguments.length == 3){
+			event.custom({"type": "tconstruct:melting",
+				ingredient: Ingredient.of(ingredient).toJson(),
+				result: {
+					"fluid":fluid,
+					"amount":250
+				},
+				temperature: 100,
+				time: 32
+			})
+			event.recipes.createMixing(Fluid.of(fluid, 250), [ingredient]).heated()
+		}
+	}
+	createStew("kubejs:beef_soup", {"types":["minecraft:cow","minecraft:mooshroom"]}, 'minecraft:beef')
+	createStew("kubejs:chicken_soup", {"type":"minecraft:chicken"}, 'minecraft:chicken')
+	createStew("kubejs:pork_soup", {"types":["minecraft:pig","minecraft:hoglin"]}, 'minecraft:porkchop')
+	createStew("kubejs:rabbit_soup", {"type":"minecraft:rabbit"}, 'minecraft:rabbit')
+	createStew("kubejs:cod_soup", {"type":"minecraft:cod"}, 'minecraft:cod')
+	createStew("kubejs:fish_soup", {"types":["minecraft:salmon","minecraft:tropical_fish"]}, "#forge:raw_fishes")
+	createStew("tonstruct:meat_soup", {"types":["minecraft:sheep","minecraft:goat"]})
+	event.recipes.createEmptying(["minecraft:bowl", Fluid.of("tconstruct:meat_soup", 250)], "tconstruct:meat_soup")
+	event.custom({"type":"tconstruct:casting_table",
+		"cast":{"item":"minecraft:bowl"},
+		"cast_consumed":true,
+		"cooling_time":1,
+		"fluid":{"tag":"forge:soups/meat","amount":250},
+		"result":"tconstruct:meat_soup"
+	})
+	event.custom({"type": "create:filling",
+		"ingredients": [
+		  {"item": "minecraft:bowl"},
+		  {
+			"amount": 250,
+			"fluidTag": "forge:soups/meat"
+		  }
+		],
+		"results": [{"item": "tconstruct:meat_soup"}]
 	})
 })
 

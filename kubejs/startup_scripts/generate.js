@@ -392,10 +392,16 @@ StartupEvents.registry("fluid", event => {
 	event.create('ink').stillTexture('thermal:block/fluids/crude_oil_still').flowingTexture('thermal:block/fluids/crude_oil_flow').bucketColor(0x222118)
 
 	function makeStew(event, id, color){
-		event.create(id).color(color).stillTexture('tconstruct:block/fluid/food/stew/still').flowingTexture('tconstruct:block/fluid/food/stew/flowing');
+		event.create(id).color(color).stillTexture('tconstruct:fluid/food/stew/still').flowingTexture('tconstruct:fluid/food/stew/flowing');
 	}
 	makeStew(event, 'buddybean_paste', 0x5578b9)
 	makeStew(event, 'glow_berry_custard', 0xd1834c)
+	makeStew(event, "beef_soup", 0xe43c34)
+	makeStew(event, "chicken_soup", 0xffb26b)
+	makeStew(event, "pork_soup", 0xff7777)
+	makeStew(event, "rabbit_soup", 0xf2c9bd)
+	makeStew(event, "cod_soup", 0xc6a271)
+	makeStew(event, "fish_soup", 0xba4f23)
 })
 
 ItemEvents.modification(event => {
