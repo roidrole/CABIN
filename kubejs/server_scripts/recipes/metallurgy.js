@@ -133,23 +133,13 @@ ServerEvents.recipes(event => {
 		event.custom({
 			"type": "create:mixing",
 			"ingredients": [
-				{ "amount": 3, "fluid": fluid1 },
-				{ "amount": 3, "fluid": fluid2 }
+				{ "amount": 2, "fluid": fluid1 },
+				{ "amount": 2, "fluid": fluid2 }
 			],
 			"results": [
-				{ "amount": 3, "fluid": TC(fluidAlloy) }
+				{ "amount": 2, "fluid": TC(fluidAlloy) }
 			]
-		}).id(`kubejs:mixing/${fluidAlloy}_3`)
-		event.custom({
-			"type": "create:mixing",
-			"ingredients": [
-				{ "amount": 1, "fluid": fluid1 },
-				{ "amount": 1, "fluid": fluid2 }
-			],
-			"results": [
-				{ "amount": 1, "fluid": TC(fluidAlloy) }
-			]
-		}).id(`kubejs:mixing/${fluidAlloy}_1`)
+		}).id(`kubejs:mixing/${fluidAlloy}_2`)
 	}
 	moltenAlloy('molten_brass', TC('molten_copper'), TC('molten_zinc'))
 	moltenAlloy('molten_constantan', TC('molten_copper'), TC('molten_nickel'))
