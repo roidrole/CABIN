@@ -118,7 +118,7 @@ StartupEvents.registry('item', event => {
 	event.create('incomplete_carrot_meal','create:sequenced_assembly').texture('minecraft:item/carrot')
 	event.create('incomplete_smoked_ham_meal','create:sequenced_assembly').texture('farmersdelight:item/smoked_ham')
 	event.create('incomplete_pie_crust_meal','create:sequenced_assembly').texture('farmersdelight:item/pie_crust')
-	event.create('incomplete_hay_block_meal','create:sequenced_assembly').parentModel({"parent": "minecraft:block/hay_block"})
+	event.create('incomplete_hay_block_meal','create:sequenced_assembly').modelJson({"parent": "minecraft:block/hay_block"})
 	event.create('incomplete_canvas_meal','create:sequenced_assembly').texture('farmersdelight:item/canvas')
 	event.create('incomplete_pasta_meal','create:sequenced_assembly').texture('cabin:item/pasta_plate')
 
