@@ -135,7 +135,7 @@
 				disable_toast: true
 				icon: "kubejs:sealed_mechanism"
 				id: "27B07858A6018539"
-				stat: "minecraft:play_one_minute"
+				stat: "minecraft:play_time"
 				title: "Complete Bonus 1A"
 				type: "stat"
 				value: 1
@@ -161,7 +161,7 @@
 				disable_toast: true
 				icon: "kubejs:infernal_mechanism"
 				id: "12CFC84D3F01F49F"
-				stat: "minecraft:play_one_minute"
+				stat: "minecraft:play_time"
 				title: "Complete Bonus 2A"
 				type: "stat"
 				value: 1
@@ -570,7 +570,7 @@
 		}
 		{
 			dependencies: [
-				"3C50B4556375178E"
+				"44540B11F341AE09"
 				"6D7D2E63F1E35329"
 			]
 			description: [
@@ -585,7 +585,7 @@
 				disable_toast: true
 				icon: "kubejs:logistic_mechanism"
 				id: "4F0DC063E1D872BC"
-				stat: "minecraft:play_one_minute"
+				stat: "minecraft:play_time"
 				title: "Complete Bonus 2A"
 				type: "stat"
 				value: 1

@@ -827,6 +827,7 @@
 				item: "kubejs:logistic_mechanism"
 				type: "item"
 			}]
+			title: "Brewing a plan"
 			x: 2.0d
 			y: 17.0d
 		}
