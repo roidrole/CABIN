@@ -1,7 +1,7 @@
 {
 	"type": "replace",
 	"target": {
-		"block": "kubejs:trial_oxidized_chiseled_copper"
+		"block": "kubejs:trial_chiseled_copper_oxidized"
 	},
 	"with": {
 		"block": "trials:waxed_chiseled_copper_oxidized"

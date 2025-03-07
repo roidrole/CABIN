@@ -1,7 +1,7 @@
 {
 	"type": "replace",
 	"target": {
-		"block": "kubejs:trial_oxidized_copper_grate"
+		"block": "kubejs:trial_copper_grate_oxidized"
 	},
 	"with": {
 		"block": "trials:waxed_copper_grate_oxidized"

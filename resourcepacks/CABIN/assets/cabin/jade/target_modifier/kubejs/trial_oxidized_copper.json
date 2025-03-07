@@ -1,7 +1,7 @@
 {
 	"type": "replace",
 	"target": {
-		"block": "kubejs:trial_oxidized_copper_block"
+		"block": "kubejs:trial_oxidized_copper"
 	},
 	"with": {
 		"block": "minecraft:waxed_oxidized_copper"
