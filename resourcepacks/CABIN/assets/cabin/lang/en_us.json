@@ -10,5 +10,7 @@
     "item.minecraft.potion.effect.strong_haste": "Potion of Haste",
     "item.minecraft.splash_potion.effect.strong_haste": "Splash Potion of Haste",
     "item.minecraft.lingering_potion.effect.strong_haste": "Lingering Potion of Haste",
-    "item.minecraft.tipped_arrow.effect.strong_haste": "Arrow of Haste"
+    "item.minecraft.tipped_arrow.effect.strong_haste": "Arrow of Haste",
+
+    "curios.identifier.goggles": "Goggles"
 }
