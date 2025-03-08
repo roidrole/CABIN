@@ -112,7 +112,7 @@ StartupEvents.registry('item', event => {
 	event.create('attachment_base').texture("cabin:item/attachment_base").displayName('Attachment Base')
 	event.create('silver_coin').texture("cabin:item/silver_coin").displayName('Silver Coin Stack Icon')
 	event.create('gold_coin').texture("cabin:item/gold_coin").displayName('Gold Coin Stack Icon')
-	event.create('strainer_filter').texture("waterstrainer:items/strainer_survivalist").displayName('Strainer Filter').maxDamage(120)
+	event.create('strainer_filter').texture("waterstrainer:items/strainer_survivalist").displayName('Strainer Filter').maxDamage(384)
 })
 
 StartupEvents.registry("block", event => {

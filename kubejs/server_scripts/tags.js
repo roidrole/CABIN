@@ -78,6 +78,8 @@ ServerEvents.tags('item', event => {
 	event.get('kubejs:transaction_cards').add('#kubejs:transaction_cards/import')
 	event.get('kubejs:transaction_cards').add('#kubejs:transaction_cards/profession')
 
+	event.add("kubejs:strainer/sands", "minecraft:sand")
+
 	let lampColours = ['yellow', 'red', 'green', 'blue']
 	let lampMaterials = ['andesite', 'brass', 'iron', 'copper', 'industrial_iron', 'zinc']
 	for (let i=0;i<lampColours.length;++i) {
