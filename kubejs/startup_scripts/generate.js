@@ -170,6 +170,24 @@ StartupEvents.registry("block", event => {
 	machine('Zinc', "cutout")
 	machine('Enderium', "cutout")
 
+	let pot = function (name) {
+		let id = name.toLowerCase().split(' ').join('_')
+		return event.create(id, 'cardinal')
+			.model(`cabin:block/${id}`)
+			.notSolid()
+			.renderType("translucent")
+			.displayName(name)
+			.hardness(0)
+			.material("COLOR_ORANGE") // Set a material (affects the sounds and some properties)
+			.soundType('glass')
+	}
+
+	pot("Treasure Pot").box(4, 0, 4, 12, 10, 12)
+	pot("Tall Treasure Pot").box(5, 0, 5, 11, 12, 11)
+	pot("Small Treasure Pot").box(5, 0, 5, 11, 8, 11)
+	pot("Small Quartz Treasure Pot").box(5, 0, 5, 11, 8, 11)
+	pot("Tall Quartz Treasure Pot").box(5, 0, 5, 11, 12, 11)
+
 	for (let i = 0; i < 15; i++)
 		event.create(`failed_alchemy_${i}`)
 			.soundType('glass')
