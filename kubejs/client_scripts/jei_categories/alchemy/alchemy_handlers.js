@@ -14,6 +14,9 @@ if (!global.jeiCategories.alchemy) global.jeiCategories.alchemy = {
     loadResources: undefined
 };
 
+/**
+ * @param {Internal.IGuiHelper} guiHelper 
+ */
 global.jeiCategories.alchemy.loadResources = function(guiHelper) {
     this.resources.energyEmpty = guiHelper.createDrawable(
         new ResourceLocation("cabin:textures/gui/jei/widgets.png"),
@@ -37,7 +40,12 @@ global.jeiCategories.alchemy.loadResources = function(guiHelper) {
     );
 }
 
-global.jeiCategories.alchemy.handlers.verifyRecipe = (jeiHelpers, recipe) => {
+/**
+ * @param {Internal.IJeiHelpers} jeiHelpers 
+ * @param {any} recipe 
+ * @returns 
+ */
+global.jeiCategories.alchemy.handlers.verifyRecipe = function (jeiHelpers, recipe) {
     // IMPORTANT: Always return true or false. If you do not, it could crash the game or cause JEI to not work properly.
     if (!recipe) return false;
     if (!recipe.data) return false;
@@ -47,7 +55,13 @@ global.jeiCategories.alchemy.handlers.verifyRecipe = (jeiHelpers, recipe) => {
     return true;
 }
 
-global.jeiCategories.alchemy.handlers.setRecipe = (jeiHelpers, builder, recipe, focuses) => {
+/**
+ * @param {Internal.IJeiHelpers} jeiHelpers 
+ * @param {Internal.IRecipeLayoutBuilder} builder 
+ * @param {any} recipe 
+ * @param {Internal.IFocusGroup} focuses 
+ */
+global.jeiCategories.alchemy.handlers.setRecipe = function (jeiHelpers, builder, recipe, focuses) {
     let guiHelper = jeiHelpers.getGuiHelper()
     let inputItems = recipe.data.input;
 
@@ -67,7 +81,15 @@ global.jeiCategories.alchemy.handlers.setRecipe = (jeiHelpers, builder, recipe, 
 
 }
 
-global.jeiCategories.alchemy.handlers.draw = (jeiHelpers, recipe, recipeSlotsView, guiGraphics, mouseX, mouseY) => {
+/**
+ * @param {Internal.IJeiHelpers} jeiHelpers 
+ * @param {any} recipe 
+ * @param {Internal.IRecipeSlotsView} recipeSlotsView 
+ * @param {Internal.GuiGraphics} guiGraphics 
+ * @param {number} mouseX 
+ * @param {number} mouseY 
+ */
+global.jeiCategories.alchemy.handlers.draw = function (jeiHelpers, recipe, recipeSlotsView, guiGraphics, mouseX, mouseY) {
     global.jeiCategories.alchemy.resources.energyEmpty.draw(guiGraphics, 5, 44);
     global.jeiCategories.alchemy.resources.energyFull.draw(guiGraphics, 5, 44);
     global.jeiCategories.alchemy.resources.alchemyArrow.draw(guiGraphics, 60, 44);
@@ -95,7 +117,15 @@ global.jeiCategories.alchemy.handlers.draw = (jeiHelpers, recipe, recipeSlotsVie
     matrixStack.popPose();
 }
 
-global.jeiCategories.alchemy.handlers.tooltips = (jeiHelpers, recipe, recipeSlotsView, mouseX, mouseY) => {
+/**
+ * @param {Internal.IJeiHelpers} jeiHelpers 
+ * @param {any} recipe 
+ * @param {Internal.IRecipeSlotsView} recipeSlotsView 
+ * @param {number} mouseX 
+ * @param {number} mouseY 
+ * @returns {[Internal.Component]}
+ */
+global.jeiCategories.alchemy.handlers.tooltips = function (jeiHelpers, recipe, recipeSlotsView, mouseX, mouseY) {
     if (mouseX>5&&mouseX<18&&mouseY>44&&mouseY<61) {
         return [ThermalStringHelper.getTextComponent("info.cofh.energy").append(": " + ThermalStringHelper.format(recipe.data.energy) + " " + ThermalStringHelper.localize("info.cofh.unit_rf"))];
     }
