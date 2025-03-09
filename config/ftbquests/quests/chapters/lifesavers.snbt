@@ -10,11 +10,11 @@
 	quests: [
 		{
 			description: [
-				"With new circuitry and wiring capability, you can make your factory a little smarter. Also those lamps you can make are really pretty."
+				"{cabin.quest.1127129CBA2B5E6F.description1}"
 				""
-				"For an actual piece of advice: it is pretty simple to set up a little circuit at a few points in your factory, which detect when an item has not been produced in a while. You can use redstone links to redirect those signals to a central control room, giving you an overview of which sections require maintenance."
+				"{cabin.quest.1127129CBA2B5E6F.description2}"
 				""
-				"The circuit on site is basically a tug of war between a slow timer and a content observer detecting the items. The Counter available from circuit stonecutting works perfectly for this."
+				"{cabin.quest.1127129CBA2B5E6F.description3}"
 			]
 			icon: "projectred_illumination:red_inverted_fixture_light"
 			id: "1127129CBA2B5E6F"
@@ -47,16 +47,16 @@
 							value: "projectred_core:illumars"
 						}
 					}
-					title: "Any Illumar Dust"
+					title: "{cabin.task.17B93B8634BC1C2D}"
 					type: "item"
 				}
 			]
-			title: "Control Centre"
+			title: "{cabin.quest.1127129CBA2B5E6F.title}"
 			x: -4.0d
 			y: 1.0d
 		}
 		{
-			description: ["Especially while building new Contraptions, this gadget is incredibly handy. Instead of filling up your pockets with components, you can remotely access the toolbox with a keybind. It also has a increased stacksize."]
+			description: ["{cabin.quest.26C39961F2E2ABF2.description1}"]
 			id: "26C39961F2E2ABF2"
 			rewards: [{
 				id: "2AC846CB2DF485C8"
@@ -74,18 +74,18 @@
 						value: "create:toolboxes"
 					}
 				}
-				title: "Any Toolbox"
+				title: "{cabin.task.5E687A6CBD96D0EF}"
 				type: "item"
 			}]
-			title: "Engineer's Companion"
+			title: "{cabin.quest.26C39961F2E2ABF2.title}"
 			x: -5.0d
 			y: -1.0d
 		}
 		{
 			description: [
-				"Enchanting a bubbleblower with stasis allows it to be able to blow bubble blocks, which you can replace with other blocks, and walk on. (Crouch to extend duration)"
+				"{cabin.quest.0B8816319F81C12A.description1}"
 				""
-				"Bubbleblowers require soap to work, but will never lose durability themselves."
+				"{cabin.quest.0B8816319F81C12A.description2}"
 			]
 			icon: "supplementaries:bubble_block"
 			id: "0B8816319F81C12A"
@@ -115,12 +115,12 @@
 				}
 				type: "item"
 			}]
-			title: "Bubble Blocks"
+			title: "{cabin.quest.0B8816319F81C12A.title}"
 			x: 1.0d
 			y: -1.0d
 		}
 		{
-			description: ["If you are looking for extra large but specialised storage space in a block, check out Functional Storage."]
+			description: ["{cabin.quest.382EBC32AC27C839.description1}"]
 			id: "382EBC32AC27C839"
 			rewards: [{
 				id: "7CA19E24D6A5BF46"
@@ -138,12 +138,12 @@
 				}
 				type: "item"
 			}]
-			title: "Big Barrels II"
+			title: "{cabin.quest.382EBC32AC27C839.title}"
 			x: 1.0d
 			y: 3.0d
 		}
 		{
-			description: ["Stoves are a good-looking and very useful campfire alternative. Together with a Cooking Pot, it can help you prepare the most delicious meals in the game."]
+			description: ["{cabin.quest.0E4476BA80B316F6.description1}"]
 			id: "0E4476BA80B316F6"
 			rewards: [{
 				id: "02BA7C4E293DD955"
@@ -156,12 +156,12 @@
 				item: "farmersdelight:stove"
 				type: "item"
 			}]
-			title: "The Joy of Cooking"
+			title: "{cabin.quest.0E4476BA80B316F6.title}"
 			x: 0.0d
 			y: -3.0d
 		}
 		{
-			description: ["Exchangers make for a nice tool to replace blocks with others. Saves you a lot of digging."]
+			description: ["{cabin.quest.6D7D504E9DC22590.description1}"]
 			id: "6D7D504E9DC22590"
 			rewards: [{
 				id: "12B2F2F9A6A257FE"
@@ -417,18 +417,18 @@
 						]
 					}
 				}
-				title: "Any Exchanger"
+				title: "{cabin.task.4BE0CCD6F383D961}"
 				type: "item"
 			}]
-			title: "Hotswap replace"
+			title: "{cabin.quest.6D7D504E9DC22590.title}"
 			x: -3.0d
 			y: -1.0d
 		}
 		{
 			description: [
-				"Construction wands can extend complete walls or surfaces of blocks by the click of a button."
+				"{cabin.quest.2F469F6F1511D9C4.description1}"
 				""
-				"You can add a destruction core to give it the option to destory blocks instead."
+				"{cabin.quest.2F469F6F1511D9C4.description2}"
 			]
 			id: "2F469F6F1511D9C4"
 			rewards: [{
@@ -479,15 +479,15 @@
 						]
 					}
 				}
-				title: "Any Construction Wand"
+				title: "{cabin.task.039DD9EBD46B2C23}"
 				type: "item"
 			}]
-			title: "Blockstacker"
+			title: "{cabin.quest.2F469F6F1511D9C4.title}"
 			x: -1.0d
 			y: -1.0d
 		}
 		{
-			description: ["Human Arms just aren't evolved to build machines efficiently, yet. Thankfully this gadget can make up for it by increasing your reach distance significantly."]
+			description: ["{cabin.quest.7061F42CF050ADCA.description1}"]
 			id: "7061F42CF050ADCA"
 			rewards: [{
 				count: 8
@@ -507,12 +507,12 @@
 				}
 				type: "item"
 			}]
-			title: "Pass me the butter"
+			title: "{cabin.quest.7061F42CF050ADCA.title}"
 			x: 3.0d
 			y: -1.0d
 		}
 		{
-			description: ["Sometimes it is desirable to travel to a specific Biome. The Nature's Compass can at least point you in the right direction."]
+			description: ["{cabin.quest.45E7810E21F6F9AE.description1}"]
 			id: "45E7810E21F6F9AE"
 			rewards: [{
 				id: "482338485BF4B3B0"
@@ -534,7 +534,7 @@
 			y: -3.0d
 		}
 		{
-			description: ["In case you need large universal storage space in a block, check out the upgrade options for wooden barrels."]
+			description: ["{cabin.quest.50E2D6459F3D68C0.description1}"]
 			id: "50E2D6459F3D68C0"
 			rewards: [{
 				id: "390AF1049C411219"
@@ -569,15 +569,15 @@
 						]
 					}
 				}
-				title: "Any Upgraded Barrel"
+				title: "{cabin.task.6D6CDA4DEFD5795F}"
 				type: "item"
 			}]
-			title: "Big Barrels"
+			title: "{cabin.quest.50E2D6459F3D68C0.title}"
 			x: -1.0d
 			y: 3.0d
 		}
 		{
-			description: ["With the help of Schematicannons, any .nbt Schematic can be built into your world. Use it to replicate parts of your Building, or even to prepare it in a completely different World ahead of time."]
+			description: ["{cabin.quest.09EB29F838620371.description1}"]
 			id: "09EB29F838620371"
 			rewards: [{
 				id: "7AF62EF3656DD4E3"
@@ -590,15 +590,15 @@
 				item: "create:schematicannon"
 				type: "item"
 			}]
-			title: "House Building Cannon"
+			title: "{cabin.quest.09EB29F838620371.title}"
 			x: -7.0d
 			y: -1.0d
 		}
 		{
 			description: [
-				"These Blueprints can be given one or more crafting recipes, which they then apply to your held items whenever you right-click them."
+				"{cabin.quest.6D900619B1967D72.description1}"
 				""
-				"The quickest and most effective way to assign recipes is to locate the recipe in JEI while the blueprint UI is open. Clicking the '+' in the JEI recipe view will transfer the recipe ingredients to the blueprint for you."
+				"{cabin.quest.6D900619B1967D72.description2}"
 			]
 			id: "6D900619B1967D72"
 			rewards: [{
@@ -612,15 +612,15 @@
 				item: "create:crafting_blueprint"
 				type: "item"
 			}]
-			title: "Big Plans"
+			title: "{cabin.quest.6D900619B1967D72.title}"
 			x: -2.0d
 			y: -3.0d
 		}
 		{
 			description: [
-				"Belts and Arms are great, but sometimes we will still give in to the guilty pleasure of using item pipes."
+				"{cabin.quest.334146C815B304DB.description1}"
 				""
-				"These tubes however can even serve as a pretty sophisticated logistical infrastructure. Blocks like the Item- or Crafting Terminal will be able to request items from any chests connected to them."
+				"{cabin.quest.334146C815B304DB.description2}"
 			]
 			id: "334146C815B304DB"
 			rewards: [{
@@ -634,15 +634,15 @@
 				item: "prettypipes:pipe"
 				type: "item"
 			}]
-			title: "Pressure Tube"
+			title: "{cabin.quest.334146C815B304DB.title}"
 			x: -7.0d
 			y: 3.0d
 		}
 		{
 			description: [
-				"With the rise of Inductive Machinery, you'll want to have the option to connect dynamos and machines together in an energy grid."
+				"{cabin.quest.6BC864CC7CB2C316.description1}"
 				""
-				"You can use a Cresent Hammer to rightclick the pipe connection attached to the block in order to enable/disable the connection, and flux limiters can be used to edit the RF/t that can be exported out of a given connection."
+				"{cabin.quest.6BC864CC7CB2C316.description2}"
 			]
 			id: "6BC864CC7CB2C316"
 			rewards: [{
@@ -657,12 +657,12 @@
 				item: "thermal:energy_duct"
 				type: "item"
 			}]
-			title: "Induction Conduits"
+			title: "{cabin.quest.6BC864CC7CB2C316.title}"
 			x: -3.0d
 			y: 3.0d
 		}
 		{
-			description: ["This torch can completely stop hostile mob spawns in a large radius, great for those wishing to do moody builds without having to deal with mobs."]
+			description: ["{cabin.quest.1DBFD0B34659A8F9.description1}"]
 			id: "1DBFD0B34659A8F9"
 			rewards: [{
 				id: "7BD14F5479FAB194"
@@ -675,12 +675,12 @@
 				item: "torchmaster:megatorch"
 				type: "item"
 			}]
-			title: "Mob-Be-Gone"
+			title: "{cabin.quest.1DBFD0B34659A8F9.title}"
 			x: 2.0d
 			y: -3.0d
 		}
 		{
-			description: ["Crafting Stations can access adjacent inventories, which can be fairly useful until you get pretty pipes set up."]
+			description: ["{cabin.quest.087659F192F41C6E.description1}"]
 			icon: "tconstruct:crafting_station"
 			id: "087659F192F41C6E"
 			rewards: [{
@@ -694,12 +694,12 @@
 				item: "tconstruct:crafting_station"
 				type: "item"
 			}]
-			title: "Crafting Station"
+			title: "{cabin.quest.087659F192F41C6E.title}"
 			x: 2.0d
 			y: 1.0d
 		}
 		{
-			description: ["The flight anchor grants flight to those in range, with it's range increasing with the RPM powering it. This should be of great help in setting up big factories!"]
+			description: ["{cabin.quest.0F4B0608CBF966E6.description1}"]
 			icon: "balancedflight:flight_anchor"
 			id: "0F4B0608CBF966E6"
 			rewards: [{
@@ -721,15 +721,15 @@
 				item: "balancedflight:flight_anchor"
 				type: "item"
 			}]
-			title: "The Other Gamemode"
+			title: "{cabin.quest.0F4B0608CBF966E6.title}"
 			x: 3.0d
 			y: 3.0d
 		}
 		{
 			description: [
-				"These nice backpacks can be upgraded to increase storage space, as well as augmented to change how they act, such as a autosmelter, or increasing the stacksize of items stored within."
+				"{cabin.quest.661807F8ED723EEB.description1}"
 				""
-				"You can even get one of these in the store, so it may be worth spending your early coins on to make the earlygame mining trip go by much quicker."
+				"{cabin.quest.661807F8ED723EEB.description2}"
 			]
 			id: "661807F8ED723EEB"
 			rewards: [{
@@ -748,9 +748,9 @@
 		}
 		{
 			description: [
-				"Thermal's fluidducts move fluids without requiring SU to do so. Servos, placed on connections, are used to import fluids into the pipes, and filters are used to control what can be exported from a given pipe."
+				"{cabin.quest.1DD2802F5611D419.description1}"
 				""
-				"You can use a Cresent Hammer to rightclick the pipe connection attached to the blcok in order to enable/disable the connection."
+				"{cabin.quest.1DD2802F5611D419.description2}"
 			]
 			id: "1DD2802F5611D419"
 			rewards: [{
@@ -764,12 +764,12 @@
 				item: "thermal:fluid_duct"
 				type: "item"
 			}]
-			title: "Easier Fluid Movement"
+			title: "{cabin.quest.1DD2802F5611D419.title}"
 			x: -5.0d
 			y: 3.0d
 		}
 		{
-			description: ["Exactly what the name implies, its a stonecutter that you can use in your backpack."]
+			description: ["{cabin.quest.4B1017D1C176412F.description1}"]
 			id: "4B1017D1C176412F"
 			rewards: [{
 				id: "07C632B31F279953"
@@ -785,7 +785,7 @@
 			y: -3.0d
 		}
 		{
-			description: ["If you know LUA (or are willing to learn), computercraft is can be a very strong tool in your factory, as computercraft can read information from create blocks."]
+			description: ["{cabin.quest.374933A06E016CE9.description1}"]
 			icon: "computercraft:computer_normal"
 			id: "374933A06E016CE9"
 			rewards: [{
@@ -813,18 +813,18 @@
 						]
 					}
 				}
-				title: "Any Computer"
+				title: "{cabin.task.42002EEA26A72016}"
 				type: "item"
 			}]
-			title: "Programming the future"
+			title: "{cabin.quest.374933A06E016CE9.title}"
 			x: 0.0d
 			y: 1.0d
 		}
 		{
 			description: [
-				"Rechiseled adds a variety of block varients to give you more options when building your base."
+				"{cabin.quest.78A8751AF86E0E32.description1}"
 				""
-				"If loaded, Rechiseled: Create adds even more blocks, as well as a way to automate the chiseling of all of the above, with the mechanical chisel."
+				"{cabin.quest.78A8751AF86E0E32.description2}"
 			]
 			icon: {
 				Count: 1
@@ -848,10 +848,10 @@
 				}
 				type: "item"
 			}]
-			title: "Chiseling"
+			title: "{cabin.quest.78A8751AF86E0E32.title}"
 			x: -2.0d
 			y: 1.0d
 		}
 	]
-	title: " Lifesavers"
+	title: "{cabin.chapter.0D0BC5B3F6623669.title}"
 }

@@ -11,11 +11,11 @@
 		{
 			dependencies: ["780E8AE86250C73D"]
 			description: [
-				"Working towards a passive supply of Radiant Induction Coils, you'll be sure to encounter some new and unfamiliar tasks. "
+				"{cabin.quest.397232F676CB621B.description1}"
 				""
-				"Once again it's time to grab the Wrench, re-stock the toolbox and to clear out a new plot."
+				"{cabin.quest.397232F676CB621B.description2}"
 				""
-				"Happy Creating!"
+				"{cabin.quest.397232F676CB621B.description3}"
 			]
 			hide_until_deps_visible: true
 			icon: "create:precision_mechanism"
@@ -31,36 +31,36 @@
 				id: "2236686383D4E61B"
 				type: "checkmark"
 			}]
-			title: "Chapter 3 Start!"
+			title: "{cabin.quest.397232F676CB621B.title}"
 			x: -1.5d
 			y: -1.0d
 		}
 		{
 			dependencies: ["397232F676CB621B"]
 			description: [
-				"The production of Refined Radiance requires either a steady supply of light emitting blocks, or an active Beacon Beam."
+				"{cabin.quest.3025B5861FE17ADF.description1}"
 				""
-				"Choose which path you would like to take, and provide necessary preparation/automation."
+				"{cabin.quest.3025B5861FE17ADF.description2}"
 			]
 			hide_dependency_lines: true
 			icon: "minecraft:torch"
 			id: "3025B5861FE17ADF"
 			shape: "circle"
-			subtitle: "Contraption 27"
+			subtitle: "{cabin.quest.3025B5861FE17ADF.subtitle}"
 			tasks: [{
 				id: "7FB92D9DB34672AE"
 				type: "checkmark"
 			}]
-			title: "Let there be light"
+			title: "{cabin.quest.3025B5861FE17ADF.title}"
 			x: -6.5d
 			y: 3.5d
 		}
 		{
 			dependencies: ["402F89CABF6BCDA4"]
-			description: ["For production of chromatic materials, a colour pigment is needed. It is up to you which colour dye should be automated for this purpose. The only exception is white dye."]
+			description: ["{cabin.quest.27C191346BB14D9D.description1}"]
 			icon: "minecraft:rose_bush"
 			id: "27C191346BB14D9D"
-			subtitle: "Contraption 25"
+			subtitle: "{cabin.quest.27C191346BB14D9D.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -133,25 +133,25 @@
 							]
 						}
 					}
-					title: "Dyes except White"
+					title: "{cabin.task.6C47C95A06683D71}"
 					type: "item"
 				}
 				{
 					id: "32E697E9386ABF17"
-					title: "Automated"
+					title: "{cabin.task.32E697E9386ABF17}"
 					type: "checkmark"
 				}
 			]
-			title: "Your Favourite Colour"
+			title: "{cabin.quest.27C191346BB14D9D.title}"
 			x: 0.0d
 			y: 7.0d
 		}
 		{
 			dependencies: ["2CCD84D55DE71EB2"]
 			description: [
-				"Crushing Dyed Singularities has a chance to yield little orbs of red colour."
+				"{cabin.quest.3B421C8F7947E542.description1}"
 				""
-				"Since this is not the colour needed for chromatic compound, you can use Item Drains for frequency correction."
+				"{cabin.quest.3B421C8F7947E542.description2}"
 			]
 			id: "3B421C8F7947E542"
 			shape: "circle"
@@ -161,7 +161,7 @@
 				item: "ae2:red_paint_ball"
 				type: "item"
 			}]
-			title: "Spectral Correction (Red)"
+			title: "{cabin.quest.3B421C8F7947E542.title}"
 			x: -0.85d
 			y: 9.0d
 		}
@@ -171,9 +171,9 @@
 				"3B421C8F7947E542"
 			]
 			description: [
-				"Crushing Dyed Singularities has a chance to yield little orbs of yellow colour, aswell."
+				"{cabin.quest.381F8F373605BB97.description1}"
 				""
-				"Much like the red ones, these have to be drained once again to shift the frequency in the right direction."
+				"{cabin.quest.381F8F373605BB97.description2}"
 			]
 			id: "381F8F373605BB97"
 			shape: "circle"
@@ -183,7 +183,7 @@
 				item: "ae2:yellow_paint_ball"
 				type: "item"
 			}]
-			title: "Spectral Correction (Yellow)"
+			title: "{cabin.quest.381F8F373605BB97.title}"
 			x: -2.0d
 			y: 9.0d
 		}
@@ -192,7 +192,7 @@
 				"2CCD84D55DE71EB2"
 				"381F8F373605BB97"
 			]
-			description: ["The cycle continues. "]
+			description: ["{cabin.quest.6A76E65324F0ACC0.description1}"]
 			id: "6A76E65324F0ACC0"
 			shape: "circle"
 			tasks: [{
@@ -201,7 +201,7 @@
 				item: "ae2:green_paint_ball"
 				type: "item"
 			}]
-			title: "Spectral Correction (Green)"
+			title: "{cabin.quest.6A76E65324F0ACC0.title}"
 			x: -3.0d
 			y: 8.5d
 		}
@@ -210,7 +210,7 @@
 				"2CCD84D55DE71EB2"
 				"6A76E65324F0ACC0"
 			]
-			description: ["Being almost there, all the Paint Balls now brought to the blue frequency will have to be run through the Item Drain one last time."]
+			description: ["{cabin.quest.302FCD205CC2F708.description1}"]
 			id: "302FCD205CC2F708"
 			shape: "circle"
 			tasks: [{
@@ -219,7 +219,7 @@
 				item: "ae2:blue_paint_ball"
 				type: "item"
 			}]
-			title: "Spectral Correction (Blue)"
+			title: "{cabin.quest.302FCD205CC2F708.title}"
 			x: -3.5d
 			y: 7.5d
 		}
@@ -228,10 +228,10 @@
 				"2CCD84D55DE71EB2"
 				"302FCD205CC2F708"
 			]
-			description: ["Magenta Paint Balls contain the essence needed for production of Chromatic Compound. Some will come directly from the crushed singularity, but the majority can be obtained by spectral correction on the other colours."]
+			description: ["{cabin.quest.3BE15AA5C237AB80.description1}"]
 			icon: "ae2:magenta_paint_ball"
 			id: "3BE15AA5C237AB80"
-			subtitle: "Contraption 26-2"
+			subtitle: "{cabin.quest.3BE15AA5C237AB80.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -241,24 +241,24 @@
 				}
 				{
 					id: "27D5CBB137116AB1"
-					title: "Automated"
+					title: "{cabin.task.27D5CBB137116AB1}"
 					type: "checkmark"
 				}
 			]
-			title: "Spectral Correction (Magenta)"
+			title: "{cabin.quest.3BE15AA5C237AB80.title}"
 			x: -3.5d
 			y: 6.35d
 		}
 		{
 			dependencies: ["3BE15AA5C237AB80"]
-			description: ["Use Mechanical Crafters once more to refine the paint orbs into Chromatic Compound."]
+			description: ["{cabin.quest.7B23C933D76458BA.description1}"]
 			icon: {
 				Count: 1
 				id: "create:chromatic_compound"
 				tag: { }
 			}
 			id: "7B23C933D76458BA"
-			subtitle: "Contraption 26-3"
+			subtitle: "{cabin.quest.7B23C933D76458BA.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -272,11 +272,11 @@
 				}
 				{
 					id: "27A8B7785CAB07C8"
-					title: "Automated"
+					title: "{cabin.task.27A8B7785CAB07C8}"
 					type: "checkmark"
 				}
 			]
-			title: "Colours Refined"
+			title: "{cabin.quest.7B23C933D76458BA.title}"
 			x: -5.0d
 			y: 6.35d
 		}
@@ -286,17 +286,17 @@
 				"7B23C933D76458BA"
 			]
 			description: [
-				"When dropped as an item, Chromatic Compound will absorb light around itself and eventually turn into Refined Radiance. Choose one of three approaches:"
+				"{cabin.quest.286510750C333C1F.description1}"
 				""
-				"- Autoplacing light emitting blocks near the dropped compound items (blocks need line of sight to item)"
+				"{cabin.quest.286510750C333C1F.description2}"
 				""
-				"- Supplying light emitting blocks as items on nearby depots/belts (blocks need line of sight to item)"
+				"{cabin.quest.286510750C333C1F.description3}"
 				""
-				"- Throwing the compound into a Beacon Beam for free and instant conversion"
+				"{cabin.quest.286510750C333C1F.description4}"
 			]
 			icon: "create:refined_radiance"
 			id: "286510750C333C1F"
-			subtitle: "Contraption 28-1"
+			subtitle: "{cabin.quest.286510750C333C1F.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -306,20 +306,20 @@
 				}
 				{
 					id: "2DC30322D81D9999"
-					title: "Automated"
+					title: "{cabin.task.2DC30322D81D9999}"
 					type: "checkmark"
 				}
 			]
-			title: "Throwing Flash"
+			title: "{cabin.quest.286510750C333C1F.title}"
 			x: -6.5d
 			y: 6.35d
 		}
 		{
 			dependencies: ["410FF28B63E0FC0C"]
-			description: ["And finally, one last Crafter to cut and wind up the radiant sheet into an Induction Coil."]
+			description: ["{cabin.quest.626A7D9947D82B89.description1}"]
 			icon: "kubejs:radiant_coil"
 			id: "626A7D9947D82B89"
-			subtitle: "Contraption 28-3"
+			subtitle: "{cabin.quest.626A7D9947D82B89.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -329,21 +329,21 @@
 				}
 				{
 					id: "27C737E08A9027A5"
-					title: "Automated"
+					title: "{cabin.task.27C737E08A9027A5}"
 					type: "checkmark"
 				}
 			]
-			title: "Neon lights"
+			title: "{cabin.quest.626A7D9947D82B89.title}"
 			x: -4.0d
 			y: 11.0d
 		}
 		{
 			dependencies: ["397232F676CB621B"]
-			description: ["The trusty and cheap multi-purpose material of cobblestone is making its comeback."]
+			description: ["{cabin.quest.5C277D27606F64DA.description1}"]
 			hide_dependency_lines: true
 			icon: "minecraft:cobblestone"
 			id: "5C277D27606F64DA"
-			subtitle: "Contraption 20-1"
+			subtitle: "{cabin.quest.5C277D27606F64DA.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -355,16 +355,16 @@
 							value: "forge:cobblestone"
 						}
 					}
-					title: "Any Cobblestone"
+					title: "{cabin.task.35C10E79F8F1E0DF}"
 					type: "item"
 				}
 				{
 					id: "36BD580312C8177B"
-					title: "Automated"
+					title: "{cabin.task.36BD580312C8177B}"
 					type: "checkmark"
 				}
 			]
-			title: "More Cobblestone"
+			title: "{cabin.quest.5C277D27606F64DA.title}"
 			x: -1.5d
 			y: 1.0d
 		}
@@ -373,10 +373,10 @@
 				"59D2104DB6AE93FD"
 				"626A7D9947D82B89"
 			]
-			description: ["You know the drill. It is time to upgrade your previously automated Precision Mechanisms to the next level!"]
+			description: ["{cabin.quest.6CBA3D97CAD5DB63.description1}"]
 			icon: "kubejs:inductive_mechanism"
 			id: "6CBA3D97CAD5DB63"
-			subtitle: "Contraption 29"
+			subtitle: "{cabin.quest.6CBA3D97CAD5DB63.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -386,20 +386,20 @@
 				}
 				{
 					id: "057A05C13C55ABC4"
-					title: "Automated"
+					title: "{cabin.task.057A05C13C55ABC4}"
 					type: "checkmark"
 				}
 			]
-			title: "Deploy the Payload"
+			title: "{cabin.quest.6CBA3D97CAD5DB63.title}"
 			x: -1.5d
 			y: 11.5d
 		}
 		{
 			dependencies: ["6CBA3D97CAD5DB63"]
 			description: [
-				"Congrats! Inductive Mechanisms will now be generated passively. This opens the door to new exciting technological and magical exploits!"
+				"{cabin.quest.3A63A48662F352CB.description1}"
 				""
-				"Once you are happy with the Assembly Line, head on back to the overview. There will be new options to explore."
+				"{cabin.quest.3A63A48662F352CB.description2}"
 			]
 			id: "3A63A48662F352CB"
 			rewards: [
@@ -430,16 +430,16 @@
 				item: "thermal:machine_frame"
 				type: "item"
 			}]
-			title: "Chapter 3 Complete!"
+			title: "{cabin.quest.3A63A48662F352CB.title}"
 			x: -1.5d
 			y: 13.5d
 		}
 		{
 			dependencies: ["7AAE71F57FB89BCC"]
-			description: ["By Crushing the Crushing Wheels using Crushing Wheels, a strange anomaly is created and dropped. We can use this to our advantage."]
+			description: ["{cabin.quest.2C81D358594C4352.description1}"]
 			icon: "ae2:singularity"
 			id: "2C81D358594C4352"
-			subtitle: "Contraption 20-3"
+			subtitle: "{cabin.quest.2C81D358594C4352.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -449,11 +449,11 @@
 				}
 				{
 					id: "09AAD9853B976D69"
-					title: "Automated"
+					title: "{cabin.task.09AAD9853B976D69}"
 					type: "checkmark"
 				}
 			]
-			title: "Inception"
+			title: "{cabin.quest.2C81D358594C4352.title}"
 			x: -1.5d
 			y: 4.0d
 		}
@@ -464,15 +464,15 @@
 				"375C9A43FE5620B6"
 			]
 			description: [
-				"Here comes the central feature of this Factory Wing: the Reactor."
+				"{cabin.quest.5A199B898D41A309.description1}"
 				""
-				"Progressing towards Inductive Coils requires a controlled Explosion where nearby Singularities and Ender Dust are combined. See if you can come up with a circuit to continuously blow up these dropped item-stacks."
+				"{cabin.quest.5A199B898D41A309.description2}"
 				""
-				"Note: Ender dust and Singularities are consumed in a 1:1 ratio. They do not have to be in the exact same location. One TNT can transform multiple sets of ingredients. The result will drop at the location of the Singularity item."
+				"{cabin.quest.5A199B898D41A309.description3}"
 			]
 			icon: "ae2:quantum_entangled_singularity"
 			id: "5A199B898D41A309"
-			subtitle: "Contraption 24"
+			subtitle: "{cabin.quest.5A199B898D41A309.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -482,11 +482,11 @@
 				}
 				{
 					id: "3A68EA184DE4D9B4"
-					title: "Automated"
+					title: "{cabin.task.3A68EA184DE4D9B4}"
 					type: "checkmark"
 				}
 			]
-			title: "The Reactor"
+			title: "{cabin.quest.5A199B898D41A309.title}"
 			x: -1.5d
 			y: 5.5d
 		}
@@ -495,10 +495,10 @@
 				"5F9BA7BA46D2E5B8"
 				"050A20198A80CF1A"
 			]
-			description: ["Use Mechanical Crafters to build TNT. Since most of its slots will have to be supplied individually, a mechanical Arm might help for provinding the necessary logistics."]
+			description: ["{cabin.quest.02B2E249421FAE58.description1}"]
 			icon: "minecraft:tnt"
 			id: "02B2E249421FAE58"
-			subtitle: "Contraption 23-2"
+			subtitle: "{cabin.quest.02B2E249421FAE58.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -508,11 +508,11 @@
 				}
 				{
 					id: "2AD912C0E25F5D65"
-					title: "Automated"
+					title: "{cabin.task.2AD912C0E25F5D65}"
 					type: "checkmark"
 				}
 			]
-			title: "Checker Crafters"
+			title: "{cabin.quest.02B2E249421FAE58.title}"
 			x: 0.0d
 			y: 4.0d
 		}
@@ -523,13 +523,13 @@
 			]
 			dependency_requirement: "one_completed"
 			description: [
-				"Transmuting the green reactive blend requires very special heating conditions, only available on Campfires or Stoves."
+				"{cabin.quest.050A20198A80CF1A.description1}"
 				""
-				"This Contraption will need the special ability to both place and collect items from these places."
+				"{cabin.quest.050A20198A80CF1A.description2}"
 			]
 			icon: "minecraft:gunpowder"
 			id: "050A20198A80CF1A"
-			subtitle: "Contraption 22-2"
+			subtitle: "{cabin.quest.050A20198A80CF1A.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -539,21 +539,21 @@
 				}
 				{
 					id: "34EFEE60A6755C01"
-					title: "Automated"
+					title: "{cabin.task.34EFEE60A6755C01}"
 					type: "checkmark"
 				}
 			]
-			title: "Cooking up some Gunpowder"
+			title: "{cabin.quest.050A20198A80CF1A.title}"
 			x: 1.5d
 			y: 4.0d
 		}
 		{
 			dependencies: ["397232F676CB621B"]
-			description: ["Sand will be required to build the Explosives needed for the Reactor. Thankfully, new standards have allowed you access to Crushing Wheels, which make sand production a lot less of a nuisance."]
+			description: ["{cabin.quest.5F9BA7BA46D2E5B8.description1}"]
 			hide_dependency_lines: true
 			icon: "minecraft:sand"
 			id: "5F9BA7BA46D2E5B8"
-			subtitle: "Contraption 23-1"
+			subtitle: "{cabin.quest.5F9BA7BA46D2E5B8.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -563,11 +563,11 @@
 				}
 				{
 					id: "2A3EAC60765E5C7A"
-					title: "Automated"
+					title: "{cabin.task.2A3EAC60765E5C7A}"
 					type: "checkmark"
 				}
 			]
-			title: "More Sand"
+			title: "{cabin.quest.5F9BA7BA46D2E5B8.title}"
 			x: 0.0d
 			y: 1.0d
 		}
@@ -578,13 +578,13 @@
 			]
 			dependency_requirement: "one_completed"
 			description: [
-				"Transmuting the purple reactive blend requires very special heating conditions, only available on Campfires or Stoves."
+				"{cabin.quest.375C9A43FE5620B6.description1}"
 				""
-				"This Contraption will need the special ability to both place and collect items from these places."
+				"{cabin.quest.375C9A43FE5620B6.description2}"
 			]
 			icon: "ae2:ender_dust"
 			id: "375C9A43FE5620B6"
-			subtitle: "Contraption 22-3"
+			subtitle: "{cabin.quest.375C9A43FE5620B6.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -594,11 +594,11 @@
 				}
 				{
 					id: "37A6393C0AD6E861"
-					title: "Automated"
+					title: "{cabin.task.37A6393C0AD6E861}"
 					type: "checkmark"
 				}
 			]
-			title: "Cooking up some Ender Dust"
+			title: "{cabin.quest.375C9A43FE5620B6.title}"
 			x: 1.5d
 			y: 5.5d
 		}
@@ -607,10 +607,10 @@
 				"27C191346BB14D9D"
 				"5A199B898D41A309"
 			]
-			description: ["Mixing the Entangled Singularities with a dye of choice creates the very essence of colour! Just what we need for producing a perfected chromatic compound."]
+			description: ["{cabin.quest.2CCD84D55DE71EB2.description1}"]
 			icon: "kubejs:dye_entangled_singularity"
 			id: "2CCD84D55DE71EB2"
-			subtitle: "Contraption 26-1"
+			subtitle: "{cabin.quest.2CCD84D55DE71EB2.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -620,17 +620,17 @@
 				}
 				{
 					id: "4B4BDAA9DFB0518A"
-					title: "Automated"
+					title: "{cabin.task.4B4BDAA9DFB0518A}"
 					type: "checkmark"
 				}
 			]
-			title: "Painting Space itself"
+			title: "{cabin.quest.2CCD84D55DE71EB2.title}"
 			x: -1.5d
 			y: 7.0d
 		}
 		{
 			dependencies: ["6DBEF7A11890ADF8"]
-			description: ["Marvellous! The power of instant transportation is in your hands at last. Surely there are some places in your factory where this could really speed things up."]
+			description: ["{cabin.quest.4EDD9A8F14E48EAE.description1}"]
 			id: "4EDD9A8F14E48EAE"
 			rewards: [
 				{
@@ -660,13 +660,13 @@
 				item: "kubejs:enderium_machine"
 				type: "item"
 			}]
-			title: "Bonus 3A Complete!"
+			title: "{cabin.quest.4EDD9A8F14E48EAE.title}"
 			x: -1.5d
 			y: 21.0d
 		}
 		{
 			dependencies: ["7B080B5C87247EA1"]
-			description: ["And finally, upgrade some of your Inductive Mechanisms in the Smelter using the newly obtained Alloy."]
+			description: ["{cabin.quest.6DBEF7A11890ADF8.description1}"]
 			id: "6DBEF7A11890ADF8"
 			shape: "circle"
 			tasks: [{
@@ -675,16 +675,16 @@
 				item: "kubejs:abstruse_mechanism"
 				type: "item"
 			}]
-			title: "Enderium Infused"
+			title: "{cabin.quest.6DBEF7A11890ADF8.title}"
 			x: -1.5d
 			y: 19.0d
 		}
 		{
 			dependencies: ["05C7E580ED88B556"]
 			description: [
-				"After your flawless encounter with the Ender Dragon, make your way to the Gateway and travel to the outer Islands."
+				"{cabin.quest.794B3C10C6110CB5.description1}"
 				""
-				"Here you should be able to find the Chorus Fruit necessary for creating Enderium Alloy."
+				"{cabin.quest.794B3C10C6110CB5.description2}"
 			]
 			icon: "minecraft:chorus_fruit"
 			id: "794B3C10C6110CB5"
@@ -695,13 +695,13 @@
 				item: "minecraft:chorus_flower"
 				type: "item"
 			}]
-			title: "Gateway Expedition"
+			title: "{cabin.quest.794B3C10C6110CB5.title}"
 			x: 0.0d
 			y: 17.5d
 		}
 		{
 			dependencies: ["794B3C10C6110CB5"]
-			description: ["Thanks to Inductive Technology, you have the option to replicate Chorus Flowers passively, should you require a steadier and more convenient supply of Enderium."]
+			description: ["{cabin.quest.1CCDA748B237F6F5.description1}"]
 			icon: "minecraft:chorus_flower"
 			id: "1CCDA748B237F6F5"
 			rewards: [{
@@ -717,7 +717,7 @@
 				item: "thermal:machine_insolator"
 				type: "item"
 			}]
-			title: "The Chorus Cycle"
+			title: "{cabin.quest.1CCDA748B237F6F5.title}"
 			x: 0.0d
 			y: 19.5d
 		}
@@ -728,9 +728,9 @@
 				"3BFC4DFCE765F3EA"
 			]
 			description: [
-				"Fire up your Induction Smelter for two rounds of processing:"
+				"{cabin.quest.7B080B5C87247EA1.description1}"
 				""
-				"First off, refine your Silver Ingots with Ender Dust and Chorous Fruit."
+				"{cabin.quest.7B080B5C87247EA1.description2}"
 			]
 			id: "7B080B5C87247EA1"
 			shape: "circle"
@@ -740,7 +740,7 @@
 				item: "thermal:enderium_ingot"
 				type: "item"
 			}]
-			title: "Alien Alloys"
+			title: "{cabin.quest.7B080B5C87247EA1.title}"
 			x: -1.5d
 			y: 18.0d
 		}
@@ -750,9 +750,9 @@
 				"6CBA3D97CAD5DB63"
 			]
 			description: [
-				"The Special properties of Silver can prove useful in creating Enderium Alloy."
+				"{cabin.quest.38B063C8DE71E86D.description1}"
 				""
-				"As it turns out, the only source of Silver seems to be your money. Makes you wonder where the official mints get it from..."
+				"{cabin.quest.38B063C8DE71E86D.description2}"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
@@ -764,13 +764,13 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			title: "Insert Coin"
+			title: "{cabin.quest.38B063C8DE71E86D.title}"
 			x: -3.0d
 			y: 15.0d
 		}
 		{
 			dependencies: ["38B063C8DE71E86D"]
-			description: ["Take the coins and throw them into your Smeltery. Watch out: this is an irreversible process."]
+			description: ["{cabin.quest.0C11EC34D5FA508B.description1}"]
 			icon: {
 				Count: 1
 				id: "tconstruct:copper_can"
@@ -784,7 +784,7 @@
 				id: "07ECEB35508F8871"
 				type: "checkmark"
 			}]
-			title: "Dissolved"
+			title: "{cabin.quest.0C11EC34D5FA508B.title}"
 			x: -1.5d
 			y: 15.5d
 		}
@@ -793,7 +793,7 @@
 				"6CBA3D97CAD5DB63"
 				"2BB2C7B95E3C89AE"
 			]
-			description: ["The Secrets to Teleportation lie behind the dimensional gate to the End."]
+			description: ["{cabin.quest.05C7E580ED88B556.description1}"]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			icon: "minecraft:end_portal_frame"
@@ -805,15 +805,15 @@
 				item: "minecraft:end_stone"
 				type: "item"
 			}]
-			title: "Not the End"
+			title: "{cabin.quest.05C7E580ED88B556.title}"
 			x: 0.0d
 			y: 15.0d
 		}
 		{
 			dependencies: ["626A7D9947D82B89"]
 			description: [
-				"It'll be good to stock up on a couple of resonators for the Mechanism Assembly."
-				"Don't worry about automating them fully, though."
+				"{cabin.quest.59D2104DB6AE93FD.description1}"
+				"{cabin.quest.59D2104DB6AE93FD.description2}"
 			]
 			hide_dependency_lines: true
 			id: "59D2104DB6AE93FD"
@@ -830,17 +830,17 @@
 				}
 				type: "item"
 			}]
-			title: "Arming the Deployer III"
+			title: "{cabin.quest.59D2104DB6AE93FD.title}"
 			x: 0.0d
 			y: 11.5d
 		}
 		{
 			dependencies: ["397232F676CB621B"]
-			description: ["For this next trick a supply of Wooden Sticks is required. Whether that calls for a new harvester or just a scheduled shipment from Contraption 1 is up to you."]
+			description: ["{cabin.quest.194B973EAF17809C.description1}"]
 			hide_dependency_lines: true
 			icon: "minecraft:stick"
 			id: "194B973EAF17809C"
-			subtitle: "Contraption 19"
+			subtitle: "{cabin.quest.194B973EAF17809C.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -850,11 +850,11 @@
 				}
 				{
 					id: "435C3E443BCC9176"
-					title: "Automated"
+					title: "{cabin.task.435C3E443BCC9176}"
 					type: "checkmark"
 				}
 			]
-			title: "Express Sticks"
+			title: "{cabin.quest.194B973EAF17809C.title}"
 			x: -3.0d
 			y: 1.0d
 		}
@@ -864,13 +864,13 @@
 				"5C277D27606F64DA"
 			]
 			description: [
-				"Next up, we need Crushing Wheels. Not only as a machine, but as an ingredient, too."
+				"{cabin.quest.7AAE71F57FB89BCC.description1}"
 				""
-				"Walls of Mechanical Crafters can quickly get in the way of paths and other infrastructure. Make sure to give them some space."
+				"{cabin.quest.7AAE71F57FB89BCC.description2}"
 			]
 			icon: "create:crushing_wheel"
 			id: "7AAE71F57FB89BCC"
-			subtitle: "Contraption 20-2"
+			subtitle: "{cabin.quest.7AAE71F57FB89BCC.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -880,17 +880,17 @@
 				}
 				{
 					id: "764E76A93ED07203"
-					title: "Automated"
+					title: "{cabin.task.764E76A93ED07203}"
 					type: "checkmark"
 				}
 			]
-			title: "The Wall"
+			title: "{cabin.quest.7AAE71F57FB89BCC.title}"
 			x: -1.5d
 			y: 2.5d
 		}
 		{
 			dependencies: ["3B421C8F7947E542"]
-			description: ["Draining paint balls creates a significant amount of liquid byproduct, which has to be disposed of before it starts clogging up the production line."]
+			description: ["{cabin.quest.2C40901DB42DD8F8.description1}"]
 			icon: "kubejs:chromatic_waste_bucket"
 			id: "2C40901DB42DD8F8"
 			shape: "circle"
@@ -898,7 +898,7 @@
 				id: "7058D1CE264D6769"
 				type: "checkmark"
 			}]
-			title: "Toxic Byproducts"
+			title: "{cabin.quest.2C40901DB42DD8F8.title}"
 			x: 0.5d
 			y: 9.0d
 		}
@@ -909,13 +909,13 @@
 			]
 			dependency_requirement: "one_completed"
 			description: [
-				"Transmuting the blue reactive blend requires very special heating conditions, only available on Campfires or Stoves."
+				"{cabin.quest.402F89CABF6BCDA4.description1}"
 				""
-				"This Contraption will need the special ability to both place and collect items from these places."
+				"{cabin.quest.402F89CABF6BCDA4.description2}"
 			]
 			icon: "minecraft:bone_meal"
 			id: "402F89CABF6BCDA4"
-			subtitle: "Contraption 22-4"
+			subtitle: "{cabin.quest.402F89CABF6BCDA4.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -925,20 +925,20 @@
 				}
 				{
 					id: "4002627D52C3A616"
-					title: "Automated"
+					title: "{cabin.task.4002627D52C3A616}"
 					type: "checkmark"
 				}
 			]
-			title: "Cooking up some Fertiliser"
+			title: "{cabin.quest.402F89CABF6BCDA4.title}"
 			x: 1.5d
 			y: 7.0d
 		}
 		{
 			dependencies: ["38D19F4EC634F33B"]
-			description: ["Route the excess leaves into a crusher, in preparation for the upcoming magic trick."]
+			description: ["{cabin.quest.3D1EEB596FDBE4E7.description1}"]
 			icon: "kubejs:sky_slime_fern_paste"
 			id: "3D1EEB596FDBE4E7"
-			subtitle: "Contraption 22-1"
+			subtitle: "{cabin.quest.3D1EEB596FDBE4E7.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -960,28 +960,28 @@
 				}
 				{
 					id: "65864C0AE5B28091"
-					title: "Automated"
+					title: "{cabin.task.65864C0AE5B28091}"
 					type: "checkmark"
 				}
 			]
-			title: "Mysterious Biomass"
+			title: "{cabin.quest.3D1EEB596FDBE4E7.title}"
 			x: 3.5d
 			y: 4.0d
 		}
 		{
 			dependencies: ["01BE1A7FCE79C63D"]
 			description: [
-				"Slimy Ferns have the property of instant regeneration when exposed to Spirit Fire. Much like the Quartz Incubator in the other Factory, we can use this property to create a passive supply."
+				"{cabin.quest.38D19F4EC634F33B.description1}"
 				""
-				"The cycle is simple: Cut the fern plant into halves using a Deployer, then throw one of the leaves into Spirit Fire. It is recommended to ensure that all colours of fern are duplicated at similar rates."
+				"{cabin.quest.38D19F4EC634F33B.description2}"
 				""
-				"Create Spirit Fire by tossing a Demon's Dream Fruit on the floor and then setting a fire in its space."
+				"{cabin.quest.38D19F4EC634F33B.description3}"
 				""
-				"Oh, and keep a backup of each fern somewhere safe."
+				"{cabin.quest.38D19F4EC634F33B.description4}"
 			]
 			icon: "kubejs:sky_slimy_fern_leaf"
 			id: "38D19F4EC634F33B"
-			subtitle: "Contraption 21"
+			subtitle: "{cabin.quest.38D19F4EC634F33B.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -1003,24 +1003,24 @@
 				}
 				{
 					id: "40B23393B8A6D2E8"
-					title: "Automated"
+					title: "{cabin.task.40B23393B8A6D2E8}"
 					type: "checkmark"
 				}
 			]
-			title: "The Spirit Cycle"
+			title: "{cabin.quest.38D19F4EC634F33B.title}"
 			x: 3.5d
 			y: 2.5d
 		}
 		{
 			dependencies: ["286510750C333C1F"]
 			description: [
-				"The main work is done. All that's left is a small assembly line to process Refined Radiance into Radiant Coils."
+				"{cabin.quest.410FF28B63E0FC0C.description1}"
 				""
-				"Start with a Mechanical Press."
+				"{cabin.quest.410FF28B63E0FC0C.description2}"
 			]
 			icon: "kubejs:radiant_sheet"
 			id: "410FF28B63E0FC0C"
-			subtitle: "Contraption 28-2"
+			subtitle: "{cabin.quest.410FF28B63E0FC0C.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -1030,17 +1030,17 @@
 				}
 				{
 					id: "37BF06FF4255C1B1"
-					title: "Automated"
+					title: "{cabin.task.37BF06FF4255C1B1}"
 					type: "checkmark"
 				}
 			]
-			title: "Post-Process"
+			title: "{cabin.quest.410FF28B63E0FC0C.title}"
 			x: -6.0d
 			y: 9.0d
 		}
 		{
 			dependencies: ["0C11EC34D5FA508B"]
-			description: ["Cast the molten silver into an Ingot and admire how shiny it is."]
+			description: ["{cabin.quest.0D146AD9FE774F8B.description1}"]
 			id: "0D146AD9FE774F8B"
 			shape: "circle"
 			tasks: [{
@@ -1054,10 +1054,10 @@
 						value: "forge:ingots/silver"
 					}
 				}
-				title: "Silver Ingot"
+				title: "{cabin.task.7A7EE0DF809CEDC8}"
 				type: "item"
 			}]
-			title: "Expensive Bricks"
+			title: "{cabin.quest.0D146AD9FE774F8B.title}"
 			x: -1.5d
 			y: 16.5d
 		}
@@ -1066,7 +1066,7 @@
 				"2BB2C7B95E3C89AE"
 				"6CBA3D97CAD5DB63"
 			]
-			description: ["Set aside some Ender dust from your Reactor. In case your supply is bottlenecked, you can use Ender Pearls, too."]
+			description: ["{cabin.quest.3BFC4DFCE765F3EA.description1}"]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			id: "3BFC4DFCE765F3EA"
@@ -1077,16 +1077,16 @@
 				item: "ae2:ender_dust"
 				type: "item"
 			}]
-			title: "Ender for Garnish"
+			title: "{cabin.quest.3BFC4DFCE765F3EA.title}"
 			x: -3.0d
 			y: 17.5d
 		}
 		{
 			dependencies: ["397232F676CB621B"]
 			description: [
-				"In order to produce Gunpowder, Bone Meal and Ender Dust, the peculiar 'slimy fern' can be used as an alternative to Monster farms."
+				"{cabin.quest.01BE1A7FCE79C63D.description1}"
 				""
-				"Roam the lands for a bit and look out for egregiously vibrant spots of colour in the vegetation. Don't forget to bring a pair of Shears."
+				"{cabin.quest.01BE1A7FCE79C63D.description2}"
 			]
 			hide_dependency_lines: true
 			icon: "tconstruct:sky_slime_fern"
@@ -1112,13 +1112,13 @@
 					type: "item"
 				}
 			]
-			title: "Slimy Ferns"
+			title: "{cabin.quest.01BE1A7FCE79C63D.title}"
 			x: 3.5d
 			y: 1.0d
 		}
 		{
 			dependencies: ["3BE15AA5C237AB80"]
-			description: ["Oops! Draining the colour's essence one too many times will create a mundane paint ball not able to be used for further processing."]
+			description: ["{cabin.quest.03B7909623F97843.description1}"]
 			icon: "ae2:black_paint_ball"
 			id: "03B7909623F97843"
 			shape: "circle"
@@ -1126,39 +1126,39 @@
 				id: "07521D1C50A8B75F"
 				type: "checkmark"
 			}]
-			title: "Overcorrection"
+			title: "{cabin.quest.03B7909623F97843.title}"
 			x: -3.5d
 			y: 5.0d
 		}
 		{
 			dependencies: ["397232F676CB621B"]
 			description: [
-				"An automation alternative to the Spirit Cycle is to set up a Monster Spawner of some kind."
+				"{cabin.quest.016864AD0C9247B9.description1}"
 				""
-				"Click the Checkmark to skip the Fern Duplication Contraption."
+				"{cabin.quest.016864AD0C9247B9.description2}"
 			]
 			hide_dependency_lines: true
 			icon: "minecraft:zombie_head"
 			id: "016864AD0C9247B9"
 			shape: "circle"
-			subtitle: "Alt. Contraption 21 \\& 22"
+			subtitle: "{cabin.quest.016864AD0C9247B9.subtitle}"
 			tasks: [{
 				id: "53728BDEA8F1938C"
-				title: "Checkmark"
+				title: "{cabin.task.53728BDEA8F1938C}"
 				type: "checkmark"
 			}]
-			title: "I like Mobs, actually"
+			title: "{cabin.quest.016864AD0C9247B9.title}"
 			x: 3.5d
 			y: 5.5d
 		}
 		{
 			dependencies: ["397232F676CB621B"]
 			description: [
-				"A few of the following contraptions involve dropping items on the ground. Whenever a process will not backstack on overflow (e.g. belt items waiting automatically), it is important to toggle the production at certain buffer thresholds."
+				"{cabin.quest.472FB03D0E5A38D6.description1}"
 				""
-				"More concretely: When the output buffer exceeds 75%, stop producing items. Once it reaches below 25%, start the process up again. This prevents overflow and machines from spewing items everywhere."
+				"{cabin.quest.472FB03D0E5A38D6.description2}"
 				""
-				"The Stockpile Switch is designed for this purpose exactly. "
+				"{cabin.quest.472FB03D0E5A38D6.description3}"
 			]
 			id: "472FB03D0E5A38D6"
 			rewards: [{
@@ -1174,29 +1174,29 @@
 				item: "create:stockpile_switch"
 				type: "item"
 			}]
-			title: "Keeping Stock"
+			title: "{cabin.quest.472FB03D0E5A38D6.title}"
 			x: -3.5d
 			y: -1.0d
 		}
 		{
 			dependencies: ["397232F676CB621B"]
 			description: [
-				"Aside from the Inductive Mechanism, Invar Machinery builds on a tough Metal Alloy between Iron and Nickel."
+				"{cabin.quest.26A1E68DA7ACB025.description1}"
 				""
-				"Since the full refinement process of Invar takes a few lengthy steps, automation is recommended."
+				"{cabin.quest.26A1E68DA7ACB025.description2}"
 			]
 			icon: "thermal:invar_ingot"
 			id: "26A1E68DA7ACB025"
 			shape: "circle"
-			subtitle: "Contraption 30"
+			subtitle: "{cabin.quest.26A1E68DA7ACB025.subtitle}"
 			tasks: [{
 				id: "428A5B60D9C268BD"
 				type: "checkmark"
 			}]
-			title: "Mechanical Auto Hammer"
+			title: "{cabin.quest.26A1E68DA7ACB025.title}"
 			x: 0.5d
 			y: -1.0d
 		}
 	]
-	title: "&f3&r The Catharsis"
+	title: "{cabin.chapter.052B4DEA706D3A24.title}"
 }

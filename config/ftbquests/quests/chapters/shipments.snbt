@@ -12,9 +12,9 @@
 	quests: [
 		{
 			description: [
-				"&6Shipments&r are the Automated way to exchange coin for resources. Here you can buy Import Cards for use in the Trading Machine."
+				"{cabin.quest.6AC1CED0D341150E.description1}"
 				""
-				"Each import card comes with a cost up front. Once that is paid you can limitlessly buy the respective goods priced at what's stated in the subtitle."
+				"{cabin.quest.6AC1CED0D341150E.description2}"
 			]
 			icon: "thermal:machine_press"
 			id: "6AC1CED0D341150E"
@@ -22,7 +22,7 @@
 			size: 2.0d
 			tasks: [{
 				id: "214F623C75A92809"
-				title: "Shipments"
+				title: "{cabin.task.214F623C75A92809}"
 				type: "checkmark"
 			}]
 			x: 0.0d
@@ -30,7 +30,7 @@
 		}
 		{
 			dependencies: ["6AC1CED0D341150E"]
-			description: ["This Trading card can convert the currency of coins inserted into the Trading Machine."]
+			description: ["{cabin.quest.3B548F2C060C2229.description1}"]
 			icon: { Count: 2, id: "thermal:gold_coin" }
 			id: "3B548F2C060C2229"
 			rewards: [
@@ -45,18 +45,18 @@
 					icon: "thermal:machine_cycle_augment"
 					id: "3D6C47FD645D7471"
 					tags: ["reset"]
-					title: "Repeatable"
+					title: "{cabin.reward.3D6C47FD645D7471}"
 					type: "custom"
 				}
 			]
 			shape: "circle"
-			subtitle: "Silver <> Gold"
+			subtitle: "{cabin.quest.3B548F2C060C2229.subtitle}"
 			tasks: [{
 				id: "601161A1565C5161"
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			title: "Automatic Exchange"
+			title: "{cabin.quest.3B548F2C060C2229.title}"
 			x: 2.0d
 			y: 12.25d
 		}
@@ -77,12 +77,12 @@
 					icon: "thermal:machine_cycle_augment"
 					id: "7693E6AAB807B9ED"
 					tags: ["reset"]
-					title: "Repeatable"
+					title: "{cabin.reward.7693E6AAB807B9ED}"
 					type: "custom"
 				}
 			]
 			shape: "hexagon"
-			subtitle: "2 Silver"
+			subtitle: "{cabin.quest.1A27F6CC5196D116.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -90,7 +90,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			title: "16x Dirt"
+			title: "{cabin.quest.1A27F6CC5196D116.title}"
 			x: -3.5d
 			y: 0.0d
 		}
@@ -111,12 +111,12 @@
 					icon: "thermal:machine_cycle_augment"
 					id: "34033E18AB54E135"
 					tags: ["reset"]
-					title: "Repeatable"
+					title: "{cabin.reward.34033E18AB54E135}"
 					type: "custom"
 				}
 			]
 			shape: "hexagon"
-			subtitle: "4 Silver"
+			subtitle: "{cabin.quest.4C0F811C1D2495CC.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -124,7 +124,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			title: "16x Sand"
+			title: "{cabin.quest.4C0F811C1D2495CC.title}"
 			x: -2.5d
 			y: 0.0d
 		}
@@ -145,12 +145,12 @@
 					icon: "thermal:machine_cycle_augment"
 					id: "7AE6360652F9CCAA"
 					tags: ["reset"]
-					title: "Repeatable"
+					title: "{cabin.reward.7AE6360652F9CCAA}"
 					type: "custom"
 				}
 			]
 			shape: "hexagon"
-			subtitle: "2 Silver"
+			subtitle: "{cabin.quest.6AE7090EB52A51B3.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -158,7 +158,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			title: "16x Gravel"
+			title: "{cabin.quest.6AE7090EB52A51B3.title}"
 			x: -1.5d
 			y: 0.0d
 		}
@@ -179,12 +179,12 @@
 					icon: "thermal:machine_cycle_augment"
 					id: "14ACEE1628735CCE"
 					tags: ["reset"]
-					title: "Repeatable"
+					title: "{cabin.reward.14ACEE1628735CCE}"
 					type: "custom"
 				}
 			]
 			shape: "hexagon"
-			subtitle: "6 Silver"
+			subtitle: "{cabin.quest.0315668E30F2F6E5.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -192,7 +192,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			title: "16x Clay"
+			title: "{cabin.quest.0315668E30F2F6E5.title}"
 			x: -0.5d
 			y: 0.0d
 		}
@@ -213,12 +213,12 @@
 					icon: "thermal:machine_cycle_augment"
 					id: "584CC020F42126C5"
 					tags: ["reset"]
-					title: "Repeatable"
+					title: "{cabin.reward.584CC020F42126C5}"
 					type: "custom"
 				}
 			]
 			shape: "hexagon"
-			subtitle: "16 Silver"
+			subtitle: "{cabin.quest.36B5C3ECFD38670E.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -226,7 +226,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			title: "16x Ice"
+			title: "{cabin.quest.36B5C3ECFD38670E.title}"
 			x: 0.5d
 			y: 0.0d
 		}
@@ -247,12 +247,12 @@
 					icon: "thermal:machine_cycle_augment"
 					id: "726FD26B1F3182F2"
 					tags: ["reset"]
-					title: "Repeatable"
+					title: "{cabin.reward.726FD26B1F3182F2}"
 					type: "custom"
 				}
 			]
 			shape: "hexagon"
-			subtitle: "12 Silver"
+			subtitle: "{cabin.quest.1509D36A982217C6.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -260,7 +260,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			title: "16x Blackstone"
+			title: "{cabin.quest.1509D36A982217C6.title}"
 			x: 1.5d
 			y: 0.0d
 		}
@@ -281,12 +281,12 @@
 					icon: "thermal:machine_cycle_augment"
 					id: "5EE9F9923E9D94A5"
 					tags: ["reset"]
-					title: "Repeatable"
+					title: "{cabin.reward.5EE9F9923E9D94A5}"
 					type: "custom"
 				}
 			]
 			shape: "hexagon"
-			subtitle: "12 Silver"
+			subtitle: "{cabin.quest.1BA3EF0818CA7F64.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -294,7 +294,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			title: "16x Grout"
+			title: "{cabin.quest.1BA3EF0818CA7F64.title}"
 			x: 2.5d
 			y: 0.0d
 		}
@@ -315,12 +315,12 @@
 					icon: "thermal:machine_cycle_augment"
 					id: "4C325E2EFC3C8A34"
 					tags: ["reset"]
-					title: "Repeatable"
+					title: "{cabin.reward.4C325E2EFC3C8A34}"
 					type: "custom"
 				}
 			]
 			shape: "hexagon"
-			subtitle: "1 Silver"
+			subtitle: "{cabin.quest.0DEFAE2746209F1A.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -328,7 +328,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			title: "16x Cobblestone"
+			title: "{cabin.quest.0DEFAE2746209F1A.title}"
 			x: 3.5d
 			y: 0.0d
 		}
@@ -349,12 +349,12 @@
 					icon: "thermal:machine_cycle_augment"
 					id: "1F67C89CEC353EC8"
 					tags: ["reset"]
-					title: "Repeatable"
+					title: "{cabin.reward.1F67C89CEC353EC8}"
 					type: "custom"
 				}
 			]
 			shape: "hexagon"
-			subtitle: "3 Silver"
+			subtitle: "{cabin.quest.2C10D18D55335B7E.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -362,7 +362,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			title: "16x Granite"
+			title: "{cabin.quest.2C10D18D55335B7E.title}"
 			x: -3.5d
 			y: 1.0d
 		}
@@ -383,12 +383,12 @@
 					icon: "thermal:machine_cycle_augment"
 					id: "62E3A5FA5D5F540C"
 					tags: ["reset"]
-					title: "Repeatable"
+					title: "{cabin.reward.62E3A5FA5D5F540C}"
 					type: "custom"
 				}
 			]
 			shape: "hexagon"
-			subtitle: "3 Silver"
+			subtitle: "{cabin.quest.5F0B4CBE299954C4.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -396,7 +396,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			title: "16x Diorite"
+			title: "{cabin.quest.5F0B4CBE299954C4.title}"
 			x: -2.5d
 			y: 1.0d
 		}
@@ -417,12 +417,12 @@
 					icon: "thermal:machine_cycle_augment"
 					id: "5174EB5FB298E956"
 					tags: ["reset"]
-					title: "Repeatable"
+					title: "{cabin.reward.5174EB5FB298E956}"
 					type: "custom"
 				}
 			]
 			shape: "hexagon"
-			subtitle: "3 Silver"
+			subtitle: "{cabin.quest.262F369CE9CA7C87.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -430,7 +430,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			title: "16x Andesite"
+			title: "{cabin.quest.262F369CE9CA7C87.title}"
 			x: -1.5d
 			y: 1.0d
 		}
@@ -451,12 +451,12 @@
 					icon: "thermal:machine_cycle_augment"
 					id: "43E9BEFDDC686B90"
 					tags: ["reset"]
-					title: "Repeatable"
+					title: "{cabin.reward.43E9BEFDDC686B90}"
 					type: "custom"
 				}
 			]
 			shape: "hexagon"
-			subtitle: "3 Silver"
+			subtitle: "{cabin.quest.47FB0491BAB19B90.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -464,7 +464,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			title: "16x Limestone"
+			title: "{cabin.quest.47FB0491BAB19B90.title}"
 			x: -0.5d
 			y: 1.0d
 		}
@@ -485,12 +485,12 @@
 					icon: "thermal:machine_cycle_augment"
 					id: "3D31B41848E11733"
 					tags: ["reset"]
-					title: "Repeatable"
+					title: "{cabin.reward.3D31B41848E11733}"
 					type: "custom"
 				}
 			]
 			shape: "hexagon"
-			subtitle: "3 Silver"
+			subtitle: "{cabin.quest.41709386017FD959.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -498,7 +498,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			title: "16x Scoria"
+			title: "{cabin.quest.41709386017FD959.title}"
 			x: 1.5d
 			y: 1.0d
 		}
@@ -519,12 +519,12 @@
 					icon: "thermal:machine_cycle_augment"
 					id: "4BF9DAC9A2306498"
 					tags: ["reset"]
-					title: "Repeatable"
+					title: "{cabin.reward.4BF9DAC9A2306498}"
 					type: "custom"
 				}
 			]
 			shape: "hexagon"
-			subtitle: "8 Silver"
+			subtitle: "{cabin.quest.5D4F2FFCBD0B0F8E.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -532,7 +532,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			title: "1x Obsidian"
+			title: "{cabin.quest.5D4F2FFCBD0B0F8E.title}"
 			x: 0.5d
 			y: 1.0d
 		}
@@ -553,12 +553,12 @@
 					icon: "thermal:machine_cycle_augment"
 					id: "6143F0847CDAEEC8"
 					tags: ["reset"]
-					title: "Repeatable"
+					title: "{cabin.reward.6143F0847CDAEEC8}"
 					type: "custom"
 				}
 			]
 			shape: "hexagon"
-			subtitle: "2 Silver"
+			subtitle: "{cabin.quest.222EEB7DB1D98484.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -566,7 +566,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			title: "16x Dead Log"
+			title: "{cabin.quest.222EEB7DB1D98484.title}"
 			x: -3.5d
 			y: 3.5d
 		}
@@ -587,12 +587,12 @@
 					icon: "thermal:machine_cycle_augment"
 					id: "1239746C0CB94233"
 					tags: ["reset"]
-					title: "Repeatable"
+					title: "{cabin.reward.1239746C0CB94233}"
 					type: "custom"
 				}
 			]
 			shape: "hexagon"
-			subtitle: "4 Silver"
+			subtitle: "{cabin.quest.5504C6597C74637B.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -600,7 +600,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			title: "16x Oak Log"
+			title: "{cabin.quest.5504C6597C74637B.title}"
 			x: -2.5d
 			y: 3.5d
 		}
@@ -621,12 +621,12 @@
 					icon: "thermal:machine_cycle_augment"
 					id: "4FE12E7724B5C31B"
 					tags: ["reset"]
-					title: "Repeatable"
+					title: "{cabin.reward.4FE12E7724B5C31B}"
 					type: "custom"
 				}
 			]
 			shape: "hexagon"
-			subtitle: "4 Silver"
+			subtitle: "{cabin.quest.35F97137A46C1F3C.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -634,7 +634,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			title: "16x Birch Log"
+			title: "{cabin.quest.35F97137A46C1F3C.title}"
 			x: -1.5d
 			y: 3.5d
 		}
@@ -655,12 +655,12 @@
 					icon: "thermal:machine_cycle_augment"
 					id: "2A1E2C24AF0CA856"
 					tags: ["reset"]
-					title: "Repeatable"
+					title: "{cabin.reward.2A1E2C24AF0CA856}"
 					type: "custom"
 				}
 			]
 			shape: "hexagon"
-			subtitle: "4 Silver"
+			subtitle: "{cabin.quest.5923347D1827DA83.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -668,7 +668,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			title: "16x Spruce Log"
+			title: "{cabin.quest.5923347D1827DA83.title}"
 			x: -0.5d
 			y: 3.5d
 		}
@@ -689,12 +689,12 @@
 					icon: "thermal:machine_cycle_augment"
 					id: "423D84B9EB17049B"
 					tags: ["reset"]
-					title: "Repeatable"
+					title: "{cabin.reward.423D84B9EB17049B}"
 					type: "custom"
 				}
 			]
 			shape: "hexagon"
-			subtitle: "4 Silver"
+			subtitle: "{cabin.quest.7F7ACF3B774E9D0E.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -702,7 +702,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			title: "16x Jungle Log"
+			title: "{cabin.quest.7F7ACF3B774E9D0E.title}"
 			x: 0.5d
 			y: 3.5d
 		}
@@ -723,12 +723,12 @@
 					icon: "thermal:machine_cycle_augment"
 					id: "55C814138D0CEF8B"
 					tags: ["reset"]
-					title: "Repeatable"
+					title: "{cabin.reward.55C814138D0CEF8B}"
 					type: "custom"
 				}
 			]
 			shape: "hexagon"
-			subtitle: "4 Silver"
+			subtitle: "{cabin.quest.6C6A43E08FBC8D53.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -736,7 +736,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			title: "16x Acacia Log"
+			title: "{cabin.quest.6C6A43E08FBC8D53.title}"
 			x: 1.5d
 			y: 3.5d
 		}
@@ -757,12 +757,12 @@
 					icon: "thermal:machine_cycle_augment"
 					id: "586F20910743E75B"
 					tags: ["reset"]
-					title: "Repeatable"
+					title: "{cabin.reward.586F20910743E75B}"
 					type: "custom"
 				}
 			]
 			shape: "hexagon"
-			subtitle: "4 Silver"
+			subtitle: "{cabin.quest.585788A4494AC124.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -770,7 +770,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			title: "16x Dark Oak Log"
+			title: "{cabin.quest.585788A4494AC124.title}"
 			x: 2.5d
 			y: 3.5d
 		}
@@ -791,12 +791,12 @@
 					icon: "thermal:machine_cycle_augment"
 					id: "0E3E4BE7B72586D2"
 					tags: ["reset"]
-					title: "Repeatable"
+					title: "{cabin.reward.0E3E4BE7B72586D2}"
 					type: "custom"
 				}
 			]
 			shape: "hexagon"
-			subtitle: "8 Silver"
+			subtitle: "{cabin.quest.24328C973480E4E8.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -804,7 +804,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			title: "16x Crimson Stem"
+			title: "{cabin.quest.24328C973480E4E8.title}"
 			x: 3.5d
 			y: 3.5d
 		}
@@ -825,12 +825,12 @@
 					icon: "thermal:machine_cycle_augment"
 					id: "7480420CFCFB2BBE"
 					tags: ["reset"]
-					title: "Repeatable"
+					title: "{cabin.reward.7480420CFCFB2BBE}"
 					type: "custom"
 				}
 			]
 			shape: "hexagon"
-			subtitle: "8 Silver"
+			subtitle: "{cabin.quest.725FFE8BD6E45F96.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -838,7 +838,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			title: "16x Warped Stem"
+			title: "{cabin.quest.725FFE8BD6E45F96.title}"
 			x: -3.5d
 			y: 4.5d
 		}
@@ -859,12 +859,12 @@
 					icon: "thermal:machine_cycle_augment"
 					id: "15021797F1262C44"
 					tags: ["reset"]
-					title: "Repeatable"
+					title: "{cabin.reward.15021797F1262C44}"
 					type: "custom"
 				}
 			]
 			shape: "hexagon"
-			subtitle: "16 Silver"
+			subtitle: "{cabin.quest.07081911727142C8.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -872,7 +872,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			title: "8x Iron Ingot"
+			title: "{cabin.quest.07081911727142C8.title}"
 			x: -3.5d
 			y: 6.0d
 		}
@@ -893,12 +893,12 @@
 					icon: "thermal:machine_cycle_augment"
 					id: "49A8B503F5F78F19"
 					tags: ["reset"]
-					title: "Repeatable"
+					title: "{cabin.reward.49A8B503F5F78F19}"
 					type: "custom"
 				}
 			]
 			shape: "hexagon"
-			subtitle: "16 Silver"
+			subtitle: "{cabin.quest.69B107895D3CA0B2.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -906,7 +906,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			title: "8x Zinc Ingot"
+			title: "{cabin.quest.69B107895D3CA0B2.title}"
 			x: -2.5d
 			y: 6.0d
 		}
@@ -927,12 +927,12 @@
 					icon: "thermal:machine_cycle_augment"
 					id: "04A9BCE6680495C6"
 					tags: ["reset"]
-					title: "Repeatable"
+					title: "{cabin.reward.04A9BCE6680495C6}"
 					type: "custom"
 				}
 			]
 			shape: "hexagon"
-			subtitle: "16 Silver"
+			subtitle: "{cabin.quest.74F96A8D400FD059.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -940,7 +940,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			title: "8x Copper Ingot"
+			title: "{cabin.quest.74F96A8D400FD059.title}"
 			x: -1.5d
 			y: 6.0d
 		}
@@ -961,12 +961,12 @@
 					icon: "thermal:machine_cycle_augment"
 					id: "09FD51124DC69B46"
 					tags: ["reset"]
-					title: "Repeatable"
+					title: "{cabin.reward.09FD51124DC69B46}"
 					type: "custom"
 				}
 			]
 			shape: "hexagon"
-			subtitle: "32 Silver"
+			subtitle: "{cabin.quest.6D8E4C9DCFFB2C90.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -974,7 +974,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			title: "8x Nickel Ingot"
+			title: "{cabin.quest.6D8E4C9DCFFB2C90.title}"
 			x: -0.5d
 			y: 6.0d
 		}
@@ -995,12 +995,12 @@
 					icon: "thermal:machine_cycle_augment"
 					id: "02F412F0E75365AE"
 					tags: ["reset"]
-					title: "Repeatable"
+					title: "{cabin.reward.02F412F0E75365AE}"
 					type: "custom"
 				}
 			]
 			shape: "hexagon"
-			subtitle: "32 Silver"
+			subtitle: "{cabin.quest.3FC1029AF9BB245E.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -1008,7 +1008,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			title: "8x Lead Ingot"
+			title: "{cabin.quest.3FC1029AF9BB245E.title}"
 			x: 0.5d
 			y: 6.0d
 		}
@@ -1029,12 +1029,12 @@
 					icon: "thermal:machine_cycle_augment"
 					id: "28E0E330F2FEF3D8"
 					tags: ["reset"]
-					title: "Repeatable"
+					title: "{cabin.reward.28E0E330F2FEF3D8}"
 					type: "custom"
 				}
 			]
 			shape: "hexagon"
-			subtitle: "48 Silver"
+			subtitle: "{cabin.quest.417DD17A5C96CEE2.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -1042,7 +1042,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			title: "8x Gold Ingot"
+			title: "{cabin.quest.417DD17A5C96CEE2.title}"
 			x: 1.5d
 			y: 6.0d
 		}
@@ -1063,12 +1063,12 @@
 					icon: "thermal:machine_cycle_augment"
 					id: "6B9745A3B2507A90"
 					tags: ["reset"]
-					title: "Repeatable"
+					title: "{cabin.reward.6B9745A3B2507A90}"
 					type: "custom"
 				}
 			]
 			shape: "hexagon"
-			subtitle: "8 Silver"
+			subtitle: "{cabin.quest.7B5B7BB304E14C6D.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -1076,7 +1076,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			title: "16x Andesite Alloy"
+			title: "{cabin.quest.7B5B7BB304E14C6D.title}"
 			x: 2.5d
 			y: 6.0d
 		}
@@ -1097,12 +1097,12 @@
 					icon: "thermal:machine_cycle_augment"
 					id: "20A44ED461BA79A6"
 					tags: ["reset"]
-					title: "Repeatable"
+					title: "{cabin.reward.20A44ED461BA79A6}"
 					type: "custom"
 				}
 			]
 			shape: "hexagon"
-			subtitle: "32 Silver"
+			subtitle: "{cabin.quest.01F3EDC327B63908.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -1110,7 +1110,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			title: "8x Amethyst"
+			title: "{cabin.quest.01F3EDC327B63908.title}"
 			x: 3.5d
 			y: 8.0d
 		}
@@ -1131,12 +1131,12 @@
 					icon: "thermal:machine_cycle_augment"
 					id: "5324E6C8D0854FB6"
 					tags: ["reset"]
-					title: "Repeatable"
+					title: "{cabin.reward.5324E6C8D0854FB6}"
 					type: "custom"
 				}
 			]
 			shape: "hexagon"
-			subtitle: "48 Silver"
+			subtitle: "{cabin.quest.040A0552921E1115.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -1144,7 +1144,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			title: "8x Brass Ingot"
+			title: "{cabin.quest.040A0552921E1115.title}"
 			x: 3.5d
 			y: 6.0d
 		}
@@ -1165,12 +1165,12 @@
 					icon: "thermal:machine_cycle_augment"
 					id: "2CCCC558C8490FBA"
 					tags: ["reset"]
-					title: "Repeatable"
+					title: "{cabin.reward.2CCCC558C8490FBA}"
 					type: "custom"
 				}
 			]
 			shape: "hexagon"
-			subtitle: "64 Silver"
+			subtitle: "{cabin.quest.2D022872F99F9907.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -1178,7 +1178,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			title: "4x Invar Ingot"
+			title: "{cabin.quest.2D022872F99F9907.title}"
 			x: -3.5d
 			y: 7.0d
 		}
@@ -1199,12 +1199,12 @@
 					icon: "thermal:machine_cycle_augment"
 					id: "7B783BD2B49FEAB8"
 					tags: ["reset"]
-					title: "Repeatable"
+					title: "{cabin.reward.7B783BD2B49FEAB8}"
 					type: "custom"
 				}
 			]
 			shape: "hexagon"
-			subtitle: "4 Silver"
+			subtitle: "{cabin.quest.0DA48CA15E17157D.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -1212,7 +1212,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			title: "16x Coal"
+			title: "{cabin.quest.0DA48CA15E17157D.title}"
 			x: -2.5d
 			y: 7.0d
 		}
@@ -1233,12 +1233,12 @@
 					icon: "thermal:machine_cycle_augment"
 					id: "1A63C1380ECE209B"
 					tags: ["reset"]
-					title: "Repeatable"
+					title: "{cabin.reward.1A63C1380ECE209B}"
 					type: "custom"
 				}
 			]
 			shape: "hexagon"
-			subtitle: "4 Silver"
+			subtitle: "{cabin.quest.70FDB8C2F2C4A825.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -1246,7 +1246,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			title: "16x Flint"
+			title: "{cabin.quest.70FDB8C2F2C4A825.title}"
 			x: -1.5d
 			y: 7.0d
 		}
@@ -1267,12 +1267,12 @@
 					icon: "thermal:machine_cycle_augment"
 					id: "497CE4C0BE785277"
 					tags: ["reset"]
-					title: "Repeatable"
+					title: "{cabin.reward.497CE4C0BE785277}"
 					type: "custom"
 				}
 			]
 			shape: "hexagon"
-			subtitle: "16 Silver"
+			subtitle: "{cabin.quest.78ECB6EB48347D08.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -1280,7 +1280,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			title: "4x Cinnabar"
+			title: "{cabin.quest.78ECB6EB48347D08.title}"
 			x: 0.5d
 			y: 7.0d
 		}
@@ -1301,12 +1301,12 @@
 					icon: "thermal:machine_cycle_augment"
 					id: "656C412A2E462DB7"
 					tags: ["reset"]
-					title: "Repeatable"
+					title: "{cabin.reward.656C412A2E462DB7}"
 					type: "custom"
 				}
 			]
 			shape: "hexagon"
-			subtitle: "8 Silver"
+			subtitle: "{cabin.quest.21CC162C06BBFAE6.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -1314,7 +1314,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			title: "16x Redstone Dust"
+			title: "{cabin.quest.21CC162C06BBFAE6.title}"
 			x: 1.5d
 			y: 7.0d
 		}
@@ -1335,12 +1335,12 @@
 					icon: "thermal:machine_cycle_augment"
 					id: "4D70632E6F7C117C"
 					tags: ["reset"]
-					title: "Repeatable"
+					title: "{cabin.reward.4D70632E6F7C117C}"
 					type: "custom"
 				}
 			]
 			shape: "hexagon"
-			subtitle: "1 Gold"
+			subtitle: "{cabin.quest.00EBF8DED4E51A4F.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -1348,7 +1348,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			title: "1x Diamond"
+			title: "{cabin.quest.00EBF8DED4E51A4F.title}"
 			x: 2.5d
 			y: 7.0d
 		}
@@ -1369,12 +1369,12 @@
 					icon: "thermal:machine_cycle_augment"
 					id: "3F1CC1912310FBB1"
 					tags: ["reset"]
-					title: "Repeatable"
+					title: "{cabin.reward.3F1CC1912310FBB1}"
 					type: "custom"
 				}
 			]
 			shape: "hexagon"
-			subtitle: "32 Silver"
+			subtitle: "{cabin.quest.258C779897D1AEF0.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -1382,7 +1382,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			title: "8x Lapis Lazuli"
+			title: "{cabin.quest.258C779897D1AEF0.title}"
 			x: 3.5d
 			y: 7.0d
 		}
@@ -1403,12 +1403,12 @@
 					icon: "thermal:machine_cycle_augment"
 					id: "18413CE7A70980E3"
 					tags: ["reset"]
-					title: "Repeatable"
+					title: "{cabin.reward.18413CE7A70980E3}"
 					type: "custom"
 				}
 			]
 			shape: "hexagon"
-			subtitle: "1 Gold"
+			subtitle: "{cabin.quest.38CD5CE18FE09D23.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -1416,7 +1416,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			title: "1x Emerald"
+			title: "{cabin.quest.38CD5CE18FE09D23.title}"
 			x: -3.5d
 			y: 8.0d
 		}
@@ -1437,12 +1437,12 @@
 					icon: "thermal:machine_cycle_augment"
 					id: "7BA3F9373DF0F1F8"
 					tags: ["reset"]
-					title: "Repeatable"
+					title: "{cabin.reward.7BA3F9373DF0F1F8}"
 					type: "custom"
 				}
 			]
 			shape: "hexagon"
-			subtitle: "8 Silver"
+			subtitle: "{cabin.quest.1C104893F5481A58.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -1450,7 +1450,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			title: "4x Sulfur"
+			title: "{cabin.quest.1C104893F5481A58.title}"
 			x: -2.5d
 			y: 8.0d
 		}
@@ -1471,12 +1471,12 @@
 					icon: "thermal:machine_cycle_augment"
 					id: "11DD631CC9E7B242"
 					tags: ["reset"]
-					title: "Repeatable"
+					title: "{cabin.reward.11DD631CC9E7B242}"
 					type: "custom"
 				}
 			]
 			shape: "hexagon"
-			subtitle: "8 Silver"
+			subtitle: "{cabin.quest.7509D8FA29C6AB31.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -1484,7 +1484,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			title: "4x Apatite"
+			title: "{cabin.quest.7509D8FA29C6AB31.title}"
 			x: -1.5d
 			y: 8.0d
 		}
@@ -1505,12 +1505,12 @@
 					icon: "thermal:machine_cycle_augment"
 					id: "4146275713529900"
 					tags: ["reset"]
-					title: "Repeatable"
+					title: "{cabin.reward.4146275713529900}"
 					type: "custom"
 				}
 			]
 			shape: "hexagon"
-			subtitle: "8 Silver"
+			subtitle: "{cabin.quest.3A4A3B749FBDBEF1.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -1518,7 +1518,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			title: "4x Niter"
+			title: "{cabin.quest.3A4A3B749FBDBEF1.title}"
 			x: -0.5d
 			y: 8.0d
 		}
@@ -1539,12 +1539,12 @@
 					icon: "thermal:machine_cycle_augment"
 					id: "0A2365C2957AFD25"
 					tags: ["reset"]
-					title: "Repeatable"
+					title: "{cabin.reward.0A2365C2957AFD25}"
 					type: "custom"
 				}
 			]
 			shape: "hexagon"
-			subtitle: "24 Silver"
+			subtitle: "{cabin.quest.1D6150F2480B976E.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -1552,7 +1552,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			title: "8x Nether Quartz"
+			title: "{cabin.quest.1D6150F2480B976E.title}"
 			x: 0.5d
 			y: 8.0d
 		}
@@ -1573,12 +1573,12 @@
 					icon: "thermal:machine_cycle_augment"
 					id: "569F8F41270B936C"
 					tags: ["reset"]
-					title: "Repeatable"
+					title: "{cabin.reward.569F8F41270B936C}"
 					type: "custom"
 				}
 			]
 			shape: "hexagon"
-			subtitle: "24 Silver"
+			subtitle: "{cabin.quest.48F72CFAB336FE73.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -1586,7 +1586,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			title: "8x Certus Quartz"
+			title: "{cabin.quest.48F72CFAB336FE73.title}"
 			x: 1.5d
 			y: 8.0d
 		}
@@ -1607,12 +1607,12 @@
 					icon: "thermal:machine_cycle_augment"
 					id: "379CA074F5FDA6B3"
 					tags: ["reset"]
-					title: "Repeatable"
+					title: "{cabin.reward.379CA074F5FDA6B3}"
 					type: "custom"
 				}
 			]
 			shape: "hexagon"
-			subtitle: "32 Silver"
+			subtitle: "{cabin.quest.4A678C0BE97177DB.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -1620,7 +1620,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			title: "8x Fluix Quartz"
+			title: "{cabin.quest.4A678C0BE97177DB.title}"
 			x: 2.5d
 			y: 8.0d
 		}
@@ -1641,12 +1641,12 @@
 					icon: "thermal:machine_cycle_augment"
 					id: "7E5019FC90848D61"
 					tags: ["reset"]
-					title: "Repeatable"
+					title: "{cabin.reward.7E5019FC90848D61}"
 					type: "custom"
 				}
 			]
 			shape: "hexagon"
-			subtitle: "16 Silver"
+			subtitle: "{cabin.quest.488A4B4A3295CF10.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -1654,7 +1654,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			title: "6x Cured Rubber"
+			title: "{cabin.quest.488A4B4A3295CF10.title}"
 			x: 2.0d
 			y: 9.5d
 		}
@@ -1675,12 +1675,12 @@
 					icon: "thermal:machine_cycle_augment"
 					id: "554CE24AF5C12775"
 					tags: ["reset"]
-					title: "Repeatable"
+					title: "{cabin.reward.554CE24AF5C12775}"
 					type: "custom"
 				}
 			]
 			shape: "hexagon"
-			subtitle: "2 Silver"
+			subtitle: "{cabin.quest.49634E835B948A4F.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -1688,7 +1688,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			title: "16x Scaffolding"
+			title: "{cabin.quest.49634E835B948A4F.title}"
 			x: -2.0d
 			y: 9.5d
 		}
@@ -1709,12 +1709,12 @@
 					icon: "thermal:machine_cycle_augment"
 					id: "4D65BD92C51B1944"
 					tags: ["reset"]
-					title: "Repeatable"
+					title: "{cabin.reward.4D65BD92C51B1944}"
 					type: "custom"
 				}
 			]
 			shape: "hexagon"
-			subtitle: "8 Silver"
+			subtitle: "{cabin.quest.20CB646041616191.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -1722,7 +1722,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			title: "1x Wool"
+			title: "{cabin.quest.20CB646041616191.title}"
 			x: -1.0d
 			y: 9.5d
 		}
@@ -1743,12 +1743,12 @@
 					icon: "thermal:machine_cycle_augment"
 					id: "14446C53A4A9F61A"
 					tags: ["reset"]
-					title: "Repeatable"
+					title: "{cabin.reward.14446C53A4A9F61A}"
 					type: "custom"
 				}
 			]
 			shape: "hexagon"
-			subtitle: "16 Silver"
+			subtitle: "{cabin.quest.58E93229D6552D4B.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -1756,7 +1756,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			title: "1x Sponge"
+			title: "{cabin.quest.58E93229D6552D4B.title}"
 			x: 1.0d
 			y: 9.5d
 		}
@@ -1777,12 +1777,12 @@
 					icon: "thermal:machine_cycle_augment"
 					id: "1E410D0CDD72EEA7"
 					tags: ["reset"]
-					title: "Repeatable"
+					title: "{cabin.reward.1E410D0CDD72EEA7}"
 					type: "custom"
 				}
 			]
 			shape: "hexagon"
-			subtitle: "16 Silver"
+			subtitle: "{cabin.quest.3C45250D863E65CB.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -1790,7 +1790,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			title: "1x Cobweb"
+			title: "{cabin.quest.3C45250D863E65CB.title}"
 			x: 0.0d
 			y: 9.5d
 		}
@@ -1811,12 +1811,12 @@
 					icon: "thermal:machine_cycle_augment"
 					id: "58814DC84AEC1308"
 					tags: ["reset"]
-					title: "Repeatable"
+					title: "{cabin.reward.58814DC84AEC1308}"
 					type: "custom"
 				}
 			]
 			shape: "hexagon"
-			subtitle: "4 Silver"
+			subtitle: "{cabin.quest.7BDF86B9E3E607C5.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "thermal:silver_coin"
@@ -1824,7 +1824,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			title: "1x Rice"
+			title: "{cabin.quest.7BDF86B9E3E607C5.title}"
 			x: -3.5d
 			y: 15.0d
 		}
@@ -1845,12 +1845,12 @@
 					icon: "thermal:machine_cycle_augment"
 					id: "08420FCE5515F7FF"
 					tags: ["reset"]
-					title: "Repeatable"
+					title: "{cabin.reward.08420FCE5515F7FF}"
 					type: "custom"
 				}
 			]
 			shape: "hexagon"
-			subtitle: "8 Silver"
+			subtitle: "{cabin.quest.59EBD3DADD002D3A.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -1858,7 +1858,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			title: "32x Straw"
+			title: "{cabin.quest.59EBD3DADD002D3A.title}"
 			x: -2.5d
 			y: 15.0d
 		}
@@ -1879,12 +1879,12 @@
 					icon: "thermal:machine_cycle_augment"
 					id: "2685513A14EC62F4"
 					tags: ["reset"]
-					title: "Repeatable"
+					title: "{cabin.reward.2685513A14EC62F4}"
 					type: "custom"
 				}
 			]
 			shape: "hexagon"
-			subtitle: "9 Silver"
+			subtitle: "{cabin.quest.7F4D9F958EBDEAF8.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -1892,7 +1892,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			title: "4x Glowshroom"
+			title: "{cabin.quest.7F4D9F958EBDEAF8.title}"
 			x: -1.5d
 			y: 15.0d
 		}
@@ -1913,12 +1913,12 @@
 					icon: "thermal:machine_cycle_augment"
 					id: "37B5C7EC7F055F2F"
 					tags: ["reset"]
-					title: "Repeatable"
+					title: "{cabin.reward.37B5C7EC7F055F2F}"
 					type: "custom"
 				}
 			]
 			shape: "hexagon"
-			subtitle: "9 Silver"
+			subtitle: "{cabin.quest.737E670DC8AD5E19.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -1926,7 +1926,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			title: "4x Bramble"
+			title: "{cabin.quest.737E670DC8AD5E19.title}"
 			x: -0.5d
 			y: 15.0d
 		}
@@ -1947,12 +1947,12 @@
 					icon: "thermal:machine_cycle_augment"
 					id: "191FB310CBA7D093"
 					tags: ["reset"]
-					title: "Repeatable"
+					title: "{cabin.reward.191FB310CBA7D093}"
 					type: "custom"
 				}
 			]
 			shape: "hexagon"
-			subtitle: "4 Silver"
+			subtitle: "{cabin.quest.1EF5AB1D7882167F.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -1960,7 +1960,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			title: "4x Barley"
+			title: "{cabin.quest.1EF5AB1D7882167F.title}"
 			x: 0.5d
 			y: 15.0d
 		}
@@ -1981,12 +1981,12 @@
 					icon: "thermal:machine_cycle_augment"
 					id: "5F776DF7288000AD"
 					tags: ["reset"]
-					title: "Repeatable"
+					title: "{cabin.reward.5F776DF7288000AD}"
 					type: "custom"
 				}
 			]
 			shape: "hexagon"
-			subtitle: "4 Silver"
+			subtitle: "{cabin.quest.576E0B50F2015C9E.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -1994,7 +1994,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			title: "4x Watergrass"
+			title: "{cabin.quest.576E0B50F2015C9E.title}"
 			x: 1.5d
 			y: 15.0d
 		}
@@ -2015,12 +2015,12 @@
 					icon: "thermal:machine_cycle_augment"
 					id: "11A2A1E7BD35FDB0"
 					tags: ["reset"]
-					title: "Repeatable"
+					title: "{cabin.reward.11A2A1E7BD35FDB0}"
 					type: "custom"
 				}
 			]
 			shape: "hexagon"
-			subtitle: "5 Silver"
+			subtitle: "{cabin.quest.3CA6DD7C5516A330.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -2028,7 +2028,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			title: "4x Reed"
+			title: "{cabin.quest.3CA6DD7C5516A330.title}"
 			x: 2.5d
 			y: 15.0d
 		}
@@ -2049,12 +2049,12 @@
 					icon: "thermal:machine_cycle_augment"
 					id: "663C265DA6F4E930"
 					tags: ["reset"]
-					title: "Repeatable"
+					title: "{cabin.reward.663C265DA6F4E930}"
 					type: "custom"
 				}
 			]
 			shape: "hexagon"
-			subtitle: "10 Silver"
+			subtitle: "{cabin.quest.6C6C1C2E7CA882BD.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -2062,7 +2062,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			title: "4x Clover Petal"
+			title: "{cabin.quest.6C6C1C2E7CA882BD.title}"
 			x: 3.5d
 			y: 15.0d
 		}
@@ -2083,12 +2083,12 @@
 					icon: "thermal:machine_cycle_augment"
 					id: "1DF5C29759963F36"
 					tags: ["reset"]
-					title: "Repeatable"
+					title: "{cabin.reward.1DF5C29759963F36}"
 					type: "custom"
 				}
 			]
 			shape: "hexagon"
-			subtitle: "7 Silver"
+			subtitle: "{cabin.quest.3E27961386364EDF.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -2096,7 +2096,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			title: "4x Spanish Moss"
+			title: "{cabin.quest.3E27961386364EDF.title}"
 			x: -3.5d
 			y: 16.0d
 		}
@@ -2117,12 +2117,12 @@
 					icon: "thermal:machine_cycle_augment"
 					id: "7D9276C2D669D0FF"
 					tags: ["reset"]
-					title: "Repeatable"
+					title: "{cabin.reward.7D9276C2D669D0FF}"
 					type: "custom"
 				}
 			]
 			shape: "hexagon"
-			subtitle: "7 Silver"
+			subtitle: "{cabin.quest.286C553AD3E15266.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -2130,7 +2130,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			title: "4x Willow Vine"
+			title: "{cabin.quest.286C553AD3E15266.title}"
 			x: -2.5d
 			y: 16.0d
 		}
@@ -2151,12 +2151,12 @@
 					icon: "thermal:machine_cycle_augment"
 					id: "6A27CCF65FF6FDDE"
 					tags: ["reset"]
-					title: "Repeatable"
+					title: "{cabin.reward.6A27CCF65FF6FDDE}"
 					type: "custom"
 				}
 			]
 			shape: "hexagon"
-			subtitle: "4 Silver"
+			subtitle: "{cabin.quest.70B164A5F22452CA.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -2164,7 +2164,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			title: "4x Cattail"
+			title: "{cabin.quest.70B164A5F22452CA.title}"
 			x: -1.5d
 			y: 16.0d
 		}
@@ -2185,12 +2185,12 @@
 					icon: "thermal:machine_cycle_augment"
 					id: "4107B1A81710E1B6"
 					tags: ["reset"]
-					title: "Repeatable"
+					title: "{cabin.reward.4107B1A81710E1B6}"
 					type: "custom"
 				}
 			]
 			shape: "hexagon"
-			subtitle: "3 Silver"
+			subtitle: "{cabin.quest.5BB058D52AA40751.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -2198,7 +2198,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			title: "4x Sugar Cane"
+			title: "{cabin.quest.5BB058D52AA40751.title}"
 			x: -0.5d
 			y: 16.0d
 		}
@@ -2219,12 +2219,12 @@
 					icon: "thermal:machine_cycle_augment"
 					id: "4B2323CA042E2C7D"
 					tags: ["reset"]
-					title: "Repeatable"
+					title: "{cabin.reward.4B2323CA042E2C7D}"
 					type: "custom"
 				}
 			]
 			shape: "hexagon"
-			subtitle: "3 Silver"
+			subtitle: "{cabin.quest.4C068341DD17068B.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -2232,7 +2232,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			title: "8x Kelp"
+			title: "{cabin.quest.4C068341DD17068B.title}"
 			x: 0.5d
 			y: 16.0d
 		}
@@ -2253,12 +2253,12 @@
 					icon: "thermal:machine_cycle_augment"
 					id: "724438A0F5E7CC2F"
 					tags: ["reset"]
-					title: "Repeatable"
+					title: "{cabin.reward.724438A0F5E7CC2F}"
 					type: "custom"
 				}
 			]
 			shape: "hexagon"
-			subtitle: "5 Silver"
+			subtitle: "{cabin.quest.3A86EA1C2AD21C29.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -2266,7 +2266,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			title: "8x Bamboo"
+			title: "{cabin.quest.3A86EA1C2AD21C29.title}"
 			x: 1.5d
 			y: 16.0d
 		}
@@ -2287,12 +2287,12 @@
 					icon: "thermal:machine_cycle_augment"
 					id: "602A39C6C25E8B43"
 					tags: ["reset"]
-					title: "Repeatable"
+					title: "{cabin.reward.602A39C6C25E8B43}"
 					type: "custom"
 				}
 			]
 			shape: "hexagon"
-			subtitle: "11 Silver"
+			subtitle: "{cabin.quest.33B5C951B4AE8322.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -2300,7 +2300,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			title: "8x Sweet Berries"
+			title: "{cabin.quest.33B5C951B4AE8322.title}"
 			x: 3.5d
 			y: 16.0d
 		}
@@ -2321,12 +2321,12 @@
 					icon: "thermal:machine_cycle_augment"
 					id: "0D5F5E76F108F90E"
 					tags: ["reset"]
-					title: "Repeatable"
+					title: "{cabin.reward.0D5F5E76F108F90E}"
 					type: "custom"
 				}
 			]
 			shape: "hexagon"
-			subtitle: "7 Silver"
+			subtitle: "{cabin.quest.57CD030DE2CD7715.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -2334,7 +2334,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			title: "4x Vines"
+			title: "{cabin.quest.57CD030DE2CD7715.title}"
 			x: -3.5d
 			y: 17.0d
 		}
@@ -2355,12 +2355,12 @@
 					icon: "thermal:machine_cycle_augment"
 					id: "253E6D5AEF81F17B"
 					tags: ["reset"]
-					title: "Repeatable"
+					title: "{cabin.reward.253E6D5AEF81F17B}"
 					type: "custom"
 				}
 			]
 			shape: "hexagon"
-			subtitle: "8 Silver"
+			subtitle: "{cabin.quest.0726837174BCED3D.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -2368,7 +2368,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			title: "1x Tree Fertilizer"
+			title: "{cabin.quest.0726837174BCED3D.title}"
 			x: -1.5d
 			y: 17.0d
 		}
@@ -2389,12 +2389,12 @@
 					icon: "thermal:machine_cycle_augment"
 					id: "10CDE3C2EBC04C68"
 					tags: ["reset"]
-					title: "Repeatable"
+					title: "{cabin.reward.10CDE3C2EBC04C68}"
 					type: "custom"
 				}
 			]
 			shape: "hexagon"
-			subtitle: "5 Silver"
+			subtitle: "{cabin.quest.091671443430B31B.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -2402,7 +2402,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			title: "16x Daub"
+			title: "{cabin.quest.091671443430B31B.title}"
 			x: -3.5d
 			y: 18.5d
 		}
@@ -2423,12 +2423,12 @@
 					icon: "thermal:machine_cycle_augment"
 					id: "422D4CE1FC10A3C8"
 					tags: ["reset"]
-					title: "Repeatable"
+					title: "{cabin.reward.422D4CE1FC10A3C8}"
 					type: "custom"
 				}
 			]
 			shape: "hexagon"
-			subtitle: "4 Silver"
+			subtitle: "{cabin.quest.7DFB9DD1A1BB63E4.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -2436,7 +2436,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			title: "16x Clear Glass"
+			title: "{cabin.quest.7DFB9DD1A1BB63E4.title}"
 			x: -2.5d
 			y: 18.5d
 		}
@@ -2457,12 +2457,12 @@
 					icon: "thermal:machine_cycle_augment"
 					id: "0A9854892CC48853"
 					tags: ["reset"]
-					title: "Repeatable"
+					title: "{cabin.reward.0A9854892CC48853}"
 					type: "custom"
 				}
 			]
 			shape: "hexagon"
-			subtitle: "3 Silver"
+			subtitle: "{cabin.quest.1A2E4E06037E009A.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -2470,7 +2470,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			title: "16x Copper Shingles"
+			title: "{cabin.quest.1A2E4E06037E009A.title}"
 			x: 0.5d
 			y: 18.5d
 		}
@@ -2491,12 +2491,12 @@
 					icon: "thermal:machine_cycle_augment"
 					id: "46294ECFE64E5954"
 					tags: ["reset"]
-					title: "Repeatable"
+					title: "{cabin.reward.46294ECFE64E5954}"
 					type: "custom"
 				}
 			]
 			shape: "hexagon"
-			subtitle: "6 Silver"
+			subtitle: "{cabin.quest.011F64B48766234B.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -2504,7 +2504,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			title: "32x Algal Bricks"
+			title: "{cabin.quest.011F64B48766234B.title}"
 			x: -0.5d
 			y: 18.5d
 		}
@@ -2525,12 +2525,12 @@
 					icon: "thermal:machine_cycle_augment"
 					id: "397DC93DEF4B9C30"
 					tags: ["reset"]
-					title: "Repeatable"
+					title: "{cabin.reward.397DC93DEF4B9C30}"
 					type: "custom"
 				}
 			]
 			shape: "hexagon"
-			subtitle: "8 Silver"
+			subtitle: "{cabin.quest.2C9012E65F43EC72.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -2538,7 +2538,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			title: "32x Olivestone Bricks"
+			title: "{cabin.quest.2C9012E65F43EC72.title}"
 			x: -1.5d
 			y: 18.5d
 		}
@@ -2559,12 +2559,12 @@
 					icon: "thermal:machine_cycle_augment"
 					id: "23F66204131BA686"
 					tags: ["reset"]
-					title: "Repeatable"
+					title: "{cabin.reward.23F66204131BA686}"
 					type: "custom"
 				}
 			]
 			shape: "hexagon"
-			subtitle: "8 Silver"
+			subtitle: "{cabin.quest.4202EDD798183934.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -2572,7 +2572,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			title: "32x Sunmetal"
+			title: "{cabin.quest.4202EDD798183934.title}"
 			x: -3.5d
 			y: 19.5d
 		}
@@ -2593,12 +2593,12 @@
 					icon: "thermal:machine_cycle_augment"
 					id: "79CD6C18B40FD1CF"
 					tags: ["reset"]
-					title: "Repeatable"
+					title: "{cabin.reward.79CD6C18B40FD1CF}"
 					type: "custom"
 				}
 			]
 			shape: "hexagon"
-			subtitle: "8 Silver"
+			subtitle: "{cabin.quest.3D7AD3AF3857F7D9.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -2606,7 +2606,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			title: "32x Plating Block"
+			title: "{cabin.quest.3D7AD3AF3857F7D9.title}"
 			x: -2.5d
 			y: 19.5d
 		}
@@ -2627,12 +2627,12 @@
 					icon: "thermal:machine_cycle_augment"
 					id: "48E8694EB482190C"
 					tags: ["reset"]
-					title: "Repeatable"
+					title: "{cabin.reward.48E8694EB482190C}"
 					type: "custom"
 				}
 			]
 			shape: "hexagon"
-			subtitle: "8 Silver"
+			subtitle: "{cabin.quest.1D4B76A3C724C40D.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -2640,7 +2640,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			title: "32x Twisted Planks"
+			title: "{cabin.quest.1D4B76A3C724C40D.title}"
 			x: -1.5d
 			y: 19.5d
 		}
@@ -2661,12 +2661,12 @@
 					icon: "thermal:machine_cycle_augment"
 					id: "320943421E92B877"
 					tags: ["reset"]
-					title: "Repeatable"
+					title: "{cabin.reward.320943421E92B877}"
 					type: "custom"
 				}
 			]
 			shape: "hexagon"
-			subtitle: "8 Silver"
+			subtitle: "{cabin.quest.01428232944D8BE9.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -2674,7 +2674,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			title: "32x Osseous Bricks"
+			title: "{cabin.quest.01428232944D8BE9.title}"
 			x: -0.5d
 			y: 19.5d
 		}
@@ -2695,12 +2695,12 @@
 					icon: "thermal:machine_cycle_augment"
 					id: "19B7AEF1C4855DDD"
 					tags: ["reset"]
-					title: "Repeatable"
+					title: "{cabin.reward.19B7AEF1C4855DDD}"
 					type: "custom"
 				}
 			]
 			shape: "hexagon"
-			subtitle: "32 Silver"
+			subtitle: "{cabin.quest.3A7A2C8D56500426.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -2708,7 +2708,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			title: "16x Seared Stone"
+			title: "{cabin.quest.3A7A2C8D56500426.title}"
 			x: 0.5d
 			y: 19.5d
 		}
@@ -2729,12 +2729,12 @@
 					icon: "thermal:machine_cycle_augment"
 					id: "043E4ABC60E1B8DE"
 					tags: ["reset"]
-					title: "Repeatable"
+					title: "{cabin.reward.043E4ABC60E1B8DE}"
 					type: "custom"
 				}
 			]
 			shape: "hexagon"
-			subtitle: "32 Silver"
+			subtitle: "{cabin.quest.70EBB5E32545ACEC.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -2742,7 +2742,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			title: "16x Scorched Stone"
+			title: "{cabin.quest.70EBB5E32545ACEC.title}"
 			x: 1.5d
 			y: 19.5d
 		}
@@ -2763,12 +2763,12 @@
 					icon: "thermal:machine_cycle_augment"
 					id: "3E14CB7EB614B0B8"
 					tags: ["reset"]
-					title: "Repeatable"
+					title: "{cabin.reward.3E14CB7EB614B0B8}"
 					type: "custom"
 				}
 			]
 			shape: "hexagon"
-			subtitle: "1 Silver"
+			subtitle: "{cabin.quest.10D5B3EF6A77B918.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -2776,7 +2776,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			title: "1x Lantern"
+			title: "{cabin.quest.10D5B3EF6A77B918.title}"
 			x: 2.5d
 			y: 19.5d
 		}
@@ -2797,12 +2797,12 @@
 					icon: "thermal:machine_cycle_augment"
 					id: "3F717BD0A1F4942C"
 					tags: ["reset"]
-					title: "Repeatable"
+					title: "{cabin.reward.3F717BD0A1F4942C}"
 					type: "custom"
 				}
 			]
 			shape: "hexagon"
-			subtitle: "1 Silver"
+			subtitle: "{cabin.quest.6BC9B96B2C6684DC.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -2810,7 +2810,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			title: "1x Soul Lantern"
+			title: "{cabin.quest.6BC9B96B2C6684DC.title}"
 			x: 3.5d
 			y: 19.5d
 		}
@@ -2831,12 +2831,12 @@
 					icon: "thermal:machine_cycle_augment"
 					id: "2CBB9DC78809B69A"
 					tags: ["reset"]
-					title: "Repeatable"
+					title: "{cabin.reward.2CBB9DC78809B69A}"
 					type: "custom"
 				}
 			]
 			shape: "hexagon"
-			subtitle: "3 Silver"
+			subtitle: "{cabin.quest.44CDD45033A93614.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -2844,7 +2844,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			title: "16x Brass Sheet Metal"
+			title: "{cabin.quest.44CDD45033A93614.title}"
 			x: 2.5d
 			y: 18.5d
 		}
@@ -2865,12 +2865,12 @@
 					icon: "thermal:machine_cycle_augment"
 					id: "0216E125D5D1F8CD"
 					tags: ["reset"]
-					title: "Repeatable"
+					title: "{cabin.reward.0216E125D5D1F8CD}"
 					type: "custom"
 				}
 			]
 			shape: "hexagon"
-			subtitle: "3 Silver"
+			subtitle: "{cabin.quest.7B7A161B4BAB89AD.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -2878,7 +2878,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			title: "16x Industrial Iron Sheet Metal"
+			title: "{cabin.quest.7B7A161B4BAB89AD.title}"
 			x: 3.5d
 			y: 18.5d
 		}
@@ -2899,12 +2899,12 @@
 					icon: "thermal:machine_cycle_augment"
 					id: "262EA522BA6AB242"
 					tags: ["reset"]
-					title: "Repeatable"
+					title: "{cabin.reward.262EA522BA6AB242}"
 					type: "custom"
 				}
 			]
 			shape: "hexagon"
-			subtitle: "24 Silver"
+			subtitle: "{cabin.quest.522D9970B8C43046.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -2912,7 +2912,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			title: "4x Slime Ball"
+			title: "{cabin.quest.522D9970B8C43046.title}"
 			x: -3.5d
 			y: 22.0d
 		}
@@ -2933,12 +2933,12 @@
 					icon: "thermal:machine_cycle_augment"
 					id: "065F048F04F02915"
 					tags: ["reset"]
-					title: "Repeatable"
+					title: "{cabin.reward.065F048F04F02915}"
 					type: "custom"
 				}
 			]
 			shape: "hexagon"
-			subtitle: "5 Silver"
+			subtitle: "{cabin.quest.11B239EF3DAE4463.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -2946,7 +2946,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			title: "4x String"
+			title: "{cabin.quest.11B239EF3DAE4463.title}"
 			x: -2.5d
 			y: 22.0d
 		}
@@ -2967,12 +2967,12 @@
 					icon: "thermal:machine_cycle_augment"
 					id: "071961F1447FA25D"
 					tags: ["reset"]
-					title: "Repeatable"
+					title: "{cabin.reward.071961F1447FA25D}"
 					type: "custom"
 				}
 			]
 			shape: "hexagon"
-			subtitle: "6 Silver"
+			subtitle: "{cabin.quest.339BC75AD23B70D7.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -2980,7 +2980,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			title: "4x Feather"
+			title: "{cabin.quest.339BC75AD23B70D7.title}"
 			x: -1.5d
 			y: 22.0d
 		}
@@ -3001,12 +3001,12 @@
 					icon: "thermal:machine_cycle_augment"
 					id: "10A3816277F873ED"
 					tags: ["reset"]
-					title: "Repeatable"
+					title: "{cabin.reward.10A3816277F873ED}"
 					type: "custom"
 				}
 			]
 			shape: "hexagon"
-			subtitle: "7 Silver"
+			subtitle: "{cabin.quest.52CCFCE2733F76BC.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -3014,7 +3014,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			title: "4x Gunpowder"
+			title: "{cabin.quest.52CCFCE2733F76BC.title}"
 			x: -0.5d
 			y: 22.0d
 		}
@@ -3035,12 +3035,12 @@
 					icon: "thermal:machine_cycle_augment"
 					id: "039D78EF3F40A706"
 					tags: ["reset"]
-					title: "Repeatable"
+					title: "{cabin.reward.039D78EF3F40A706}"
 					type: "custom"
 				}
 			]
 			shape: "hexagon"
-			subtitle: "8 Silver"
+			subtitle: "{cabin.quest.42F951B44FB2BFE3.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -3048,7 +3048,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			title: "4x Leather"
+			title: "{cabin.quest.42F951B44FB2BFE3.title}"
 			x: 0.5d
 			y: 22.0d
 		}
@@ -3069,12 +3069,12 @@
 					icon: "thermal:machine_cycle_augment"
 					id: "0C78E802E87B2319"
 					tags: ["reset"]
-					title: "Repeatable"
+					title: "{cabin.reward.0C78E802E87B2319}"
 					type: "custom"
 				}
 			]
 			shape: "hexagon"
-			subtitle: "8 Silver"
+			subtitle: "{cabin.quest.108550230A95C7D4.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -3082,7 +3082,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			title: "4x Ink Sac"
+			title: "{cabin.quest.108550230A95C7D4.title}"
 			x: 1.5d
 			y: 22.0d
 		}
@@ -3103,12 +3103,12 @@
 					icon: "thermal:machine_cycle_augment"
 					id: "75F3834DA4E193E2"
 					tags: ["reset"]
-					title: "Repeatable"
+					title: "{cabin.reward.75F3834DA4E193E2}"
 					type: "custom"
 				}
 			]
 			shape: "hexagon"
-			subtitle: "8 Silver"
+			subtitle: "{cabin.quest.1BF763E3FD8C2245.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -3116,7 +3116,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			title: "1x Experience"
+			title: "{cabin.quest.1BF763E3FD8C2245.title}"
 			x: 3.5d
 			y: 22.0d
 		}
@@ -3137,12 +3137,12 @@
 					icon: "thermal:machine_cycle_augment"
 					id: "370F996437560335"
 					tags: ["reset"]
-					title: "Repeatable"
+					title: "{cabin.reward.370F996437560335}"
 					type: "custom"
 				}
 			]
 			shape: "hexagon"
-			subtitle: "2 Gold"
+			subtitle: "{cabin.quest.1F05704C3B1FA528.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -3150,7 +3150,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			title: "1x Shulker Shell"
+			title: "{cabin.quest.1F05704C3B1FA528.title}"
 			x: 2.5d
 			y: 25.0d
 		}
@@ -3171,12 +3171,12 @@
 					icon: "thermal:machine_cycle_augment"
 					id: "0ED014C23F3EF88A"
 					tags: ["reset"]
-					title: "Repeatable"
+					title: "{cabin.reward.0ED014C23F3EF88A}"
 					type: "custom"
 				}
 			]
 			shape: "hexagon"
-			subtitle: "10 Silver"
+			subtitle: "{cabin.quest.0C6B2EEE280F7667.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -3184,7 +3184,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			title: "4x Spider Eye"
+			title: "{cabin.quest.0C6B2EEE280F7667.title}"
 			x: -3.5d
 			y: 23.0d
 		}
@@ -3205,12 +3205,12 @@
 					icon: "thermal:machine_cycle_augment"
 					id: "3859EB4A3068BDE0"
 					tags: ["reset"]
-					title: "Repeatable"
+					title: "{cabin.reward.3859EB4A3068BDE0}"
 					type: "custom"
 				}
 			]
 			shape: "hexagon"
-			subtitle: "48 Silver"
+			subtitle: "{cabin.quest.46F150CC9BE2D856.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -3218,7 +3218,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			title: "1x Ender Pearl"
+			title: "{cabin.quest.46F150CC9BE2D856.title}"
 			x: -2.5d
 			y: 23.0d
 		}
@@ -3239,12 +3239,12 @@
 					icon: "thermal:machine_cycle_augment"
 					id: "3675850E12202E3F"
 					tags: ["reset"]
-					title: "Repeatable"
+					title: "{cabin.reward.3675850E12202E3F}"
 					type: "custom"
 				}
 			]
 			shape: "hexagon"
-			subtitle: "3 Silver"
+			subtitle: "{cabin.quest.76287BDB2E9B7BC8.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -3252,7 +3252,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			title: "4x Rotten Flesh"
+			title: "{cabin.quest.76287BDB2E9B7BC8.title}"
 			x: -1.5d
 			y: 23.0d
 		}
@@ -3273,12 +3273,12 @@
 					icon: "thermal:machine_cycle_augment"
 					id: "444D0769A4583EF5"
 					tags: ["reset"]
-					title: "Repeatable"
+					title: "{cabin.reward.444D0769A4583EF5}"
 					type: "custom"
 				}
 			]
 			shape: "hexagon"
-			subtitle: "20 Silver"
+			subtitle: "{cabin.quest.685DD2A4DFF56193.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -3286,7 +3286,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			title: "1x Blaze Rod"
+			title: "{cabin.quest.685DD2A4DFF56193.title}"
 			x: -0.5d
 			y: 23.0d
 		}
@@ -3307,12 +3307,12 @@
 					icon: "thermal:machine_cycle_augment"
 					id: "29F8DB5173884DF8"
 					tags: ["reset"]
-					title: "Repeatable"
+					title: "{cabin.reward.29F8DB5173884DF8}"
 					type: "custom"
 				}
 			]
 			shape: "hexagon"
-			subtitle: "8 Silver"
+			subtitle: "{cabin.quest.433E103CD81712C1.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -3320,7 +3320,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			title: "4x Bone"
+			title: "{cabin.quest.433E103CD81712C1.title}"
 			x: 0.5d
 			y: 23.0d
 		}
@@ -3341,12 +3341,12 @@
 					icon: "thermal:machine_cycle_augment"
 					id: "3030A2D06513A5EE"
 					tags: ["reset"]
-					title: "Repeatable"
+					title: "{cabin.reward.3030A2D06513A5EE}"
 					type: "custom"
 				}
 			]
 			shape: "hexagon"
-			subtitle: "16 Silver"
+			subtitle: "{cabin.quest.29696B4965010CED.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -3354,7 +3354,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			title: "4x Prismarine Shard"
+			title: "{cabin.quest.29696B4965010CED.title}"
 			x: 1.5d
 			y: 23.0d
 		}
@@ -3375,12 +3375,12 @@
 					icon: "thermal:machine_cycle_augment"
 					id: "4FDA3ED6EE0395A0"
 					tags: ["reset"]
-					title: "Repeatable"
+					title: "{cabin.reward.4FDA3ED6EE0395A0}"
 					type: "custom"
 				}
 			]
 			shape: "hexagon"
-			subtitle: "24 Silver"
+			subtitle: "{cabin.quest.7C7B81ABFC586379.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -3388,7 +3388,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			title: "4x Prismarine Crystals"
+			title: "{cabin.quest.7C7B81ABFC586379.title}"
 			x: 2.5d
 			y: 23.0d
 		}
@@ -3409,12 +3409,12 @@
 					icon: "thermal:machine_cycle_augment"
 					id: "01BE4FFA1E63C514"
 					tags: ["reset"]
-					title: "Repeatable"
+					title: "{cabin.reward.01BE4FFA1E63C514}"
 					type: "custom"
 				}
 			]
 			shape: "hexagon"
-			subtitle: "1 Gold"
+			subtitle: "{cabin.quest.4864E6BA6AE2B49B.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -3422,7 +3422,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			title: "1x Witch Hat"
+			title: "{cabin.quest.4864E6BA6AE2B49B.title}"
 			x: 3.5d
 			y: 23.0d
 		}
@@ -3443,12 +3443,12 @@
 					icon: "thermal:machine_cycle_augment"
 					id: "73A3D6B10C29ED74"
 					tags: ["reset"]
-					title: "Repeatable"
+					title: "{cabin.reward.73A3D6B10C29ED74}"
 					type: "custom"
 				}
 			]
 			shape: "hexagon"
-			subtitle: "32 Silver"
+			subtitle: "{cabin.quest.2714FE0125D3E953.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -3456,7 +3456,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			title: "1x Zombie heart"
+			title: "{cabin.quest.2714FE0125D3E953.title}"
 			x: -3.5d
 			y: 24.0d
 		}
@@ -3477,12 +3477,12 @@
 					icon: "thermal:machine_cycle_augment"
 					id: "19A177F7D96252D8"
 					tags: ["reset"]
-					title: "Repeatable"
+					title: "{cabin.reward.19A177F7D96252D8}"
 					type: "custom"
 				}
 			]
 			shape: "hexagon"
-			subtitle: "32 Silver"
+			subtitle: "{cabin.quest.395978A711E14931.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -3490,7 +3490,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			title: "1x Squid Beak"
+			title: "{cabin.quest.395978A711E14931.title}"
 			x: -2.5d
 			y: 24.0d
 		}
@@ -3511,12 +3511,12 @@
 					icon: "thermal:machine_cycle_augment"
 					id: "6B6BB0304A01C6EF"
 					tags: ["reset"]
-					title: "Repeatable"
+					title: "{cabin.reward.6B6BB0304A01C6EF}"
 					type: "custom"
 				}
 			]
 			shape: "hexagon"
-			subtitle: "32 Silver"
+			subtitle: "{cabin.quest.23F9DB562ED7C2F6.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -3524,7 +3524,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			title: "1x Rib Bone"
+			title: "{cabin.quest.23F9DB562ED7C2F6.title}"
 			x: -1.5d
 			y: 24.0d
 		}
@@ -3545,12 +3545,12 @@
 					icon: "thermal:machine_cycle_augment"
 					id: "61B524642CB5B885"
 					tags: ["reset"]
-					title: "Repeatable"
+					title: "{cabin.reward.61B524642CB5B885}"
 					type: "custom"
 				}
 			]
 			shape: "hexagon"
-			subtitle: "48 Silver"
+			subtitle: "{cabin.quest.4764EAB921EE1F19.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -3558,7 +3558,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			title: "1x Catalyzing Gland"
+			title: "{cabin.quest.4764EAB921EE1F19.title}"
 			x: -0.5d
 			y: 24.0d
 		}
@@ -3579,12 +3579,12 @@
 					icon: "thermal:machine_cycle_augment"
 					id: "2799CEE57EB4ECD0"
 					tags: ["reset"]
-					title: "Repeatable"
+					title: "{cabin.reward.2799CEE57EB4ECD0}"
 					type: "custom"
 				}
 			]
 			shape: "hexagon"
-			subtitle: "32 Silver"
+			subtitle: "{cabin.quest.2E10D7FE1BC4FDBB.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -3592,7 +3592,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			title: "1x Chelicerae"
+			title: "{cabin.quest.2E10D7FE1BC4FDBB.title}"
 			x: 0.5d
 			y: 24.0d
 		}
@@ -3613,12 +3613,12 @@
 					icon: "thermal:machine_cycle_augment"
 					id: "45B100689244D7A7"
 					tags: ["reset"]
-					title: "Repeatable"
+					title: "{cabin.reward.45B100689244D7A7}"
 					type: "custom"
 				}
 			]
 			shape: "hexagon"
-			subtitle: "48 Silver"
+			subtitle: "{cabin.quest.67B45D6767F8BFD9.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -3626,7 +3626,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			title: "1x Slime Pearl"
+			title: "{cabin.quest.67B45D6767F8BFD9.title}"
 			x: 1.5d
 			y: 24.0d
 		}
@@ -3647,12 +3647,12 @@
 					icon: "thermal:machine_cycle_augment"
 					id: "7FADC35EA2E6ACED"
 					tags: ["reset"]
-					title: "Repeatable"
+					title: "{cabin.reward.7FADC35EA2E6ACED}"
 					type: "custom"
 				}
 			]
 			shape: "hexagon"
-			subtitle: "2 Gold"
+			subtitle: "{cabin.quest.5491C5600D7F039A.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -3660,7 +3660,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			title: "1x Bat Wing"
+			title: "{cabin.quest.5491C5600D7F039A.title}"
 			x: 2.5d
 			y: 24.0d
 		}
@@ -3681,12 +3681,12 @@
 					icon: "thermal:machine_cycle_augment"
 					id: "195F0927009B73EF"
 					tags: ["reset"]
-					title: "Repeatable"
+					title: "{cabin.reward.195F0927009B73EF}"
 					type: "custom"
 				}
 			]
 			shape: "hexagon"
-			subtitle: "2 Gold"
+			subtitle: "{cabin.quest.4BD2016AFC2A2035.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -3694,7 +3694,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			title: "1x Withered Rib"
+			title: "{cabin.quest.4BD2016AFC2A2035.title}"
 			x: 3.5d
 			y: 24.0d
 		}
@@ -3715,12 +3715,12 @@
 					icon: "thermal:machine_cycle_augment"
 					id: "71831976680DE6F6"
 					tags: ["reset"]
-					title: "Repeatable"
+					title: "{cabin.reward.71831976680DE6F6}"
 					type: "custom"
 				}
 			]
 			shape: "hexagon"
-			subtitle: "48 Silver"
+			subtitle: "{cabin.quest.59474208A27099BF.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -3728,7 +3728,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			title: "1x Molten Core"
+			title: "{cabin.quest.59474208A27099BF.title}"
 			x: -3.5d
 			y: 25.0d
 		}
@@ -3749,12 +3749,12 @@
 					icon: "thermal:machine_cycle_augment"
 					id: "4BAD8D6BF6D31582"
 					tags: ["reset"]
-					title: "Repeatable"
+					title: "{cabin.reward.4BAD8D6BF6D31582}"
 					type: "custom"
 				}
 			]
 			shape: "hexagon"
-			subtitle: "2 Gold"
+			subtitle: "{cabin.quest.6FF65841E3EA0FCD.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -3762,7 +3762,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			title: "1x Eye of the Storm"
+			title: "{cabin.quest.6FF65841E3EA0FCD.title}"
 			x: -2.5d
 			y: 25.0d
 		}
@@ -3783,12 +3783,12 @@
 					icon: "thermal:machine_cycle_augment"
 					id: "4969544C0854A10B"
 					tags: ["reset"]
-					title: "Repeatable"
+					title: "{cabin.reward.4969544C0854A10B}"
 					type: "custom"
 				}
 			]
 			shape: "hexagon"
-			subtitle: "48 Silver"
+			subtitle: "{cabin.quest.0CF82AABD5E05A0D.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -3796,7 +3796,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			title: "1x Frozen Core"
+			title: "{cabin.quest.0CF82AABD5E05A0D.title}"
 			x: -1.5d
 			y: 25.0d
 		}
@@ -3817,12 +3817,12 @@
 					icon: "thermal:machine_cycle_augment"
 					id: "39882DC6BD539342"
 					tags: ["reset"]
-					title: "Repeatable"
+					title: "{cabin.reward.39882DC6BD539342}"
 					type: "custom"
 				}
 			]
 			shape: "hexagon"
-			subtitle: "1 Gold"
+			subtitle: "{cabin.quest.73EEAE66CC2014E9.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -3830,7 +3830,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			title: "1x Nebulous Heart"
+			title: "{cabin.quest.73EEAE66CC2014E9.title}"
 			x: -0.5d
 			y: 25.0d
 		}
@@ -3851,12 +3851,12 @@
 					icon: "thermal:machine_cycle_augment"
 					id: "09369014D3B6F533"
 					tags: ["reset"]
-					title: "Repeatable"
+					title: "{cabin.reward.09369014D3B6F533}"
 					type: "custom"
 				}
 			]
 			shape: "hexagon"
-			subtitle: "1 Gold"
+			subtitle: "{cabin.quest.662583DB97721FE8.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -3864,7 +3864,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			title: "1x Guardian Spike"
+			title: "{cabin.quest.662583DB97721FE8.title}"
 			x: 0.5d
 			y: 25.0d
 		}
@@ -3885,12 +3885,12 @@
 					icon: "thermal:machine_cycle_augment"
 					id: "4D303377FAFBBD2D"
 					tags: ["reset"]
-					title: "Repeatable"
+					title: "{cabin.reward.4D303377FAFBBD2D}"
 					type: "custom"
 				}
 			]
 			shape: "hexagon"
-			subtitle: "24 Silver"
+			subtitle: "{cabin.quest.210A3F8C44AAD89A.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -3898,7 +3898,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			title: "1x Phantom Membrane"
+			title: "{cabin.quest.210A3F8C44AAD89A.title}"
 			x: 1.5d
 			y: 25.0d
 		}
@@ -3919,12 +3919,12 @@
 					icon: "thermal:machine_cycle_augment"
 					id: "0CDBD71213AA5C84"
 					tags: ["reset"]
-					title: "Repeatable"
+					title: "{cabin.reward.0CDBD71213AA5C84}"
 					type: "custom"
 				}
 			]
 			shape: "hexagon"
-			subtitle: "16 Silver"
+			subtitle: "{cabin.quest.3CEC6538990D89C3.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -3932,16 +3932,16 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			title: "1x Blaze Cake"
+			title: "{cabin.quest.3CEC6538990D89C3.title}"
 			x: 3.5d
 			y: 25.0d
 		}
 		{
 			dependencies: ["6AC1CED0D341150E"]
 			description: [
-				"Getting to the Brass Age is hard work!"
+				"{cabin.quest.4DFE4FD3B504AF4B.description1}"
 				""
-				"The avid salesman can come here for purchasing Trading Machines from the get go. This should help you take off!"
+				"{cabin.quest.4DFE4FD3B504AF4B.description2}"
 			]
 			icon: "thermal:machine_press"
 			id: "4DFE4FD3B504AF4B"
@@ -3963,12 +3963,12 @@
 					icon: "thermal:machine_cycle_augment"
 					id: "61448EF131387AEF"
 					tags: ["reset"]
-					title: "Repeatable"
+					title: "{cabin.reward.61448EF131387AEF}"
 					type: "custom"
 				}
 			]
 			shape: "circle"
-			subtitle: "30 Silver"
+			subtitle: "{cabin.quest.4DFE4FD3B504AF4B.subtitle}"
 			tasks: [{
 				count: 30L
 				icon: "kubejs:silver_coin"
@@ -3976,7 +3976,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			title: "Early Shipping"
+			title: "{cabin.quest.4DFE4FD3B504AF4B.title}"
 			x: -2.0d
 			y: 12.25d
 		}
@@ -3995,12 +3995,12 @@
 					icon: "thermal:machine_cycle_augment"
 					id: "6E73E740C0833472"
 					tags: ["reset"]
-					title: "Repeatable"
+					title: "{cabin.reward.6E73E740C0833472}"
 					type: "custom"
 				}
 			]
 			shape: "hexagon"
-			subtitle: "3 Silver"
+			subtitle: "{cabin.quest.136DA2C41AD2EE31.subtitle}"
 			tasks: [{
 				consume_items: true
 				count: 10L
@@ -4009,7 +4009,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			title: "16x Iron Sheet Metal"
+			title: "{cabin.quest.136DA2C41AD2EE31.title}"
 			x: 1.5d
 			y: 18.5d
 		}
@@ -4028,12 +4028,12 @@
 					icon: "thermal:machine_cycle_augment"
 					id: "39F52B3413C2FC26"
 					tags: ["reset"]
-					title: "Repeatable"
+					title: "{cabin.reward.39F52B3413C2FC26}"
 					type: "custom"
 				}
 			]
 			shape: "hexagon"
-			subtitle: "11 Silver"
+			subtitle: "{cabin.quest.3CD739455666E2A8.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -4041,7 +4041,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			title: "8x Glow Berry"
+			title: "{cabin.quest.3CD739455666E2A8.title}"
 			x: 2.5d
 			y: 16.0d
 		}
@@ -4059,12 +4059,12 @@
 					icon: "thermal:machine_cycle_augment"
 					id: "7D36D979E53592F5"
 					tags: ["reset"]
-					title: "Repeatable"
+					title: "{cabin.reward.7D36D979E53592F5}"
 					type: "custom"
 				}
 			]
 			shape: "hexagon"
-			subtitle: "4 Silver"
+			subtitle: "{cabin.quest.1D4AA0F29FA698F2.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -4072,7 +4072,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			title: "4x Glow Lichen"
+			title: "{cabin.quest.1D4AA0F29FA698F2.title}"
 			x: -2.5d
 			y: 17.0d
 		}
@@ -4091,12 +4091,12 @@
 					icon: "thermal:machine_cycle_augment"
 					id: "5044D587A73EA793"
 					tags: ["reset"]
-					title: "Repeatable"
+					title: "{cabin.reward.5044D587A73EA793}"
 					type: "custom"
 				}
 			]
 			shape: "hexagon"
-			subtitle: "8 Silver"
+			subtitle: "{cabin.quest.5D6C7D1C371A4D6E.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -4104,7 +4104,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			title: "1x Moss Block"
+			title: "{cabin.quest.5D6C7D1C371A4D6E.title}"
 			x: -0.5d
 			y: 17.0d
 		}
@@ -4123,12 +4123,12 @@
 					icon: "thermal:machine_cycle_augment"
 					id: "5E62020F368A8B3C"
 					tags: ["reset"]
-					title: "Repeatable"
+					title: "{cabin.reward.5E62020F368A8B3C}"
 					type: "custom"
 				}
 			]
 			shape: "hexagon"
-			subtitle: "12 Silver"
+			subtitle: "{cabin.quest.2E692532C4C69001.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -4136,7 +4136,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			title: "1x Glowing Moss Block"
+			title: "{cabin.quest.2E692532C4C69001.title}"
 			x: 0.5d
 			y: 17.0d
 		}
@@ -4155,12 +4155,12 @@
 					icon: "thermal:machine_cycle_augment"
 					id: "629907BC19801F8E"
 					tags: ["reset"]
-					title: "Repeatable"
+					title: "{cabin.reward.629907BC19801F8E}"
 					type: "custom"
 				}
 			]
 			shape: "hexagon"
-			subtitle: "8 Silver"
+			subtitle: "{cabin.quest.12D18A30803D57D6.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -4168,7 +4168,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			title: "2x Glow Ink Sac"
+			title: "{cabin.quest.12D18A30803D57D6.title}"
 			x: 2.5d
 			y: 22.0d
 		}
@@ -4189,12 +4189,12 @@
 					icon: "thermal:machine_cycle_augment"
 					id: "2769CF9418EBFCC0"
 					tags: ["reset"]
-					title: "Repeatable"
+					title: "{cabin.reward.2769CF9418EBFCC0}"
 					type: "custom"
 				}
 			]
 			shape: "hexagon"
-			subtitle: "1 Silver"
+			subtitle: "{cabin.quest.7722ADDCAD9987BD.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -4202,7 +4202,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			title: "8x Cobbled Deepslate"
+			title: "{cabin.quest.7722ADDCAD9987BD.title}"
 			x: 2.5d
 			y: 1.0d
 		}
@@ -4222,12 +4222,12 @@
 					icon: "thermal:machine_cycle_augment"
 					id: "394FA2931897D5BB"
 					tags: ["reset"]
-					title: "Repeatable"
+					title: "{cabin.reward.394FA2931897D5BB}"
 					type: "custom"
 				}
 			]
 			shape: "hexagon"
-			subtitle: "2 Silver"
+			subtitle: "{cabin.quest.6E3216E644289961.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -4235,7 +4235,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			title: "16x Honeycomb Block"
+			title: "{cabin.quest.6E3216E644289961.title}"
 			x: 3.5d
 			y: 1.0d
 		}
@@ -4254,12 +4254,12 @@
 					icon: "thermal:machine_cycle_augment"
 					id: "44861FFB651C7796"
 					tags: ["reset"]
-					title: "Repeatable"
+					title: "{cabin.reward.44861FFB651C7796}"
 					type: "custom"
 				}
 			]
 			shape: "hexagon"
-			subtitle: "8x Silver"
+			subtitle: "{cabin.quest.53A0ED15395EE1C9.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -4267,7 +4267,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			title: "1x Bitumen"
+			title: "{cabin.quest.53A0ED15395EE1C9.title}"
 			x: -0.5d
 			y: 7.0d
 		}
@@ -4288,12 +4288,12 @@
 					icon: "thermal:machine_cycle_augment"
 					id: "1EA93EAF7BE1943A"
 					tags: ["reset"]
-					title: "Repeatable"
+					title: "{cabin.reward.1EA93EAF7BE1943A}"
 					type: "custom"
 				}
 			]
 			shape: "hexagon"
-			subtitle: "8 Silver"
+			subtitle: "{cabin.quest.52C7EF47A0423CAB.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -4301,7 +4301,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			title: "16x Cherry Log"
+			title: "{cabin.quest.52C7EF47A0423CAB.title}"
 			x: 3.5d
 			y: 4.5d
 		}
@@ -4320,12 +4320,12 @@
 					icon: "thermal:machine_cycle_augment"
 					id: "4A6ADA35AEFF4AF7"
 					tags: ["reset"]
-					title: "Repeatable"
+					title: "{cabin.reward.4A6ADA35AEFF4AF7}"
 					type: "custom"
 				}
 			]
 			shape: "hexagon"
-			subtitle: "6 Silver"
+			subtitle: "{cabin.quest.25D02F1FB231C466.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -4333,7 +4333,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			title: "1x Sculk Block"
+			title: "{cabin.quest.25D02F1FB231C466.title}"
 			x: 1.5d
 			y: 17.0d
 		}
@@ -4352,12 +4352,12 @@
 					icon: "thermal:machine_cycle_augment"
 					id: "6759A62FD047DEB4"
 					tags: ["reset"]
-					title: "Repeatable"
+					title: "{cabin.reward.6759A62FD047DEB4}"
 					type: "custom"
 				}
 			]
 			shape: "hexagon"
-			subtitle: "3 Silver"
+			subtitle: "{cabin.quest.3C79A7679BA1AA3C.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -4365,7 +4365,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			title: "8x Pink Petals"
+			title: "{cabin.quest.3C79A7679BA1AA3C.title}"
 			x: 2.5d
 			y: 17.0d
 		}
@@ -4384,12 +4384,12 @@
 					icon: "thermal:machine_cycle_augment"
 					id: "7A95B159914EF1BC"
 					tags: ["reset"]
-					title: "Repeatable"
+					title: "{cabin.reward.7A95B159914EF1BC}"
 					type: "custom"
 				}
 			]
 			shape: "hexagon"
-			subtitle: "3 Silver"
+			subtitle: "{cabin.quest.5F32791B5284E321.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -4397,10 +4397,10 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			title: "4x Big Dripleaf"
+			title: "{cabin.quest.5F32791B5284E321.title}"
 			x: 3.5d
 			y: 17.0d
 		}
 	]
-	title: "&a Shipments"
+	title: "{cabin.chapter.08DF8E49DAFD4F9D.title}"
 }

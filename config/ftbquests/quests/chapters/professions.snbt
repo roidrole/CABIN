@@ -10,7 +10,7 @@
 	quests: [
 		{
 			dependencies: ["59B17CA4AA6D0DD4"]
-			description: ["Sell &6Igneous Rocks&f, &6Metal Ores&f, &6Gems&f and more with the Mining permit."]
+			description: ["{cabin.quest.1E26046FA8177616.description1}"]
 			hide_dependency_lines: true
 			icon: {
 				Count: 1
@@ -72,7 +72,7 @@
 					icon: "thermal:machine_cycle_augment"
 					id: "78B7B98BE67CCA84"
 					tags: ["reset"]
-					title: "Repeatable"
+					title: "{cabin.reward.78B7B98BE67CCA84}"
 					type: "custom"
 				}
 			]
@@ -84,13 +84,13 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			title: "Miner"
+			title: "{cabin.quest.1E26046FA8177616.title}"
 			x: -6.0d
 			y: -8.0d
 		}
 		{
 			dependencies: ["59B17CA4AA6D0DD4"]
-			description: ["Sell &6Crops&f, &6Flowers&f, &6Honey&f and more with the Farming permit."]
+			description: ["{cabin.quest.12B37E99B1D3837E.description1}"]
 			hide_dependency_lines: true
 			icon: {
 				Count: 1
@@ -163,7 +163,7 @@
 					icon: "thermal:machine_cycle_augment"
 					id: "4630E4354593D196"
 					tags: ["reset"]
-					title: "Repeatable"
+					title: "{cabin.reward.4630E4354593D196}"
 					type: "custom"
 				}
 			]
@@ -175,13 +175,13 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			title: "Farmer"
+			title: "{cabin.quest.12B37E99B1D3837E.title}"
 			x: -8.0d
 			y: -8.0d
 		}
 		{
 			dependencies: ["59B17CA4AA6D0DD4"]
-			description: ["Sell &6Wood Logs&f with the Carpentry permit."]
+			description: ["{cabin.quest.3A48FDC224D029BF.description1}"]
 			hide_dependency_lines: true
 			icon: {
 				Count: 1
@@ -243,7 +243,7 @@
 					icon: "thermal:machine_cycle_augment"
 					id: "168DD43A1A6C846C"
 					tags: ["reset"]
-					title: "Repeatable"
+					title: "{cabin.reward.168DD43A1A6C846C}"
 					type: "custom"
 				}
 			]
@@ -255,13 +255,13 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			title: "Carpenter"
+			title: "{cabin.quest.3A48FDC224D029BF.title}"
 			x: -7.0d
 			y: -8.0d
 		}
 		{
 			dependencies: ["59B17CA4AA6D0DD4"]
-			description: ["Sell &6Prepared Food&f with the Cooking permit."]
+			description: ["{cabin.quest.66DA9BE9277FABF1.description1}"]
 			hide_dependency_lines: true
 			icon: {
 				Count: 1
@@ -283,7 +283,7 @@
 					icon: "thermal:machine_cycle_augment"
 					id: "402618EF59D8798B"
 					tags: ["reset"]
-					title: "Repeatable"
+					title: "{cabin.reward.402618EF59D8798B}"
 					type: "custom"
 				}
 			]
@@ -295,13 +295,13 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			title: "Chef"
+			title: "{cabin.quest.66DA9BE9277FABF1.title}"
 			x: -2.0d
 			y: -8.0d
 		}
 		{
 			dependencies: ["59B17CA4AA6D0DD4"]
-			description: ["Sell mass-produced &6Building Blocks&f for a profit with the Masonry permit."]
+			description: ["{cabin.quest.683AA93BE7DEA512.description1}"]
 			hide_dependency_lines: true
 			icon: {
 				Count: 1
@@ -369,7 +369,7 @@
 					icon: "thermal:machine_cycle_augment"
 					id: "0059672C40C04303"
 					tags: ["reset"]
-					title: "Repeatable"
+					title: "{cabin.reward.0059672C40C04303}"
 					type: "custom"
 				}
 			]
@@ -381,13 +381,13 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			title: "Mason"
+			title: "{cabin.quest.683AA93BE7DEA512.title}"
 			x: 0.0d
 			y: -8.0d
 		}
 		{
 			dependencies: ["59B17CA4AA6D0DD4"]
-			description: ["Sell all manner of &6Monster Loot&f with the Hunting permit."]
+			description: ["{cabin.quest.66DDDE912A191E57.description1}"]
 			hide_dependency_lines: true
 			icon: {
 				Count: 1
@@ -449,7 +449,7 @@
 					icon: "thermal:machine_cycle_augment"
 					id: "3EB7FB58B5D3D097"
 					tags: ["reset"]
-					title: "Repeatable"
+					title: "{cabin.reward.3EB7FB58B5D3D097}"
 					type: "custom"
 				}
 			]
@@ -461,16 +461,16 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			title: "Hunter"
+			title: "{cabin.quest.66DDDE912A191E57.title}"
 			x: -5.0d
 			y: -8.0d
 		}
 		{
 			dependencies: ["36E02479368EAF04"]
 			description: [
-				"Taking on a &6Profession&r gives you access to a more consistent source of income."
+				"{cabin.quest.59B17CA4AA6D0DD4.description1}"
 				""
-				"The Profession Cards bought here act as a \"Permit\". All they do is unlock the respective recipes in the Trading Machine. You can absolutely have multiple of these."
+				"{cabin.quest.59B17CA4AA6D0DD4.description2}"
 			]
 			icon: "minecraft:writable_book"
 			id: "59B17CA4AA6D0DD4"
@@ -479,14 +479,14 @@
 				id: "0423DFD47CB1DCE3"
 				type: "checkmark"
 			}]
-			title: "Professions"
+			title: "{cabin.quest.59B17CA4AA6D0DD4.title}"
 			x: -3.5d
 			y: -8.5d
 		}
 		{
 			description: [
-				"&6The Bulletin Board&r provides means to earn currency for Trading."
-				"Here you can complete various errands or buy a profession permit for use in the Trading Machine."
+				"{cabin.quest.36E02479368EAF04.description1}"
+				"{cabin.quest.36E02479368EAF04.description2}"
 			]
 			icon: "minecraft:oak_sign"
 			id: "36E02479368EAF04"
@@ -496,7 +496,7 @@
 				id: "3FE411FC2A966816"
 				type: "checkmark"
 			}]
-			title: "The Bulletin Board"
+			title: "{cabin.quest.36E02479368EAF04.title}"
 			x: -3.5d
 			y: -6.5d
 		}
@@ -510,7 +510,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			subtitle: "25 Silver"
+			subtitle: "{cabin.quest.41BB50843EF5EF10.subtitle}"
 			tasks: [
 				{
 					id: "488C968F61E4B260"
@@ -543,13 +543,13 @@
 					type: "item"
 				}
 			]
-			title: "Sapling Collection"
+			title: "{cabin.quest.41BB50843EF5EF10.title}"
 			x: -4.5d
 			y: -4.0d
 		}
 		{
 			dependencies: ["59B17CA4AA6D0DD4"]
-			description: ["Sell &6Fish&f and Subterranean &6Treasure&f with the Fishing permit."]
+			description: ["{cabin.quest.6C0EC278451434AC.description1}"]
 			hide_dependency_lines: true
 			icon: {
 				Count: 1
@@ -571,7 +571,7 @@
 					icon: "thermal:machine_cycle_augment"
 					id: "4F7B79488825D2ED"
 					tags: ["reset"]
-					title: "Repeatable"
+					title: "{cabin.reward.4F7B79488825D2ED}"
 					type: "custom"
 				}
 			]
@@ -583,12 +583,12 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			title: "Fisherman"
+			title: "{cabin.quest.6C0EC278451434AC.title}"
 			x: -1.0d
 			y: -8.0d
 		}
 		{
-			description: ["Write an application explaining why exactly your organisation is worth investing in."]
+			description: ["{cabin.quest.736FC31210F334F2.description1}"]
 			icon: "minecraft:book"
 			id: "736FC31210F334F2"
 			rewards: [{
@@ -598,7 +598,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			subtitle: "15 Silver"
+			subtitle: "{cabin.quest.736FC31210F334F2.subtitle}"
 			tasks: [{
 				id: "7D2F867FD8A5A68A"
 				item: {
@@ -608,13 +608,13 @@
 				}
 				type: "item"
 			}]
-			title: "Government Funding"
+			title: "{cabin.quest.736FC31210F334F2.title}"
 			x: -2.5d
 			y: -3.5d
 		}
 		{
 			dependencies: ["59B17CA4AA6D0DD4"]
-			description: ["Sell &6Tools&f, &6Armour&f and more with the Smithing permit."]
+			description: ["{cabin.quest.32C46B11BDAD7632.description1}"]
 			hide_dependency_lines: true
 			icon: {
 				Count: 1
@@ -636,7 +636,7 @@
 					icon: "thermal:machine_cycle_augment"
 					id: "5B00E0FDDDA7EEB0"
 					tags: ["reset"]
-					title: "Repeatable"
+					title: "{cabin.reward.5B00E0FDDDA7EEB0}"
 					type: "custom"
 				}
 			]
@@ -648,7 +648,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			title: "Blacksmith"
+			title: "{cabin.quest.32C46B11BDAD7632.title}"
 			x: 1.0d
 			y: -8.0d
 		}
@@ -663,7 +663,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			subtitle: "45 Silver"
+			subtitle: "{cabin.quest.08DB1CFAE4555525.subtitle}"
 			tasks: [
 				{
 					id: "57263F412DD5DF08"
@@ -686,7 +686,7 @@
 					type: "item"
 				}
 			]
-			title: "Plentiful Sapling Collection"
+			title: "{cabin.quest.08DB1CFAE4555525.title}"
 			x: -4.5d
 			y: -2.5d
 		}
@@ -700,7 +700,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			subtitle: "25 Silver"
+			subtitle: "{cabin.quest.128F1A9528CA4130.subtitle}"
 			tasks: [
 				{
 					id: "05FA6BA978E2C59F"
@@ -728,7 +728,7 @@
 					type: "item"
 				}
 			]
-			title: "Mineral Collection"
+			title: "{cabin.quest.128F1A9528CA4130.title}"
 			x: -1.0d
 			y: -4.5d
 		}
@@ -743,7 +743,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			subtitle: "45 Silver"
+			subtitle: "{cabin.quest.669D57A1E1B09CD8.subtitle}"
 			tasks: [
 				{
 					id: "18D9327C3A3FC945"
@@ -771,13 +771,13 @@
 					type: "item"
 				}
 			]
-			title: "Plentiful Mineral Collection"
+			title: "{cabin.quest.669D57A1E1B09CD8.title}"
 			x: -1.0d
 			y: -3.0d
 		}
 		{
 			can_repeat: true
-			description: ["A friendly Record Collector is interested in any discs you find on your travels."]
+			description: ["{cabin.quest.436DA1A1AB8C0734.description1}"]
 			icon: "minecraft:music_disc_13"
 			id: "436DA1A1AB8C0734"
 			rewards: [
@@ -794,11 +794,11 @@
 					icon: "thermal:machine_cycle_augment"
 					id: "7FF7001764116001"
 					tags: ["reset"]
-					title: "Repeatable"
+					title: "{cabin.reward.7FF7001764116001}"
 					type: "custom"
 				}
 			]
-			subtitle: "32 Silver"
+			subtitle: "{cabin.quest.436DA1A1AB8C0734.subtitle}"
 			tasks: [{
 				id: "28EC11DE8335B74A"
 				item: {
@@ -808,10 +808,10 @@
 						value: "kubejs:sellable_discs"
 					}
 				}
-				title: "Any Music Record"
+				title: "{cabin.task.28EC11DE8335B74A}"
 				type: "item"
 			}]
-			title: "The lost Tapes"
+			title: "{cabin.quest.436DA1A1AB8C0734.title}"
 			x: -6.0d
 			y: -4.5d
 		}
@@ -825,7 +825,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			subtitle: "25 Silver"
+			subtitle: "{cabin.quest.2A9AAED667A95C6E.subtitle}"
 			tasks: [
 				{
 					count: 8L
@@ -852,7 +852,7 @@
 					type: "item"
 				}
 			]
-			title: "Igneous Sample Collection"
+			title: "{cabin.quest.2A9AAED667A95C6E.title}"
 			x: 0.5d
 			y: -4.0d
 		}
@@ -867,7 +867,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			subtitle: "45 Silver"
+			subtitle: "{cabin.quest.7D92D05B4A67FD78.subtitle}"
 			tasks: [
 				{
 					count: 8L
@@ -888,12 +888,12 @@
 					type: "item"
 				}
 			]
-			title: "Plentiful Igneous Sample Collection"
+			title: "{cabin.quest.7D92D05B4A67FD78.title}"
 			x: 0.5d
 			y: -2.5d
 		}
 		{
-			description: ["If you've been terraforming, feel free to send some excess dirt to this Project."]
+			description: ["{cabin.quest.1C5EA1173F4E592B.description1}"]
 			id: "1C5EA1173F4E592B"
 			rewards: [{
 				count: 15
@@ -902,14 +902,14 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			subtitle: "15 Silver"
+			subtitle: "{cabin.quest.1C5EA1173F4E592B.subtitle}"
 			tasks: [{
 				count: 256L
 				id: "0A99B239D9EA5B0B"
 				item: "minecraft:dirt"
 				type: "item"
 			}]
-			title: "Landfill Dropoff"
+			title: "{cabin.quest.1C5EA1173F4E592B.title}"
 			x: 2.0d
 			y: -5.0d
 		}
@@ -923,7 +923,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			subtitle: "25 Silver"
+			subtitle: "{cabin.quest.4D07666ECE75D9B5.subtitle}"
 			tasks: [
 				{
 					count: 3L
@@ -962,7 +962,7 @@
 					type: "item"
 				}
 			]
-			title: "Crops Collection"
+			title: "{cabin.quest.4D07666ECE75D9B5.title}"
 			x: -7.5d
 			y: -4.0d
 		}
@@ -977,7 +977,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			subtitle: "45 Silver"
+			subtitle: "{cabin.quest.3F2FB159F1B8875F.subtitle}"
 			tasks: [
 				{
 					count: 3L
@@ -1016,7 +1016,7 @@
 					type: "item"
 				}
 			]
-			title: "Plentiful Crops Collection"
+			title: "{cabin.quest.3F2FB159F1B8875F.title}"
 			x: -7.5d
 			y: -2.5d
 		}
@@ -1030,7 +1030,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			subtitle: "55 Silver"
+			subtitle: "{cabin.quest.7932D19BE114264A.subtitle}"
 			tasks: [
 				{
 					count: 16L
@@ -1055,7 +1055,7 @@
 					type: "item"
 				}
 			]
-			title: "Ancient Life"
+			title: "{cabin.quest.7932D19BE114264A.title}"
 			x: -9.0d
 			y: -3.0d
 		}
@@ -1068,7 +1068,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			subtitle: "30 Silver"
+			subtitle: "{cabin.quest.7C270AB26CD9AAB8.subtitle}"
 			tasks: [{
 				entity: "minecraft:zombie"
 				icon: "minecraft:zombie_head"
@@ -1076,7 +1076,7 @@
 				type: "kill"
 				value: 50L
 			}]
-			title: "Hunt the Undead"
+			title: "{cabin.quest.7C270AB26CD9AAB8.title}"
 			x: -2.5d
 			y: -1.5d
 		}
@@ -1089,7 +1089,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			subtitle: "50 Silver"
+			subtitle: "{cabin.quest.29B58A9EDA478E7D.subtitle}"
 			tasks: [{
 				entity: "minecraft:skeleton"
 				icon: "minecraft:skeleton_skull"
@@ -1097,7 +1097,7 @@
 				type: "kill"
 				value: 40L
 			}]
-			title: "Hunt the Undead II"
+			title: "{cabin.quest.29B58A9EDA478E7D.title}"
 			x: -1.0d
 			y: -1.0d
 		}
@@ -1110,7 +1110,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			subtitle: "50 Silver"
+			subtitle: "{cabin.quest.1AA2C3EECE1832EE.subtitle}"
 			tasks: [{
 				entity: "minecraft:spider"
 				icon: "tconstruct:spider_head"
@@ -1118,7 +1118,7 @@
 				type: "kill"
 				value: 30L
 			}]
-			title: "Hunt the Arthropods"
+			title: "{cabin.quest.1AA2C3EECE1832EE.title}"
 			x: -4.0d
 			y: -1.0d
 		}
@@ -1131,13 +1131,13 @@
 				item: "thermal:gold_coin"
 				type: "item"
 			}]
-			subtitle: "2 Gold"
+			subtitle: "{cabin.quest.3F00084D9474C381.subtitle}"
 			tasks: [{
 				id: "2CA6E7602A5FBCF5"
 				item: "supplementaries:globe"
 				type: "item"
 			}]
-			title: "Traders' Finest"
+			title: "{cabin.quest.3F00084D9474C381.title}"
 			x: -6.0d
 			y: -2.0d
 		}
@@ -1150,16 +1150,16 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			subtitle: "15 Silver"
+			subtitle: "{cabin.quest.562696C1D01B2685.subtitle}"
 			tasks: [{
 				icon: "minecraft:wheat"
 				id: "07132D69A1BA37B5"
 				stat: "minecraft:animals_bred"
-				title: "Breed 10 Animals"
+				title: "{cabin.task.07132D69A1BA37B5}"
 				type: "stat"
 				value: 10
 			}]
-			title: "The Ranch"
+			title: "{cabin.quest.562696C1D01B2685.title}"
 			x: -9.5d
 			y: -1.5d
 		}
@@ -1173,7 +1173,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			subtitle: "30 Silver"
+			subtitle: "{cabin.quest.39D56A2B01DBD865.subtitle}"
 			tasks: [
 				{
 					count: 5L
@@ -1212,13 +1212,13 @@
 					type: "item"
 				}
 			]
-			title: "Ore Collection"
+			title: "{cabin.quest.39D56A2B01DBD865.title}"
 			x: 2.5d
 			y: -3.0d
 		}
 		{
 			can_repeat: true
-			description: ["Defeat those intruders, and you'll have the support from nearby villages."]
+			description: ["{cabin.quest.76E3B76D47A1F889.description1}"]
 			icon: {
 				Count: 1
 				id: "minecraft:crossbow"
@@ -1242,11 +1242,11 @@
 					id: "77DE41861FF4DDCB"
 					tags: ["reset"]
 					team_reward: true
-					title: "Repeatable"
+					title: "{cabin.reward.77DE41861FF4DDCB}"
 					type: "custom"
 				}
 			]
-			subtitle: "10 Silver"
+			subtitle: "{cabin.quest.76E3B76D47A1F889.subtitle}"
 			tasks: [
 				{
 					id: "7CEFF147708B6647"
@@ -1312,7 +1312,7 @@
 					value: 3L
 				}
 			]
-			title: "Revenge"
+			title: "{cabin.quest.76E3B76D47A1F889.title}"
 			x: -9.5d
 			y: -4.5d
 		}
@@ -1325,7 +1325,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			subtitle: "60 Silver"
+			subtitle: "{cabin.quest.2F2BA8C2AC2E0B93.subtitle}"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -1336,14 +1336,14 @@
 				}
 				id: "374CDBF68F90BDC9"
 				stat: "minecraft:jump"
-				title: "Jump 16000 Times"
+				title: "{cabin.task.374CDBF68F90BDC9}"
 				type: "stat"
 				value: 16000
 			}]
-			title: "Keeping in Shape"
+			title: "{cabin.quest.2F2BA8C2AC2E0B93.title}"
 			x: 2.0d
 			y: -1.5d
 		}
 	]
-	title: "&a Bulletin Board"
+	title: "{cabin.chapter.1634333847CCE52A.title}"
 }

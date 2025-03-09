@@ -11,9 +11,9 @@
 		{
 			dependencies: ["28C41C062843C2CA"]
 			description: [
-				"The Automation Target this time is the Electron Tube. Placing them onto the Kinetic Mechanism will send you to the next tier."
+				"{cabin.quest.727B43FD95C4A512.description1}"
 				""
-				"Happy Inventing!"
+				"{cabin.quest.727B43FD95C4A512.description2}"
 			]
 			hide_until_deps_visible: true
 			icon: "kubejs:kinetic_mechanism"
@@ -29,13 +29,13 @@
 				id: "2B249158FB9D453B"
 				type: "checkmark"
 			}]
-			title: "Chapter 2 Start!"
+			title: "{cabin.quest.727B43FD95C4A512.title}"
 			x: -1.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["727B43FD95C4A512"]
-			description: ["Initially, Certus Quartz Seeds require sand to be crafted. However, for full automation it might be worthwhile to bypass that requirement with the help of Mechanical Crafters."]
+			description: ["{cabin.quest.0AF5F19F5D9FB5C9.description1}"]
 			hide_dependency_lines: true
 			id: "0AF5F19F5D9FB5C9"
 			shape: "circle"
@@ -45,7 +45,7 @@
 				item: "minecraft:sand"
 				type: "item"
 			}]
-			title: "Temporary Sand"
+			title: "{cabin.quest.0AF5F19F5D9FB5C9.title}"
 			x: -5.0d
 			y: 4.0d
 		}
@@ -55,55 +55,55 @@
 				"2FFFE1C5366930BB"
 			]
 			dependency_requirement: "one_completed"
-			description: ["This piece of quartz is too small. With enough water we might get somewhere."]
+			description: ["{cabin.quest.345B94F6D17605CD.description1}"]
 			id: "345B94F6D17605CD"
 			shape: "circle"
-			subtitle: "Contraption 12-1"
+			subtitle: "{cabin.quest.345B94F6D17605CD.subtitle}"
 			tasks: [{
 				id: "2E6AD53DE407260C"
 				item: "kubejs:certus_crystal_seed"
 				type: "item"
 			}]
-			title: "Quartz Seeds"
+			title: "{cabin.quest.345B94F6D17605CD.title}"
 			x: -6.0d
 			y: 6.5d
 		}
 		{
 			dependencies: ["345B94F6D17605CD"]
-			description: ["Needs more Water."]
+			description: ["{cabin.quest.34A1D176C78FB64E.description1}"]
 			icon: "kubejs:tiny_certus_crystal"
 			id: "34A1D176C78FB64E"
 			shape: "circle"
-			subtitle: "Contraption 12-2"
+			subtitle: "{cabin.quest.34A1D176C78FB64E.subtitle}"
 			tasks: [{
 				id: "28DDF51DB85DCF7D"
 				type: "checkmark"
 			}]
-			title: "Growth Started"
+			title: "{cabin.quest.34A1D176C78FB64E.title}"
 			x: -5.5d
 			y: 8.0d
 		}
 		{
 			dependencies: ["34A1D176C78FB64E"]
-			description: ["Just keep spouting it."]
+			description: ["{cabin.quest.1642A27606A34984.description1}"]
 			icon: "kubejs:small_certus_crystal"
 			id: "1642A27606A34984"
 			shape: "circle"
-			subtitle: "Contraption 12-3"
+			subtitle: "{cabin.quest.1642A27606A34984.subtitle}"
 			tasks: [{
 				id: "30E8BB6958ED4A44"
 				type: "checkmark"
 			}]
-			title: "Growth Continued"
+			title: "{cabin.quest.1642A27606A34984.title}"
 			x: -4.0d
 			y: 8.5d
 		}
 		{
 			dependencies: ["1642A27606A34984"]
-			description: ["Finally, a fully grown crystal. Don't forget to send every second one back around for seed production!"]
+			description: ["{cabin.quest.1861E583C9DAA0BA.description1}"]
 			icon: "ae2:certus_quartz_crystal"
 			id: "1861E583C9DAA0BA"
-			subtitle: "Contraption 12-4"
+			subtitle: "{cabin.quest.1861E583C9DAA0BA.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -113,17 +113,17 @@
 				}
 				{
 					id: "5143762A67B81B7E"
-					title: "Automated"
+					title: "{cabin.task.5143762A67B81B7E}"
 					type: "checkmark"
 				}
 			]
-			title: "Growth Completed"
+			title: "{cabin.quest.1861E583C9DAA0BA.title}"
 			x: -2.5d
 			y: 8.0d
 		}
 		{
 			dependencies: ["727B43FD95C4A512"]
-			description: ["The contraptions of Chapter 2 require a healthy supply of water. The easiest way is to pull from water sources directly using Mechanical Pumps and a fluid pipe network."]
+			description: ["{cabin.quest.2FFFE1C5366930BB.description1}"]
 			hide_dependency_lines: true
 			icon: "minecraft:water_bucket"
 			id: "2FFFE1C5366930BB"
@@ -136,25 +136,25 @@
 				}
 				{
 					id: "2DC358D8174FC867"
-					title: "Automated"
+					title: "{cabin.task.2DC358D8174FC867}"
 					type: "checkmark"
 				}
 			]
-			title: "Water Supply"
+			title: "{cabin.quest.2FFFE1C5366930BB.title}"
 			x: -3.0d
 			y: 4.5d
 		}
 		{
 			dependencies: ["727B43FD95C4A512"]
 			description: [
-				"You can just keep on pulverising it. Sky Stone blocks never seem to lose mass in the process. What a world we live in!"
+				"{cabin.quest.4F95D5136E944ADB.description1}"
 				""
-				"Find Sky Stone Blocks at Meteor crash sites. If you haven't encountered any, try looking for one using the Meteorite compass."
+				"{cabin.quest.4F95D5136E944ADB.description2}"
 			]
 			hide_dependency_lines: true
 			icon: "ae2:sky_dust"
 			id: "4F95D5136E944ADB"
-			subtitle: "Contraption 11"
+			subtitle: "{cabin.quest.4F95D5136E944ADB.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -164,11 +164,11 @@
 				}
 				{
 					id: "3C8D449468C6DD27"
-					title: "Automated"
+					title: "{cabin.task.3C8D449468C6DD27}"
 					type: "checkmark"
 				}
 			]
-			title: "Skystone Infini-mill"
+			title: "{cabin.quest.4F95D5136E944ADB.title}"
 			x: -1.0d
 			y: 4.0d
 		}
@@ -177,10 +177,10 @@
 				"2FFFE1C5366930BB"
 				"4F95D5136E944ADB"
 			]
-			description: ["Dissolving this strange reactive powder in water creates a fun and useful liquid."]
+			description: ["{cabin.quest.1256352748B93449.description1}"]
 			icon: "tconstruct:molten_obsidian_bucket"
 			id: "1256352748B93449"
-			subtitle: "Contraption 13-1"
+			subtitle: "{cabin.quest.1256352748B93449.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -190,11 +190,11 @@
 				}
 				{
 					id: "1CB43671DBA7EBB6"
-					title: "Automated"
+					title: "{cabin.task.1CB43671DBA7EBB6}"
 					type: "checkmark"
 				}
 			]
-			title: "Skystone Mixer"
+			title: "{cabin.quest.1256352748B93449.title}"
 			x: -1.0d
 			y: 5.5d
 		}
@@ -205,13 +205,13 @@
 			]
 			dependency_requirement: "one_completed"
 			description: [
-				"Discharging an Energized Certus Quartz Crystal into the liquid creates a solution that reminds you of liquid redstone."
+				"{cabin.quest.619E34A7DE48B991.description1}"
 				""
-				"Notice that the mixing process returns an inert quartz ready to be recharged using Contraption 14."
+				"{cabin.quest.619E34A7DE48B991.description2}"
 			]
 			icon: "thermal:redstone_bucket"
 			id: "619E34A7DE48B991"
-			subtitle: "Contraption 13-2"
+			subtitle: "{cabin.quest.619E34A7DE48B991.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -221,17 +221,17 @@
 				}
 				{
 					id: "4B98217B670ECA57"
-					title: "Automated"
+					title: "{cabin.task.4B98217B670ECA57}"
 					type: "checkmark"
 				}
 			]
-			title: "Charged Mixer"
+			title: "{cabin.quest.619E34A7DE48B991.title}"
 			x: -0.5d
 			y: 7.0d
 		}
 		{
 			dependencies: ["53735DC4231AB566"]
-			description: ["Route the nuggets into your High-Temperature melting equipment. A Melter from Tinkers' Construct, for example."]
+			description: ["{cabin.quest.2167272204B6627B.description1}"]
 			icon: {
 				Count: 1
 				id: "tconstruct:copper_can"
@@ -240,13 +240,13 @@
 				}
 			}
 			id: "2167272204B6627B"
-			subtitle: "Contraption 15-4"
+			subtitle: "{cabin.quest.2167272204B6627B.subtitle}"
 			tasks: [{
 				id: "75C982848F2CEA85"
-				title: "Automated"
+				title: "{cabin.task.75C982848F2CEA85}"
 				type: "checkmark"
 			}]
-			title: "Get Melted"
+			title: "{cabin.quest.2167272204B6627B.title}"
 			x: 1.0d
 			y: 9.5d
 		}
@@ -255,10 +255,10 @@
 				"2167272204B6627B"
 				"06B061C0EE94BC90"
 			]
-			description: ["Spout a droplet of Molten Iron onto the Rose Quartz Crystal to create a fully functional Electron Tube."]
+			description: ["{cabin.quest.5351AF6CA73CB8E0.description1}"]
 			icon: "create:electron_tube"
 			id: "5351AF6CA73CB8E0"
-			subtitle: "Contraption 15-5"
+			subtitle: "{cabin.quest.5351AF6CA73CB8E0.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -268,25 +268,25 @@
 				}
 				{
 					id: "1D7C84803766FD04"
-					title: "Automated"
+					title: "{cabin.task.1D7C84803766FD04}"
 					type: "checkmark"
 				}
 			]
-			title: "Second Coating Layer"
+			title: "{cabin.quest.5351AF6CA73CB8E0.title}"
 			x: -0.5d
 			y: 10.0d
 		}
 		{
 			dependencies: ["1256352748B93449"]
 			description: [
-				"Set up a little cycle to recharge any Certus Quartz used as a Catalyst in Contraption 13-2."
+				"{cabin.quest.24FFFE0FC9EAEF8D.description1}"
 				""
-				"The Charger from AE2 can be used here, along with the Item Trasportation of choice."
+				"{cabin.quest.24FFFE0FC9EAEF8D.description2}"
 			]
 			hide_dependency_lines: true
 			icon: "ae2:charged_certus_quartz_crystal"
 			id: "24FFFE0FC9EAEF8D"
-			subtitle: "Contraption 14"
+			subtitle: "{cabin.quest.24FFFE0FC9EAEF8D.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -296,25 +296,25 @@
 				}
 				{
 					id: "56F78EAD35D1046E"
-					title: "Automated"
+					title: "{cabin.task.56F78EAD35D1046E}"
 					type: "checkmark"
 				}
 			]
-			title: "The (Re-)Charger"
+			title: "{cabin.quest.24FFFE0FC9EAEF8D.title}"
 			x: 1.0d
 			y: 6.0d
 		}
 		{
 			dependencies: ["727B43FD95C4A512"]
 			description: [
-				"Known in the business as the 'Iron Generator', you will now be creating metal from Cobblestone."
+				"{cabin.quest.0E46C1FCE5AEB1DF.description1}"
 				""
-				"Start with some Drills hooked up to regenerating Cobblestone blocks."
+				"{cabin.quest.0E46C1FCE5AEB1DF.description2}"
 			]
 			hide_dependency_lines: true
 			icon: "minecraft:cobblestone"
 			id: "0E46C1FCE5AEB1DF"
-			subtitle: "Contraption 15-1"
+			subtitle: "{cabin.quest.0E46C1FCE5AEB1DF.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -324,11 +324,11 @@
 				}
 				{
 					id: "5E676D2CC5975AEA"
-					title: "Automated"
+					title: "{cabin.task.5E676D2CC5975AEA}"
 					type: "checkmark"
 				}
 			]
-			title: "Iron for Days"
+			title: "{cabin.quest.0E46C1FCE5AEB1DF.title}"
 			x: 3.5d
 			y: 7.0d
 		}
@@ -337,10 +337,10 @@
 				"5351AF6CA73CB8E0"
 				"6D8BB2D6A75ABB16"
 			]
-			description: ["Bringing together Electron Tubes and Kinetic Mechanisms using a row of Deployers concludes your second Assembly Line."]
+			description: ["{cabin.quest.19715EBCBBA1B4AD.description1}"]
 			icon: "create:precision_mechanism"
 			id: "19715EBCBBA1B4AD"
-			subtitle: "Contraption 16"
+			subtitle: "{cabin.quest.19715EBCBBA1B4AD.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -350,20 +350,20 @@
 				}
 				{
 					id: "002032AE65148DBD"
-					title: "Automated"
+					title: "{cabin.task.002032AE65148DBD}"
 					type: "checkmark"
 				}
 			]
-			title: "Keep on Deploying"
+			title: "{cabin.quest.19715EBCBBA1B4AD.title}"
 			x: -1.0d
 			y: 11.5d
 		}
 		{
 			dependencies: ["19715EBCBBA1B4AD"]
 			description: [
-				"Congrats! Now you have a passive supply of Precision Mechanisms. Think of all the options you have access to!"
+				"{cabin.quest.7FC4D1E69377271D.description1}"
 				""
-				"After cleaning up and briefly scanning for bottlenecks, go ahead and check back with the Overview section."
+				"{cabin.quest.7FC4D1E69377271D.description2}"
 			]
 			id: "7FC4D1E69377271D"
 			rewards: [
@@ -394,16 +394,16 @@
 				item: "kubejs:brass_machine"
 				type: "item"
 			}]
-			title: "Chapter 2 Complete!"
+			title: "{cabin.quest.7FC4D1E69377271D.title}"
 			x: -1.0d
 			y: 13.5d
 		}
 		{
 			dependencies: ["0E46C1FCE5AEB1DF"]
-			description: ["The Cobblestone first needs to be milled down into Gravel."]
+			description: ["{cabin.quest.1139F2E4E6FCFE29.description1}"]
 			icon: "minecraft:gravel"
 			id: "1139F2E4E6FCFE29"
-			subtitle: "Contraption 15-2"
+			subtitle: "{cabin.quest.1139F2E4E6FCFE29.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -413,20 +413,20 @@
 				}
 				{
 					id: "63F3877902E01590"
-					title: "Automated"
+					title: "{cabin.task.63F3877902E01590}"
 					type: "checkmark"
 				}
 			]
-			title: "De-Chunkify"
+			title: "{cabin.quest.1139F2E4E6FCFE29.title}"
 			x: 4.0d
 			y: 9.0d
 		}
 		{
 			dependencies: ["1139F2E4E6FCFE29"]
-			description: ["Washing the Gravel with an Encased Fan leaves you with Iron Nuggets and Flint."]
+			description: ["{cabin.quest.53735DC4231AB566.description1}"]
 			icon: "minecraft:iron_nugget"
 			id: "53735DC4231AB566"
-			subtitle: "Contraption 15-3"
+			subtitle: "{cabin.quest.53735DC4231AB566.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -436,11 +436,11 @@
 				}
 				{
 					id: "64B405696E96FFCD"
-					title: "Automated"
+					title: "{cabin.task.64B405696E96FFCD}"
 					type: "checkmark"
 				}
 			]
-			title: "Ferric Traces"
+			title: "{cabin.quest.53735DC4231AB566.title}"
 			x: 2.5d
 			y: 10.0d
 		}
@@ -450,12 +450,12 @@
 				"619E34A7DE48B991"
 			]
 			description: [
-				"In a third and final Mixer, our freshly grown Crystals will be treated to a nice and energetic re-design."
-				"(Sorry to all Mineralogists.)"
+				"{cabin.quest.06B061C0EE94BC90.description1}"
+				"{cabin.quest.06B061C0EE94BC90.description2}"
 			]
 			icon: "create:polished_rose_quartz"
 			id: "06B061C0EE94BC90"
-			subtitle: "Contraption 13-3"
+			subtitle: "{cabin.quest.06B061C0EE94BC90.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -465,11 +465,11 @@
 				}
 				{
 					id: "0F6DB8FCC5C16A94"
-					title: "Automated"
+					title: "{cabin.task.0F6DB8FCC5C16A94}"
 					type: "checkmark"
 				}
 			]
-			title: "Painted Quartz Mixer"
+			title: "{cabin.quest.06B061C0EE94BC90.title}"
 			x: -1.0d
 			y: 8.5d
 		}
@@ -479,21 +479,21 @@
 				"1D9D65FBD06DD481"
 			]
 			description: [
-				"Dropping the Liquids onto a Precision Mechanism will convert it to its Infernal counterpart."
+				"{cabin.quest.3C50B4556375178E.description1}"
 				""
-				"Once again, full automation of bonus mechanisms is not as pressing a task, since they do not lead to any further machines beyond their own."
-				"A semi-automatic setup for converting Precision Mechanisms whenever needed should suffice."
+				"{cabin.quest.3C50B4556375178E.description2}"
+				"{cabin.quest.3C50B4556375178E.description3}"
 			]
 			id: "3C50B4556375178E"
 			shape: "circle"
-			subtitle: "Contraption 18-2"
+			subtitle: "{cabin.quest.3C50B4556375178E.subtitle}"
 			tasks: [{
 				consume_items: false
 				id: "24070D354D67A3DF"
 				item: "kubejs:infernal_mechanism"
 				type: "item"
 			}]
-			title: "Heated Treatment"
+			title: "{cabin.quest.3C50B4556375178E.title}"
 			x: -4.0d
 			y: 17.0d
 		}
@@ -504,15 +504,15 @@
 			]
 			description: [
 				""
-				"Every Zinc Machine will end up using 24 Buckets of Lava in Production. It's not a great ecological footprint, but even just one Hose Pulley can make quick work of it."
+				"{cabin.quest.1D9D65FBD06DD481.description1}"
 				""
-				"Remember that trains can cross through nether portals, perhaps this can help you."
+				"{cabin.quest.1D9D65FBD06DD481.description2}"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			icon: "minecraft:lava_bucket"
 			id: "1D9D65FBD06DD481"
-			subtitle: "Contraption 18-1"
+			subtitle: "{cabin.quest.1D9D65FBD06DD481.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -522,11 +522,11 @@
 				}
 				{
 					id: "73BF4F3B488FBC83"
-					title: "Automated"
+					title: "{cabin.task.73BF4F3B488FBC83}"
 					type: "checkmark"
 				}
 			]
-			title: "A lot. of lava"
+			title: "{cabin.quest.1D9D65FBD06DD481.title}"
 			x: -5.5d
 			y: 16.5d
 		}
@@ -536,10 +536,10 @@
 				"7E59B7DC239E621E"
 				"5DCF9C8212AA3BE3"
 			]
-			description: ["Drop all the harvested vines into a Heated Mixing Basin."]
+			description: ["{cabin.quest.239C64263B91350D.description1}"]
 			icon: "tconstruct:liquid_soul_bucket"
 			id: "239C64263B91350D"
-			subtitle: "Contraption 17-3"
+			subtitle: "{cabin.quest.239C64263B91350D.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -549,11 +549,11 @@
 				}
 				{
 					id: "21C241D2335C67E4"
-					title: "Automated"
+					title: "{cabin.task.21C241D2335C67E4}"
 					type: "checkmark"
 				}
 			]
-			title: "Soul Distillery"
+			title: "{cabin.quest.239C64263B91350D.title}"
 			x: -4.0d
 			y: 15.5d
 		}
@@ -563,15 +563,15 @@
 				"21753CBB528EAADF"
 			]
 			description: [
-				"For the all-mighty Infernal Mechanism, a bountiful source of soul essence is needed. Thankfully, the vines of the underworld seem to carry it in them."
+				"{cabin.quest.223BB57AD0239511.description1}"
 				""
-				"Twisting Vines grow upwards, you can gather them using Mechanical Harvesters."
+				"{cabin.quest.223BB57AD0239511.description2}"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			icon: "minecraft:twisting_vines"
 			id: "223BB57AD0239511"
-			subtitle: "Contraption 17-1"
+			subtitle: "{cabin.quest.223BB57AD0239511.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -581,11 +581,11 @@
 				}
 				{
 					id: "6F7A49C7C377ABF1"
-					title: "Automated"
+					title: "{cabin.task.6F7A49C7C377ABF1}"
 					type: "checkmark"
 				}
 			]
-			title: "The Double Decker I"
+			title: "{cabin.quest.223BB57AD0239511.title}"
 			x: -6.0d
 			y: 15.0d
 		}
@@ -595,15 +595,15 @@
 				"21753CBB528EAADF"
 			]
 			description: [
-				"Weeping Vines grow downwards from a ceiling. You can gather them with Mechanical Harvesters."
+				"{cabin.quest.7E59B7DC239E621E.description1}"
 				""
-				"For style points, you can use the same contraption to harvest both vine types simultaneously."
+				"{cabin.quest.7E59B7DC239E621E.description2}"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			icon: "minecraft:weeping_vines"
 			id: "7E59B7DC239E621E"
-			subtitle: "Contraption 17-2"
+			subtitle: "{cabin.quest.7E59B7DC239E621E.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -613,19 +613,19 @@
 				}
 				{
 					id: "6149AB838FC42C17"
-					title: "Automated"
+					title: "{cabin.task.6149AB838FC42C17}"
 					type: "checkmark"
 				}
 			]
-			title: "The Double Decker II"
+			title: "{cabin.quest.7E59B7DC239E621E.title}"
 			x: -2.0d
 			y: 15.0d
 		}
 		{
 			dependencies: ["5351AF6CA73CB8E0"]
 			description: [
-				"It'll be good to stock up on a couple of screwdrivers for the Mechanism Assembly."
-				"Just like last time, the requirement does not necessarily call for automation."
+				"{cabin.quest.6D8BB2D6A75ABB16.description1}"
+				"{cabin.quest.6D8BB2D6A75ABB16.description2}"
 			]
 			hide_dependency_lines: true
 			id: "6D8BB2D6A75ABB16"
@@ -642,13 +642,13 @@
 				}
 				type: "item"
 			}]
-			title: "Arming the Deployer II"
+			title: "{cabin.quest.6D8BB2D6A75ABB16.title}"
 			x: -2.5d
 			y: 11.5d
 		}
 		{
 			dependencies: ["3C50B4556375178E"]
-			description: ["Fantastic Work! You have mastered the challenges of the nether; you couldn't be more well-prepared for the upcoming Assembly Line."]
+			description: ["{cabin.quest.047FD4E54147D8F7.description1}"]
 			id: "047FD4E54147D8F7"
 			rewards: [
 				{
@@ -678,20 +678,20 @@
 				item: "kubejs:zinc_machine"
 				type: "item"
 			}]
-			title: "Bonus 2A Complete!"
+			title: "{cabin.quest.047FD4E54147D8F7.title}"
 			x: -4.0d
 			y: 19.0d
 		}
 		{
 			dependencies: ["727B43FD95C4A512"]
 			description: [
-				"Not part of the Mechanism Chain, yet very important for creating relevant machines."
+				"{cabin.quest.174E3A810535CAAC.description1}"
 				""
-				"Using Melters, Fluid Pipes and a Mechanical Mixer, you can create a couple of different metal alloys. Brass is one of them."
+				"{cabin.quest.174E3A810535CAAC.description2}"
 				""
-				"Pumping the Molten Alloy into a Casting Table or Basin will Solidify it into usable Ingots."
+				"{cabin.quest.174E3A810535CAAC.description3}"
 				""
-				"For less hassles with manual effort, it is recommended to set up Ingot-to-Ingot semi-automation for creating Alloys using the setup above."
+				"{cabin.quest.174E3A810535CAAC.description4}"
 			]
 			hide_dependency_lines: false
 			icon: "create:brass_ingot"
@@ -701,7 +701,7 @@
 				id: "4418A795B9FB076D"
 				type: "checkmark"
 			}]
-			title: "The Alloy Mixer"
+			title: "{cabin.quest.174E3A810535CAAC.title}"
 			x: 1.0d
 			y: 2.0d
 		}
@@ -710,7 +710,7 @@
 				"19715EBCBBA1B4AD"
 				"21753CBB528EAADF"
 			]
-			description: ["For the first time in the progression, a Blaze Burner is required. Obtain them by using Empty Blaze Burners on Blazes or their Spawners."]
+			description: ["{cabin.quest.5DCF9C8212AA3BE3.description1}"]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			id: "5DCF9C8212AA3BE3"
@@ -721,7 +721,7 @@
 				item: "create:blaze_burner"
 				type: "item"
 			}]
-			title: "Blaze Escort"
+			title: "{cabin.quest.5DCF9C8212AA3BE3.title}"
 			x: -2.5d
 			y: 16.5d
 		}
@@ -730,11 +730,11 @@
 				"19715EBCBBA1B4AD"
 				"6EDA86E4BE0F096B"
 			]
-			description: ["Logistic Mechanisms are all about efficiency and speed, and haste is a term that embodies that. To get started with brewing your own potions, you will need to brave a nether fortress and retrieve some nether wart to grow."]
+			description: ["{cabin.quest.6C029983EE2035A5.description1}"]
 			hide_dependency_lines: true
 			icon: "minecraft:nether_wart"
 			id: "6C029983EE2035A5"
-			subtitle: "Contraption 19-1"
+			subtitle: "{cabin.quest.6C029983EE2035A5.subtitle}"
 			tasks: [
 				{
 					id: "521A61FF9969B19A"
@@ -743,11 +743,11 @@
 				}
 				{
 					id: "703432E68A27988C"
-					title: "Automated"
+					title: "{cabin.task.703432E68A27988C}"
 					type: "checkmark"
 				}
 			]
-			title: "Sugar and Spice I"
+			title: "{cabin.quest.6C029983EE2035A5.title}"
 			x: 0.0d
 			y: 15.0d
 		}
@@ -756,10 +756,10 @@
 				"6C029983EE2035A5"
 				"4B891E9ED8DE6BB2"
 			]
-			description: ["Brew them together and you get haste, no beacon required!"]
+			description: ["{cabin.quest.2131996D22A87667.description1}"]
 			icon: "minecraft:brewing_stand"
 			id: "2131996D22A87667"
-			subtitle: "Contraption 19-3"
+			subtitle: "{cabin.quest.2131996D22A87667.subtitle}"
 			tasks: [
 				{
 					id: "62442CDD0E1A7A52"
@@ -775,11 +775,11 @@
 				}
 				{
 					id: "0BD3CEE8D36CA74E"
-					title: "Automated"
+					title: "{cabin.task.0BD3CEE8D36CA74E}"
 					type: "checkmark"
 				}
 			]
-			title: "Fast Fluid"
+			title: "{cabin.quest.2131996D22A87667.title}"
 			x: 2.0d
 			y: 15.5d
 		}
@@ -788,11 +788,11 @@
 				"19715EBCBBA1B4AD"
 				"6EDA86E4BE0F096B"
 			]
-			description: ["Glow Berries have a couple of ways to be automated, so pick whichever suits you best."]
+			description: ["{cabin.quest.4B891E9ED8DE6BB2.description1}"]
 			hide_dependency_lines: true
 			icon: "minecraft:glow_berries"
 			id: "4B891E9ED8DE6BB2"
-			subtitle: "Contraption 19-2"
+			subtitle: "{cabin.quest.4B891E9ED8DE6BB2.subtitle}"
 			tasks: [
 				{
 					id: "2B6EEE26029DDB2A"
@@ -801,11 +801,11 @@
 				}
 				{
 					id: "006A282CB1F28528"
-					title: "Automated"
+					title: "{cabin.task.006A282CB1F28528}"
 					type: "checkmark"
 				}
 			]
-			title: "Suger and Spice II"
+			title: "{cabin.quest.4B891E9ED8DE6BB2.title}"
 			x: 4.0d
 			y: 15.0d
 		}
@@ -815,19 +815,19 @@
 				"2131996D22A87667"
 			]
 			description: [
-				"Dropping the Liquids onto a Precision Mechanism will convert it to its Logistic counterpart."
+				"{cabin.quest.44540B11F341AE09.description1}"
 				""
-				"Once again, full automation of bonus mechanisms is not as pressing a task, since they do not lead to any further machines beyond their own."
-				"A semi-automatic setup for converting Precision Mechanisms whenever needed should suffice."
+				"{cabin.quest.44540B11F341AE09.description2}"
+				"{cabin.quest.44540B11F341AE09.description3}"
 			]
 			id: "44540B11F341AE09"
-			subtitle: "Contraption 20-2"
+			subtitle: "{cabin.quest.44540B11F341AE09.subtitle}"
 			tasks: [{
 				id: "11E3919F63C8BAF9"
 				item: "kubejs:logistic_mechanism"
 				type: "item"
 			}]
-			title: "Brewing a plan"
+			title: "{cabin.quest.44540B11F341AE09.title}"
 			x: 2.0d
 			y: 17.0d
 		}
@@ -836,11 +836,11 @@
 				"19715EBCBBA1B4AD"
 				"6EDA86E4BE0F096B"
 			]
-			description: ["Pulp can be made from a variety of plants, and is used in the creation of cardboard. Interestingly, rehydrating it along with some heat gives it quicksetting properties, perfect for the task at hand."]
+			description: ["{cabin.quest.1A06FA866B74E75B.description1}"]
 			hide_dependency_lines: true
 			icon: "kubejs:liquid_pulp_bucket"
 			id: "1A06FA866B74E75B"
-			subtitle: "Contraption 20-1"
+			subtitle: "{cabin.quest.1A06FA866B74E75B.subtitle}"
 			tasks: [
 				{
 					id: "46D9FB5D9254BA03"
@@ -849,17 +849,17 @@
 				}
 				{
 					id: "0F467B1E08CD7D16"
-					title: "Automated"
+					title: "{cabin.task.0F467B1E08CD7D16}"
 					type: "checkmark"
 				}
 			]
-			title: "Stocky Substance"
+			title: "{cabin.quest.1A06FA866B74E75B.title}"
 			x: 3.5d
 			y: 16.5d
 		}
 		{
 			dependencies: ["44540B11F341AE09"]
-			description: ["Excellent! Now you can move into high automation and packaging with haste! These newfound tools will surely help you push forward."]
+			description: ["{cabin.quest.7BE0F4512FE4936D.description1}"]
 			id: "7BE0F4512FE4936D"
 			rewards: [
 				{
@@ -889,10 +889,10 @@
 				item: "kubejs:lead_machine"
 				type: "item"
 			}]
-			title: "Bonus 2B Complete!"
+			title: "{cabin.quest.7BE0F4512FE4936D.title}"
 			x: 2.0d
 			y: 19.0d
 		}
 	]
-	title: "&f2&r Alluring Expedience"
+	title: "{cabin.chapter.3CEC7BECE6B40994.title}"
 }

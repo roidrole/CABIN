@@ -11,15 +11,15 @@
 		{
 			dependencies: ["5799D55BB26BA52C"]
 			description: [
-				"Building Material, Fuel and Ingredient. A passive supply of timber would be a good first effort. "
+				"{cabin.quest.2CB570195DA7E106.description1}"
 				""
-				"Mechanical Saws are a powerful way to achieve this."
+				"{cabin.quest.2CB570195DA7E106.description2}"
 			]
 			hide_dependency_lines: true
 			icon: "minecraft:oak_log"
 			id: "2CB570195DA7E106"
 			shape: "square"
-			subtitle: "Contraption 1"
+			subtitle: "{cabin.quest.2CB570195DA7E106.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -33,30 +33,30 @@
 							value: "minecraft:logs"
 						}
 					}
-					title: "Any Wooden Log"
+					title: "{cabin.task.58AB6E0FF2EA6AD4}"
 					type: "item"
 				}
 				{
 					id: "0842082756DA73FE"
-					title: "Automated"
+					title: "{cabin.task.0842082756DA73FE}"
 					type: "checkmark"
 				}
 			]
-			title: "Automatic Forest"
+			title: "{cabin.quest.2CB570195DA7E106.title}"
 			x: -1.0d
 			y: 1.0d
 		}
 		{
 			dependencies: ["5799D55BB26BA52C"]
 			description: [
-				"Kelp is vital ingredient to our first Assembly Line target: Andesite Alloy."
+				"{cabin.quest.608BF7BE3CB666F3.description1}"
 				""
-				"Kelp can be gathered automatically with Mechanical Harvesters."
+				"{cabin.quest.608BF7BE3CB666F3.description2}"
 			]
 			hide_dependency_lines: true
 			icon: "minecraft:kelp"
 			id: "608BF7BE3CB666F3"
-			subtitle: "Contraption 3"
+			subtitle: "{cabin.quest.608BF7BE3CB666F3.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -66,21 +66,21 @@
 				}
 				{
 					id: "0631FA27CEE5D67D"
-					title: "Automated"
+					title: "{cabin.task.0631FA27CEE5D67D}"
 					type: "checkmark"
 				}
 			]
-			title: "Underwater Garden"
+			title: "{cabin.quest.608BF7BE3CB666F3.title}"
 			x: 5.0d
 			y: 1.0d
 		}
 		{
 			dependencies: ["5799D55BB26BA52C"]
-			description: ["A good way to automate Sand at this moment is to build Strainers."]
+			description: ["{cabin.quest.4CC420A6B673176A.description1}"]
 			hide_dependency_lines: true
 			icon: "minecraft:sand"
 			id: "4CC420A6B673176A"
-			subtitle: "Contraption 2"
+			subtitle: "{cabin.quest.4CC420A6B673176A.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -106,31 +106,31 @@
 							]
 						}
 					}
-					title: "Sand"
+					title: "{cabin.task.72FE446F5BB1A93E}"
 					type: "item"
 				}
 				{
 					id: "4208FAAC229CACA6"
-					title: "Automated"
+					title: "{cabin.task.4208FAAC229CACA6}"
 					type: "checkmark"
 				}
 			]
-			title: "Catching Sediment"
+			title: "{cabin.quest.4CC420A6B673176A.title}"
 			x: 3.0d
 			y: 1.0d
 		}
 		{
 			dependencies: ["5799D55BB26BA52C"]
 			description: [
-				"Gathering Andesite manually takes time. Thankfully, bedrock can cause lava to form Andesite infinitely."
+				"{cabin.quest.106C6DFDCB97327C.description1}"
 				""
-				"At this time it is best to set up drills to break generated blocks between lava and water."
-				"Since bedrock is blocking the space beneath, you'll have to find a way to collect the drops from other sides."
+				"{cabin.quest.106C6DFDCB97327C.description2}"
+				"{cabin.quest.106C6DFDCB97327C.description3}"
 			]
 			hide_dependency_lines: true
 			icon: "minecraft:andesite"
 			id: "106C6DFDCB97327C"
-			subtitle: "Contraption 4"
+			subtitle: "{cabin.quest.106C6DFDCB97327C.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -140,36 +140,36 @@
 				}
 				{
 					id: "29B78BB983BE39FC"
-					title: "Automated"
+					title: "{cabin.task.29B78BB983BE39FC}"
 					type: "checkmark"
 				}
 			]
-			title: "Bedrock's Bounty"
+			title: "{cabin.quest.106C6DFDCB97327C.title}"
 			x: 1.0d
 			y: 1.0d
 		}
 		{
 			dependencies: ["106C6DFDCB97327C"]
-			description: ["All your Andesite is likely not being generated near your factory. Figure out a way to bring it to the surface."]
+			description: ["{cabin.quest.6B7F0631060A9E62.description1}"]
 			icon: "create:rope_pulley"
 			id: "6B7F0631060A9E62"
 			shape: "circle"
-			subtitle: "Contraption 5"
+			subtitle: "{cabin.quest.6B7F0631060A9E62.subtitle}"
 			tasks: [{
 				id: "0C764FDD555E8CCD"
-				title: "Automated"
+				title: "{cabin.task.0C764FDD555E8CCD}"
 				type: "checkmark"
 			}]
-			title: "The Andesite Lift"
+			title: "{cabin.quest.6B7F0631060A9E62.title}"
 			x: 1.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["4CC420A6B673176A"]
-			description: ["With the help of Encased Fans, sand can be refined into clay."]
+			description: ["{cabin.quest.729FB5DD07C234E8.description1}"]
 			icon: "minecraft:clay_ball"
 			id: "729FB5DD07C234E8"
-			subtitle: "Contraption 6-1"
+			subtitle: "{cabin.quest.729FB5DD07C234E8.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -179,11 +179,11 @@
 				}
 				{
 					id: "02EE2F24FDF534BC"
-					title: "Automated"
+					title: "{cabin.task.02EE2F24FDF534BC}"
 					type: "checkmark"
 				}
 			]
-			title: "Clay Washer"
+			title: "{cabin.quest.729FB5DD07C234E8.title}"
 			x: 3.5d
 			y: 2.5d
 		}
@@ -192,10 +192,10 @@
 				"729FB5DD07C234E8"
 				"608BF7BE3CB666F3"
 			]
-			description: ["In the Mix! Clay and Kelp can be processed with the Mechanical Mixer."]
+			description: ["{cabin.quest.72BE175C83834838.description1}"]
 			icon: "architects_palette:algal_blend"
 			id: "72BE175C83834838"
-			subtitle: "Contraption 6-2"
+			subtitle: "{cabin.quest.72BE175C83834838.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -205,20 +205,20 @@
 				}
 				{
 					id: "63EA7BF746BF3254"
-					title: "Automated"
+					title: "{cabin.task.63EA7BF746BF3254}"
 					type: "checkmark"
 				}
 			]
-			title: "Algae Blender"
+			title: "{cabin.quest.72BE175C83834838.title}"
 			x: 5.0d
 			y: 3.5d
 		}
 		{
 			dependencies: ["2CB570195DA7E106"]
-			description: ["Upwards-facing Mechanical Saws can process the harvested logs further..."]
+			description: ["{cabin.quest.532EFE32C3A515B5.description1}"]
 			icon: "minecraft:stripped_oak_log"
 			id: "532EFE32C3A515B5"
-			subtitle: "Contraption 7-1"
+			subtitle: "{cabin.quest.532EFE32C3A515B5.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -231,25 +231,25 @@
 							value: "forge:stripped_logs"
 						}
 					}
-					title: "Any Stripped Log"
+					title: "{cabin.task.3C7A4BA98EEC90E8}"
 					type: "item"
 				}
 				{
 					id: "7B60357D06FE3ADC"
-					title: "Automated"
+					title: "{cabin.task.7B60357D06FE3ADC}"
 					type: "checkmark"
 				}
 			]
-			title: "Log Stripper"
+			title: "{cabin.quest.532EFE32C3A515B5.title}"
 			x: -1.0d
 			y: 3.5d
 		}
 		{
 			dependencies: ["532EFE32C3A515B5"]
-			description: ["...and further..."]
+			description: ["{cabin.quest.19921941321965A4.description1}"]
 			icon: "minecraft:oak_planks"
 			id: "19921941321965A4"
-			subtitle: "Contraption 7-2"
+			subtitle: "{cabin.quest.19921941321965A4.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -262,29 +262,29 @@
 							value: "minecraft:planks"
 						}
 					}
-					title: "Any Planks"
+					title: "{cabin.task.1A63E51B0CF5C6DD}"
 					type: "item"
 				}
 				{
 					id: "175767726FBCAA8D"
-					title: "Automated"
+					title: "{cabin.task.175767726FBCAA8D}"
 					type: "checkmark"
 				}
 			]
-			title: "Plank Cutter"
+			title: "{cabin.quest.19921941321965A4.title}"
 			x: -0.5d
 			y: 4.5d
 		}
 		{
 			dependencies: ["19921941321965A4"]
 			description: [
-				"...and further, into the perfect base for our first Mechanism."
+				"{cabin.quest.59E4A6163753BC12.description1}"
 				""
-				"Note: before the machine starts showering you with random furniture, place a wooden slab in the filter slot of the Mechanical Saw."
+				"{cabin.quest.59E4A6163753BC12.description2}"
 			]
 			icon: "minecraft:oak_slab"
 			id: "59E4A6163753BC12"
-			subtitle: "Contraption 7-3"
+			subtitle: "{cabin.quest.59E4A6163753BC12.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -297,16 +297,16 @@
 							value: "minecraft:wooden_slabs"
 						}
 					}
-					title: "Any Wooden Slab"
+					title: "{cabin.task.23030B6D0072EBE8}"
 					type: "item"
 				}
 				{
 					id: "59B260F52722A1FE"
-					title: "Automated"
+					title: "{cabin.task.59B260F52722A1FE}"
 					type: "checkmark"
 				}
 			]
-			title: "Cutter of Cut Planks"
+			title: "{cabin.quest.59E4A6163753BC12.title}"
 			x: 0.5d
 			y: 5.0d
 		}
@@ -315,10 +315,10 @@
 				"106C6DFDCB97327C"
 				"32786E9D145FFE25"
 			]
-			description: ["In another Mix! This time it'll be the bricks and your surfaced Andesite Cobblestone."]
+			description: ["{cabin.quest.73FCA432DEFC1DED.description1}"]
 			icon: "create:andesite_alloy"
 			id: "73FCA432DEFC1DED"
-			subtitle: "Contraption 6-4"
+			subtitle: "{cabin.quest.73FCA432DEFC1DED.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -328,20 +328,20 @@
 				}
 				{
 					id: "6AA98FC4680D6521"
-					title: "Automated"
+					title: "{cabin.task.6AA98FC4680D6521}"
 					type: "checkmark"
 				}
 			]
-			title: "Algaesite Mixer"
+			title: "{cabin.quest.73FCA432DEFC1DED.title}"
 			x: 3.5d
 			y: 5.0d
 		}
 		{
 			dependencies: ["72BE175C83834838"]
-			description: ["Smelt the Algal blend into bricks. While a Furnace works great, an Encased Fan can do it without the need of Fuel."]
+			description: ["{cabin.quest.32786E9D145FFE25.description1}"]
 			icon: "architects_palette:algal_brick"
 			id: "32786E9D145FFE25"
-			subtitle: "Contraption 6-3"
+			subtitle: "{cabin.quest.32786E9D145FFE25.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -351,11 +351,11 @@
 				}
 				{
 					id: "1484A9A6DB85EA6D"
-					title: "Automated"
+					title: "{cabin.task.1484A9A6DB85EA6D}"
 					type: "checkmark"
 				}
 			]
-			title: "Algae Cooker"
+			title: "{cabin.quest.32786E9D145FFE25.title}"
 			x: 4.5d
 			y: 4.5d
 		}
@@ -366,13 +366,13 @@
 				"5A055D0421861318"
 			]
 			description: [
-				"Bringing together Andesite Alloy and cut planks using a row of Deployers concludes your first Assembly Line, removing the need for gears to craft Kenetic Mechanisms."
+				"{cabin.quest.675C395B2074C24C.description1}"
 				""
-				"On the topic of gears, you can rightclick a gear with a plank and it will match its texture, just like waterwheels."
+				"{cabin.quest.675C395B2074C24C.description2}"
 			]
 			icon: "kubejs:kinetic_mechanism"
 			id: "675C395B2074C24C"
-			subtitle: "Contraption 8"
+			subtitle: "{cabin.quest.675C395B2074C24C.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -382,11 +382,11 @@
 				}
 				{
 					id: "34C54664AB22ECFD"
-					title: "Automated"
+					title: "{cabin.task.34C54664AB22ECFD}"
 					type: "checkmark"
 				}
 			]
-			title: "Deploy, Deploy, Deploy."
+			title: "{cabin.quest.675C395B2074C24C.title}"
 			x: 2.0d
 			y: 6.5d
 		}
@@ -396,8 +396,8 @@
 				"73FCA432DEFC1DED"
 			]
 			description: [
-				"It'll be good to stock up on a couple of saws for the Mechanism Assembly."
-				"However, they are not nearly consumed as quickly as something that would require an automated supply."
+				"{cabin.quest.5A055D0421861318.description1}"
+				"{cabin.quest.5A055D0421861318.description2}"
 			]
 			hide_dependency_lines: true
 			icon: {
@@ -421,18 +421,18 @@
 				}
 				type: "item"
 			}]
-			title: "Arming the Deployer"
+			title: "{cabin.quest.5A055D0421861318.title}"
 			x: 3.5d
 			y: 6.5d
 		}
 		{
 			dependencies: ["5A8DF2D8553904BF"]
 			description: [
-				"Welcome to the Factory Guide!"
+				"{cabin.quest.5799D55BB26BA52C.description1}"
 				""
-				"These Quests are an Automation Plan for your upcoming Assembly Line. Always view them as recommendations on what you should construct a passive supply for. The flowgraph depicts the connections between relevant recipes/processing."
+				"{cabin.quest.5799D55BB26BA52C.description2}"
 				""
-				"Happy engineering!"
+				"{cabin.quest.5799D55BB26BA52C.description3}"
 			]
 			hide_until_deps_visible: true
 			icon: "create:wrench"
@@ -448,17 +448,17 @@
 				id: "1B5F1E9F5EE6EB2C"
 				type: "checkmark"
 			}]
-			title: "Chapter 1 Start!"
+			title: "{cabin.quest.5799D55BB26BA52C.title}"
 			x: 2.0d
 			y: -1.0d
 		}
 		{
 			dependencies: ["675C395B2074C24C"]
 			description: [
-				"Congrats! Now you have a passive supply of Kinetic Mechanisms. This is bound to change the pace a bit."
+				"{cabin.quest.3F45DFEF31838A00.description1}"
 				""
-				"Before moving on, check back through your factory and search for any major bottlenecks."
-				"It'd be a shame if a really efficient andesite generator is held back only by the sand not coming in quickly enough."
+				"{cabin.quest.3F45DFEF31838A00.description2}"
+				"{cabin.quest.3F45DFEF31838A00.description3}"
 			]
 			id: "3F45DFEF31838A00"
 			rewards: [
@@ -489,7 +489,7 @@
 				item: "kubejs:andesite_machine"
 				type: "item"
 			}]
-			title: "Chapter 1 Complete!"
+			title: "{cabin.quest.3F45DFEF31838A00.title}"
 			x: 2.0d
 			y: 8.5d
 		}
@@ -498,12 +498,12 @@
 				"3F45DFEF31838A00"
 				"681DACF11F193771"
 			]
-			description: ["Liquid resin can be extracted from healthy Trees using Arboreal Extractors. The more the merrier."]
+			description: ["{cabin.quest.3728DF562D6DCE3A.description1}"]
 			hide_until_deps_visible: true
 			icon: "thermal:resin_bucket"
 			id: "3728DF562D6DCE3A"
 			shape: "square"
-			subtitle: "Contraption 9-1"
+			subtitle: "{cabin.quest.3728DF562D6DCE3A.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -514,20 +514,20 @@
 				}
 				{
 					id: "29BEB0A31C3FB00B"
-					title: "Automated (Resin)"
+					title: "{cabin.task.29BEB0A31C3FB00B}"
 					type: "checkmark"
 				}
 			]
-			title: "Ah wait, don't chop"
+			title: "{cabin.quest.3728DF562D6DCE3A.title}"
 			x: 0.0d
 			y: 8.5d
 		}
 		{
 			dependencies: ["3728DF562D6DCE3A"]
-			description: ["Gather the resin via a network of Fluid Pipes and use a Basin-Press to solidify it."]
+			description: ["{cabin.quest.3EF5F89DBD6959E3.description1}"]
 			icon: "thermal:rubber"
 			id: "3EF5F89DBD6959E3"
-			subtitle: "Contraption 9-2"
+			subtitle: "{cabin.quest.3EF5F89DBD6959E3.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -537,25 +537,25 @@
 				}
 				{
 					id: "5BBF2E1143CD356E"
-					title: "Automated"
+					title: "{cabin.task.5BBF2E1143CD356E}"
 					type: "checkmark"
 				}
 			]
-			title: "Rubber Stamper"
+			title: "{cabin.quest.3EF5F89DBD6959E3.title}"
 			x: -1.0d
 			y: 9.5d
 		}
 		{
 			dependencies: ["3EF5F89DBD6959E3"]
 			description: [
-				"Finally, smelt the raw rubber into its cured state."
+				"{cabin.quest.29D37095C73B3DEC.description1}"
 				""
-				"Bon Appétit!"
+				"{cabin.quest.29D37095C73B3DEC.description2}"
 			]
 			icon: "thermal:cured_rubber"
 			id: "29D37095C73B3DEC"
 			shape: "square"
-			subtitle: "Contraption 9-3"
+			subtitle: "{cabin.quest.29D37095C73B3DEC.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -565,17 +565,17 @@
 				}
 				{
 					id: "17286271B0667AAA"
-					title: "Automated"
+					title: "{cabin.task.17286271B0667AAA}"
 					type: "checkmark"
 				}
 			]
-			title: "Curing by Flame"
+			title: "{cabin.quest.29D37095C73B3DEC.title}"
 			x: -1.0d
 			y: 10.5d
 		}
 		{
 			dependencies: ["29D37095C73B3DEC"]
-			description: ["From here it's really no hassle to do things manually. If you must, you can always come back to make an assembly line later on."]
+			description: ["{cabin.quest.6545C3F427B12106.description1}"]
 			id: "6545C3F427B12106"
 			shape: "circle"
 			tasks: [{
@@ -584,13 +584,13 @@
 				item: "kubejs:sealed_mechanism"
 				type: "item"
 			}]
-			title: "All Sealed Up"
+			title: "{cabin.quest.6545C3F427B12106.title}"
 			x: -0.20000000000003126d
 			y: 11.5d
 		}
 		{
 			dependencies: ["6545C3F427B12106"]
-			description: ["Congrats! Now you have a good supply of Sealed Mechanisms. Your future self will thank you."]
+			description: ["{cabin.quest.0E0535849D8D9279.description1}"]
 			id: "0E0535849D8D9279"
 			rewards: [
 				{
@@ -620,16 +620,16 @@
 				item: "kubejs:copper_machine"
 				type: "item"
 			}]
-			title: "Bonus 1A Complete!"
+			title: "{cabin.quest.0E0535849D8D9279.title}"
 			x: 1.0d
 			y: 12.5d
 		}
 		{
 			dependencies: ["5799D55BB26BA52C"]
 			description: [
-				"The rigid flowgraph of this guide may suggest that items aren't accessible until they have been automated."
+				"{cabin.quest.6892AE55581393C6.description1}"
 				""
-				"Be reassured that you already have access to tools from later ages, such as filtering- though not without a bit of manual effort."
+				"{cabin.quest.6892AE55581393C6.description2}"
 			]
 			icon: "ae2:speed_card"
 			id: "6892AE55581393C6"
@@ -638,7 +638,7 @@
 				id: "4DC18CB3A19686E5"
 				type: "checkmark"
 			}]
-			title: "Speedrun"
+			title: "{cabin.quest.6892AE55581393C6.title}"
 			x: 0.0d
 			y: -1.0d
 		}
@@ -648,14 +648,14 @@
 				"28D3347E8FA277AD"
 			]
 			description: [
-				"Having a magma block be present when creating a stone block via water and lava causes an odd reaction where deepslate is formed instead."
+				"{cabin.quest.5C4F6E63B02A25F0.description1}"
 				""
-				"Like with the andesite generator, drills should be used to harvest the deepslate, which will then need to be resmelted."
+				"{cabin.quest.5C4F6E63B02A25F0.description2}"
 			]
 			hide_until_deps_visible: true
 			icon: "minecraft:deepslate"
 			id: "5C4F6E63B02A25F0"
-			subtitle: "Contraption 10-1"
+			subtitle: "{cabin.quest.5C4F6E63B02A25F0.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -665,20 +665,20 @@
 				}
 				{
 					id: "5A531D21DEBB3FA8"
-					title: "Automated"
+					title: "{cabin.task.5A531D21DEBB3FA8}"
 					type: "checkmark"
 				}
 			]
-			title: "Deep Below"
+			title: "{cabin.quest.5C4F6E63B02A25F0.title}"
 			x: 4.0d
 			y: 8.5d
 		}
 		{
 			dependencies: ["5C4F6E63B02A25F0"]
-			description: ["Then, blast the deepslate to extreme temperatures, partially liquifying it."]
+			description: ["{cabin.quest.4D8972AE5B614FB3.description1}"]
 			icon: "minecraft:magma_block"
 			id: "4D8972AE5B614FB3"
-			subtitle: "Contraption 10-2"
+			subtitle: "{cabin.quest.4D8972AE5B614FB3.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -688,35 +688,35 @@
 				}
 				{
 					id: "728CB4E169DEED42"
-					title: "Automated"
+					title: "{cabin.task.728CB4E169DEED42}"
 					type: "checkmark"
 				}
 			]
-			title: "Heating up"
+			title: "{cabin.quest.4D8972AE5B614FB3.title}"
 			x: 5.0d
 			y: 9.5d
 		}
 		{
 			dependencies: ["4D8972AE5B614FB3"]
-			description: ["Then cool it down to form obsidian."]
+			description: ["{cabin.quest.4064D448404CD639.description1}"]
 			id: "4064D448404CD639"
-			subtitle: "Contraption 10-3"
+			subtitle: "{cabin.quest.4064D448404CD639.subtitle}"
 			tasks: [{
 				consume_items: false
 				id: "09D097DEABDD1E51"
 				item: "minecraft:obsidian"
 				type: "item"
 			}]
-			title: "Curing by Quenching"
+			title: "{cabin.quest.4064D448404CD639.title}"
 			x: 5.0d
 			y: 10.5d
 		}
 		{
 			dependencies: ["76706BE282ABAC31"]
 			description: [
-				"Congrats! Now you have a good supply of Reinforced Mechanisms and Train Hulls. You can use these to get a train network going, able to travel long distances and across dimensions automatically."
+				"{cabin.quest.667F4F686A45EF3E.description1}"
 				""
-				"Steam and Rails adds a bunch of extra rail options, for those wanting to beautify their rails."
+				"{cabin.quest.667F4F686A45EF3E.description2}"
 			]
 			id: "667F4F686A45EF3E"
 			rewards: [
@@ -740,14 +740,14 @@
 				item: "kubejs:gold_machine"
 				type: "item"
 			}]
-			title: "Bonus 1B Complete!"
+			title: "{cabin.quest.667F4F686A45EF3E.title}"
 			x: 3.0d
 			y: 12.5d
 		}
 		{
 			dependencies: ["4064D448404CD639"]
 			description: [
-				"Same deal as it's sealed counterpart, you don't need to automate the rest of the steps."
+				"{cabin.quest.76706BE282ABAC31.description1}"
 				""
 			]
 			id: "76706BE282ABAC31"
@@ -758,10 +758,10 @@
 				item: "kubejs:reinforced_mechanism"
 				type: "item"
 			}]
-			title: "Heavy Duty"
+			title: "{cabin.quest.76706BE282ABAC31.title}"
 			x: 4.0d
 			y: 11.5d
 		}
 	]
-	title: "&f1&r High Aspirations"
+	title: "{cabin.chapter.45AEDCD3B795E95A.title}"
 }

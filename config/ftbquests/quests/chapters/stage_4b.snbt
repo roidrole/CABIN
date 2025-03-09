@@ -11,11 +11,11 @@
 		{
 			dependencies: ["5DF206B1738D08A0"]
 			description: [
-				"As an alternative, more risky approach to a refined Silicon resource, Laser Alchemy can provide an obscure yet rewarding new path of progression."
+				"{cabin.quest.05446225038D260A.description1}"
 				""
-				"Discover the secret codes of each reagent class in order to learn about the recipe of Chaos Catalysts."
+				"{cabin.quest.05446225038D260A.description2}"
 				""
-				"Once found, the Chaos Catalyst can not only transmute a material into Silicon, but potentially create other valuable resources from the most trivial ingredients!"
+				"{cabin.quest.05446225038D260A.description3}"
 			]
 			hide_until_deps_visible: true
 			icon: "kubejs:inductive_mechanism"
@@ -31,20 +31,20 @@
 				id: "38B2DFD6233E49FD"
 				type: "checkmark"
 			}]
-			title: "Another way forward"
+			title: "{cabin.quest.05446225038D260A.title}"
 			x: 1.75d
 			y: 2.0d
 		}
 		{
 			dependencies: ["05446225038D260A"]
 			description: [
-				"Aside from the Alchemical Laser setup, you'll need a few other Machines for your new Alchemy Lab. "
+				"{cabin.quest.42B615F7BECA6E58.description1}"
 				""
-				"- The Fluid Encapsulator uses Molten Glass to create Reagents from resources."
+				"{cabin.quest.42B615F7BECA6E58.description2}"
 				""
-				"- The Reagent Extractor can reverse this process."
+				"{cabin.quest.42B615F7BECA6E58.description3}"
 				""
-				"- The Centrifugal Separator is required to analyse alchemical blends for clues. A vital routine when researching the recipe of Catalysts."
+				"{cabin.quest.42B615F7BECA6E58.description4}"
 			]
 			id: "42B615F7BECA6E58"
 			shape: "circle"
@@ -68,7 +68,7 @@
 					type: "item"
 				}
 			]
-			title: "Encapsulate - Decapsulate"
+			title: "{cabin.quest.42B615F7BECA6E58.title}"
 			x: -0.25d
 			y: 2.0d
 		}
@@ -550,11 +550,11 @@
 				"560F2995CE2862D7"
 			]
 			description: [
-				"If this is Unlocked, you have gathered all reagents of the Igneous Category."
+				"{cabin.quest.3EB5CD9776DF0E63.description1}"
 				""
-				"The Igneous Catalyst can be created by a combination of four reagents of this Category in the Alchemical Laser. &7(See the Catalyst's JEI entry for more information)"
+				"{cabin.quest.3EB5CD9776DF0E63.description2}"
 				""
-				"It's recommended to always take notes of previous results. This way it is not uncommon to find the solution in under six attempts!"
+				"{cabin.quest.3EB5CD9776DF0E63.description3}"
 			]
 			hide_dependency_lines: true
 			id: "3EB5CD9776DF0E63"
@@ -578,9 +578,9 @@
 				"122D3D6743D1DD04"
 			]
 			description: [
-				"If this is Unlocked, you have gathered all reagents of the Herbal Category."
+				"{cabin.quest.2B195E5B195246F5.description1}"
 				""
-				"The Herbal Catalyst can be created by a combination of four reagents of this Category in the Alchemical Laser. &7(See the Catalyst's JEI entry for more information)"
+				"{cabin.quest.2B195E5B195246F5.description2}"
 			]
 			hide_dependency_lines: true
 			id: "2B195E5B195246F5"
@@ -604,9 +604,9 @@
 				"35A6E3BBD80FB00F"
 			]
 			description: [
-				"If this is Unlocked, you have gathered all reagents of the Volatile Category."
+				"{cabin.quest.62EB94758A862091.description1}"
 				""
-				"The Volatile Catalyst can be created by a combination of four reagents of this Category in the Alchemical Laser. &7(See the Catalyst's JEI entry for more information)"
+				"{cabin.quest.62EB94758A862091.description2}"
 			]
 			hide_dependency_lines: true
 			id: "62EB94758A862091"
@@ -630,9 +630,9 @@
 				"6E154A8C81D8DD5F"
 			]
 			description: [
-				"If this is Unlocked, you have gathered all reagents of the Crystalline Category."
+				"{cabin.quest.549D7F67A97CD2CE.description1}"
 				""
-				"The Crystalline Catalyst can be created by a combination of four reagents of this Category in the Alchemical Laser. &7(See the Catalyst's JEI entry for more information)"
+				"{cabin.quest.549D7F67A97CD2CE.description2}"
 			]
 			hide_dependency_lines: true
 			id: "549D7F67A97CD2CE"
@@ -656,9 +656,9 @@
 				"285F815678D5F32A"
 			]
 			description: [
-				"If this is Unlocked, you have gathered all reagents of the Metallurgic Category."
+				"{cabin.quest.0CC92E94D10E681D.description1}"
 				""
-				"The Metallurgic Catalyst can be created by a combination of four reagents of this Category in the Alchemical Laser. &7(See the Catalyst's JEI entry for more information)"
+				"{cabin.quest.0CC92E94D10E681D.description2}"
 			]
 			hide_dependency_lines: true
 			id: "0CC92E94D10E681D"
@@ -682,9 +682,9 @@
 				"33B3AB3394DD012A"
 			]
 			description: [
-				"If this is Unlocked, you have gathered all reagents of the Gemstone Category."
+				"{cabin.quest.5200AD3B32D219C6.description1}"
 				""
-				"The Gemstone Catalyst can be created by a combination of four reagents of this Category in the Alchemical Laser. &7(See the Catalyst's JEI entry for more information)"
+				"{cabin.quest.5200AD3B32D219C6.description2}"
 			]
 			hide_dependency_lines: true
 			id: "5200AD3B32D219C6"
@@ -708,10 +708,10 @@
 				"5200AD3B32D219C6"
 			]
 			description: [
-				"If this is Unlocked, you have gathered Catalysts of every Category."
+				"{cabin.quest.7A9AA27029185035.description1}"
 				""
-				"This Ultimate Catalyst is now a combination of four of the Catalysts, much in the way the Catalysts are found and made by their Reagents."
-				"&7(See this item's JEI entry for more information)"
+				"{cabin.quest.7A9AA27029185035.description2}"
+				"{cabin.quest.7A9AA27029185035.description3}"
 			]
 			id: "7A9AA27029185035"
 			shape: "circle"
@@ -721,18 +721,18 @@
 				item: "kubejs:substrate_chaos"
 				type: "item"
 			}]
-			title: "The Final Code"
+			title: "{cabin.quest.7A9AA27029185035.title}"
 			x: 1.75d
 			y: 7.5d
 		}
 		{
 			dependencies: ["7A9AA27029185035"]
 			description: [
-				"Armed with the Chaos Catalyst, you will find all manner of transmutation pairs among the Reagents above."
+				"{cabin.quest.6FDC8DA2FDED5FDD.description1}"
 				""
-				"Simply put the Chaos Catalyst and a few jars of one reagent (The transmutation is lossy) into the hopper cart and find a different reagent returned after activating the laser. Mind that the Catalyst is never consumed in the process."
+				"{cabin.quest.6FDC8DA2FDED5FDD.description2}"
 				""
-				"One of the Reagents should lead not to another known one, but to the Reagent of Silicon. If this turns out to be one that is reasonably accessible, you can consider choosing this path of production over the main one."
+				"{cabin.quest.6FDC8DA2FDED5FDD.description3}"
 			]
 			id: "6FDC8DA2FDED5FDD"
 			shape: "circle"
@@ -742,20 +742,20 @@
 				item: "kubejs:substrate_silicon"
 				type: "item"
 			}]
-			title: "The Discovery"
+			title: "{cabin.quest.6FDC8DA2FDED5FDD.title}"
 			x: 1.0d
 			y: 8.5d
 		}
 		{
 			dependencies: ["05446225038D260A"]
 			description: [
-				"A central role in your Laboratory is played by the Alchemical Laser."
+				"{cabin.quest.1D1D1FEAF49C5E11.description1}"
 				""
-				"The Laser is the only way to obtain Catalysts or to find the necessary clues toward their recipe. Another use is the actual application of the Chaos Catalyst to a specific Reagent, causing the Transmutation."
+				"{cabin.quest.1D1D1FEAF49C5E11.description2}"
 				""
-				"Inventors can familiarise themselves with the necessary machinery components via JEI or via entering"
+				"{cabin.quest.1D1D1FEAF49C5E11.description3}"
 				""
-				" &6/c ponder kubejs:alchemical_laser"
+				"{cabin.quest.1D1D1FEAF49C5E11.description4}"
 			]
 			icon: "projectred_illumination:lime_inverted_cage_light"
 			id: "1D1D1FEAF49C5E11"
@@ -770,7 +770,7 @@
 				}
 				id: "5F8758212BE89602"
 				team_reward: false
-				title: "Open Ponder Scene"
+				title: "{cabin.reward.5F8758212BE89602}"
 				type: "command"
 			}]
 			shape: "circle"
@@ -778,32 +778,32 @@
 				id: "04CC23968DBD8CC9"
 				type: "checkmark"
 			}]
-			title: "The Alchemical Laser"
+			title: "{cabin.quest.1D1D1FEAF49C5E11.title}"
 			x: 3.75d
 			y: 2.0d
 		}
 		{
 			dependencies: ["6FDC8DA2FDED5FDD"]
 			description: [
-				"With the transmutation recipe in hand, it is time to build a facility able to create an infinite amount of Silicon Reagent via Laser Alchemy and the other steps part of the process."
+				"{cabin.quest.630DA0C83959E9D8.description1}"
 				""
-				"Note that the concete solution depends highly on the transmutation pairings of your World, which is why it cannot be laid out in this Guide. You can use JEI to find other necessary recipes leading up to the reagent you require."
+				"{cabin.quest.630DA0C83959E9D8.description2}"
 			]
 			icon: "minecraft:hopper_minecart"
 			id: "630DA0C83959E9D8"
-			subtitle: "Contraption 31-A"
+			subtitle: "{cabin.quest.630DA0C83959E9D8.subtitle}"
 			tasks: [{
 				id: "3E080B5561AD314E"
-				title: "Automated"
+				title: "{cabin.task.3E080B5561AD314E}"
 				type: "checkmark"
 			}]
-			title: "Automatic Chaos"
+			title: "{cabin.quest.630DA0C83959E9D8.title}"
 			x: 2.5d
 			y: 9.0d
 		}
 		{
 			dependencies: ["630DA0C83959E9D8"]
-			description: ["Now that you have a passive supply of Silicon Reagent, you may head over to the main section of Chapter 4. You will have opened up an entry point near the end of its recipe chain."]
+			description: ["{cabin.quest.3B431AAADE8845FA.description1}"]
 			icon: "create:warped_window_pane"
 			id: "3B431AAADE8845FA"
 			shape: "hexagon"
@@ -812,16 +812,16 @@
 				id: "7201E3A86096F5CF"
 				type: "checkmark"
 			}]
-			title: "Warp Zone"
+			title: "{cabin.quest.3B431AAADE8845FA.title}"
 			x: 1.75d
 			y: 11.0d
 		}
 		{
 			dependencies: ["05446225038D260A"]
 			description: [
-				"Glowstone or Redstone Accelerator can optionally be placed in the fifth slot of the Hopper Minecart when entering a catalyst code."
+				"{cabin.quest.1BCFB709E97A74FA.description1}"
 				""
-				"This may reveal additional information about the correct combination as described in their tooltip."
+				"{cabin.quest.1BCFB709E97A74FA.description2}"
 			]
 			hide_dependency_lines: true
 			id: "1BCFB709E97A74FA"
@@ -841,13 +841,13 @@
 					type: "item"
 				}
 			]
-			title: "Clueless"
+			title: "{cabin.quest.1BCFB709E97A74FA.title}"
 			x: -6.5d
 			y: 5.0d
 		}
 		{
 			dependencies: ["05446225038D260A"]
-			description: ["Your coins seem to have a corresponding Reagent, too. Though do not expect to be able to mint new currency out of your silver ingots."]
+			description: ["{cabin.quest.566E72AE7D580917.description1}"]
 			hide_dependency_lines: true
 			id: "566E72AE7D580917"
 			shape: "circle"
@@ -861,5 +861,5 @@
 			y: 5.0d
 		}
 	]
-	title: "&f4a&r Chaotic Alchemy"
+	title: "{cabin.chapter.102E012616516E5D.title}"
 }
