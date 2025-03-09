@@ -3,7 +3,7 @@
 	default_quest_shape: ""
 	filename: "welcome"
 	group: ""
-	icon: "biomesoplenty:wildflower"
+	icon: "minecraft:orange_tulip"
 	id: "2EE5FBD9BD7C0265"
 	order_index: 0
 	quest_links: [ ]

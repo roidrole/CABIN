@@ -494,8 +494,8 @@
 				type: "item"
 			}]
 			title: "Heated Treatment"
-			x: -1.0d
-			y: 17.5d
+			x: -4.0d
+			y: 17.0d
 		}
 		{
 			dependencies: [
@@ -527,8 +527,8 @@
 				}
 			]
 			title: "A lot. of lava"
-			x: -2.5d
-			y: 17.0d
+			x: -5.5d
+			y: 16.5d
 		}
 		{
 			dependencies: [
@@ -554,8 +554,8 @@
 				}
 			]
 			title: "Soul Distillery"
-			x: -1.0d
-			y: 16.0d
+			x: -4.0d
+			y: 15.5d
 		}
 		{
 			dependencies: [
@@ -586,8 +586,8 @@
 				}
 			]
 			title: "The Double Decker I"
-			x: -3.0d
-			y: 15.5d
+			x: -6.0d
+			y: 15.0d
 		}
 		{
 			dependencies: [
@@ -618,8 +618,8 @@
 				}
 			]
 			title: "The Double Decker II"
-			x: 1.0d
-			y: 15.5d
+			x: -2.0d
+			y: 15.0d
 		}
 		{
 			dependencies: ["5351AF6CA73CB8E0"]
@@ -679,8 +679,8 @@
 				type: "item"
 			}]
 			title: "Bonus 2A Complete!"
-			x: -1.0d
-			y: 19.5d
+			x: -4.0d
+			y: 19.0d
 		}
 		{
 			dependencies: ["727B43FD95C4A512"]
@@ -722,8 +722,176 @@
 				type: "item"
 			}]
 			title: "Blaze Escort"
-			x: 0.5d
+			x: -2.5d
+			y: 16.5d
+		}
+		{
+			dependencies: [
+				"19715EBCBBA1B4AD"
+				"6EDA86E4BE0F096B"
+			]
+			description: ["Logistic Mechanisms are all about efficiency and speed, and haste is a term that embodies that. To get started with brewing your own potions, you will need to brave a nether fortress and retrieve some nether wart to grow."]
+			hide_dependency_lines: true
+			icon: "minecraft:nether_wart"
+			id: "6C029983EE2035A5"
+			subtitle: "Contraption 19-1"
+			tasks: [
+				{
+					id: "521A61FF9969B19A"
+					item: "minecraft:nether_wart"
+					type: "item"
+				}
+				{
+					id: "703432E68A27988C"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
+			title: "Sugar and Spice I"
+			x: 0.0d
+			y: 15.0d
+		}
+		{
+			dependencies: [
+				"6C029983EE2035A5"
+				"4B891E9ED8DE6BB2"
+			]
+			description: ["Brew them together and you get haste, no beacon required!"]
+			icon: "minecraft:brewing_stand"
+			id: "2131996D22A87667"
+			subtitle: "Contraption 19-3"
+			tasks: [
+				{
+					id: "62442CDD0E1A7A52"
+					item: {
+						Count: 1
+						id: "tconstruct:potion_bucket"
+						tag: {
+							Potion: "kubejs:haste"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0BD3CEE8D36CA74E"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
+			title: "Fast Fluid"
+			x: 2.0d
+			y: 15.5d
+		}
+		{
+			dependencies: [
+				"19715EBCBBA1B4AD"
+				"6EDA86E4BE0F096B"
+			]
+			description: ["Glow Berries have a couple of ways to be automated, so pick whichever suits you best."]
+			hide_dependency_lines: true
+			icon: "minecraft:glow_berries"
+			id: "4B891E9ED8DE6BB2"
+			subtitle: "Contraption 19-2"
+			tasks: [
+				{
+					id: "2B6EEE26029DDB2A"
+					item: "minecraft:glow_berries"
+					type: "item"
+				}
+				{
+					id: "006A282CB1F28528"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
+			title: "Suger and Spice II"
+			x: 4.0d
+			y: 15.0d
+		}
+		{
+			dependencies: [
+				"1A06FA866B74E75B"
+				"2131996D22A87667"
+			]
+			description: [
+				"Dropping the Liquids onto a Precision Mechanism will convert it to its Logistic counterpart."
+				""
+				"Once again, full automation of bonus mechanisms is not as pressing a task, since they do not lead to any further machines beyond their own."
+				"A semi-automatic setup for converting Precision Mechanisms whenever needed should suffice."
+			]
+			id: "44540B11F341AE09"
+			subtitle: "Contraption 20-2"
+			tasks: [{
+				id: "11E3919F63C8BAF9"
+				item: "kubejs:logistic_mechanism"
+				type: "item"
+			}]
+			title: "Brewing a plan"
+			x: 2.0d
 			y: 17.0d
+		}
+		{
+			dependencies: [
+				"19715EBCBBA1B4AD"
+				"6EDA86E4BE0F096B"
+			]
+			description: ["Pulp can be made from a variety of plants, and is used in the creation of cardboard. Interestingly, rehydrating it along with some heat gives it quicksetting properties, perfect for the task at hand."]
+			hide_dependency_lines: true
+			icon: "kubejs:liquid_pulp_bucket"
+			id: "1A06FA866B74E75B"
+			subtitle: "Contraption 20-1"
+			tasks: [
+				{
+					id: "46D9FB5D9254BA03"
+					item: "kubejs:liquid_pulp_bucket"
+					type: "item"
+				}
+				{
+					id: "0F467B1E08CD7D16"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
+			title: "Stocky Substance"
+			x: 3.5d
+			y: 16.5d
+		}
+		{
+			dependencies: ["44540B11F341AE09"]
+			description: ["Excellent! Now you can move into high automation and packaging with haste! These newfound tools will surely help you push forward."]
+			id: "7BE0F4512FE4936D"
+			rewards: [
+				{
+					count: 16
+					id: "55A28F3C8BB4A98E"
+					item: "kubejs:logistic_mechanism"
+					type: "item"
+				}
+				{
+					id: "5A1B0759D8BAEFD3"
+					item: "create:cardboard"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "1D4653A11D5E2BD0"
+					item: "minecraft:glow_berries"
+					random_bonus: 4
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				consume_items: false
+				id: "467FDE7905DFECE9"
+				item: "kubejs:lead_machine"
+				type: "item"
+			}]
+			title: "Bonus 2B Complete!"
+			x: 2.0d
+			y: 19.0d
 		}
 	]
 	title: "&f2&r Alluring Expedience"

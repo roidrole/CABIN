@@ -28,6 +28,16 @@ ClientEvents.highPriorityAssets(event=>{
     ]
   }
   event.add('emi:index/stacks/kubejs_added_stacks', json)
+
+  //Hide Multiblock'd strainer category since it doesn't play well with EMI
+  json = {
+    "filters": [
+      {
+        "category": "mbd2:strainer"
+      }
+    ]
+  }
+  event.add('emi:recipe/filters/strainer', json)
 })
 
 //JEIEvents.groupEntries( event => {

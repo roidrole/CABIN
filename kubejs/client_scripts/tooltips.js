@@ -20,6 +20,7 @@ ItemEvents.tooltip( tooltip => {
     bonus_assembly('kubejs:reinforced_mechanism', "1B")
     main_assembly('create:precision_mechanism', "2")
     bonus_assembly('kubejs:infernal_mechanism', "2A")
+    bonus_assembly('kubejs:logistic_mechanism', "2B")
     main_assembly('kubejs:inductive_mechanism', "3")
     bonus_assembly('kubejs:abstruse_mechanism', "3A")
     main_assembly('kubejs:calculation_mechanism', "4")
@@ -64,6 +65,30 @@ ItemEvents.tooltip( tooltip => {
     }
     const pureore = ['minecraft:raw_iron', 'minecraft:raw_copper', 'minecraft:raw_gold', 'thermal:raw_lead', 'thermal:raw_nickel', 'create:raw_zinc']
     pureore.forEach(pureore => {
-    tooltip.add(pureore, [`§7A purer grade of ore`,`§7Can only be found by exploring`])
+    tooltip.add(pureore, [`§7A purer grade of ore.`,`§7Can only be found by exploring.`])
     })
+
+    tooltip.addAdvanced(["/^kubejs:.+machine$/", "thermal:machine_frame", "ae2:controller"], (item, adv, text) => {
+      if (!tooltip.shift) {
+        text.add(1, Text.gray('Hold [Shift] for Summary'))
+      } else {
+        text.add(1, Text.gray('Hold [Shift] for Summary'))
+        text.add(2, Text.gray(''))
+        text.add(3, Text.gold('A machine, able to be transformed into a variety of useful gadgets and gizmos.' ))
+        // Too hand-holdy?
+        // text.add(4, Text.gold('Machine Transformation can be automated with a Deployer or a Filtered Saw.'))
+    }
+  })
+
+  tooltip.addAdvanced(["/^kubejs:trial.+$/"], (item, adv, text) => {
+    if (!tooltip.shift) {
+      text.add(1, Text.gray('Hold [Shift] for Summary'))
+    } else {
+      text.add(1, Text.gray('Hold [Shift] for Summary'))
+      text.add(2, Text.gray(''))
+      text.add(3, Text.gold('An odd form of copper caused by a reaction between Copper and Lumisense, discovered by those that built the trial chambers.' ))
+      text.add(4, Text.gold('Its far cheaper than regular copper, but is still able to fool the naked eye and does not oxidize. Perfect for base building!' ))
+  }
+})
+
   })

@@ -19,10 +19,10 @@ if (Platform.isLoaded('trials')) {
                     "trials:waxed_copper_grate": "kubejs:trial_copper_grate",
                     "minecraft:waxed_cut_copper_stairs": "kubejs:trial_cut_copper_stairs",
                     "minecraft:waxed_cut_copper_slab": "kubejs:trial_cut_copper_slab",
-                    "minecraft:waxed_oxidized_copper": "kubejs:trial_oxidized_copper_block",
+                    "minecraft:waxed_oxidized_copper": "kubejs:trial_oxidized_copper",
                     "minecraft:waxed_oxidized_cut_copper": "kubejs:trial_oxidized_cut_copper",
-                    "trials:waxed_chiseled_copper_oxidized": "kubejs:trial_oxidized_chiseled_copper",
-                    "trials:waxed_copper_grate_oxidized": "kubejs:trial_oxidized_copper_grate",
+                    "trials:waxed_chiseled_copper_oxidized": "kubejs:trial_chiseled_copper_oxidized",
+                    "trials:waxed_copper_grate_oxidized": "kubejs:trial_copper_grate_oxidized",
                     "minecraft:waxed_oxidized_cut_copper_stairs": "kubejs:trial_oxidized_cut_copper_stairs",
                     "minecraft:waxed_oxidized_cut_copper_slab":"kubejs:trial_oxidized_cut_copper_slab" 
                 }

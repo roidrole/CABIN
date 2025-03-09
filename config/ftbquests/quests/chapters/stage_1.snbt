@@ -226,114 +226,9 @@
 					id: "3C7A4BA98EEC90E8"
 					item: {
 						Count: 1
-						id: "itemfilters:or"
+						id: "itemfilters:tag"
 						tag: {
-							items: [
-								{
-									Count: 1b
-									id: "minecraft:stripped_oak_log"
-								}
-								{
-									Count: 1b
-									id: "minecraft:stripped_spruce_log"
-								}
-								{
-									Count: 1b
-									id: "minecraft:stripped_birch_log"
-								}
-								{
-									Count: 1b
-									id: "minecraft:stripped_acacia_log"
-								}
-								{
-									Count: 1b
-									id: "minecraft:stripped_dark_oak_log"
-								}
-								{
-									Count: 1b
-									id: "minecraft:stripped_crimson_stem"
-								}
-								{
-									Count: 1b
-									id: "minecraft:stripped_warped_stem"
-								}
-								{
-									Count: 1b
-									id: "biomesoplenty:stripped_willow_log"
-								}
-								{
-									Count: 1b
-									id: "biomesoplenty:stripped_palm_log"
-								}
-								{
-									Count: 1b
-									id: "biomesoplenty:stripped_jacaranda_log"
-								}
-								{
-									Count: 1b
-									id: "biomesoplenty:stripped_mahogany_log"
-								}
-								{
-									Count: 1b
-									id: "biomesoplenty:stripped_cherry_log"
-								}
-								{
-									Count: 1b
-									id: "biomesoplenty:stripped_redwood_log"
-								}
-								{
-									Count: 1b
-									id: "biomesoplenty:stripped_fir_log"
-								}
-								{
-									Count: 1b
-									id: "architects_palette:stripped_twisted_log"
-								}
-								{
-									Count: 1b
-									id: "biomesoplenty:stripped_dead_log"
-								}
-								{
-									Count: 1b
-									id: "biomesoplenty:stripped_magic_log"
-								}
-								{
-									Count: 1b
-									id: "biomesoplenty:stripped_umbran_log"
-								}
-								{
-									Count: 1b
-									id: "biomesoplenty:stripped_hellbark_log"
-								}
-								{
-									Count: 1b
-									id: "endergetic:stripped_poise_stem"
-								}
-								{
-									Count: 1b
-									id: "tconstruct:stripped_greenheart_log"
-								}
-								{
-									Count: 1b
-									id: "tconstruct:stripped_skyroot_log"
-								}
-								{
-									Count: 1b
-									id: "tconstruct:stripped_bloodshroom_log"
-								}
-								{
-									Count: 1b
-									id: "darkerdepths:stripped_petrified_log"
-								}
-								{
-									Count: 1b
-									id: "forbidden_arcanus:stripped_mysterywood_log"
-								}
-								{
-									Count: 1b
-									id: "forbidden_arcanus:stripped_cherrywood_log"
-								}
-							]
+							value: "forge:stripped_logs"
 						}
 					}
 					title: "Any Stripped Log"
@@ -519,12 +414,11 @@
 				id: "52A4AF128B571664"
 				item: {
 					Count: 1
-					id: "itemfilters:tag"
+					id: "cb_microblock:iron_saw"
 					tag: {
-						value: "kubejs:saws"
+						Damage: 0
 					}
 				}
-				title: "Any Saw"
 				type: "item"
 			}]
 			title: "Arming the Deployer"

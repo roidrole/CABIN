@@ -6,8 +6,8 @@
 		"1": "create:block/item_drain_top",
 		"2": "create:block/copper_casing",
 		"3": "create:block/fluid_tank_connected",
-		"4": "create:block/copper_plating",
-		"5": "create:block/hose_pulley_rope",
+		"4": "create:block/copper_underside",
+		"5": "create:block/hose_pulley_coil",
 		"6": "create:block/item_drain_side",
 		"7": "create:block/fluid_tank_window",
 		"particle": "create:block/copper_casing"
@@ -39,6 +39,7 @@
 			"to": [9, 22, 15],
 			"faces": {
 				"north": {"uv": [0, 0, 4, 4], "texture": "#0"},
+				"east": {"uv": [0, 0, 4, 4], "texture": "#0"},
 				"south": {"uv": [0, 0, 4, 4], "texture": "#0"},
 				"west": {"uv": [0, 0, 4, 4], "texture": "#0"}
 			}
@@ -51,8 +52,6 @@
 				"south": {"uv": [3, 14, 9, 16], "texture": "#4"},
 				"west": {"uv": [3, 14, 13, 16], "texture": "#4"},
 				"up": {"uv": [8.5, 0.5, 14, 6], "texture": "#0"}
-
-				
 			}
 		},
 		{
@@ -106,12 +105,12 @@
 			"to": [19, 16, 15],
 			"rotation": {"angle": 0, "axis": "y", "origin": [15, 10, 16]},
 			"faces": {
-				"north": {"uv": [0, 0, 8, 12], "texture": "#5"},
-				"east": {"uv": [0, 0, 8, 12], "texture": "#5"},
-				"south": {"uv": [0, 0, 8, 12], "texture": "#5"},
+				"north": {"uv": [3, 4, 11, 16], "texture": "#5"},
+				"east": {"uv": [4, 4, 12, 16], "texture": "#5"},
+				"south": {"uv": [3, 4, 11, 16], "texture": "#5"},
 				"west": {"uv": [0, 0, 4, 6], "texture": "#missing"},
-				"up": {"uv": [0, 0, 8, 8], "rotation": 90, "texture": "#5"},
-				"down": {"uv": [0, 0, 8, 8], "rotation": 90, "texture": "#5"}
+				"up": {"uv": [5, 4, 13, 12], "rotation": 90, "texture": "#5"},
+				"down": {"uv": [5, 4, 13, 12], "rotation": 90, "texture": "#5"}
 			}
 		},
 		{
@@ -135,7 +134,7 @@
 			"from": [3.4, 7, -1],
 			"to": [14.4, 8, 8],
 			"faces": {
-				"up": {"uv": [3, 0, 14, 7], "texture": "#5"}
+				"up": {"uv": [3, 5, 10, 16], "rotation": 90, "texture": "#5"}
 			}
 		}
 	],

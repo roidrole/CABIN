@@ -1,6 +1,8 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
+	default_repeatable_quest: true
+	disable_toast: true
 	filename: "shipments"
 	group: "0810E42B2DD79973"
 	icon: "thermal:machine_press"
@@ -59,6 +61,7 @@
 			y: 12.25d
 		}
 		{
+			can_repeat: true
 			disable_toast: true
 			icon: "minecraft:dirt"
 			id: "1A27F6CC5196D116"
@@ -92,6 +95,7 @@
 			y: 0.0d
 		}
 		{
+			can_repeat: true
 			disable_toast: true
 			icon: "minecraft:sand"
 			id: "4C0F811C1D2495CC"
@@ -125,6 +129,7 @@
 			y: 0.0d
 		}
 		{
+			can_repeat: true
 			disable_toast: true
 			icon: "minecraft:gravel"
 			id: "6AE7090EB52A51B3"
@@ -158,6 +163,7 @@
 			y: 0.0d
 		}
 		{
+			can_repeat: true
 			disable_toast: true
 			icon: "minecraft:clay"
 			id: "0315668E30F2F6E5"
@@ -191,6 +197,7 @@
 			y: 0.0d
 		}
 		{
+			can_repeat: true
 			disable_toast: true
 			icon: "minecraft:ice"
 			id: "36B5C3ECFD38670E"
@@ -224,6 +231,7 @@
 			y: 0.0d
 		}
 		{
+			can_repeat: true
 			disable_toast: true
 			icon: "minecraft:blackstone"
 			id: "1509D36A982217C6"
@@ -257,6 +265,7 @@
 			y: 0.0d
 		}
 		{
+			can_repeat: true
 			disable_toast: true
 			icon: "tconstruct:grout"
 			id: "1BA3EF0818CA7F64"
@@ -290,6 +299,7 @@
 			y: 0.0d
 		}
 		{
+			can_repeat: true
 			disable_toast: true
 			icon: "minecraft:cobblestone"
 			id: "0DEFAE2746209F1A"
@@ -323,6 +333,7 @@
 			y: 0.0d
 		}
 		{
+			can_repeat: true
 			disable_toast: true
 			icon: "minecraft:granite"
 			id: "2C10D18D55335B7E"
@@ -356,6 +367,7 @@
 			y: 1.0d
 		}
 		{
+			can_repeat: true
 			disable_toast: true
 			icon: "minecraft:diorite"
 			id: "5F0B4CBE299954C4"
@@ -389,6 +401,7 @@
 			y: 1.0d
 		}
 		{
+			can_repeat: true
 			disable_toast: true
 			icon: "minecraft:andesite"
 			id: "262F369CE9CA7C87"
@@ -422,6 +435,7 @@
 			y: 1.0d
 		}
 		{
+			can_repeat: true
 			disable_toast: true
 			icon: "create:limestone"
 			id: "47FB0491BAB19B90"
@@ -455,6 +469,7 @@
 			y: 1.0d
 		}
 		{
+			can_repeat: true
 			disable_toast: true
 			icon: "create:scoria"
 			id: "41709386017FD959"
@@ -488,6 +503,7 @@
 			y: 1.0d
 		}
 		{
+			can_repeat: true
 			disable_toast: true
 			icon: "minecraft:obsidian"
 			id: "5D4F2FFCBD0B0F8E"
@@ -521,6 +537,7 @@
 			y: 1.0d
 		}
 		{
+			can_repeat: true
 			disable_toast: true
 			icon: "biomesoplenty:dead_log"
 			id: "222EEB7DB1D98484"
@@ -554,6 +571,7 @@
 			y: 3.5d
 		}
 		{
+			can_repeat: true
 			disable_toast: true
 			icon: "minecraft:oak_log"
 			id: "5504C6597C74637B"
@@ -587,6 +605,7 @@
 			y: 3.5d
 		}
 		{
+			can_repeat: true
 			disable_toast: true
 			icon: "minecraft:birch_log"
 			id: "35F97137A46C1F3C"
@@ -620,6 +639,7 @@
 			y: 3.5d
 		}
 		{
+			can_repeat: true
 			disable_toast: true
 			icon: "minecraft:spruce_log"
 			id: "5923347D1827DA83"
@@ -653,6 +673,7 @@
 			y: 3.5d
 		}
 		{
+			can_repeat: true
 			disable_toast: true
 			icon: "minecraft:jungle_log"
 			id: "7F7ACF3B774E9D0E"
@@ -686,6 +707,7 @@
 			y: 3.5d
 		}
 		{
+			can_repeat: true
 			disable_toast: true
 			icon: "minecraft:acacia_log"
 			id: "6C6A43E08FBC8D53"
@@ -719,6 +741,7 @@
 			y: 3.5d
 		}
 		{
+			can_repeat: true
 			disable_toast: true
 			icon: "minecraft:dark_oak_log"
 			id: "585788A4494AC124"
@@ -752,6 +775,7 @@
 			y: 3.5d
 		}
 		{
+			can_repeat: true
 			disable_toast: true
 			icon: "minecraft:crimson_stem"
 			id: "24328C973480E4E8"
@@ -785,6 +809,7 @@
 			y: 3.5d
 		}
 		{
+			can_repeat: true
 			disable_toast: true
 			icon: "minecraft:warped_stem"
 			id: "725FFE8BD6E45F96"
@@ -818,6 +843,7 @@
 			y: 4.5d
 		}
 		{
+			can_repeat: true
 			disable_toast: true
 			icon: "minecraft:iron_ingot"
 			id: "07081911727142C8"
@@ -851,6 +877,7 @@
 			y: 6.0d
 		}
 		{
+			can_repeat: true
 			disable_toast: true
 			icon: "create:zinc_ingot"
 			id: "69B107895D3CA0B2"
@@ -884,6 +911,7 @@
 			y: 6.0d
 		}
 		{
+			can_repeat: true
 			disable_toast: true
 			icon: "minecraft:copper_ingot"
 			id: "74F96A8D400FD059"
@@ -917,6 +945,7 @@
 			y: 6.0d
 		}
 		{
+			can_repeat: true
 			disable_toast: true
 			icon: "thermal:nickel_ingot"
 			id: "6D8E4C9DCFFB2C90"
@@ -950,6 +979,7 @@
 			y: 6.0d
 		}
 		{
+			can_repeat: true
 			disable_toast: true
 			icon: "thermal:lead_ingot"
 			id: "3FC1029AF9BB245E"
@@ -983,6 +1013,7 @@
 			y: 6.0d
 		}
 		{
+			can_repeat: true
 			disable_toast: true
 			icon: "minecraft:gold_ingot"
 			id: "417DD17A5C96CEE2"
@@ -1016,6 +1047,7 @@
 			y: 6.0d
 		}
 		{
+			can_repeat: true
 			disable_toast: true
 			icon: "create:andesite_alloy"
 			id: "7B5B7BB304E14C6D"
@@ -1049,6 +1081,7 @@
 			y: 6.0d
 		}
 		{
+			can_repeat: true
 			disable_toast: true
 			icon: "minecraft:amethyst_shard"
 			id: "01F3EDC327B63908"
@@ -1082,6 +1115,7 @@
 			y: 8.0d
 		}
 		{
+			can_repeat: true
 			disable_toast: true
 			icon: "create:brass_ingot"
 			id: "040A0552921E1115"
@@ -1115,6 +1149,7 @@
 			y: 6.0d
 		}
 		{
+			can_repeat: true
 			disable_toast: true
 			icon: "thermal:invar_ingot"
 			id: "2D022872F99F9907"
@@ -1148,6 +1183,7 @@
 			y: 7.0d
 		}
 		{
+			can_repeat: true
 			disable_toast: true
 			icon: "minecraft:coal"
 			id: "0DA48CA15E17157D"
@@ -1181,6 +1217,7 @@
 			y: 7.0d
 		}
 		{
+			can_repeat: true
 			disable_toast: true
 			icon: "minecraft:flint"
 			id: "70FDB8C2F2C4A825"
@@ -1214,6 +1251,7 @@
 			y: 7.0d
 		}
 		{
+			can_repeat: true
 			disable_toast: true
 			icon: "thermal:cinnabar"
 			id: "78ECB6EB48347D08"
@@ -1247,6 +1285,7 @@
 			y: 7.0d
 		}
 		{
+			can_repeat: true
 			disable_toast: true
 			icon: "minecraft:redstone"
 			id: "21CC162C06BBFAE6"
@@ -1280,6 +1319,7 @@
 			y: 7.0d
 		}
 		{
+			can_repeat: true
 			disable_toast: true
 			icon: "minecraft:diamond"
 			id: "00EBF8DED4E51A4F"
@@ -1313,6 +1353,7 @@
 			y: 7.0d
 		}
 		{
+			can_repeat: true
 			disable_toast: true
 			icon: "minecraft:lapis_lazuli"
 			id: "258C779897D1AEF0"
@@ -1346,6 +1387,7 @@
 			y: 7.0d
 		}
 		{
+			can_repeat: true
 			disable_toast: true
 			icon: "minecraft:emerald"
 			id: "38CD5CE18FE09D23"
@@ -1379,6 +1421,7 @@
 			y: 8.0d
 		}
 		{
+			can_repeat: true
 			disable_toast: true
 			icon: "thermal:sulfur"
 			id: "1C104893F5481A58"
@@ -1412,6 +1455,7 @@
 			y: 8.0d
 		}
 		{
+			can_repeat: true
 			disable_toast: true
 			icon: "thermal:apatite"
 			id: "7509D8FA29C6AB31"
@@ -1445,6 +1489,7 @@
 			y: 8.0d
 		}
 		{
+			can_repeat: true
 			disable_toast: true
 			icon: "thermal:niter"
 			id: "3A4A3B749FBDBEF1"
@@ -1478,6 +1523,7 @@
 			y: 8.0d
 		}
 		{
+			can_repeat: true
 			disable_toast: true
 			icon: "minecraft:quartz"
 			id: "1D6150F2480B976E"
@@ -1511,6 +1557,7 @@
 			y: 8.0d
 		}
 		{
+			can_repeat: true
 			disable_toast: true
 			icon: "ae2:certus_quartz_crystal"
 			id: "48F72CFAB336FE73"
@@ -1544,6 +1591,7 @@
 			y: 8.0d
 		}
 		{
+			can_repeat: true
 			disable_toast: true
 			icon: "ae2:fluix_crystal"
 			id: "4A678C0BE97177DB"
@@ -1577,6 +1625,7 @@
 			y: 8.0d
 		}
 		{
+			can_repeat: true
 			disable_toast: true
 			icon: "thermal:cured_rubber"
 			id: "488A4B4A3295CF10"
@@ -1610,6 +1659,7 @@
 			y: 9.5d
 		}
 		{
+			can_repeat: true
 			disable_toast: true
 			icon: "minecraft:scaffolding"
 			id: "49634E835B948A4F"
@@ -1643,6 +1693,7 @@
 			y: 9.5d
 		}
 		{
+			can_repeat: true
 			disable_toast: true
 			icon: "minecraft:white_wool"
 			id: "20CB646041616191"
@@ -1676,6 +1727,7 @@
 			y: 9.5d
 		}
 		{
+			can_repeat: true
 			disable_toast: true
 			icon: "minecraft:sponge"
 			id: "58E93229D6552D4B"
@@ -1709,6 +1761,7 @@
 			y: 9.5d
 		}
 		{
+			can_repeat: true
 			disable_toast: true
 			icon: "minecraft:cobweb"
 			id: "3C45250D863E65CB"
@@ -1742,6 +1795,7 @@
 			y: 9.5d
 		}
 		{
+			can_repeat: true
 			disable_toast: true
 			icon: "farmersdelight:rice_bag"
 			id: "7BDF86B9E3E607C5"
@@ -1775,6 +1829,7 @@
 			y: 15.0d
 		}
 		{
+			can_repeat: true
 			disable_toast: true
 			icon: "farmersdelight:straw"
 			id: "59EBD3DADD002D3A"
@@ -1808,6 +1863,7 @@
 			y: 15.0d
 		}
 		{
+			can_repeat: true
 			disable_toast: true
 			icon: "biomesoplenty:glowshroom"
 			id: "7F4D9F958EBDEAF8"
@@ -1841,6 +1897,7 @@
 			y: 15.0d
 		}
 		{
+			can_repeat: true
 			disable_toast: true
 			icon: "biomesoplenty:bramble"
 			id: "737E670DC8AD5E19"
@@ -1874,6 +1931,7 @@
 			y: 15.0d
 		}
 		{
+			can_repeat: true
 			disable_toast: true
 			icon: "biomesoplenty:barley"
 			id: "1EF5AB1D7882167F"
@@ -1907,6 +1965,7 @@
 			y: 15.0d
 		}
 		{
+			can_repeat: true
 			disable_toast: true
 			icon: "biomesoplenty:watergrass"
 			id: "576E0B50F2015C9E"
@@ -1940,6 +1999,7 @@
 			y: 15.0d
 		}
 		{
+			can_repeat: true
 			disable_toast: true
 			icon: "biomesoplenty:reed"
 			id: "3CA6DD7C5516A330"
@@ -1973,6 +2033,7 @@
 			y: 15.0d
 		}
 		{
+			can_repeat: true
 			disable_toast: true
 			icon: "biomesoplenty:huge_clover_petal"
 			id: "6C6C1C2E7CA882BD"
@@ -2006,6 +2067,7 @@
 			y: 15.0d
 		}
 		{
+			can_repeat: true
 			disable_toast: true
 			icon: "biomesoplenty:spanish_moss"
 			id: "3E27961386364EDF"
@@ -2039,6 +2101,7 @@
 			y: 16.0d
 		}
 		{
+			can_repeat: true
 			disable_toast: true
 			icon: "biomesoplenty:willow_vine"
 			id: "286C553AD3E15266"
@@ -2072,6 +2135,7 @@
 			y: 16.0d
 		}
 		{
+			can_repeat: true
 			disable_toast: true
 			icon: "biomesoplenty:cattail"
 			id: "70B164A5F22452CA"
@@ -2105,6 +2169,7 @@
 			y: 16.0d
 		}
 		{
+			can_repeat: true
 			disable_toast: true
 			icon: "minecraft:sugar_cane"
 			id: "5BB058D52AA40751"
@@ -2138,6 +2203,7 @@
 			y: 16.0d
 		}
 		{
+			can_repeat: true
 			disable_toast: true
 			icon: "minecraft:kelp"
 			id: "4C068341DD17068B"
@@ -2171,6 +2237,7 @@
 			y: 16.0d
 		}
 		{
+			can_repeat: true
 			disable_toast: true
 			icon: "minecraft:bamboo"
 			id: "3A86EA1C2AD21C29"
@@ -2204,6 +2271,7 @@
 			y: 16.0d
 		}
 		{
+			can_repeat: true
 			disable_toast: true
 			icon: "minecraft:sweet_berries"
 			id: "33B5C951B4AE8322"
@@ -2237,6 +2305,7 @@
 			y: 16.0d
 		}
 		{
+			can_repeat: true
 			disable_toast: true
 			icon: "minecraft:vine"
 			id: "57CD030DE2CD7715"
@@ -2270,6 +2339,7 @@
 			y: 17.0d
 		}
 		{
+			can_repeat: true
 			disable_toast: true
 			icon: "create:tree_fertilizer"
 			id: "0726837174BCED3D"
@@ -2303,6 +2373,7 @@
 			y: 17.0d
 		}
 		{
+			can_repeat: true
 			disable_toast: true
 			icon: "supplementaries:daub"
 			id: "091671443430B31B"
@@ -2336,6 +2407,7 @@
 			y: 18.5d
 		}
 		{
+			can_repeat: true
 			disable_toast: true
 			icon: "tconstruct:clear_glass"
 			id: "7DFB9DD1A1BB63E4"
@@ -2369,6 +2441,7 @@
 			y: 18.5d
 		}
 		{
+			can_repeat: true
 			disable_toast: true
 			icon: "create:copper_shingles"
 			id: "1A2E4E06037E009A"
@@ -2402,6 +2475,7 @@
 			y: 18.5d
 		}
 		{
+			can_repeat: true
 			disable_toast: true
 			icon: "architects_palette:algal_bricks"
 			id: "011F64B48766234B"
@@ -2435,6 +2509,7 @@
 			y: 18.5d
 		}
 		{
+			can_repeat: true
 			disable_toast: true
 			icon: "architects_palette:olivestone_bricks"
 			id: "2C9012E65F43EC72"
@@ -2468,6 +2543,7 @@
 			y: 18.5d
 		}
 		{
+			can_repeat: true
 			disable_toast: true
 			icon: "architects_palette:sunmetal_block"
 			id: "4202EDD798183934"
@@ -2501,6 +2577,7 @@
 			y: 19.5d
 		}
 		{
+			can_repeat: true
 			disable_toast: true
 			icon: "architects_palette:plating_block"
 			id: "3D7AD3AF3857F7D9"
@@ -2534,6 +2611,7 @@
 			y: 19.5d
 		}
 		{
+			can_repeat: true
 			disable_toast: true
 			icon: "architects_palette:twisted_planks"
 			id: "1D4B76A3C724C40D"
@@ -2567,6 +2645,7 @@
 			y: 19.5d
 		}
 		{
+			can_repeat: true
 			disable_toast: true
 			icon: "architects_palette:osseous_bricks"
 			id: "01428232944D8BE9"
@@ -2600,6 +2679,7 @@
 			y: 19.5d
 		}
 		{
+			can_repeat: true
 			disable_toast: true
 			icon: "tconstruct:seared_stone"
 			id: "3A7A2C8D56500426"
@@ -2633,6 +2713,7 @@
 			y: 19.5d
 		}
 		{
+			can_repeat: true
 			disable_toast: true
 			icon: "tconstruct:scorched_stone"
 			id: "70EBB5E32545ACEC"
@@ -2666,6 +2747,7 @@
 			y: 19.5d
 		}
 		{
+			can_repeat: true
 			disable_toast: true
 			icon: "minecraft:lantern"
 			id: "10D5B3EF6A77B918"
@@ -2699,6 +2781,7 @@
 			y: 19.5d
 		}
 		{
+			can_repeat: true
 			disable_toast: true
 			icon: "minecraft:soul_lantern"
 			id: "6BC9B96B2C6684DC"
@@ -2732,6 +2815,7 @@
 			y: 19.5d
 		}
 		{
+			can_repeat: true
 			disable_toast: true
 			icon: "createdeco:brass_sheet_metal"
 			id: "44CDD45033A93614"
@@ -2765,6 +2849,7 @@
 			y: 18.5d
 		}
 		{
+			can_repeat: true
 			disable_toast: true
 			icon: "createdeco:industrial_iron_sheet_metal"
 			id: "7B7A161B4BAB89AD"
@@ -2798,6 +2883,7 @@
 			y: 18.5d
 		}
 		{
+			can_repeat: true
 			disable_toast: true
 			icon: "minecraft:slime_ball"
 			id: "522D9970B8C43046"
@@ -2831,6 +2917,7 @@
 			y: 22.0d
 		}
 		{
+			can_repeat: true
 			disable_toast: true
 			icon: "minecraft:string"
 			id: "11B239EF3DAE4463"
@@ -2864,6 +2951,7 @@
 			y: 22.0d
 		}
 		{
+			can_repeat: true
 			disable_toast: true
 			icon: "minecraft:feather"
 			id: "339BC75AD23B70D7"
@@ -2897,6 +2985,7 @@
 			y: 22.0d
 		}
 		{
+			can_repeat: true
 			disable_toast: true
 			icon: "minecraft:gunpowder"
 			id: "52CCFCE2733F76BC"
@@ -2930,6 +3019,7 @@
 			y: 22.0d
 		}
 		{
+			can_repeat: true
 			disable_toast: true
 			icon: "minecraft:leather"
 			id: "42F951B44FB2BFE3"
@@ -2963,6 +3053,7 @@
 			y: 22.0d
 		}
 		{
+			can_repeat: true
 			disable_toast: true
 			icon: "minecraft:ink_sac"
 			id: "108550230A95C7D4"
@@ -2996,6 +3087,7 @@
 			y: 22.0d
 		}
 		{
+			can_repeat: true
 			disable_toast: true
 			icon: "minecraft:experience_bottle"
 			id: "1BF763E3FD8C2245"
@@ -3029,6 +3121,7 @@
 			y: 22.0d
 		}
 		{
+			can_repeat: true
 			disable_toast: true
 			icon: "minecraft:shulker_shell"
 			id: "1F05704C3B1FA528"
@@ -3062,6 +3155,7 @@
 			y: 25.0d
 		}
 		{
+			can_repeat: true
 			disable_toast: true
 			icon: "minecraft:spider_eye"
 			id: "0C6B2EEE280F7667"
@@ -3095,6 +3189,7 @@
 			y: 23.0d
 		}
 		{
+			can_repeat: true
 			disable_toast: true
 			icon: "minecraft:ender_pearl"
 			id: "46F150CC9BE2D856"
@@ -3128,6 +3223,7 @@
 			y: 23.0d
 		}
 		{
+			can_repeat: true
 			disable_toast: true
 			icon: "minecraft:rotten_flesh"
 			id: "76287BDB2E9B7BC8"
@@ -3161,6 +3257,7 @@
 			y: 23.0d
 		}
 		{
+			can_repeat: true
 			disable_toast: true
 			icon: "minecraft:blaze_rod"
 			id: "685DD2A4DFF56193"
@@ -3194,6 +3291,7 @@
 			y: 23.0d
 		}
 		{
+			can_repeat: true
 			disable_toast: true
 			icon: "minecraft:bone"
 			id: "433E103CD81712C1"
@@ -3227,6 +3325,7 @@
 			y: 23.0d
 		}
 		{
+			can_repeat: true
 			disable_toast: true
 			icon: "minecraft:prismarine_shard"
 			id: "29696B4965010CED"
@@ -3260,6 +3359,7 @@
 			y: 23.0d
 		}
 		{
+			can_repeat: true
 			disable_toast: true
 			icon: "minecraft:prismarine_crystals"
 			id: "7C7B81ABFC586379"
@@ -3293,6 +3393,7 @@
 			y: 23.0d
 		}
 		{
+			can_repeat: true
 			disable_toast: true
 			icon: "reliquary:witch_hat"
 			id: "4864E6BA6AE2B49B"
@@ -3326,6 +3427,7 @@
 			y: 23.0d
 		}
 		{
+			can_repeat: true
 			disable_toast: true
 			icon: "reliquary:zombie_heart"
 			id: "2714FE0125D3E953"
@@ -3359,6 +3461,7 @@
 			y: 24.0d
 		}
 		{
+			can_repeat: true
 			disable_toast: true
 			icon: "reliquary:squid_beak"
 			id: "395978A711E14931"
@@ -3392,6 +3495,7 @@
 			y: 24.0d
 		}
 		{
+			can_repeat: true
 			disable_toast: true
 			icon: "reliquary:rib_bone"
 			id: "23F9DB562ED7C2F6"
@@ -3425,6 +3529,7 @@
 			y: 24.0d
 		}
 		{
+			can_repeat: true
 			disable_toast: true
 			icon: "reliquary:catalyzing_gland"
 			id: "4764EAB921EE1F19"
@@ -3458,6 +3563,7 @@
 			y: 24.0d
 		}
 		{
+			can_repeat: true
 			disable_toast: true
 			icon: "reliquary:chelicerae"
 			id: "2E10D7FE1BC4FDBB"
@@ -3491,6 +3597,7 @@
 			y: 24.0d
 		}
 		{
+			can_repeat: true
 			disable_toast: true
 			icon: "reliquary:slime_pearl"
 			id: "67B45D6767F8BFD9"
@@ -3524,6 +3631,7 @@
 			y: 24.0d
 		}
 		{
+			can_repeat: true
 			disable_toast: true
 			icon: "reliquary:bat_wing"
 			id: "5491C5600D7F039A"
@@ -3557,6 +3665,7 @@
 			y: 24.0d
 		}
 		{
+			can_repeat: true
 			disable_toast: true
 			icon: "reliquary:withered_rib"
 			id: "4BD2016AFC2A2035"
@@ -3590,6 +3699,7 @@
 			y: 24.0d
 		}
 		{
+			can_repeat: true
 			disable_toast: true
 			icon: "reliquary:molten_core"
 			id: "59474208A27099BF"
@@ -3623,6 +3733,7 @@
 			y: 25.0d
 		}
 		{
+			can_repeat: true
 			disable_toast: true
 			icon: "reliquary:eye_of_the_storm"
 			id: "6FF65841E3EA0FCD"
@@ -3656,6 +3767,7 @@
 			y: 25.0d
 		}
 		{
+			can_repeat: true
 			disable_toast: true
 			icon: "reliquary:frozen_core"
 			id: "0CF82AABD5E05A0D"
@@ -3689,6 +3801,7 @@
 			y: 25.0d
 		}
 		{
+			can_repeat: true
 			disable_toast: true
 			icon: "reliquary:nebulous_heart"
 			id: "73EEAE66CC2014E9"
@@ -3722,6 +3835,7 @@
 			y: 25.0d
 		}
 		{
+			can_repeat: true
 			disable_toast: true
 			icon: "reliquary:guardian_spike"
 			id: "662583DB97721FE8"
@@ -3755,6 +3869,7 @@
 			y: 25.0d
 		}
 		{
+			can_repeat: true
 			disable_toast: true
 			icon: "minecraft:phantom_membrane"
 			id: "210A3F8C44AAD89A"
@@ -3788,6 +3903,7 @@
 			y: 25.0d
 		}
 		{
+			can_repeat: true
 			disable_toast: true
 			icon: "create:blaze_cake"
 			id: "3CEC6538990D89C3"
@@ -4057,6 +4173,8 @@
 			y: 22.0d
 		}
 		{
+			can_repeat: true
+			disable_toast: true
 			icon: "minecraft:cobbled_deepslate"
 			id: "7722ADDCAD9987BD"
 			rewards: [
@@ -4089,6 +4207,8 @@
 			y: 1.0d
 		}
 		{
+			can_repeat: true
+			disable_toast: true
 			icon: "minecraft:honeycomb_block"
 			id: "6E3216E644289961"
 			rewards: [
@@ -4152,6 +4272,7 @@
 			y: 7.0d
 		}
 		{
+			can_repeat: true
 			disable_toast: true
 			icon: "minecraft:cherry_log"
 			id: "52C7EF47A0423CAB"

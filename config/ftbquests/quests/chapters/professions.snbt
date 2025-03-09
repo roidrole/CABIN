@@ -776,6 +776,7 @@
 			y: -3.0d
 		}
 		{
+			can_repeat: true
 			description: ["A friendly Record Collector is interested in any discs you find on your travels."]
 			icon: "minecraft:music_disc_13"
 			id: "436DA1A1AB8C0734"
@@ -802,81 +803,12 @@
 				id: "28EC11DE8335B74A"
 				item: {
 					Count: 1
-					id: "itemfilters:or"
+					id: "itemfilters:tag"
 					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "minecraft:music_disc_13"
-							}
-							{
-								Count: 1b
-								id: "minecraft:music_disc_cat"
-							}
-							{
-								Count: 1b
-								id: "minecraft:music_disc_blocks"
-							}
-							{
-								Count: 1b
-								id: "minecraft:music_disc_chirp"
-							}
-							{
-								Count: 1b
-								id: "minecraft:music_disc_far"
-							}
-							{
-								Count: 1b
-								id: "minecraft:music_disc_mall"
-							}
-							{
-								Count: 1b
-								id: "minecraft:music_disc_mellohi"
-							}
-							{
-								Count: 1b
-								id: "minecraft:music_disc_stal"
-							}
-							{
-								Count: 1b
-								id: "minecraft:music_disc_strad"
-							}
-							{
-								Count: 1b
-								id: "minecraft:music_disc_ward"
-							}
-							{
-								Count: 1b
-								id: "minecraft:music_disc_11"
-							}
-							{
-								Count: 1b
-								id: "minecraft:music_disc_wait"
-							}
-							{
-								Count: 1b
-								id: "minecraft:music_disc_otherside"
-							}
-							{
-								Count: 1b
-								id: "minecraft:music_disc_pigstep"
-							}
-							{
-								Count: 1b
-								id: "biomesoplenty:music_disc_wanderer"
-							}
-							{
-								Count: 1b
-								id: "enlightened_end:sprog_music_disc"
-							}
-							{
-								Count: 1b
-								id: "supplementaries:pancake_disc"
-							}
-						]
+						value: "kubejs:sellable_discs"
 					}
 				}
-				title: "Any Record"
+				title: "Any Music Record"
 				type: "item"
 			}]
 			title: "The lost Tapes"
@@ -1285,6 +1217,7 @@
 			y: -3.0d
 		}
 		{
+			can_repeat: true
 			description: ["Defeat those intruders, and you'll have the support from nearby villages."]
 			icon: {
 				Count: 1
@@ -1302,15 +1235,6 @@
 					id: "72ADE787CA674127"
 					item: "thermal:silver_coin"
 					type: "item"
-				}
-				{
-					auto: "no_toast"
-					icon: "farmersdelight:milk_bottle"
-					id: "0D666C3C352901FA"
-					tags: ["bad_omen"]
-					team_reward: false
-					title: "Clear Bad Omen"
-					type: "custom"
 				}
 				{
 					auto: "no_toast"

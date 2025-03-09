@@ -248,6 +248,7 @@ global.itemBlacklist = [
 	'kubejs:incomplete_sealed_mechanism',
 	'kubejs:incomplete_reinforced_mechanism',
 	'kubejs:incomplete_infernal_mechanism',
+	'kubejs:incomplete_logistic_mechanism',
 	'kubejs:incomplete_inductive_mechanism',
 	'kubejs:incomplete_abstruse_mechanism',
 	'kubejs:incomplete_calculation_mechanism',
@@ -532,7 +533,7 @@ global.itemBlacklist = [
 	'tconstruct:cheese_block',
 
 	//thermal
-	'thermal:laser_diode', //I don't even know what this thing it
+	'thermal:laser_diode', //I don't even know what this thing is
 	'thermal:rs_control_augment',
 	'thermal:side_config_augment',
 	'thermal:press_coin_die',
@@ -569,10 +570,6 @@ global.itemBlacklist = [
 	'thermal:tin_gear',
 	'thermal:raw_tin',
 	'thermal:raw_tin_block',
-	'thermal:invar_plate',
-	'thermal:bronze_nugget',
-	'thermal:bronze_ingot',
-	'thermal:bronze_plate',
 	'thermal:netherite_nugget',
 	'thermal:copper_nugget',
 	'thermal:ender_pearl_dust',
@@ -630,6 +627,10 @@ global.randomiumBlacklist = [
 	'trials:trial_spawner',
 	'trials:trial_vault',
 	'trials:trial_vault_ominous',
+	"ae2:flawless_budding_quartz",
+	"ae2:flawed_budding_quartz",
+	"ae2:chipped_budding_quartz",
+	"ae2:damaged_budding_quartz",
 
 
 	//Tconstruct molten fluid buckets

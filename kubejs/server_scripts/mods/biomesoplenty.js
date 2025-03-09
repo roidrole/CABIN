@@ -13,6 +13,8 @@ if(Platform.isLoaded("biomesoplenty")) {
 
 	ServerEvents.tags('item', event => {
 		event.get("forge:vines").add(BOP("willow_vine")).add(BOP("spanish_moss"))
+
+		event.get("kubejs:strainer/sands").add("biomesoplenty:white_sand").add("biomesoplenty:orange_sand")
 	})
 	ServerEvents.recipes(event => {
 		//Tree Extracting recipes for leaves that don't match their log names
