@@ -22,7 +22,7 @@
 			hide_text_until_complete: true
 			id: "0E98B4D2BBF55308"
 			shape: "square"
-			subtitle: "{cabin.quest.0E98B4D2BBF55308.subtitle}"
+			subtitle: "{cabin.quest.08716DBF9C882623.subtitle}"
 			tasks: [{
 				disable_toast: true
 				icon: "kubejs:kinetic_mechanism"
@@ -48,7 +48,7 @@
 			]
 			disable_toast: true
 			id: "69275ECFC147E15B"
-			subtitle: "{cabin.quest.69275ECFC147E15B.subtitle}"
+			subtitle: "{cabin.quest.08716DBF9C882623.subtitle}"
 			tasks: [{
 				disable_toast: true
 				icon: "create:precision_mechanism"
@@ -74,7 +74,7 @@
 			]
 			disable_toast: true
 			id: "400CDC316DCDFE88"
-			subtitle: "{cabin.quest.400CDC316DCDFE88.subtitle}"
+			subtitle: "{cabin.quest.08716DBF9C882623.subtitle}"
 			tasks: [{
 				disable_toast: true
 				icon: "kubejs:inductive_mechanism"
@@ -130,7 +130,7 @@
 			]
 			disable_toast: true
 			id: "342BB6EF80EBFDCA"
-			subtitle: "{cabin.quest.342BB6EF80EBFDCA.subtitle}"
+			subtitle: "{cabin.quest.11C36A243F5108DC.subtitle}"
 			tasks: [{
 				disable_toast: true
 				icon: "kubejs:sealed_mechanism"
@@ -156,7 +156,7 @@
 			]
 			disable_toast: true
 			id: "2DC3AA8A89005C42"
-			subtitle: "{cabin.quest.2DC3AA8A89005C42.subtitle}"
+			subtitle: "{cabin.quest.11C36A243F5108DC.subtitle}"
 			tasks: [{
 				disable_toast: true
 				icon: "kubejs:infernal_mechanism"
@@ -178,7 +178,7 @@
 			description: ["{cabin.quest.2F50046724A0DF9C.description1}"]
 			disable_toast: true
 			id: "2F50046724A0DF9C"
-			subtitle: "{cabin.quest.2F50046724A0DF9C.subtitle}"
+			subtitle: "{cabin.quest.11C36A243F5108DC.subtitle}"
 			tasks: [{
 				disable_toast: true
 				icon: "kubejs:abstruse_mechanism"
@@ -365,7 +365,7 @@
 				""
 				"{cabin.quest.7D872F933F45809B.description1}"
 				""
-				"{cabin.quest.7D872F933F45809B.description2}"
+				"{cabin.quest.7664FBB32FCC6BE6.description2}"
 			]
 			icon: "thermal:cured_rubber"
 			id: "7D872F933F45809B"
@@ -386,7 +386,7 @@
 				"{cabin.quest.7888F9129E9FE517.description1}"
 				"{cabin.quest.7888F9129E9FE517.description2}"
 				""
-				"{cabin.quest.7888F9129E9FE517.description3}"
+				"{cabin.quest.6D7D2E63F1E35329.description2}"
 			]
 			icon: "minecraft:lava_bucket"
 			id: "7888F9129E9FE517"
@@ -580,7 +580,7 @@
 			]
 			disable_toast: true
 			id: "68DF462185A9AF63"
-			subtitle: "{cabin.quest.68DF462185A9AF63.subtitle}"
+			subtitle: "{cabin.quest.11C36A243F5108DC.subtitle}"
 			tasks: [{
 				disable_toast: true
 				icon: "kubejs:logistic_mechanism"

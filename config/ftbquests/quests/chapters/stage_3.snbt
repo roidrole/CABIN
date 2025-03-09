@@ -343,7 +343,7 @@
 			hide_dependency_lines: true
 			icon: "minecraft:cobblestone"
 			id: "5C277D27606F64DA"
-			subtitle: "{cabin.quest.5C277D27606F64DA.subtitle}"
+			subtitle: "{cabin.quest.1A06FA866B74E75B.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -580,7 +580,7 @@
 			description: [
 				"{cabin.quest.375C9A43FE5620B6.description1}"
 				""
-				"{cabin.quest.375C9A43FE5620B6.description2}"
+				"{cabin.quest.050A20198A80CF1A.description2}"
 			]
 			icon: "ae2:ender_dust"
 			id: "375C9A43FE5620B6"
@@ -870,7 +870,7 @@
 			]
 			icon: "create:crushing_wheel"
 			id: "7AAE71F57FB89BCC"
-			subtitle: "{cabin.quest.7AAE71F57FB89BCC.subtitle}"
+			subtitle: "{cabin.quest.44540B11F341AE09.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -911,7 +911,7 @@
 			description: [
 				"{cabin.quest.402F89CABF6BCDA4.description1}"
 				""
-				"{cabin.quest.402F89CABF6BCDA4.description2}"
+				"{cabin.quest.050A20198A80CF1A.description2}"
 			]
 			icon: "minecraft:bone_meal"
 			id: "402F89CABF6BCDA4"

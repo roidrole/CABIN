@@ -17,7 +17,7 @@
 				item: "minecraft:cyan_bed"
 				type: "item"
 			}]
-			subtitle: "{cabin.quest.5D17CB247942013A.subtitle}"
+			subtitle: "{cabin.quest.09DC2E2BE2BE32F4.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -56,7 +56,7 @@
 					type: "custom"
 				}
 			]
-			subtitle: "{cabin.quest.252B9DD5BFB8184A.subtitle}"
+			subtitle: "{cabin.quest.093FB7B7FEC6B886.subtitle}"
 			tasks: [{
 				count: 2L
 				icon: "kubejs:gold_coin"
@@ -168,7 +168,7 @@
 				}
 				type: "item"
 			}]
-			subtitle: "{cabin.quest.72CACE8F0E4701B1.subtitle}"
+			subtitle: "{cabin.quest.4F953BACF4D1C151.subtitle}"
 			tasks: [
 				{
 					id: "1E25EB2883C9A960"
@@ -227,7 +227,7 @@
 				}
 				type: "item"
 			}]
-			subtitle: "{cabin.quest.43FC566E833BE834.subtitle}"
+			subtitle: "{cabin.quest.00D6DD6AE8E3C014.subtitle}"
 			tasks: [
 				{
 					id: "36CBD54BCB068EB1"
@@ -301,7 +301,7 @@
 				item: "thermal:gold_coin"
 				type: "item"
 			}]
-			title: "{cabin.quest.5326F6482C45D22A.title}"
+			title: "{cabin.quest.1A566C74B1F7F050.title}"
 			x: -4.0d
 			y: -4.0d
 		}
@@ -412,7 +412,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{cabin.quest.4B01606CE7AF3121.subtitle}"
+			subtitle: "{cabin.quest.1C5EA1173F4E592B.subtitle}"
 			tasks: [{
 				count: 15L
 				icon: "kubejs:silver_coin"
@@ -569,7 +569,7 @@
 				item: "sophisticatedbackpacks:backpack"
 				type: "item"
 			}]
-			subtitle: "{cabin.quest.4FD46F841CCD59F8.subtitle}"
+			subtitle: "{cabin.quest.09DC2E2BE2BE32F4.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "thermal:silver_coin"
@@ -629,7 +629,7 @@
 				item: "minecraft:totem_of_undying"
 				type: "item"
 			}]
-			subtitle: "{cabin.quest.6D9F2FBEB7CC5195.subtitle}"
+			subtitle: "{cabin.quest.2F2BA8C2AC2E0B93.subtitle}"
 			tasks: [{
 				count: 60L
 				icon: "kubejs:silver_coin"
@@ -657,7 +657,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{cabin.quest.4B52A04818075900.subtitle}"
+			subtitle: "{cabin.quest.08DB1CFAE4555525.subtitle}"
 			tasks: [{
 				count: 45L
 				icon: "kubejs:silver_coin"
@@ -774,7 +774,7 @@
 					type: "custom"
 				}
 			]
-			subtitle: "{cabin.quest.6C00F2935F27C2AD.subtitle}"
+			subtitle: "{cabin.quest.04468935C9A7298F.subtitle}"
 			tasks: [
 				{
 					count: 5L
@@ -845,7 +845,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{cabin.quest.1CC29991D5F248CA.subtitle}"
+			subtitle: "{cabin.quest.01F3EDC327B63908.subtitle}"
 			tasks: [{
 				count: 32L
 				icon: "kubejs:silver_coin"
@@ -886,7 +886,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{cabin.quest.42384DE39AA48976.subtitle}"
+			subtitle: "{cabin.quest.1D6150F2480B976E.subtitle}"
 			tasks: [{
 				count: 24L
 				icon: "kubejs:silver_coin"
@@ -951,7 +951,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{cabin.quest.61B040CD0832EFC0.subtitle}"
+			subtitle: "{cabin.quest.1D6150F2480B976E.subtitle}"
 			tasks: [{
 				count: 24L
 				icon: "kubejs:silver_coin"
@@ -973,7 +973,7 @@
 				item: "create:track"
 				type: "item"
 			}]
-			subtitle: "{cabin.quest.117587D824D23D69.subtitle}"
+			subtitle: "{cabin.quest.07081911727142C8.subtitle}"
 			tasks: [{
 				count: 16L
 				icon: "kubejs:silver_coin"
@@ -1019,7 +1019,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{cabin.quest.2D75D1864FB1EF75.subtitle}"
+			subtitle: "{cabin.quest.1D6150F2480B976E.subtitle}"
 			tasks: [{
 				count: 24L
 				icon: "kubejs:silver_coin"
@@ -1083,7 +1083,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{cabin.quest.7D93DAB3E8ACF953.subtitle}"
+			subtitle: "{cabin.quest.07081911727142C8.subtitle}"
 			tasks: [{
 				count: 16L
 				icon: "thermal:silver_coin"
@@ -1229,7 +1229,7 @@
 				}
 				type: "item"
 			}]
-			subtitle: "{cabin.quest.42A7073F3681626C.subtitle}"
+			subtitle: "{cabin.quest.093FB7B7FEC6B886.subtitle}"
 			tasks: [{
 				count: 2L
 				id: "50824DA7246920CA"

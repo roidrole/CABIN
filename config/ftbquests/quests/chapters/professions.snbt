@@ -486,7 +486,7 @@
 		{
 			description: [
 				"{cabin.quest.36E02479368EAF04.description1}"
-				"{cabin.quest.36E02479368EAF04.description2}"
+				"{cabin.quest.00003FCBB33E62C4.description2}"
 			]
 			icon: "minecraft:oak_sign"
 			id: "36E02479368EAF04"
@@ -510,7 +510,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			subtitle: "{cabin.quest.41BB50843EF5EF10.subtitle}"
+			subtitle: "{cabin.quest.0CCF34BF1C5829AE.subtitle}"
 			tasks: [
 				{
 					id: "488C968F61E4B260"
@@ -598,7 +598,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			subtitle: "{cabin.quest.736FC31210F334F2.subtitle}"
+			subtitle: "{cabin.quest.1C5EA1173F4E592B.subtitle}"
 			tasks: [{
 				id: "7D2F867FD8A5A68A"
 				item: {
@@ -700,7 +700,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			subtitle: "{cabin.quest.128F1A9528CA4130.subtitle}"
+			subtitle: "{cabin.quest.0CCF34BF1C5829AE.subtitle}"
 			tasks: [
 				{
 					id: "05FA6BA978E2C59F"
@@ -743,7 +743,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			subtitle: "{cabin.quest.669D57A1E1B09CD8.subtitle}"
+			subtitle: "{cabin.quest.08DB1CFAE4555525.subtitle}"
 			tasks: [
 				{
 					id: "18D9327C3A3FC945"
@@ -798,7 +798,7 @@
 					type: "custom"
 				}
 			]
-			subtitle: "{cabin.quest.436DA1A1AB8C0734.subtitle}"
+			subtitle: "{cabin.quest.01F3EDC327B63908.subtitle}"
 			tasks: [{
 				id: "28EC11DE8335B74A"
 				item: {
@@ -825,7 +825,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			subtitle: "{cabin.quest.2A9AAED667A95C6E.subtitle}"
+			subtitle: "{cabin.quest.0CCF34BF1C5829AE.subtitle}"
 			tasks: [
 				{
 					count: 8L
@@ -867,7 +867,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			subtitle: "{cabin.quest.7D92D05B4A67FD78.subtitle}"
+			subtitle: "{cabin.quest.08DB1CFAE4555525.subtitle}"
 			tasks: [
 				{
 					count: 8L
@@ -923,7 +923,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			subtitle: "{cabin.quest.4D07666ECE75D9B5.subtitle}"
+			subtitle: "{cabin.quest.0CCF34BF1C5829AE.subtitle}"
 			tasks: [
 				{
 					count: 3L
@@ -977,7 +977,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			subtitle: "{cabin.quest.3F2FB159F1B8875F.subtitle}"
+			subtitle: "{cabin.quest.08DB1CFAE4555525.subtitle}"
 			tasks: [
 				{
 					count: 3L
@@ -1068,7 +1068,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			subtitle: "{cabin.quest.7C270AB26CD9AAB8.subtitle}"
+			subtitle: "{cabin.quest.39D56A2B01DBD865.subtitle}"
 			tasks: [{
 				entity: "minecraft:zombie"
 				icon: "minecraft:zombie_head"
@@ -1089,7 +1089,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			subtitle: "{cabin.quest.29B58A9EDA478E7D.subtitle}"
+			subtitle: "{cabin.quest.09EA580B3D32FEEB.subtitle}"
 			tasks: [{
 				entity: "minecraft:skeleton"
 				icon: "minecraft:skeleton_skull"
@@ -1110,7 +1110,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			subtitle: "{cabin.quest.1AA2C3EECE1832EE.subtitle}"
+			subtitle: "{cabin.quest.09EA580B3D32FEEB.subtitle}"
 			tasks: [{
 				entity: "minecraft:spider"
 				icon: "tconstruct:spider_head"
@@ -1131,7 +1131,7 @@
 				item: "thermal:gold_coin"
 				type: "item"
 			}]
-			subtitle: "{cabin.quest.3F00084D9474C381.subtitle}"
+			subtitle: "{cabin.quest.093FB7B7FEC6B886.subtitle}"
 			tasks: [{
 				id: "2CA6E7602A5FBCF5"
 				item: "supplementaries:globe"
@@ -1150,7 +1150,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			subtitle: "{cabin.quest.562696C1D01B2685.subtitle}"
+			subtitle: "{cabin.quest.1C5EA1173F4E592B.subtitle}"
 			tasks: [{
 				icon: "minecraft:wheat"
 				id: "07132D69A1BA37B5"
@@ -1246,7 +1246,7 @@
 					type: "custom"
 				}
 			]
-			subtitle: "{cabin.quest.76E3B76D47A1F889.subtitle}"
+			subtitle: "{cabin.quest.09DC2E2BE2BE32F4.subtitle}"
 			tasks: [
 				{
 					id: "7CEFF147708B6647"

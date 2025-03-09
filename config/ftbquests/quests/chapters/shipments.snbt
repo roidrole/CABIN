@@ -116,7 +116,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{cabin.quest.4C0F811C1D2495CC.subtitle}"
+			subtitle: "{cabin.quest.0DA48CA15E17157D.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -150,7 +150,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{cabin.quest.6AE7090EB52A51B3.subtitle}"
+			subtitle: "{cabin.quest.1A27F6CC5196D116.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -184,7 +184,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{cabin.quest.0315668E30F2F6E5.subtitle}"
+			subtitle: "{cabin.quest.011F64B48766234B.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -218,7 +218,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{cabin.quest.36B5C3ECFD38670E.subtitle}"
+			subtitle: "{cabin.quest.07081911727142C8.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -286,7 +286,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{cabin.quest.1BA3EF0818CA7F64.subtitle}"
+			subtitle: "{cabin.quest.1509D36A982217C6.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -354,7 +354,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{cabin.quest.2C10D18D55335B7E.subtitle}"
+			subtitle: "{cabin.quest.136DA2C41AD2EE31.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -388,7 +388,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{cabin.quest.5F0B4CBE299954C4.subtitle}"
+			subtitle: "{cabin.quest.136DA2C41AD2EE31.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -422,7 +422,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{cabin.quest.262F369CE9CA7C87.subtitle}"
+			subtitle: "{cabin.quest.136DA2C41AD2EE31.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -456,7 +456,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{cabin.quest.47FB0491BAB19B90.subtitle}"
+			subtitle: "{cabin.quest.136DA2C41AD2EE31.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -490,7 +490,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{cabin.quest.41709386017FD959.subtitle}"
+			subtitle: "{cabin.quest.136DA2C41AD2EE31.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -524,7 +524,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{cabin.quest.5D4F2FFCBD0B0F8E.subtitle}"
+			subtitle: "{cabin.quest.01428232944D8BE9.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -558,7 +558,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{cabin.quest.222EEB7DB1D98484.subtitle}"
+			subtitle: "{cabin.quest.1A27F6CC5196D116.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -592,7 +592,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{cabin.quest.5504C6597C74637B.subtitle}"
+			subtitle: "{cabin.quest.0DA48CA15E17157D.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -626,7 +626,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{cabin.quest.35F97137A46C1F3C.subtitle}"
+			subtitle: "{cabin.quest.0DA48CA15E17157D.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -660,7 +660,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{cabin.quest.5923347D1827DA83.subtitle}"
+			subtitle: "{cabin.quest.0DA48CA15E17157D.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -694,7 +694,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{cabin.quest.7F7ACF3B774E9D0E.subtitle}"
+			subtitle: "{cabin.quest.0DA48CA15E17157D.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -728,7 +728,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{cabin.quest.6C6A43E08FBC8D53.subtitle}"
+			subtitle: "{cabin.quest.0DA48CA15E17157D.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -762,7 +762,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{cabin.quest.585788A4494AC124.subtitle}"
+			subtitle: "{cabin.quest.0DA48CA15E17157D.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -796,7 +796,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{cabin.quest.24328C973480E4E8.subtitle}"
+			subtitle: "{cabin.quest.01428232944D8BE9.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -830,7 +830,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{cabin.quest.725FFE8BD6E45F96.subtitle}"
+			subtitle: "{cabin.quest.01428232944D8BE9.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -898,7 +898,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{cabin.quest.69B107895D3CA0B2.subtitle}"
+			subtitle: "{cabin.quest.07081911727142C8.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -932,7 +932,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{cabin.quest.74F96A8D400FD059.subtitle}"
+			subtitle: "{cabin.quest.07081911727142C8.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -966,7 +966,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{cabin.quest.6D8E4C9DCFFB2C90.subtitle}"
+			subtitle: "{cabin.quest.01F3EDC327B63908.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -1000,7 +1000,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{cabin.quest.3FC1029AF9BB245E.subtitle}"
+			subtitle: "{cabin.quest.01F3EDC327B63908.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -1034,7 +1034,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{cabin.quest.417DD17A5C96CEE2.subtitle}"
+			subtitle: "{cabin.quest.003E0D1CE60B166A.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -1068,7 +1068,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{cabin.quest.7B5B7BB304E14C6D.subtitle}"
+			subtitle: "{cabin.quest.01428232944D8BE9.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -1136,7 +1136,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{cabin.quest.040A0552921E1115.subtitle}"
+			subtitle: "{cabin.quest.003E0D1CE60B166A.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -1238,7 +1238,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{cabin.quest.70FDB8C2F2C4A825.subtitle}"
+			subtitle: "{cabin.quest.0DA48CA15E17157D.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -1272,7 +1272,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{cabin.quest.78ECB6EB48347D08.subtitle}"
+			subtitle: "{cabin.quest.07081911727142C8.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -1306,7 +1306,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{cabin.quest.21CC162C06BBFAE6.subtitle}"
+			subtitle: "{cabin.quest.01428232944D8BE9.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -1374,7 +1374,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{cabin.quest.258C779897D1AEF0.subtitle}"
+			subtitle: "{cabin.quest.01F3EDC327B63908.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -1408,7 +1408,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{cabin.quest.38CD5CE18FE09D23.subtitle}"
+			subtitle: "{cabin.quest.00EBF8DED4E51A4F.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -1442,7 +1442,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{cabin.quest.1C104893F5481A58.subtitle}"
+			subtitle: "{cabin.quest.01428232944D8BE9.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -1476,7 +1476,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{cabin.quest.7509D8FA29C6AB31.subtitle}"
+			subtitle: "{cabin.quest.01428232944D8BE9.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -1510,7 +1510,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{cabin.quest.3A4A3B749FBDBEF1.subtitle}"
+			subtitle: "{cabin.quest.01428232944D8BE9.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -1578,7 +1578,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{cabin.quest.48F72CFAB336FE73.subtitle}"
+			subtitle: "{cabin.quest.1D6150F2480B976E.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -1612,7 +1612,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{cabin.quest.4A678C0BE97177DB.subtitle}"
+			subtitle: "{cabin.quest.01F3EDC327B63908.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -1646,7 +1646,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{cabin.quest.488A4B4A3295CF10.subtitle}"
+			subtitle: "{cabin.quest.07081911727142C8.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -1680,7 +1680,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{cabin.quest.49634E835B948A4F.subtitle}"
+			subtitle: "{cabin.quest.1A27F6CC5196D116.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -1714,7 +1714,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{cabin.quest.20CB646041616191.subtitle}"
+			subtitle: "{cabin.quest.01428232944D8BE9.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -1748,7 +1748,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{cabin.quest.58E93229D6552D4B.subtitle}"
+			subtitle: "{cabin.quest.07081911727142C8.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -1782,7 +1782,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{cabin.quest.3C45250D863E65CB.subtitle}"
+			subtitle: "{cabin.quest.07081911727142C8.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -1816,7 +1816,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{cabin.quest.7BDF86B9E3E607C5.subtitle}"
+			subtitle: "{cabin.quest.0DA48CA15E17157D.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "thermal:silver_coin"
@@ -1850,7 +1850,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{cabin.quest.59EBD3DADD002D3A.subtitle}"
+			subtitle: "{cabin.quest.01428232944D8BE9.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -1884,7 +1884,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{cabin.quest.7F4D9F958EBDEAF8.subtitle}"
+			subtitle: "{cabin.quest.737E670DC8AD5E19.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -1952,7 +1952,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{cabin.quest.1EF5AB1D7882167F.subtitle}"
+			subtitle: "{cabin.quest.0DA48CA15E17157D.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -1986,7 +1986,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{cabin.quest.576E0B50F2015C9E.subtitle}"
+			subtitle: "{cabin.quest.0DA48CA15E17157D.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -2020,7 +2020,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{cabin.quest.3CA6DD7C5516A330.subtitle}"
+			subtitle: "{cabin.quest.04468935C9A7298F.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -2054,7 +2054,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{cabin.quest.6C6C1C2E7CA882BD.subtitle}"
+			subtitle: "{cabin.quest.09DC2E2BE2BE32F4.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -2088,7 +2088,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{cabin.quest.3E27961386364EDF.subtitle}"
+			subtitle: "{cabin.quest.286C553AD3E15266.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -2156,7 +2156,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{cabin.quest.70B164A5F22452CA.subtitle}"
+			subtitle: "{cabin.quest.0DA48CA15E17157D.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -2190,7 +2190,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{cabin.quest.5BB058D52AA40751.subtitle}"
+			subtitle: "{cabin.quest.136DA2C41AD2EE31.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -2224,7 +2224,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{cabin.quest.4C068341DD17068B.subtitle}"
+			subtitle: "{cabin.quest.136DA2C41AD2EE31.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -2258,7 +2258,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{cabin.quest.3A86EA1C2AD21C29.subtitle}"
+			subtitle: "{cabin.quest.04468935C9A7298F.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -2326,7 +2326,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{cabin.quest.57CD030DE2CD7715.subtitle}"
+			subtitle: "{cabin.quest.286C553AD3E15266.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -2360,7 +2360,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{cabin.quest.0726837174BCED3D.subtitle}"
+			subtitle: "{cabin.quest.01428232944D8BE9.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -2394,7 +2394,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{cabin.quest.091671443430B31B.subtitle}"
+			subtitle: "{cabin.quest.04468935C9A7298F.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -2428,7 +2428,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{cabin.quest.7DFB9DD1A1BB63E4.subtitle}"
+			subtitle: "{cabin.quest.0DA48CA15E17157D.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -2462,7 +2462,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{cabin.quest.1A2E4E06037E009A.subtitle}"
+			subtitle: "{cabin.quest.136DA2C41AD2EE31.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -2530,7 +2530,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{cabin.quest.2C9012E65F43EC72.subtitle}"
+			subtitle: "{cabin.quest.01428232944D8BE9.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -2564,7 +2564,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{cabin.quest.4202EDD798183934.subtitle}"
+			subtitle: "{cabin.quest.01428232944D8BE9.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -2598,7 +2598,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{cabin.quest.3D7AD3AF3857F7D9.subtitle}"
+			subtitle: "{cabin.quest.01428232944D8BE9.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -2632,7 +2632,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{cabin.quest.1D4B76A3C724C40D.subtitle}"
+			subtitle: "{cabin.quest.01428232944D8BE9.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -2700,7 +2700,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{cabin.quest.3A7A2C8D56500426.subtitle}"
+			subtitle: "{cabin.quest.01F3EDC327B63908.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -2734,7 +2734,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{cabin.quest.70EBB5E32545ACEC.subtitle}"
+			subtitle: "{cabin.quest.01F3EDC327B63908.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -2768,7 +2768,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{cabin.quest.10D5B3EF6A77B918.subtitle}"
+			subtitle: "{cabin.quest.0DEFAE2746209F1A.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -2802,7 +2802,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{cabin.quest.6BC9B96B2C6684DC.subtitle}"
+			subtitle: "{cabin.quest.0DEFAE2746209F1A.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -2836,7 +2836,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{cabin.quest.44CDD45033A93614.subtitle}"
+			subtitle: "{cabin.quest.136DA2C41AD2EE31.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -2870,7 +2870,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{cabin.quest.7B7A161B4BAB89AD.subtitle}"
+			subtitle: "{cabin.quest.136DA2C41AD2EE31.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -2904,7 +2904,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{cabin.quest.522D9970B8C43046.subtitle}"
+			subtitle: "{cabin.quest.1D6150F2480B976E.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -2938,7 +2938,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{cabin.quest.11B239EF3DAE4463.subtitle}"
+			subtitle: "{cabin.quest.04468935C9A7298F.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -2972,7 +2972,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{cabin.quest.339BC75AD23B70D7.subtitle}"
+			subtitle: "{cabin.quest.011F64B48766234B.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -3006,7 +3006,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{cabin.quest.52CCFCE2733F76BC.subtitle}"
+			subtitle: "{cabin.quest.286C553AD3E15266.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -3040,7 +3040,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{cabin.quest.42F951B44FB2BFE3.subtitle}"
+			subtitle: "{cabin.quest.01428232944D8BE9.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -3074,7 +3074,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{cabin.quest.108550230A95C7D4.subtitle}"
+			subtitle: "{cabin.quest.01428232944D8BE9.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -3108,7 +3108,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{cabin.quest.1BF763E3FD8C2245.subtitle}"
+			subtitle: "{cabin.quest.01428232944D8BE9.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -3142,7 +3142,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{cabin.quest.1F05704C3B1FA528.subtitle}"
+			subtitle: "{cabin.quest.093FB7B7FEC6B886.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -3176,7 +3176,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{cabin.quest.0C6B2EEE280F7667.subtitle}"
+			subtitle: "{cabin.quest.09DC2E2BE2BE32F4.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -3210,7 +3210,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{cabin.quest.46F150CC9BE2D856.subtitle}"
+			subtitle: "{cabin.quest.003E0D1CE60B166A.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -3244,7 +3244,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{cabin.quest.76287BDB2E9B7BC8.subtitle}"
+			subtitle: "{cabin.quest.136DA2C41AD2EE31.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -3278,7 +3278,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{cabin.quest.685DD2A4DFF56193.subtitle}"
+			subtitle: "{cabin.quest.185F9F8EBD0F8F87.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -3312,7 +3312,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{cabin.quest.433E103CD81712C1.subtitle}"
+			subtitle: "{cabin.quest.01428232944D8BE9.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -3346,7 +3346,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{cabin.quest.29696B4965010CED.subtitle}"
+			subtitle: "{cabin.quest.07081911727142C8.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -3380,7 +3380,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{cabin.quest.7C7B81ABFC586379.subtitle}"
+			subtitle: "{cabin.quest.1D6150F2480B976E.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -3414,7 +3414,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{cabin.quest.4864E6BA6AE2B49B.subtitle}"
+			subtitle: "{cabin.quest.00EBF8DED4E51A4F.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -3448,7 +3448,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{cabin.quest.2714FE0125D3E953.subtitle}"
+			subtitle: "{cabin.quest.01F3EDC327B63908.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -3482,7 +3482,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{cabin.quest.395978A711E14931.subtitle}"
+			subtitle: "{cabin.quest.01F3EDC327B63908.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -3516,7 +3516,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{cabin.quest.23F9DB562ED7C2F6.subtitle}"
+			subtitle: "{cabin.quest.01F3EDC327B63908.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -3550,7 +3550,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{cabin.quest.4764EAB921EE1F19.subtitle}"
+			subtitle: "{cabin.quest.003E0D1CE60B166A.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -3584,7 +3584,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{cabin.quest.2E10D7FE1BC4FDBB.subtitle}"
+			subtitle: "{cabin.quest.01F3EDC327B63908.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -3618,7 +3618,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{cabin.quest.67B45D6767F8BFD9.subtitle}"
+			subtitle: "{cabin.quest.003E0D1CE60B166A.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -3652,7 +3652,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{cabin.quest.5491C5600D7F039A.subtitle}"
+			subtitle: "{cabin.quest.093FB7B7FEC6B886.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -3686,7 +3686,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{cabin.quest.4BD2016AFC2A2035.subtitle}"
+			subtitle: "{cabin.quest.093FB7B7FEC6B886.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -3720,7 +3720,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{cabin.quest.59474208A27099BF.subtitle}"
+			subtitle: "{cabin.quest.003E0D1CE60B166A.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -3754,7 +3754,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{cabin.quest.6FF65841E3EA0FCD.subtitle}"
+			subtitle: "{cabin.quest.093FB7B7FEC6B886.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -3788,7 +3788,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{cabin.quest.0CF82AABD5E05A0D.subtitle}"
+			subtitle: "{cabin.quest.003E0D1CE60B166A.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -3822,7 +3822,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{cabin.quest.73EEAE66CC2014E9.subtitle}"
+			subtitle: "{cabin.quest.00EBF8DED4E51A4F.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -3856,7 +3856,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{cabin.quest.662583DB97721FE8.subtitle}"
+			subtitle: "{cabin.quest.00EBF8DED4E51A4F.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -3890,7 +3890,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{cabin.quest.210A3F8C44AAD89A.subtitle}"
+			subtitle: "{cabin.quest.1D6150F2480B976E.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -3924,7 +3924,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{cabin.quest.3CEC6538990D89C3.subtitle}"
+			subtitle: "{cabin.quest.07081911727142C8.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -3968,7 +3968,7 @@
 				}
 			]
 			shape: "circle"
-			subtitle: "{cabin.quest.4DFE4FD3B504AF4B.subtitle}"
+			subtitle: "{cabin.quest.39D56A2B01DBD865.subtitle}"
 			tasks: [{
 				count: 30L
 				icon: "kubejs:silver_coin"
@@ -4033,7 +4033,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{cabin.quest.3CD739455666E2A8.subtitle}"
+			subtitle: "{cabin.quest.33B5C951B4AE8322.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -4064,7 +4064,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{cabin.quest.1D4AA0F29FA698F2.subtitle}"
+			subtitle: "{cabin.quest.0DA48CA15E17157D.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -4096,7 +4096,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{cabin.quest.5D6C7D1C371A4D6E.subtitle}"
+			subtitle: "{cabin.quest.01428232944D8BE9.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -4128,7 +4128,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{cabin.quest.2E692532C4C69001.subtitle}"
+			subtitle: "{cabin.quest.1509D36A982217C6.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -4160,7 +4160,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{cabin.quest.12D18A30803D57D6.subtitle}"
+			subtitle: "{cabin.quest.01428232944D8BE9.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -4194,7 +4194,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{cabin.quest.7722ADDCAD9987BD.subtitle}"
+			subtitle: "{cabin.quest.0DEFAE2746209F1A.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -4227,7 +4227,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{cabin.quest.6E3216E644289961.subtitle}"
+			subtitle: "{cabin.quest.1A27F6CC5196D116.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -4293,7 +4293,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{cabin.quest.52C7EF47A0423CAB.subtitle}"
+			subtitle: "{cabin.quest.01428232944D8BE9.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -4325,7 +4325,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{cabin.quest.25D02F1FB231C466.subtitle}"
+			subtitle: "{cabin.quest.011F64B48766234B.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -4357,7 +4357,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{cabin.quest.3C79A7679BA1AA3C.subtitle}"
+			subtitle: "{cabin.quest.136DA2C41AD2EE31.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"
@@ -4389,7 +4389,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{cabin.quest.5F32791B5284E321.subtitle}"
+			subtitle: "{cabin.quest.136DA2C41AD2EE31.subtitle}"
 			tasks: [{
 				count: 10L
 				icon: "kubejs:silver_coin"

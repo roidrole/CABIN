@@ -663,9 +663,9 @@
 				""
 				"{cabin.quest.6D26DAB7D0FF6E90.description2}"
 				""
-				"{cabin.quest.6D26DAB7D0FF6E90.description3}"
+				"{cabin.quest.1D1D1FEAF49C5E11.description3}"
 				""
-				"{cabin.quest.6D26DAB7D0FF6E90.description4}"
+				"{cabin.quest.1D1D1FEAF49C5E11.description4}"
 				""
 				"{cabin.quest.6D26DAB7D0FF6E90.description5}"
 			]
@@ -690,7 +690,7 @@
 				id: "16897A4EF323B02E"
 				type: "checkmark"
 			}]
-			title: "{cabin.quest.6D26DAB7D0FF6E90.title}"
+			title: "{cabin.quest.1D1D1FEAF49C5E11.title}"
 			x: 3.0d
 			y: -2.5d
 		}
