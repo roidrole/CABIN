@@ -98,8 +98,10 @@ StartupEvents.registry('item', event => {
 	event.create('nickel_compound').texture("cabin:item/nickel_compound").displayName('Nickel Compound')
 	event.create('invar_compound','create:sequenced_assembly').texture("cabin:item/invar_compound").displayName('Unprocessed Invar Ingot')
 	event.create('dye_entangled_singularity').texture("cabin:item/dye_entangled_singularity").unstackable().displayName('Chromatic Singularity')
-	event.create('chromatic_resonator').texture("cabin:item/chromatic_resonator").displayName('Chromatic Resonator').maxDamage(512)
+  
+  event.create('chromatic_resonator').texture("cabin:item/chromatic_resonator").displayName('Chromatic Resonator').maxDamage(512)
 	event.create('flash_drive').texture("cabin:item/boot_medium").displayName('Flash Drive').maxDamage(512)
+   event.create('strainer_filter').texture("waterstrainer:items/strainer_survivalist").displayName('Strainer Filter').maxDamage(384)
 
 	event.create('alchemical_laser').parentModel("cabin:block/ponder_laser_lamp_on").displayName('Alchemical Laser (Ponder Entry)').unstackable()
 	event.create('thermal_cast').texture("cabin:item/thermal_cast").displayName('Thermal Cast').unstackable()
@@ -112,7 +114,10 @@ StartupEvents.registry('item', event => {
 	event.create('attachment_base').texture("cabin:item/attachment_base").displayName('Attachment Base')
 	event.create('silver_coin').texture("cabin:item/silver_coin").displayName('Silver Coin Stack Icon')
 	event.create('gold_coin').texture("cabin:item/gold_coin").displayName('Gold Coin Stack Icon')
-	event.create('strainer_filter').texture("waterstrainer:items/strainer_survivalist").displayName('Strainer Filter').maxDamage(384)
+
+	event.create('mystic_pottery_sherd').texture("cabin:item/mystic_pottery_sherd").displayName('Mystic Pottery Sherd').tag("minecraft:decorated_pot_ingredients").tag("minecraft:decorated_pot_sherds")
+	event.create('cozy_pottery_sherd').texture("cabin:item/cozy_pottery_sherd").displayName('Cozy Pottery Sherd').tag("minecraft:decorated_pot_ingredients").tag("minecraft:decorated_pot_sherds")
+	event.create('circuit_pottery_sherd').texture("cabin:item/circuit_pottery_sherd").displayName('Circuit Pottery Sherd').tag("minecraft:decorated_pot_ingredients").tag("minecraft:decorated_pot_sherds")
 })
 
 StartupEvents.registry("block", event => {
