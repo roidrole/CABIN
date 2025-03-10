@@ -122,19 +122,19 @@ StartupEvents.registry('item', event => {
 
 StartupEvents.registry("block", event => {
 
-	event.create('trial_copper_block').model('minecraft:block/copper_block').soundType('metal').tagBlock("mineable/pickaxe").tagBlock("needs_stone_tool").requiresTool(true).hardness(3.0).resistance(6.0).displayName("Illusionary Block of Copper")
-	event.create('trial_cut_copper').model('minecraft:block/cut_copper').soundType('metal').tagBlock("mineable/pickaxe").tagBlock("needs_stone_tool").requiresTool(true).hardness(3.0).resistance(6.0).displayName("Illusionary Cut Copper")
-	event.create('trial_chiseled_copper').model('trials:block/chiseled_copper').soundType('metal').tagBlock("mineable/pickaxe").tagBlock("needs_stone_tool").requiresTool(true).hardness(3.0).resistance(6.0).displayName("Illusionary Chiseled Copper")
-	event.create('trial_copper_grate').model('trials:block/copper_grate').soundType('metal').tagBlock("mineable/pickaxe").tagBlock("needs_stone_tool").requiresTool(true).hardness(3.0).resistance(6.0).displayName("Illusionary Copper Grate").notSolid().waterlogged()
-	event.create('trial_cut_copper_stairs', "stairs").textureAll('minecraft:block/cut_copper').soundType('metal').tagBlock("mineable/pickaxe").tagBlock("needs_stone_tool").requiresTool(true).hardness(3.0).resistance(6.0).displayName("Illusionary Cut Copper Stairs")
-	event.create('trial_cut_copper_slab', "slab").textureAll('minecraft:block/cut_copper').soundType('metal').tagBlock("mineable/pickaxe").tagBlock("needs_stone_tool").requiresTool(true).hardness(3.0).resistance(6.0).displayName("Illusionary Cut Copper Slab")
+	event.create('trial_copper_block').model('minecraft:block/copper_block').soundType('metal').tagBlock("mineable/pickaxe").tagBlock("needs_stone_tool").requiresTool(true).hardness(3.0).resistance(6.0)
+	event.create('trial_cut_copper').model('minecraft:block/cut_copper').soundType('metal').tagBlock("mineable/pickaxe").tagBlock("needs_stone_tool").requiresTool(true).hardness(3.0).resistance(6.0)
+	event.create('trial_chiseled_copper').model('trials:block/chiseled_copper').soundType('metal').tagBlock("mineable/pickaxe").tagBlock("needs_stone_tool").requiresTool(true).hardness(3.0).resistance(6.0)
+	event.create('trial_copper_grate').model('trials:block/copper_grate').soundType('metal').tagBlock("mineable/pickaxe").tagBlock("needs_stone_tool").requiresTool(true).hardness(3.0).resistance(6.0).notSolid().waterlogged()
+	event.create('trial_cut_copper_stairs', "stairs").textureAll('minecraft:block/cut_copper').soundType('metal').tagBlock("mineable/pickaxe").tagBlock("needs_stone_tool").requiresTool(true).hardness(3.0).resistance(6.0)
+	event.create('trial_cut_copper_slab', "slab").textureAll('minecraft:block/cut_copper').soundType('metal').tagBlock("mineable/pickaxe").tagBlock("needs_stone_tool").requiresTool(true).hardness(3.0).resistance(6.0)
 	
-	event.create('trial_oxidized_copper').model('minecraft:block/oxidized_copper').soundType('metal').tagBlock("mineable/pickaxe").tagBlock("needs_stone_tool").requiresTool(true).hardness(3.0).resistance(6.0).displayName("Illusionary Oxidized Block of Copper")
-	event.create('trial_oxidized_cut_copper').model('minecraft:block/oxidized_cut_copper').soundType('metal').tagBlock("mineable/pickaxe").tagBlock("needs_stone_tool").requiresTool(true).hardness(3.0).resistance(6.0).displayName("Illusionary Oxidized Cut Copper")
-	event.create('trial_chiseled_copper_oxidized').model('trials:block/chiseled_copper_oxidized').soundType('metal').tagBlock("mineable/pickaxe").tagBlock("needs_stone_tool").requiresTool(true).hardness(3.0).resistance(6.0).displayName("Illusionary Oxidized Chiseled Copper")
-	event.create('trial_copper_grate_oxidized').model('trials:block/copper_grate_oxidized').soundType('metal').tagBlock("mineable/pickaxe").tagBlock("needs_stone_tool").requiresTool(true).hardness(3.0).resistance(6.0).displayName("Illusionary Oxidized Copper Grate").notSolid().waterlogged()
-	event.create('trial_oxidized_cut_copper_stairs', "stairs").textureAll('minecraft:block/oxidized_cut_copper').soundType('metal').tagBlock("mineable/pickaxe").tagBlock("needs_stone_tool").requiresTool(true).hardness(3.0).resistance(6.0).displayName("Illusionary Oxidized Cut Copper Stairs")
-	event.create('trial_oxidized_cut_copper_slab', "slab").textureAll('minecraft:block/oxidized_cut_copper').soundType('metal').tagBlock("mineable/pickaxe").tagBlock("needs_stone_tool").requiresTool(true).hardness(3.0).resistance(6.0).displayName("Illusionary Oxidized Cut Copper Slab")
+	event.create('trial_oxidized_copper').model('minecraft:block/oxidized_copper').soundType('metal').tagBlock("mineable/pickaxe").tagBlock("needs_stone_tool").requiresTool(true).hardness(3.0).resistance(6.0)
+	event.create('trial_oxidized_cut_copper').model('minecraft:block/oxidized_cut_copper').soundType('metal').tagBlock("mineable/pickaxe").tagBlock("needs_stone_tool").requiresTool(true).hardness(3.0).resistance(6.0)
+	event.create('trial_chiseled_copper_oxidized').model('trials:block/chiseled_copper_oxidized').soundType('metal').tagBlock("mineable/pickaxe").tagBlock("needs_stone_tool").requiresTool(true).hardness(3.0).resistance(6.0)
+	event.create('trial_copper_grate_oxidized').model('trials:block/copper_grate_oxidized').soundType('metal').tagBlock("mineable/pickaxe").tagBlock("needs_stone_tool").requiresTool(true).hardness(3.0).resistance(6.0).notSolid().waterlogged()
+	event.create('trial_oxidized_cut_copper_stairs', "stairs").textureAll('minecraft:block/oxidized_cut_copper').soundType('metal').tagBlock("mineable/pickaxe").tagBlock("needs_stone_tool").requiresTool(true).hardness(3.0).resistance(6.0)
+	event.create('trial_oxidized_cut_copper_slab', "slab").textureAll('minecraft:block/oxidized_cut_copper').soundType('metal').tagBlock("mineable/pickaxe").tagBlock("needs_stone_tool").requiresTool(true).hardness(3.0).resistance(6.0)
 
 	event.create('enderium_casing').model('cabin:block/enderium_casing').soundType('metal').tagBlock("mineable/pickaxe").tagBlock("create:wrench_pickup").requiresTool(true).hardness(4.0).displayName('Ender Casing')
 	event.create('lead_casing').textureAll('cabin:block/lead_casing').soundType('metal').tagBlock("mineable/pickaxe").tagBlock("create:wrench_pickup").requiresTool(true).hardness(3.0).displayName('Lead Casing')
@@ -148,9 +148,6 @@ StartupEvents.registry("block", event => {
 	event.create('ponder_laser_lamp_on').model('cabin:block/ponder_laser_lamp_on').notSolid().lightLevel(15).renderType("translucent").displayName('Laser Lamp (For Ponder)')
 	event.create('navigation_computer', 'cardinal').model('cabin:block/navigation_computer').soundType('metal').tagBlock("mineable/pickaxe").hardness(3.0).requiresTool(true).displayName('Navigation Computer')
 	event.create('lander_deployer', 'cardinal').model('cabin:block/lander_deployer').soundType('metal').tagBlock("mineable/pickaxe").hardness(3.0).requiresTool(true).displayName('Lander Deployer')
-
-	
-
 
 	let machine = (name, layer) => {
 		let id = name.toLowerCase()
@@ -310,7 +307,6 @@ StartupEvents.registry("block", event => {
 		.hardness(0.1)
 		.box(.25, 0, .25, .75, 14.0 / 16.0, .75, false)
 		.model("cabin:block/chaos_catalyst")
-		.displayName("Chaos Catalyst")
 		.renderType("cutout")
 		.waterlogged()
 		// .item(e => e.rarity('rare')
@@ -325,7 +321,6 @@ StartupEvents.registry("block", event => {
 		.hardness(0.1)
 		.box(.25, 0, .25, .75, 14.0 / 16.0, .75, false)
 		.model("cabin:block/substrate")
-		.displayName("Silicon Reagent")
 		.renderType("cutout")
 		.waterlogged()
 		// .item(e => e.rarity('rare')
@@ -340,7 +335,6 @@ StartupEvents.registry("block", event => {
 		.hardness(0.1)
 		.box(.25, 0, .25, .75, 14.0 / 16.0, .75, false)
 		.model("cabin:block/substrate")
-		.displayName("Silver Reagent")
 		.renderType("cutout")
 		.waterlogged()
 		// .item(e =>  e.rarity('rare')
@@ -354,7 +348,6 @@ StartupEvents.registry("block", event => {
 		.hardness(0.1)
 		.box(.125, 0, .125, .875, 10.0 / 16.0, .875, false)
 		.model("cabin:block/accellerator")
-		.displayName("Glowstone Accelerator")
 		.renderType("cutout")
 		.waterlogged()
 		.item(e => e
@@ -367,7 +360,6 @@ StartupEvents.registry("block", event => {
 		.hardness(0.1)
 		.box(.125, 0, .125, .875, 10.0 / 16.0, .875, false)
 		.model("cabin:block/accellerator")
-		.displayName("Redstone Accelerator")
 		.renderType("cutout")
 		.waterlogged()
 		.item(e => e
