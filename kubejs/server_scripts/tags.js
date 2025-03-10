@@ -1,23 +1,3 @@
-//for some inexplicable reason these need to be kept in seperate onEvent triggers.
-//I've been told that this is some Rino (compiler) jank
-ServerEvents.tags('item', event => {
-	global.itemBlacklist.forEach(item=>{
-		if (Item.exists(item)) {
-			event.add('randomium:blacklist', item)
-		} else {
-			console.warn(`Failed to add \"randomium:blacklist\" tag to ${item} from randomium blacklist`)
-		}
-	})
-})
-ServerEvents.tags('item', event => {
-	global.randomiumBlacklist.forEach(item=>{
-		if (Item.exists(item)) {
-			event.add('randomium:blacklist', item)
-		} else {
-			console.warn(`Failed to add \"randomium:blacklist\" tag to ${item} from randomium blacklist`)
-		}
-	})
-})
 
 ServerEvents.tags('item', event => {
 
