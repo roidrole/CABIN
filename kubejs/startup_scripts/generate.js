@@ -182,6 +182,7 @@ StartupEvents.registry("block", event => {
 			.hardness(0)
 			.material("COLOR_ORANGE") // Set a material (affects the sounds and some properties)
 			.soundType('glass')
+			.waterlogged()
 	}
 
 	pot("Treasure Pot").box(4, 0, 4, 12, 10, 12)
