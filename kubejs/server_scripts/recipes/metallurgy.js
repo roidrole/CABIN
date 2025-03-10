@@ -133,11 +133,11 @@ ServerEvents.recipes(event => {
 		event.custom({
 			"type": "create:mixing",
 			"ingredients": [
-				{ "amount": 2, "fluid": fluid1 },
-				{ "amount": 2, "fluid": fluid2 }
+				{ "amount": 10, "fluid": fluid1 },
+				{ "amount": 10, "fluid": fluid2 }
 			],
 			"results": [
-				{ "amount": 2, "fluid": TC(fluidAlloy) }
+				{ "amount": 10, "fluid": TC(fluidAlloy) }
 			]
 		}).id(`kubejs:mixing/${fluidAlloy}_2`)
 	}
