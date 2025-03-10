@@ -133,12 +133,13 @@ ServerEvents.recipes(event => {
 		event.custom({
 			"type": "create:mixing",
 			"ingredients": [
-				{ "amount": 10, "fluid": fluid1 },
-				{ "amount": 10, "fluid": fluid2 }
+				{ "amount": 1, "fluid": fluid1 },
+				{ "amount": 1, "fluid": fluid2 }
 			],
 			"results": [
-				{ "amount": 10, "fluid": TC(fluidAlloy) }
-			]
+				{ "amount": 1, "fluid": TC(fluidAlloy) }
+			],
+			processingTime: 5
 		}).id(`kubejs:mixing/${fluidAlloy}_2`)
 	}
 	moltenAlloy('molten_brass', TC('molten_copper'), TC('molten_zinc'))
