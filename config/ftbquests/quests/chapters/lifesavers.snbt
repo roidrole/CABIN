@@ -543,33 +543,8 @@
 				type: "item"
 			}]
 			tasks: [{
-				consume_items: false
-				id: "6D6CDA4DEFD5795F"
-				item: {
-					Count: 1
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "metalbarrels:gold_barrel"
-							}
-							{
-								Count: 1b
-								id: "metalbarrels:iron_barrel"
-							}
-							{
-								Count: 1b
-								id: "metalbarrels:silver_barrel"
-							}
-							{
-								Count: 1b
-								id: "metalbarrels:copper_barrel"
-							}
-						]
-					}
-				}
-				title: "{cabin.task.6D6CDA4DEFD5795F}"
+				id: "33523F8FED81A922"
+				item: "sophisticatedstorage:basic_to_iron_tier_upgrade"
 				type: "item"
 			}]
 			title: "{cabin.quest.50E2D6459F3D68C0.title}"
