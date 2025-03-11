@@ -321,7 +321,7 @@ ServerEvents.recipes(event => {
 	donutCraft(event, KJ('gold_machine'), CR('railway_casing'), KJ('reinforced_mechanism'))
 
 	// Machine Crafting
-	goldMachine(event, Item.of('create:controls', 1))
+	goldMachine(event, Item.of('create:controls', 1), MC('lever'))
 	goldMachine(event, Item.of('create:track_station', 2))
 	goldMachine(event, Item.of('create:track_signal', 4))
 	goldMachine(event, Item.of('create:schedule', 4))
