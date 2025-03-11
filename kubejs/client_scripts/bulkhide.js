@@ -142,6 +142,10 @@ JEIEvents.hideItems(event => {
 	event.hide('thermal:servo_attachment')
 	event.hide('thermal:device_hive_extractor')
 
+	event.hide("cb_microblock:microblock")
+	event.hide("ae2:facade")
+	event.hide('chiselsandbits:block_bit')
+
 })
 
 JEIEvents.hideFluids(event => {
