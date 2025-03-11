@@ -55,6 +55,7 @@ ServerEvents.recipes(event => {
 	circuit(MC("comparator"), false)
 	circuit(CR("pulse_repeater"), true)
 	circuit(CR("pulse_extender"), true)
+	circuit(CR("pulse_timer"), true)
 	circuit(CR("powered_latch"), true)
 	circuit(CR("powered_toggle_latch"), true)
 })
