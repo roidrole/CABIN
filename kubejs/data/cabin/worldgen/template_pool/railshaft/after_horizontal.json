@@ -1,6 +1,6 @@
 {
   "name": "cabin:railshaft/after_horizontal",
-  "fallback": "minecraft:empty",
+  "fallback": "cabin:railshaft/ending",
   "elements": [
     {
       "weight": 3,

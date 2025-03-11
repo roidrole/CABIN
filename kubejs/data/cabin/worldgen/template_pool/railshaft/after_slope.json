@@ -1,6 +1,6 @@
 {
   "name": "cabin:railshaft/after_slope",
-  "fallback": "minecraft:empty",
+  "fallback": "cabin:railshaft/ending",
   "elements": [
     {
       "weight": 4,
