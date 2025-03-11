@@ -12,7 +12,7 @@
   },
   "structures": [
     {
-      "structure": "cabin:ruins/dripstone",
+      "structure": "cabin:ruins_dripstone",
       "weight": 1
     }
   ]

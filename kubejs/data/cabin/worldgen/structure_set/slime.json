@@ -12,15 +12,15 @@
     },
     "structures": [
       {
-        "structure": "cabin:slime/earth",
+        "structure": "cabin:slime_earth",
         "weight": 1
       },
       {
-        "structure": "cabin:slime/ender",
+        "structure": "cabin:slime_ender",
         "weight": 1
       },
       {
-        "structure": "cabin:slime/sky",
+        "structure": "cabin:slime_sky",
         "weight": 1
       }
     ]
