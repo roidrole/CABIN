@@ -287,17 +287,18 @@ ServerEvents.recipes(event => {
 	const stone = Item.of(MC("cobblestone"), 1).withChance(.5)
 	let experience = Item.of(CR("experience_nugget"), 1).withChance(0.75)
 
-	let dust_process = (materialName, byproduct, fluidByproductName) => {
+	let dust_process = (materialName, byproduct, ByproductName) => {
 		let crushedOre = CR('crushed_' + 'raw_' + materialName)
 		let oreTag = ('#forge:ores/' + materialName)
 		let dustTag = ('#forge:dusts/' + materialName)
 		let fluid = TC("molten_" + materialName)
-		let fluidByproduct = TC("molten_" + fluidByproductName)
+		let fluidByproduct = TC("molten_" + ByproductName)
 		let rawOreTag = ('#forge:raw_materials/' + materialName)
 
 		//slightly slower than passing the name directly but it reduces how many parameters this function needs.
 		let ingot = getPreferredItemFromTag('forge:ingots/'+materialName);
 		let nugget = getPreferredItemFromTag('forge:nuggets/'+materialName);
+		let nuggetByproduct = getPreferredItemFromTag('forge:nuggets/'+ByproductName);
 		let dust = getPreferredItemFromTag('forge:dusts/'+materialName);
 
 		//raw ore block compression and decompression
@@ -326,7 +327,7 @@ ServerEvents.recipes(event => {
 		
 		//crushed ore to nuggets
 		event.smelting(Item.of(nugget, 3), crushedOre).id('kubejs:ore_processing/smelting/crushed/'+materialName)
-		event.recipes.createSplashing([Item.of(nugget, 2)], dustTag).id('kubejs:ore_processing/splashing/dust/'+materialName)
+		event.recipes.createSplashing([Item.of(nugget, 2), Item.of(nuggetByproduct, 1).withChance(0.85)], dustTag).id('kubejs:ore_processing/splashing/dust/'+materialName)
 
 		//crushed ore to ore dust
 		event.recipes.createMilling([Item.of(dust, 3)], crushedOre).id('kubejs:ore_processing/milling/crushed/'+materialName)

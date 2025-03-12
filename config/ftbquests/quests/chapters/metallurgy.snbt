@@ -35,7 +35,7 @@
 				}
 			}
 			id: "7967324CAC77AF60"
-			subtitle: "{cabin.quest.171A0F26C6608E83.subtitle}"
+			subtitle: "{cabin.quest.7967324CAC77AF60.subtitle}"
 			tasks: [{
 				id: "4B6F024B97BC278F"
 				type: "checkmark"
@@ -75,7 +75,7 @@
 				}
 			}
 			id: "005F2C4E203E7E62"
-			subtitle: "{cabin.quest.005F2C4E203E7E62.subtitle}"
+			subtitle: "{cabin.quest.352F5F851045653A.subtitle}"
 			tasks: [{
 				id: "5EC097C40FE0A5DB"
 				type: "checkmark"
@@ -183,7 +183,7 @@
 			dependencies: ["612100C7C6E0A7C9"]
 			icon: "create:millstone"
 			id: "3A81BC460AF1756D"
-			subtitle: "{cabin.quest.3A81BC460AF1756D.subtitle}"
+			subtitle: "{cabin.quest.21E76761CD3761C2.subtitle}"
 			tasks: [{
 				id: "13538972B20A96BA"
 				type: "checkmark"
@@ -237,7 +237,7 @@
 			dependencies: ["07BE7128982202A7"]
 			icon: "tconstruct:smeltery_controller"
 			id: "715BBD0DF0136FF1"
-			subtitle: "{cabin.quest.715BBD0DF0136FF1.subtitle}"
+			subtitle: "{cabin.quest.21E76761CD3761C2.subtitle}"
 			tasks: [{
 				id: "3B4F0668876D88E3"
 				type: "checkmark"
@@ -268,7 +268,7 @@
 			dependencies: ["6509024553997AB0"]
 			icon: "tconstruct:seared_table"
 			id: "1A5A81CA749DAB2A"
-			subtitle: "{cabin.quest.1A5A81CA749DAB2A.subtitle}"
+			subtitle: "{cabin.quest.1250AE58911C27A9.subtitle}"
 			tasks: [{
 				id: "7B5CAD7F1C63A9EC"
 				type: "checkmark"
@@ -281,7 +281,7 @@
 			dependencies: ["29DABB5FDE6356E9"]
 			icon: "functionalstorage:compacting_drawer"
 			id: "746F9F4F21D8400D"
-			subtitle: "{cabin.quest.746F9F4F21D8400D.subtitle}"
+			subtitle: "{cabin.quest.1250AE58911C27A9.subtitle}"
 			tasks: [{
 				id: "39C5A94D5A8ECEE0"
 				type: "checkmark"
