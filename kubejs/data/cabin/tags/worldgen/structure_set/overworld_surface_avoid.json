@@ -5,15 +5,6 @@
         "minecraft:pillager_outposts",
         "minecraft:villages",
         "minecraft:swamp_huts",
-        "minecraft:woodland_mansions",
-        "dungeoncrawl:dungeons",
-        "repurposed_structures:fortresses_overworld",
-        "repurposed_structures:mansions_overworld",
-        "repurposed_structures:mansions_mangrove",
-        "repurposed_structures:villages_overworld",
-        "repurposed_structures:outposts_overworld",
-        "repurposed_structures:cities_overworld",
-        "repurposed_structures:pyramids_overworld",
-        "repurposed_structures:witch_huts_overworld"
+        "minecraft:woodland_mansions"
     ]
 }
