@@ -128,6 +128,7 @@
 				type: "item"
 			}]
 			tasks: [{
+				consume_items: false
 				id: "31FE3FAF6909CB19"
 				item: {
 					Count: 1
@@ -543,6 +544,7 @@
 				type: "item"
 			}]
 			tasks: [{
+				consume_items: false
 				id: "33523F8FED81A922"
 				item: "sophisticatedstorage:basic_to_iron_tier_upgrade"
 				type: "item"
@@ -646,6 +648,7 @@
 				type: "item"
 			}]
 			tasks: [{
+				consume_items: false
 				id: "39E13E85803FA5DA"
 				item: "torchmaster:megatorch"
 				type: "item"

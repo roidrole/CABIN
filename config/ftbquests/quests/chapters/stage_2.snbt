@@ -113,7 +113,7 @@
 				}
 				{
 					id: "5143762A67B81B7E"
-					title: "{cabin.task.5143762A67B81B7E}"
+					title: "{cabin.task.0842082756DA73FE}"
 					type: "checkmark"
 				}
 			]
@@ -136,7 +136,7 @@
 				}
 				{
 					id: "2DC358D8174FC867"
-					title: "{cabin.task.2DC358D8174FC867}"
+					title: "{cabin.task.0842082756DA73FE}"
 					type: "checkmark"
 				}
 			]
@@ -164,7 +164,7 @@
 				}
 				{
 					id: "3C8D449468C6DD27"
-					title: "{cabin.task.3C8D449468C6DD27}"
+					title: "{cabin.task.0842082756DA73FE}"
 					type: "checkmark"
 				}
 			]
@@ -190,7 +190,7 @@
 				}
 				{
 					id: "1CB43671DBA7EBB6"
-					title: "{cabin.task.1CB43671DBA7EBB6}"
+					title: "{cabin.task.0842082756DA73FE}"
 					type: "checkmark"
 				}
 			]
@@ -221,7 +221,7 @@
 				}
 				{
 					id: "4B98217B670ECA57"
-					title: "{cabin.task.4B98217B670ECA57}"
+					title: "{cabin.task.0842082756DA73FE}"
 					type: "checkmark"
 				}
 			]
@@ -268,7 +268,7 @@
 				}
 				{
 					id: "1D7C84803766FD04"
-					title: "{cabin.task.1D7C84803766FD04}"
+					title: "{cabin.task.0842082756DA73FE}"
 					type: "checkmark"
 				}
 			]
@@ -296,7 +296,7 @@
 				}
 				{
 					id: "56F78EAD35D1046E"
-					title: "{cabin.task.56F78EAD35D1046E}"
+					title: "{cabin.task.0842082756DA73FE}"
 					type: "checkmark"
 				}
 			]
@@ -324,7 +324,7 @@
 				}
 				{
 					id: "5E676D2CC5975AEA"
-					title: "{cabin.task.5E676D2CC5975AEA}"
+					title: "{cabin.task.0842082756DA73FE}"
 					type: "checkmark"
 				}
 			]
@@ -350,7 +350,7 @@
 				}
 				{
 					id: "002032AE65148DBD"
-					title: "{cabin.task.002032AE65148DBD}"
+					title: "{cabin.task.0842082756DA73FE}"
 					type: "checkmark"
 				}
 			]
@@ -413,7 +413,7 @@
 				}
 				{
 					id: "63F3877902E01590"
-					title: "{cabin.task.63F3877902E01590}"
+					title: "{cabin.task.0842082756DA73FE}"
 					type: "checkmark"
 				}
 			]
@@ -436,7 +436,7 @@
 				}
 				{
 					id: "64B405696E96FFCD"
-					title: "{cabin.task.64B405696E96FFCD}"
+					title: "{cabin.task.0842082756DA73FE}"
 					type: "checkmark"
 				}
 			]
@@ -465,7 +465,7 @@
 				}
 				{
 					id: "0F6DB8FCC5C16A94"
-					title: "{cabin.task.0F6DB8FCC5C16A94}"
+					title: "{cabin.task.0842082756DA73FE}"
 					type: "checkmark"
 				}
 			]
@@ -522,7 +522,7 @@
 				}
 				{
 					id: "73BF4F3B488FBC83"
-					title: "{cabin.task.73BF4F3B488FBC83}"
+					title: "{cabin.task.0842082756DA73FE}"
 					type: "checkmark"
 				}
 			]
@@ -549,7 +549,7 @@
 				}
 				{
 					id: "21C241D2335C67E4"
-					title: "{cabin.task.21C241D2335C67E4}"
+					title: "{cabin.task.0842082756DA73FE}"
 					type: "checkmark"
 				}
 			]
@@ -581,7 +581,7 @@
 				}
 				{
 					id: "6F7A49C7C377ABF1"
-					title: "{cabin.task.6F7A49C7C377ABF1}"
+					title: "{cabin.task.0842082756DA73FE}"
 					type: "checkmark"
 				}
 			]
@@ -613,7 +613,7 @@
 				}
 				{
 					id: "6149AB838FC42C17"
-					title: "{cabin.task.6149AB838FC42C17}"
+					title: "{cabin.task.0842082756DA73FE}"
 					type: "checkmark"
 				}
 			]
@@ -737,13 +737,14 @@
 			subtitle: "{cabin.quest.6C029983EE2035A5.subtitle}"
 			tasks: [
 				{
+					consume_items: false
 					id: "521A61FF9969B19A"
 					item: "minecraft:nether_wart"
 					type: "item"
 				}
 				{
 					id: "703432E68A27988C"
-					title: "{cabin.task.703432E68A27988C}"
+					title: "{cabin.task.0842082756DA73FE}"
 					type: "checkmark"
 				}
 			]
@@ -762,10 +763,11 @@
 			subtitle: "{cabin.quest.2131996D22A87667.subtitle}"
 			tasks: [
 				{
+					consume_items: false
 					id: "62442CDD0E1A7A52"
 					item: {
 						Count: 1
-						id: "tconstruct:potion_bucket"
+						id: "minecraft:potion"
 						tag: {
 							Potion: "kubejs:haste"
 						}
@@ -775,7 +777,7 @@
 				}
 				{
 					id: "0BD3CEE8D36CA74E"
-					title: "{cabin.task.0BD3CEE8D36CA74E}"
+					title: "{cabin.task.0842082756DA73FE}"
 					type: "checkmark"
 				}
 			]
@@ -795,13 +797,14 @@
 			subtitle: "{cabin.quest.4B891E9ED8DE6BB2.subtitle}"
 			tasks: [
 				{
+					consume_items: false
 					id: "2B6EEE26029DDB2A"
 					item: "minecraft:glow_berries"
 					type: "item"
 				}
 				{
 					id: "006A282CB1F28528"
-					title: "{cabin.task.006A282CB1F28528}"
+					title: "{cabin.task.0842082756DA73FE}"
 					type: "checkmark"
 				}
 			]
@@ -823,6 +826,7 @@
 			id: "44540B11F341AE09"
 			subtitle: "{cabin.quest.44540B11F341AE09.subtitle}"
 			tasks: [{
+				consume_items: false
 				id: "11E3919F63C8BAF9"
 				item: "kubejs:logistic_mechanism"
 				type: "item"
@@ -843,13 +847,14 @@
 			subtitle: "{cabin.quest.1A06FA866B74E75B.subtitle}"
 			tasks: [
 				{
+					consume_items: false
 					id: "46D9FB5D9254BA03"
 					item: "kubejs:liquid_pulp_bucket"
 					type: "item"
 				}
 				{
 					id: "0F467B1E08CD7D16"
-					title: "{cabin.task.0F467B1E08CD7D16}"
+					title: "{cabin.task.0842082756DA73FE}"
 					type: "checkmark"
 				}
 			]

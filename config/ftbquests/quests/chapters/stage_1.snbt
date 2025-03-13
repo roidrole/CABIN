@@ -66,7 +66,7 @@
 				}
 				{
 					id: "0631FA27CEE5D67D"
-					title: "{cabin.task.0631FA27CEE5D67D}"
+					title: "{cabin.task.0842082756DA73FE}"
 					type: "checkmark"
 				}
 			]
@@ -111,7 +111,7 @@
 				}
 				{
 					id: "4208FAAC229CACA6"
-					title: "{cabin.task.4208FAAC229CACA6}"
+					title: "{cabin.task.0842082756DA73FE}"
 					type: "checkmark"
 				}
 			]
@@ -140,7 +140,7 @@
 				}
 				{
 					id: "29B78BB983BE39FC"
-					title: "{cabin.task.29B78BB983BE39FC}"
+					title: "{cabin.task.0842082756DA73FE}"
 					type: "checkmark"
 				}
 			]
@@ -179,7 +179,7 @@
 				}
 				{
 					id: "02EE2F24FDF534BC"
-					title: "{cabin.task.02EE2F24FDF534BC}"
+					title: "{cabin.task.0842082756DA73FE}"
 					type: "checkmark"
 				}
 			]
@@ -205,7 +205,7 @@
 				}
 				{
 					id: "63EA7BF746BF3254"
-					title: "{cabin.task.63EA7BF746BF3254}"
+					title: "{cabin.task.0842082756DA73FE}"
 					type: "checkmark"
 				}
 			]
@@ -236,7 +236,7 @@
 				}
 				{
 					id: "7B60357D06FE3ADC"
-					title: "{cabin.task.7B60357D06FE3ADC}"
+					title: "{cabin.task.0842082756DA73FE}"
 					type: "checkmark"
 				}
 			]
@@ -267,7 +267,7 @@
 				}
 				{
 					id: "175767726FBCAA8D"
-					title: "{cabin.task.175767726FBCAA8D}"
+					title: "{cabin.task.0842082756DA73FE}"
 					type: "checkmark"
 				}
 			]
@@ -302,7 +302,7 @@
 				}
 				{
 					id: "59B260F52722A1FE"
-					title: "{cabin.task.59B260F52722A1FE}"
+					title: "{cabin.task.0842082756DA73FE}"
 					type: "checkmark"
 				}
 			]
@@ -328,7 +328,7 @@
 				}
 				{
 					id: "6AA98FC4680D6521"
-					title: "{cabin.task.6AA98FC4680D6521}"
+					title: "{cabin.task.0842082756DA73FE}"
 					type: "checkmark"
 				}
 			]
@@ -351,7 +351,7 @@
 				}
 				{
 					id: "1484A9A6DB85EA6D"
-					title: "{cabin.task.1484A9A6DB85EA6D}"
+					title: "{cabin.task.0842082756DA73FE}"
 					type: "checkmark"
 				}
 			]
@@ -382,7 +382,7 @@
 				}
 				{
 					id: "34C54664AB22ECFD"
-					title: "{cabin.task.34C54664AB22ECFD}"
+					title: "{cabin.task.0842082756DA73FE}"
 					type: "checkmark"
 				}
 			]
@@ -514,7 +514,7 @@
 				}
 				{
 					id: "29BEB0A31C3FB00B"
-					title: "{cabin.task.29BEB0A31C3FB00B}"
+					title: "{cabin.task.0842082756DA73FE}"
 					type: "checkmark"
 				}
 			]
@@ -537,7 +537,7 @@
 				}
 				{
 					id: "5BBF2E1143CD356E"
-					title: "{cabin.task.5BBF2E1143CD356E}"
+					title: "{cabin.task.0842082756DA73FE}"
 					type: "checkmark"
 				}
 			]
@@ -565,7 +565,7 @@
 				}
 				{
 					id: "17286271B0667AAA"
-					title: "{cabin.task.17286271B0667AAA}"
+					title: "{cabin.task.0842082756DA73FE}"
 					type: "checkmark"
 				}
 			]
@@ -665,7 +665,7 @@
 				}
 				{
 					id: "5A531D21DEBB3FA8"
-					title: "{cabin.task.5A531D21DEBB3FA8}"
+					title: "{cabin.task.0842082756DA73FE}"
 					type: "checkmark"
 				}
 			]
@@ -688,7 +688,7 @@
 				}
 				{
 					id: "728CB4E169DEED42"
-					title: "{cabin.task.728CB4E169DEED42}"
+					title: "{cabin.task.0842082756DA73FE}"
 					type: "checkmark"
 				}
 			]
@@ -719,19 +719,12 @@
 				"{cabin.quest.667F4F686A45EF3E.description2}"
 			]
 			id: "667F4F686A45EF3E"
-			rewards: [
-				{
-					id: "18AAC1B19B558854"
-					item: "railways:red_conductor_cap"
-					type: "item"
-				}
-				{
-					count: 128
-					id: "72B61CAAE9A75F6F"
-					item: "create:track"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 128
+				id: "72B61CAAE9A75F6F"
+				item: "create:track"
+				type: "item"
+			}]
 			shape: "hexagon"
 			size: 2.0d
 			tasks: [{

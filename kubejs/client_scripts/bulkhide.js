@@ -11,6 +11,7 @@ JEIEvents.hideItems(event => {
 	event.hide(/itemfilters/)
 
 	event.hide(['ae2:inscriber', 'ae2:vibration_chamber'])
+	event.hide(/ae2:.*_budding_quartz/)
 	event.hide('architects_palette:withered_bone')
 
 	event.hide(/ad_astra:.*mars/)
