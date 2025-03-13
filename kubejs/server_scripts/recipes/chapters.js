@@ -573,7 +573,7 @@ ServerEvents.recipes(event => {
 			"type": "create:mixing",
 			"heatRequirement": "heated",
 			"ingredients": [
-				{ "item": "create:pulp", "count": 3 },
+				{ "item": "create:pulp", "count": 2 },
 				{ "fluid": "minecraft:water", "amount": 500 }
 			],
 			"results": [
