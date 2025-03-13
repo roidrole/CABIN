@@ -699,14 +699,22 @@
 		{
 			dependencies: ["4D8972AE5B614FB3"]
 			description: ["{cabin.quest.4064D448404CD639.description1}"]
+			icon: "minecraft:obsidian"
 			id: "4064D448404CD639"
 			subtitle: "{cabin.quest.4064D448404CD639.subtitle}"
-			tasks: [{
-				consume_items: false
-				id: "09D097DEABDD1E51"
-				item: "minecraft:obsidian"
-				type: "item"
-			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "09D097DEABDD1E51"
+					item: "minecraft:obsidian"
+					type: "item"
+				}
+				{
+					id: "4650061E5C50B8FA"
+					title: "{cabin.task.0842082756DA73FE}"
+					type: "checkmark"
+				}
+			]
 			title: "{cabin.quest.4064D448404CD639.title}"
 			x: 5.0d
 			y: 10.5d
