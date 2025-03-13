@@ -315,6 +315,8 @@ ServerEvents.recipes(event => {
 		event.remove({ id: TC('smeltery/melting/metal/' + materialName + '/raw_block') })
 		event.remove({ id: TC('smeltery/melting/metal/' + materialName + '/dust') })
 		event.remove({ id: CR('crushing/raw_' + materialName + '_block') })	
+
+		event.remove({ id: `thermal:machines/pulverizer/pulverizer_${materialName}_ore` })
 		
 
 		//'concentrated ore' to crushed ore
@@ -322,8 +324,8 @@ ServerEvents.recipes(event => {
 		event.recipes.createCrushing([Item.of(crushedOre, 5), Item.of(crushedOre, 2).withChance(0.5)], rawOreTag).id('kubejs:ore_processing/crushing/raw_ore/'+materialName)
 
 		//ore to crushed ore
-		event.recipes.createCrushing([Item.of(crushedOre, 1), Item.of(crushedOre, 1).withChance(0.25), experience, stone], oreTag).id('kubejs:ore_processing/crushing/ore/'+materialName)
-		thermalPulverizer(event, [Item.of(crushedOre).withChance(1.25), Item.of('minecraft:gravel').withChance(0.2)], oreTag, 3000).id('kubejs:ore_processing/pulverizing/ore/'+materialName)
+		event.recipes.createCrushing([Item.of(crushedOre, 3), Item.of(crushedOre, 1).withChance(0.5), experience, stone], oreTag).id('kubejs:ore_processing/crushing/ore/'+materialName)
+		thermalPulverizer(event, [Item.of(crushedOre).withChance(4.5), Item.of('minecraft:gravel').withChance(0.2)], oreTag, 3000).id('kubejs:ore_processing/pulverizing/ore/'+materialName)
 		
 		//crushed ore to nuggets
 		event.smelting(Item.of(nugget, 3), crushedOre).id('kubejs:ore_processing/smelting/crushed/'+materialName)
