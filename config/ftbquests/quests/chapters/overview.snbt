@@ -235,7 +235,7 @@
 			id: "4F7A70041B67A348"
 			rewards: [{
 				id: "52F34D324E5E10E9"
-				item: "beyond_earth:moon_globe"
+				item: "ad_astra:moon_globe"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -243,8 +243,8 @@
 			tasks: [{
 				dimension: "beyond_earth:moon"
 				icon: {
-					Count: 1b
-					id: "beyond_earth:rocket_t1"
+					Count: 1
+					id: "ad_astra:tier_1_rocket"
 					tag: { }
 				}
 				id: "696B878D65A6BFCC"
