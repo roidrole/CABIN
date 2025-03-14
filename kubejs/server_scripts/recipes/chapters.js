@@ -129,8 +129,8 @@ ServerEvents.recipes(event => {
 	andesiteMachine(event, Item.of('create:mechanical_mixer', 1), CR('whisk'))
 	andesiteMachine(event, Item.of('create:mechanical_drill', 1), TE('drill_head'))
 	andesiteMachine(event, Item.of('create:mechanical_saw', 1), TE('saw_blade'))
-	andesiteMachine(event, Item.of('create:mechanical_roller', 1), "createdeco:andesite_hull")
-	andesiteMachine(event, Item.of('rechiseledcreate:mechanical_chisel', 1), "rechiseled:chisel")
+	if (Platform.isLoaded("createdeco")) { andesiteMachine(event, Item.of('create:mechanical_roller', 1), "createdeco:andesite_hull") } else { andesiteMachine(event, Item.of('create:mechanical_roller', 1), "create:andesite_alloy_block") }
+	if (Platform.isLoaded("rechiseledcreate")) { andesiteMachine(event, Item.of('rechiseledcreate:mechanical_chisel', 1), "rechiseled:chisel") }
 	andesiteMachine(event, Item.of('create:deployer', 1), CR('brass_hand'))
 	andesiteMachine(event, Item.of('create:mechanical_harvester', 2))
 	andesiteMachine(event, Item.of('create:mechanical_plough', 2))
@@ -327,12 +327,12 @@ ServerEvents.recipes(event => {
 	goldMachine(event, Item.of('create:schedule', 4))
 	goldMachine(event, Item.of('create:track_observer', 2))
 
-	if(Platform.isLoaded("railways")) {
-	goldMachine(event, Item.of('railways:semaphore', 4))
-	goldMachine(event, Item.of('railways:conductor_whistle', 4))
-	goldMachine(event, Item.of('railways:track_coupler', 2))
-	goldMachine(event, Item.of('railways:track_switch_andesite', 1), 'create:andesite_alloy')
-	goldMachine(event, Item.of('railways:track_switch_brass', 1), 'create:brass_ingot')
+	if (Platform.isLoaded("railways")) {
+		goldMachine(event, Item.of('railways:semaphore', 4))
+		goldMachine(event, Item.of('railways:conductor_whistle', 4))
+		goldMachine(event, Item.of('railways:track_coupler', 2))
+		goldMachine(event, Item.of('railways:track_switch_andesite', 1), 'create:andesite_alloy')
+		goldMachine(event, Item.of('railways:track_switch_brass', 1), 'create:brass_ingot')
 	}
 
 	// - - - - - Chapter 2 - - - - -
@@ -568,19 +568,19 @@ ServerEvents.recipes(event => {
 	// TODO: make the line for this, uses above as a placeholder 
 
 
-		//Liquid Pulp
-		event.custom({
-			"type": "create:mixing",
-			"heatRequirement": "heated",
-			"ingredients": [
-				{ "item": "create:pulp", "count": 2 },
-				{ "fluid": "minecraft:water", "amount": 500 }
-			],
-			"results": [
-				{ "fluid": "kubejs:liquid_pulp", "amount": 500 }
-			]
-		})
-		
+	//Liquid Pulp
+	event.custom({
+		"type": "create:mixing",
+		"heatRequirement": "heated",
+		"ingredients": [
+			{ "item": "create:pulp", "count": 2 },
+			{ "fluid": "minecraft:water", "amount": 500 }
+		],
+		"results": [
+			{ "fluid": "kubejs:liquid_pulp", "amount": 500 }
+		]
+	})
+
 	event.custom({
 		"type": "create:sequenced_assembly",
 		"ingredient": { "item": CR('precision_mechanism') },
@@ -593,7 +593,7 @@ ServerEvents.recipes(event => {
 				"type": "create:filling",
 				"ingredients": [
 					{ "item": KJ('incomplete_logistic_mechanism') },
-					{ "fluid": "create:potion","nbt":{"Bottle":"REGULAR","Potion":"kubejs:haste"}, "amount": 1000}
+					{ "fluid": "create:potion", "nbt": { "Bottle": "REGULAR", "Potion": "kubejs:haste" }, "amount": 1000 }
 				],
 				"results": [
 					{ "item": KJ('incomplete_logistic_mechanism') }
@@ -1219,8 +1219,8 @@ ServerEvents.recipes(event => {
 		"cooling_time": 20
 	})
 
-//	Remove all the recipes we don't want from Ad Astra
-//	We're in an awkward situation where we want half of the recipes and don't want the other half
+	//	Remove all the recipes we don't want from Ad Astra
+	//	We're in an awkward situation where we want half of the recipes and don't want the other half
 	let begoneEarth = [
 		"nasa_workbenching/tier1", "nasa_workbenching/tier2", "nasa_workbenching/tier3", "nasa_workbenching/tier4", "rover",
 		"oxygen_mask", "space_suit", "space_leggings", "space_boots",
@@ -1298,7 +1298,7 @@ ServerEvents.recipes(event => {
 	// Rocket Launch Pad
 	createMachine(AP('heavy_stone_bricks'), event, Item.of("ad_astra:launch_pad"), KJ("matter_plastics"))
 
-//	oil refining
+	//	oil refining
 	event.custom({
 		"type": "thermal:refinery",
 		"ingredient": { "fluid": "kubejs:crude_oil", "amount": 100 },
