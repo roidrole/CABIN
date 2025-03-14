@@ -240,7 +240,7 @@ ServerEvents.tags('block', event => {
 	//I don't know why this isn't wrenchable by default
 	event.add("create:wrench_pickup", "minecraft:note_block")
 
-	event.add("create:wrench_pickup", "waterstrainer:strainer_base")
+	event.add("create:wrench_pickup", "mbd2:strainer")
 
 	event.add("create:wrench_pickup", /thermal:machine/)
 	event.add("create:wrench_pickup", /thermal:device/)
