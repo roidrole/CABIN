@@ -60,14 +60,25 @@ ServerEvents.tags('item', event => {
 
 	event.add("kubejs:strainer/sands", "minecraft:sand")
 
-	let lampColours = ['yellow', 'red', 'green', 'blue']
-	let lampMaterials = ['andesite', 'brass', 'iron', 'copper', 'industrial_iron', 'zinc']
-	for (let i=0;i<lampColours.length;++i) {
-		for (let j=0;j<lampMaterials.length;++j) {
-			let lamp = `createdeco:${lampColours[i]}_${lampMaterials[j]}_lamp`
+	//Create Deco laser lamps
+	let decoLampColours = ['yellow', 'red', 'green', 'blue']
+	let decoLampMaterials = ['andesite', 'brass', 'iron', 'copper', 'industrial_iron', 'zinc']
+	for (let i=0;i<decoLampColours.length;++i) {
+		for (let j=0;j<decoLampMaterials.length;++j) {
+			let lamp = `createdeco:${decoLampColours[i]}_${decoLampMaterials[j]}_lamp`
 			event.add('kubejs:alchemical_laser_lamp', lamp)
-			event.add(`kubejs:alchemical_laser_lamp/${lampColours[i]}`, lamp)
+			event.add(`kubejs:alchemical_laser_lamp/${decoLampColours[i]}`, lamp)
 		}
+	}
+
+	//Ad Astra laser lamps
+	for (let i=0;i<colours.length;++i) {
+		let lamp = `ad_astra:${colours[i]}_industrial_lamp`;
+		event.add('kubejs:alchemical_laser_lamp', lamp)
+		event.add(`kubejs:alchemical_laser_lamp/${colours[i]}`, lamp)
+		lamp = `ad_astra:small_${colours[i]}_industrial_lamp`;
+		event.add('kubejs:alchemical_laser_lamp', lamp)
+		event.add(`kubejs:alchemical_laser_lamp/${colours[i]}`, lamp)
 	}
 	
 	//This tag prevents items from being consumed in press (market) recipes
@@ -199,14 +210,26 @@ ServerEvents.tags('item', event => {
 })
 
 ServerEvents.tags('block', event => {
-	let lampColours = ['yellow', 'red', 'green', 'blue']
-	let lampMaterials = ['andesite', 'brass', 'iron', 'copper', 'industrial_iron', 'zinc']
-	for (let i=0;i<lampColours.length;++i) {
-		for (let j=0;j<lampMaterials.length;++j) {
-			let lamp = `createdeco:${lampColours[i]}_${lampMaterials[j]}_lamp`
+
+	//Create Deco laser lamps
+	let decoLampColours = ['yellow', 'red', 'green', 'blue']
+	let decoLampMaterials = ['andesite', 'brass', 'iron', 'copper', 'industrial_iron', 'zinc']
+	for (let i=0;i<decoLampColours.length;++i) {
+		for (let j=0;j<decoLampMaterials.length;++j) {
+			let lamp = `createdeco:${decoLampColours[i]}_${decoLampMaterials[j]}_lamp`
 			event.add('kubejs:alchemical_laser_lamp', lamp)
-			event.add(`kubejs:alchemical_laser_lamp/${lampColours[i]}`, lamp)
+			event.add(`kubejs:alchemical_laser_lamp/${decoLampColours[i]}`, lamp)
 		}
+	}
+
+	//Ad Astra laser lamps
+	for (let i=0;i<colours.length;++i) {
+		let lamp = `ad_astra:${colours[i]}_industrial_lamp`;
+		event.add('kubejs:alchemical_laser_lamp', lamp)
+		event.add(`kubejs:alchemical_laser_lamp/${colours[i]}`, lamp)
+		lamp = `ad_astra:small_${colours[i]}_industrial_lamp`;
+		event.add('kubejs:alchemical_laser_lamp', lamp)
+		event.add(`kubejs:alchemical_laser_lamp/${colours[i]}`, lamp)
 	}
 
 	event.remove('minecraft:beacon_base_blocks', 'thermal:bronze_block')
