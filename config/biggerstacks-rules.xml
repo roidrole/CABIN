@@ -1,0 +1,5 @@
+<ruleset>
+	<rule stacksize="256">
+		<condition>tag forge:coins</condition>
+	</rule>
+</ruleset>

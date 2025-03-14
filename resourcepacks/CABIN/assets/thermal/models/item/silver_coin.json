@@ -1,0 +1,56 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+      "layer0": "thermal:item/silver_coin_0"
+    },
+    "overrides": [
+      {
+        "predicate": {
+          "count": 0
+        },
+        "model": "thermal:item/silver_coin_0"
+      },
+      {
+        "predicate": {
+          "count": 0.0078125
+        },
+        "model": "thermal:item/silver_coin_1"
+      },
+      {
+        "predicate": {
+          "count": 0.03125
+        },
+        "model": "thermal:item/silver_coin_2"
+      },
+      {
+        "predicate": {
+          "count": 0.0625
+        },
+        "model": "thermal:item/silver_coin_3"
+      },
+      {
+        "predicate": {
+          "count": 0.125
+        },
+        "model": "thermal:item/silver_coin_4"
+      },
+      {
+        "predicate": {
+          "count": 0.250
+        },
+        "model": "thermal:item/gold_coin_0"
+      },
+      {
+        "predicate": {
+          "count": 0.5
+        },
+        "model": "thermal:item/gold_coin_1"
+      },
+      {
+        "predicate": {
+          "count": 1
+        },
+        "model": "thermal:item/gold_coin_2"
+      }
+    ]
+  }
