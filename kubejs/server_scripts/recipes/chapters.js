@@ -767,16 +767,6 @@ ServerEvents.recipes(event => {
 		"temperature": 790,
 		"time": 40
 	})
-	event.custom({ // worth it!
-		"type": "tconstruct:melting",
-		"ingredient": { "tag": "forge:coins/gold" },
-		"result": {
-			"fluid": "tconstruct:molten_gold",
-			"amount": 10
-		},
-		"temperature": 790,
-		"time": 40
-	})
 	//Enderium Ingots
 	thermalSmelter(event, TE("enderium_ingot"), [F("#ingots/silver"), "minecraft:chorus_fruit", MC("ender_pearl")], 10000)
 	thermalSmelter(event, TE("enderium_ingot"), [F("#ingots/silver"), "minecraft:chorus_fruit", AE2("ender_dust", 4)], 10000)
