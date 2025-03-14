@@ -109,6 +109,7 @@ JEIEvents.hideItems(event => {
 	event.hide('thermal:press_packing_3x3_die')
 	event.hide('thermal:press_unpacking_die')
 	event.hide('thermal:iron_coin')
+	event.hide('thermal:gold_coin')
 	event.hide('thermal:copper_coin')
 	event.hide('thermal:tin_coin')
 	event.hide('thermal:lead_coin')

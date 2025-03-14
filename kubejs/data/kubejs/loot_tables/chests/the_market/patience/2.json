@@ -40,7 +40,13 @@
           {
             "type": "minecraft:item",
             "weight": 5,
-            "name": "thermal:gold_coin"
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 64
+              }
+            ],
+            "name": "thermal:silver_coin"
           },
           {
             "type": "minecraft:item",
@@ -49,13 +55,13 @@
               {
                 "function": "minecraft:set_count",
                 "count": {
-                  "min": 1.0,
-                  "max": 56.0,
+                  "min": 64.0,
+                  "max": 3584.0,
                   "type": "minecraft:uniform"
                 }
               }
             ],
-            "name": "thermal:gold_coin"
+            "name": "thermal:silver_coin"
           },
           {
             "type": "minecraft:item",

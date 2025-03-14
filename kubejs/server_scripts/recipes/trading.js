@@ -3,7 +3,6 @@ ServerEvents.recipes(event => {
 	event.remove({ input: '#forge:coins' })
 
 	thermalNumismaticFuel(event, TE('silver_coin'), 100000)
-	thermalNumismaticFuel(event, TE('gold_coin'), 6400000)
 	//remove all press recipes
 	event.remove({ type: TE('press') })
 	event.remove({ type: TE('numismatic_fuel') })
@@ -40,5 +39,5 @@ ServerEvents.recipes(event => {
 			})
 	});
 
-	trade('kubejs:missingno', 'thermal:gold_coin', '128x supplementaries:candy')
+	trade('kubejs:missingno', '64x thermal:silver_coin', '128x supplementaries:candy')
 })

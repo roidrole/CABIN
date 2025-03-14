@@ -12,7 +12,8 @@
 	"item.thermal.turbo_servo_attachment": "Attachment: Servo",
 	"item.thermal.raw_lead": "Concentrated Raw Lead",
 	"item.thermal.raw_nickel": "Concentrated Raw Nickel",
-	"item.thermal.raw_silver": "Concentrated Raw Silver"
+	"item.thermal.raw_silver": "Concentrated Raw Silver",
+	"item.thermal.silver_coin": "Coin"
 
 
 }
