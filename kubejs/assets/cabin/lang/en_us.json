@@ -162,6 +162,8 @@
     "block.kubejs.substrate_silver": "Silver Reagent",
     "block.kubejs.accellerator_glowstone": "Glowstone Accelerator",
     "block.kubejs.accellerator_redstone": "Redstone Accelerator",
+    "block.mbd2.strainer": "Sediment Strainer",
+    "mbd2.strainer": "Sediment Straining",
     "fluid.kubejs.raw_logic": "Liquified Logic (Unprocessed)",
     "fluid.kubejs.number_0": "Liquified Logic (0)",
     "fluid.kubejs.number_1": "Liquified Logic (1)",
