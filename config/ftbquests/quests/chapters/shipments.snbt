@@ -31,7 +31,7 @@
 		{
 			dependencies: ["6AC1CED0D341150E"]
 			description: ["{cabin.quest.3B548F2C060C2229.description1}"]
-			icon: { Count: 2, id: "thermal:gold_coin" }
+			icon: { Count: 128, id: "thermal:silver_coin" }
 			id: "3B548F2C060C2229"
 			rewards: [
 				{

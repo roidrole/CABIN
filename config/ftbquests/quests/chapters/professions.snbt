@@ -1125,10 +1125,10 @@
 		{
 			id: "3F00084D9474C381"
 			rewards: [{
-				count: 2
+				count: 128
 				icon: "kubejs:gold_coin"
 				id: "0D8EB996DBC24C64"
-				item: "thermal:gold_coin"
+				item: "thermal:silver_coin"
 				type: "item"
 			}]
 			subtitle: "{cabin.quest.093FB7B7FEC6B886.subtitle}"
