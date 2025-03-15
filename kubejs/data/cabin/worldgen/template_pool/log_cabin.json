@@ -1,12 +1,12 @@
 {
-    "name": "cabin:broken_windmill",
+    "name": "cabin:log_cabin",
     "fallback": "minecraft:empty",
     "elements": [
       {
         "weight": 1,
         "element": {
-          "location": "cabin:broken_windmill",
-          "processors": "cabin:windmill",
+          "location": "cabin:log_cabin",
+          "processors": "minecraft:empty",
           "projection": "rigid",
           "element_type": "minecraft:single_pool_element"
         }

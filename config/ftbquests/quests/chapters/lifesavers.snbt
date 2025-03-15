@@ -678,27 +678,29 @@
 		}
 		{
 			description: ["{cabin.quest.0F4B0608CBF966E6.description1}"]
-			icon: "balancedflight:flight_anchor"
+			icon: "create:chain_conveyor"
 			id: "0F4B0608CBF966E6"
 			rewards: [{
-				count: 8
+				count: 16
 				id: "28A2E7AC0A54F50B"
-				item: {
-					Count: 1
-					id: "minecraft:firework_rocket"
-					tag: {
-						Fireworks: {
-							Flight: 1b
-						}
-					}
+				item: "minecraft:chain"
+				random_bonus: 8
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 2L
+					id: "63664BFD05DDCABE"
+					item: { Count: 2, id: "create:chain_conveyor" }
+					type: "item"
 				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "62EEDDDF6B50752A"
-				item: "balancedflight:flight_anchor"
-				type: "item"
-			}]
+				{
+					count: 8L
+					id: "0149C713E94864F3"
+					item: "minecraft:chain"
+					type: "item"
+				}
+			]
 			title: "{cabin.quest.0F4B0608CBF966E6.title}"
 			x: 3.0d
 			y: 3.0d
