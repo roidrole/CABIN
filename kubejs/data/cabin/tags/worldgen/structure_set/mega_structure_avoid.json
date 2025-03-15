@@ -3,8 +3,6 @@
         "#cabin:overworld_surface_avoid",
         "cabin:ruins",
         "cabin:railshaft",
-        "cabin:slime",
-        "cabin:windmills",
-        "cabin:mega_structures"
+        "cabin:slime"
     ]
 }
