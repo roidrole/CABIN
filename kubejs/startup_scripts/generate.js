@@ -164,10 +164,10 @@ StartupEvents.registry("block", event => {
 			.tagBlock("create:wrench_pickup")
 	}
 
-	machine('Andesite', "solid").tagBlock("mineable/axe").box(16, 0, 11, 0, 16, 5).box(13, 14, 15, 3, 18, 0)
-	machine('Brass', "translucent").tagBlock("mineable/axe").box(16, 0, 16, 0, 4, 0).box(16, 0, 13, 0, 10, 3).box(8, 3, 12, 16, 16, 4).box(7, 10, 11, 1, 21, 5)
-	machine('Copper', "cutout").tagBlock("mineable/axe").box(16, 0, 0, 0, 4, 16).box(14.9, 2, -2, 1.9, 10, 10).box(16, 4, 10, 6, 20, 6).box(10, 4, 16, 0, 24, 6)
-	machine('Gold', "solid").tagBlock("mineable/axe").box(16, 0, 11, 0, 16, 2)	
+	machine('Andesite', "solid").tagBlock("mineable/axe").box(0, 0, 3, 16, 16, 16).box(3, 14, 3, 13, 18, 17)
+	machine('Brass', "translucent").tagBlock("mineable/axe").box(0, 0, 0, 16, 4, 16).box(0, 0, 3, 16, 10, 13).box(8, 3, 4, 16, 16, 16).box(1, 10, 5, 7, 21, 11)
+	machine('Copper', "cutout").tagBlock("mineable/axe").box(0, 0, 0, 16, 4, 16).box(1.9, 2, -2, 14.9, 10, 10).box(6, 4, 6, 16, 20, 16).box(0, 4, 6, 10, 24, 16)
+	machine('Gold', "solid").tagBlock("mineable/axe").box(0, 0, 4, 16, 16, 14)
 	machine('Lead', "cutout")
 	machine('Zinc', "cutout")
 	machine('Enderium', "cutout")
