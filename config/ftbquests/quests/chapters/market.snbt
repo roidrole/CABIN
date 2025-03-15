@@ -276,24 +276,14 @@
 			description: ["{cabin.quest.5326F6482C45D22A.description1}"]
 			icon: "kubejs:silver_coin"
 			id: "5326F6482C45D22A"
-			rewards: [
-				{
-					auto: "enabled"
-					count: 64
-					icon: "kubejs:silver_coin"
-					id: "26512E93CE404069"
-					item: "thermal:silver_coin"
-					type: "item"
-				}
-				{
-					auto: "no_toast"
-					icon: "thermal:machine_cycle_augment"
-					id: "6FA6A9A201CA27BE"
-					tags: ["reset"]
-					title: "{cabin.reward.6FA6A9A201CA27BE}"
-					type: "custom"
-				}
-			]
+			rewards: [{
+				auto: "enabled"
+				count: 64
+				icon: "kubejs:silver_coin"
+				id: "26512E93CE404069"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
 			shape: "circle"
 			subtitle: "{cabin.quest.5326F6482C45D22A.subtitle}"
 			tasks: [{
@@ -311,22 +301,12 @@
 			description: ["{cabin.quest.1A566C74B1F7F050.description1}"]
 			icon: "kubejs:silver_coin"
 			id: "1A566C74B1F7F050"
-			rewards: [
-				{
-					auto: "enabled"
-					id: "66BE3DDEC92812C4"
-					item: "thermal:gold_coin"
-					type: "item"
-				}
-				{
-					auto: "no_toast"
-					icon: "thermal:machine_cycle_augment"
-					id: "6E78A95786CA5B28"
-					tags: ["reset"]
-					title: "{cabin.reward.6E78A95786CA5B28}"
-					type: "custom"
-				}
-			]
+			rewards: [{
+				auto: "enabled"
+				id: "66BE3DDEC92812C4"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
 			shape: "circle"
 			subtitle: "{cabin.quest.1A566C74B1F7F050.subtitle}"
 			tasks: [{
@@ -758,22 +738,12 @@
 			description: ["{cabin.quest.6C00F2935F27C2AD.description1}"]
 			icon: "minecraft:axolotl_bucket"
 			id: "6C00F2935F27C2AD"
-			rewards: [
-				{
-					auto: "enabled"
-					id: "500098FD4762A38F"
-					item: "minecraft:axolotl_bucket"
-					type: "item"
-				}
-				{
-					auto: "no_toast"
-					icon: "thermal:machine_cycle_augment"
-					id: "79C8307ED8450347"
-					tags: ["reset"]
-					title: "{cabin.reward.79C8307ED8450347}"
-					type: "custom"
-				}
-			]
+			rewards: [{
+				auto: "enabled"
+				id: "500098FD4762A38F"
+				item: "minecraft:axolotl_bucket"
+				type: "item"
+			}]
 			subtitle: "{cabin.quest.04468935C9A7298F.subtitle}"
 			tasks: [
 				{
@@ -1112,14 +1082,6 @@
 					id: "0C8C369DEF6B0FD4"
 					item: "minecraft:bee_spawn_egg"
 					type: "item"
-				}
-				{
-					auto: "no_toast"
-					icon: "thermal:machine_cycle_augment"
-					id: "6D5E00890DAB64DB"
-					tags: ["reset"]
-					title: "{cabin.reward.6D5E00890DAB64DB}"
-					type: "custom"
 				}
 			]
 			subtitle: "{cabin.quest.003E0D1CE60B166A.subtitle}"

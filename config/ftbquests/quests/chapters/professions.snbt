@@ -60,22 +60,12 @@
 				}
 			}
 			id: "1E26046FA8177616"
-			rewards: [
-				{
-					auto: "enabled"
-					id: "556BBA8B09E4BA0C"
-					item: "kubejs:profession_card_mining"
-					type: "item"
-				}
-				{
-					auto: "no_toast"
-					icon: "thermal:machine_cycle_augment"
-					id: "78B7B98BE67CCA84"
-					tags: ["reset"]
-					title: "{cabin.reward.78B7B98BE67CCA84}"
-					type: "custom"
-				}
-			]
+			rewards: [{
+				auto: "enabled"
+				id: "556BBA8B09E4BA0C"
+				item: "kubejs:profession_card_mining"
+				type: "item"
+			}]
 			shape: "hexagon"
 			tasks: [{
 				count: 30L
@@ -151,22 +141,12 @@
 				}
 			}
 			id: "12B37E99B1D3837E"
-			rewards: [
-				{
-					auto: "enabled"
-					id: "4F0E97B8E88BF530"
-					item: "kubejs:profession_card_farming"
-					type: "item"
-				}
-				{
-					auto: "no_toast"
-					icon: "thermal:machine_cycle_augment"
-					id: "4630E4354593D196"
-					tags: ["reset"]
-					title: "{cabin.reward.4630E4354593D196}"
-					type: "custom"
-				}
-			]
+			rewards: [{
+				auto: "enabled"
+				id: "4F0E97B8E88BF530"
+				item: "kubejs:profession_card_farming"
+				type: "item"
+			}]
 			shape: "hexagon"
 			tasks: [{
 				count: 30L
@@ -231,22 +211,12 @@
 				}
 			}
 			id: "3A48FDC224D029BF"
-			rewards: [
-				{
-					auto: "enabled"
-					id: "570B46650865045E"
-					item: "kubejs:profession_card_carpentry"
-					type: "item"
-				}
-				{
-					auto: "no_toast"
-					icon: "thermal:machine_cycle_augment"
-					id: "168DD43A1A6C846C"
-					tags: ["reset"]
-					title: "{cabin.reward.168DD43A1A6C846C}"
-					type: "custom"
-				}
-			]
+			rewards: [{
+				auto: "enabled"
+				id: "570B46650865045E"
+				item: "kubejs:profession_card_carpentry"
+				type: "item"
+			}]
 			shape: "hexagon"
 			tasks: [{
 				count: 30L
@@ -271,22 +241,12 @@
 				}
 			}
 			id: "66DA9BE9277FABF1"
-			rewards: [
-				{
-					auto: "enabled"
-					id: "382E25CBB362EB84"
-					item: "kubejs:profession_card_cooking"
-					type: "item"
-				}
-				{
-					auto: "no_toast"
-					icon: "thermal:machine_cycle_augment"
-					id: "402618EF59D8798B"
-					tags: ["reset"]
-					title: "{cabin.reward.402618EF59D8798B}"
-					type: "custom"
-				}
-			]
+			rewards: [{
+				auto: "enabled"
+				id: "382E25CBB362EB84"
+				item: "kubejs:profession_card_cooking"
+				type: "item"
+			}]
 			shape: "hexagon"
 			tasks: [{
 				count: 30L
@@ -357,22 +317,12 @@
 				}
 			}
 			id: "683AA93BE7DEA512"
-			rewards: [
-				{
-					auto: "enabled"
-					id: "1617766BFFC620D2"
-					item: "kubejs:profession_card_masonry"
-					type: "item"
-				}
-				{
-					auto: "no_toast"
-					icon: "thermal:machine_cycle_augment"
-					id: "0059672C40C04303"
-					tags: ["reset"]
-					title: "{cabin.reward.0059672C40C04303}"
-					type: "custom"
-				}
-			]
+			rewards: [{
+				auto: "enabled"
+				id: "1617766BFFC620D2"
+				item: "kubejs:profession_card_masonry"
+				type: "item"
+			}]
 			shape: "hexagon"
 			tasks: [{
 				count: 30L
@@ -437,22 +387,12 @@
 				}
 			}
 			id: "66DDDE912A191E57"
-			rewards: [
-				{
-					auto: "enabled"
-					id: "242009705F048500"
-					item: "kubejs:profession_card_hunting"
-					type: "item"
-				}
-				{
-					auto: "no_toast"
-					icon: "thermal:machine_cycle_augment"
-					id: "3EB7FB58B5D3D097"
-					tags: ["reset"]
-					title: "{cabin.reward.3EB7FB58B5D3D097}"
-					type: "custom"
-				}
-			]
+			rewards: [{
+				auto: "enabled"
+				id: "242009705F048500"
+				item: "kubejs:profession_card_hunting"
+				type: "item"
+			}]
 			shape: "hexagon"
 			tasks: [{
 				count: 30L
@@ -559,22 +499,12 @@
 				}
 			}
 			id: "6C0EC278451434AC"
-			rewards: [
-				{
-					auto: "enabled"
-					id: "70312C750F6E2115"
-					item: "kubejs:profession_card_fishing"
-					type: "item"
-				}
-				{
-					auto: "no_toast"
-					icon: "thermal:machine_cycle_augment"
-					id: "4F7B79488825D2ED"
-					tags: ["reset"]
-					title: "{cabin.reward.4F7B79488825D2ED}"
-					type: "custom"
-				}
-			]
+			rewards: [{
+				auto: "enabled"
+				id: "70312C750F6E2115"
+				item: "kubejs:profession_card_fishing"
+				type: "item"
+			}]
 			shape: "hexagon"
 			tasks: [{
 				count: 30L
@@ -624,22 +554,12 @@
 				}
 			}
 			id: "32C46B11BDAD7632"
-			rewards: [
-				{
-					auto: "enabled"
-					id: "2E450774C09EF266"
-					item: "kubejs:profession_card_smithing"
-					type: "item"
-				}
-				{
-					auto: "no_toast"
-					icon: "thermal:machine_cycle_augment"
-					id: "5B00E0FDDDA7EEB0"
-					tags: ["reset"]
-					title: "{cabin.reward.5B00E0FDDDA7EEB0}"
-					type: "custom"
-				}
-			]
+			rewards: [{
+				auto: "enabled"
+				id: "2E450774C09EF266"
+				item: "kubejs:profession_card_smithing"
+				type: "item"
+			}]
 			shape: "hexagon"
 			tasks: [{
 				count: 30L
@@ -780,24 +700,14 @@
 			description: ["{cabin.quest.436DA1A1AB8C0734.description1}"]
 			icon: "minecraft:music_disc_13"
 			id: "436DA1A1AB8C0734"
-			rewards: [
-				{
-					auto: "enabled"
-					count: 32
-					icon: "kubejs:silver_coin"
-					id: "76F8080C0E176A08"
-					item: "thermal:silver_coin"
-					type: "item"
-				}
-				{
-					auto: "no_toast"
-					icon: "thermal:machine_cycle_augment"
-					id: "7FF7001764116001"
-					tags: ["reset"]
-					title: "{cabin.reward.7FF7001764116001}"
-					type: "custom"
-				}
-			]
+			rewards: [{
+				auto: "enabled"
+				count: 32
+				icon: "kubejs:silver_coin"
+				id: "76F8080C0E176A08"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
 			subtitle: "{cabin.quest.01F3EDC327B63908.subtitle}"
 			tasks: [{
 				id: "28EC11DE8335B74A"

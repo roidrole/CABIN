@@ -33,22 +33,12 @@
 			description: ["{cabin.quest.3B548F2C060C2229.description1}"]
 			icon: { Count: 2, id: "thermal:gold_coin" }
 			id: "3B548F2C060C2229"
-			rewards: [
-				{
-					auto: "enabled"
-					id: "0A6DEF2E19943F9F"
-					item: "kubejs:trade_card_exchange_currencies"
-					type: "item"
-				}
-				{
-					auto: "no_toast"
-					icon: "thermal:machine_cycle_augment"
-					id: "3D6C47FD645D7471"
-					tags: ["reset"]
-					title: "{cabin.reward.3D6C47FD645D7471}"
-					type: "custom"
-				}
-			]
+			rewards: [{
+				auto: "enabled"
+				id: "0A6DEF2E19943F9F"
+				item: "kubejs:trade_card_exchange_currencies"
+				type: "item"
+			}]
 			shape: "circle"
 			subtitle: "{cabin.quest.3B548F2C060C2229.subtitle}"
 			tasks: [{
@@ -65,22 +55,12 @@
 			disable_toast: true
 			icon: "minecraft:dirt"
 			id: "1A27F6CC5196D116"
-			rewards: [
-				{
-					auto: "enabled"
-					id: "73B5632934CB5398"
-					item: "kubejs:trade_card_dirt"
-					type: "item"
-				}
-				{
-					auto: "no_toast"
-					icon: "thermal:machine_cycle_augment"
-					id: "7693E6AAB807B9ED"
-					tags: ["reset"]
-					title: "{cabin.reward.7693E6AAB807B9ED}"
-					type: "custom"
-				}
-			]
+			rewards: [{
+				auto: "enabled"
+				id: "73B5632934CB5398"
+				item: "kubejs:trade_card_dirt"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "{cabin.quest.1A27F6CC5196D116.subtitle}"
 			tasks: [{
@@ -99,22 +79,12 @@
 			disable_toast: true
 			icon: "minecraft:sand"
 			id: "4C0F811C1D2495CC"
-			rewards: [
-				{
-					auto: "enabled"
-					id: "4D3AAC1C8DC9CEEF"
-					item: "kubejs:trade_card_sand"
-					type: "item"
-				}
-				{
-					auto: "no_toast"
-					icon: "thermal:machine_cycle_augment"
-					id: "34033E18AB54E135"
-					tags: ["reset"]
-					title: "{cabin.reward.34033E18AB54E135}"
-					type: "custom"
-				}
-			]
+			rewards: [{
+				auto: "enabled"
+				id: "4D3AAC1C8DC9CEEF"
+				item: "kubejs:trade_card_sand"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "{cabin.quest.0DA48CA15E17157D.subtitle}"
 			tasks: [{
@@ -133,22 +103,12 @@
 			disable_toast: true
 			icon: "minecraft:gravel"
 			id: "6AE7090EB52A51B3"
-			rewards: [
-				{
-					auto: "enabled"
-					id: "092706A1932A2BC2"
-					item: "kubejs:trade_card_gravel"
-					type: "item"
-				}
-				{
-					auto: "no_toast"
-					icon: "thermal:machine_cycle_augment"
-					id: "7AE6360652F9CCAA"
-					tags: ["reset"]
-					title: "{cabin.reward.7AE6360652F9CCAA}"
-					type: "custom"
-				}
-			]
+			rewards: [{
+				auto: "enabled"
+				id: "092706A1932A2BC2"
+				item: "kubejs:trade_card_gravel"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "{cabin.quest.1A27F6CC5196D116.subtitle}"
 			tasks: [{
@@ -167,22 +127,12 @@
 			disable_toast: true
 			icon: "minecraft:clay"
 			id: "0315668E30F2F6E5"
-			rewards: [
-				{
-					auto: "enabled"
-					id: "5DC9D20E6BC4A51C"
-					item: "kubejs:trade_card_clay"
-					type: "item"
-				}
-				{
-					auto: "no_toast"
-					icon: "thermal:machine_cycle_augment"
-					id: "14ACEE1628735CCE"
-					tags: ["reset"]
-					title: "{cabin.reward.14ACEE1628735CCE}"
-					type: "custom"
-				}
-			]
+			rewards: [{
+				auto: "enabled"
+				id: "5DC9D20E6BC4A51C"
+				item: "kubejs:trade_card_clay"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "{cabin.quest.011F64B48766234B.subtitle}"
 			tasks: [{
@@ -201,22 +151,12 @@
 			disable_toast: true
 			icon: "minecraft:ice"
 			id: "36B5C3ECFD38670E"
-			rewards: [
-				{
-					auto: "enabled"
-					id: "5626AD1C3B237DBF"
-					item: "kubejs:trade_card_ice"
-					type: "item"
-				}
-				{
-					auto: "no_toast"
-					icon: "thermal:machine_cycle_augment"
-					id: "584CC020F42126C5"
-					tags: ["reset"]
-					title: "{cabin.reward.584CC020F42126C5}"
-					type: "custom"
-				}
-			]
+			rewards: [{
+				auto: "enabled"
+				id: "5626AD1C3B237DBF"
+				item: "kubejs:trade_card_ice"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "{cabin.quest.07081911727142C8.subtitle}"
 			tasks: [{
@@ -235,22 +175,12 @@
 			disable_toast: true
 			icon: "minecraft:blackstone"
 			id: "1509D36A982217C6"
-			rewards: [
-				{
-					auto: "enabled"
-					id: "5A7B73A55C927126"
-					item: "kubejs:trade_card_blackstone"
-					type: "item"
-				}
-				{
-					auto: "no_toast"
-					icon: "thermal:machine_cycle_augment"
-					id: "726FD26B1F3182F2"
-					tags: ["reset"]
-					title: "{cabin.reward.726FD26B1F3182F2}"
-					type: "custom"
-				}
-			]
+			rewards: [{
+				auto: "enabled"
+				id: "5A7B73A55C927126"
+				item: "kubejs:trade_card_blackstone"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "{cabin.quest.1509D36A982217C6.subtitle}"
 			tasks: [{
@@ -269,22 +199,12 @@
 			disable_toast: true
 			icon: "tconstruct:grout"
 			id: "1BA3EF0818CA7F64"
-			rewards: [
-				{
-					auto: "enabled"
-					id: "0D2D48CDD087D4FA"
-					item: "kubejs:trade_card_grout"
-					type: "item"
-				}
-				{
-					auto: "no_toast"
-					icon: "thermal:machine_cycle_augment"
-					id: "5EE9F9923E9D94A5"
-					tags: ["reset"]
-					title: "{cabin.reward.5EE9F9923E9D94A5}"
-					type: "custom"
-				}
-			]
+			rewards: [{
+				auto: "enabled"
+				id: "0D2D48CDD087D4FA"
+				item: "kubejs:trade_card_grout"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "{cabin.quest.1509D36A982217C6.subtitle}"
 			tasks: [{
@@ -303,22 +223,12 @@
 			disable_toast: true
 			icon: "minecraft:cobblestone"
 			id: "0DEFAE2746209F1A"
-			rewards: [
-				{
-					auto: "enabled"
-					id: "268F87140B2BE1A5"
-					item: "kubejs:trade_card_cobblestone"
-					type: "item"
-				}
-				{
-					auto: "no_toast"
-					icon: "thermal:machine_cycle_augment"
-					id: "4C325E2EFC3C8A34"
-					tags: ["reset"]
-					title: "{cabin.reward.4C325E2EFC3C8A34}"
-					type: "custom"
-				}
-			]
+			rewards: [{
+				auto: "enabled"
+				id: "268F87140B2BE1A5"
+				item: "kubejs:trade_card_cobblestone"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "{cabin.quest.0DEFAE2746209F1A.subtitle}"
 			tasks: [{
@@ -337,22 +247,12 @@
 			disable_toast: true
 			icon: "minecraft:granite"
 			id: "2C10D18D55335B7E"
-			rewards: [
-				{
-					auto: "enabled"
-					id: "2E3F385127229261"
-					item: "kubejs:trade_card_granite"
-					type: "item"
-				}
-				{
-					auto: "no_toast"
-					icon: "thermal:machine_cycle_augment"
-					id: "1F67C89CEC353EC8"
-					tags: ["reset"]
-					title: "{cabin.reward.1F67C89CEC353EC8}"
-					type: "custom"
-				}
-			]
+			rewards: [{
+				auto: "enabled"
+				id: "2E3F385127229261"
+				item: "kubejs:trade_card_granite"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "{cabin.quest.136DA2C41AD2EE31.subtitle}"
 			tasks: [{
@@ -371,22 +271,12 @@
 			disable_toast: true
 			icon: "minecraft:diorite"
 			id: "5F0B4CBE299954C4"
-			rewards: [
-				{
-					auto: "enabled"
-					id: "17357E149CEB22EB"
-					item: "kubejs:trade_card_diorite"
-					type: "item"
-				}
-				{
-					auto: "no_toast"
-					icon: "thermal:machine_cycle_augment"
-					id: "62E3A5FA5D5F540C"
-					tags: ["reset"]
-					title: "{cabin.reward.62E3A5FA5D5F540C}"
-					type: "custom"
-				}
-			]
+			rewards: [{
+				auto: "enabled"
+				id: "17357E149CEB22EB"
+				item: "kubejs:trade_card_diorite"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "{cabin.quest.136DA2C41AD2EE31.subtitle}"
 			tasks: [{
@@ -405,22 +295,12 @@
 			disable_toast: true
 			icon: "minecraft:andesite"
 			id: "262F369CE9CA7C87"
-			rewards: [
-				{
-					auto: "enabled"
-					id: "57557C8A54D21B68"
-					item: "kubejs:trade_card_andesite"
-					type: "item"
-				}
-				{
-					auto: "no_toast"
-					icon: "thermal:machine_cycle_augment"
-					id: "5174EB5FB298E956"
-					tags: ["reset"]
-					title: "{cabin.reward.5174EB5FB298E956}"
-					type: "custom"
-				}
-			]
+			rewards: [{
+				auto: "enabled"
+				id: "57557C8A54D21B68"
+				item: "kubejs:trade_card_andesite"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "{cabin.quest.136DA2C41AD2EE31.subtitle}"
 			tasks: [{
@@ -439,22 +319,12 @@
 			disable_toast: true
 			icon: "create:limestone"
 			id: "47FB0491BAB19B90"
-			rewards: [
-				{
-					auto: "enabled"
-					id: "798D923EE57A6442"
-					item: "kubejs:trade_card_limestone"
-					type: "item"
-				}
-				{
-					auto: "no_toast"
-					icon: "thermal:machine_cycle_augment"
-					id: "43E9BEFDDC686B90"
-					tags: ["reset"]
-					title: "{cabin.reward.43E9BEFDDC686B90}"
-					type: "custom"
-				}
-			]
+			rewards: [{
+				auto: "enabled"
+				id: "798D923EE57A6442"
+				item: "kubejs:trade_card_limestone"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "{cabin.quest.136DA2C41AD2EE31.subtitle}"
 			tasks: [{
@@ -473,22 +343,12 @@
 			disable_toast: true
 			icon: "create:scoria"
 			id: "41709386017FD959"
-			rewards: [
-				{
-					auto: "enabled"
-					id: "16054B2D679D6012"
-					item: "kubejs:trade_card_scoria"
-					type: "item"
-				}
-				{
-					auto: "no_toast"
-					icon: "thermal:machine_cycle_augment"
-					id: "3D31B41848E11733"
-					tags: ["reset"]
-					title: "{cabin.reward.3D31B41848E11733}"
-					type: "custom"
-				}
-			]
+			rewards: [{
+				auto: "enabled"
+				id: "16054B2D679D6012"
+				item: "kubejs:trade_card_scoria"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "{cabin.quest.136DA2C41AD2EE31.subtitle}"
 			tasks: [{
@@ -507,22 +367,12 @@
 			disable_toast: true
 			icon: "minecraft:obsidian"
 			id: "5D4F2FFCBD0B0F8E"
-			rewards: [
-				{
-					auto: "enabled"
-					id: "6EC8FA21CEFFBB20"
-					item: "kubejs:trade_card_obsidian"
-					type: "item"
-				}
-				{
-					auto: "no_toast"
-					icon: "thermal:machine_cycle_augment"
-					id: "4BF9DAC9A2306498"
-					tags: ["reset"]
-					title: "{cabin.reward.4BF9DAC9A2306498}"
-					type: "custom"
-				}
-			]
+			rewards: [{
+				auto: "enabled"
+				id: "6EC8FA21CEFFBB20"
+				item: "kubejs:trade_card_obsidian"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "{cabin.quest.01428232944D8BE9.subtitle}"
 			tasks: [{
@@ -541,22 +391,12 @@
 			disable_toast: true
 			icon: "biomesoplenty:dead_log"
 			id: "222EEB7DB1D98484"
-			rewards: [
-				{
-					auto: "enabled"
-					id: "203B1118E5E16C63"
-					item: "kubejs:trade_card_dead_log"
-					type: "item"
-				}
-				{
-					auto: "no_toast"
-					icon: "thermal:machine_cycle_augment"
-					id: "6143F0847CDAEEC8"
-					tags: ["reset"]
-					title: "{cabin.reward.6143F0847CDAEEC8}"
-					type: "custom"
-				}
-			]
+			rewards: [{
+				auto: "enabled"
+				id: "203B1118E5E16C63"
+				item: "kubejs:trade_card_dead_log"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "{cabin.quest.1A27F6CC5196D116.subtitle}"
 			tasks: [{
@@ -575,22 +415,12 @@
 			disable_toast: true
 			icon: "minecraft:oak_log"
 			id: "5504C6597C74637B"
-			rewards: [
-				{
-					auto: "enabled"
-					id: "41B4166C32732193"
-					item: "kubejs:trade_card_oak_log"
-					type: "item"
-				}
-				{
-					auto: "no_toast"
-					icon: "thermal:machine_cycle_augment"
-					id: "1239746C0CB94233"
-					tags: ["reset"]
-					title: "{cabin.reward.1239746C0CB94233}"
-					type: "custom"
-				}
-			]
+			rewards: [{
+				auto: "enabled"
+				id: "41B4166C32732193"
+				item: "kubejs:trade_card_oak_log"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "{cabin.quest.0DA48CA15E17157D.subtitle}"
 			tasks: [{
@@ -609,22 +439,12 @@
 			disable_toast: true
 			icon: "minecraft:birch_log"
 			id: "35F97137A46C1F3C"
-			rewards: [
-				{
-					auto: "enabled"
-					id: "153D65A8A0BB38FA"
-					item: "kubejs:trade_card_birch_log"
-					type: "item"
-				}
-				{
-					auto: "no_toast"
-					icon: "thermal:machine_cycle_augment"
-					id: "4FE12E7724B5C31B"
-					tags: ["reset"]
-					title: "{cabin.reward.4FE12E7724B5C31B}"
-					type: "custom"
-				}
-			]
+			rewards: [{
+				auto: "enabled"
+				id: "153D65A8A0BB38FA"
+				item: "kubejs:trade_card_birch_log"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "{cabin.quest.0DA48CA15E17157D.subtitle}"
 			tasks: [{
@@ -643,22 +463,12 @@
 			disable_toast: true
 			icon: "minecraft:spruce_log"
 			id: "5923347D1827DA83"
-			rewards: [
-				{
-					auto: "enabled"
-					id: "795C72A7059A47C2"
-					item: "kubejs:trade_card_spruce_log"
-					type: "item"
-				}
-				{
-					auto: "no_toast"
-					icon: "thermal:machine_cycle_augment"
-					id: "2A1E2C24AF0CA856"
-					tags: ["reset"]
-					title: "{cabin.reward.2A1E2C24AF0CA856}"
-					type: "custom"
-				}
-			]
+			rewards: [{
+				auto: "enabled"
+				id: "795C72A7059A47C2"
+				item: "kubejs:trade_card_spruce_log"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "{cabin.quest.0DA48CA15E17157D.subtitle}"
 			tasks: [{
@@ -677,22 +487,12 @@
 			disable_toast: true
 			icon: "minecraft:jungle_log"
 			id: "7F7ACF3B774E9D0E"
-			rewards: [
-				{
-					auto: "enabled"
-					id: "7A2F2E7AFBF5E2C0"
-					item: "kubejs:trade_card_jungle_log"
-					type: "item"
-				}
-				{
-					auto: "no_toast"
-					icon: "thermal:machine_cycle_augment"
-					id: "423D84B9EB17049B"
-					tags: ["reset"]
-					title: "{cabin.reward.423D84B9EB17049B}"
-					type: "custom"
-				}
-			]
+			rewards: [{
+				auto: "enabled"
+				id: "7A2F2E7AFBF5E2C0"
+				item: "kubejs:trade_card_jungle_log"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "{cabin.quest.0DA48CA15E17157D.subtitle}"
 			tasks: [{
@@ -711,22 +511,12 @@
 			disable_toast: true
 			icon: "minecraft:acacia_log"
 			id: "6C6A43E08FBC8D53"
-			rewards: [
-				{
-					auto: "enabled"
-					id: "32FB1ED239878B55"
-					item: "kubejs:trade_card_acacia_log"
-					type: "item"
-				}
-				{
-					auto: "no_toast"
-					icon: "thermal:machine_cycle_augment"
-					id: "55C814138D0CEF8B"
-					tags: ["reset"]
-					title: "{cabin.reward.55C814138D0CEF8B}"
-					type: "custom"
-				}
-			]
+			rewards: [{
+				auto: "enabled"
+				id: "32FB1ED239878B55"
+				item: "kubejs:trade_card_acacia_log"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "{cabin.quest.0DA48CA15E17157D.subtitle}"
 			tasks: [{
@@ -745,22 +535,12 @@
 			disable_toast: true
 			icon: "minecraft:dark_oak_log"
 			id: "585788A4494AC124"
-			rewards: [
-				{
-					auto: "enabled"
-					id: "1854BD659ABE0EC5"
-					item: "kubejs:trade_card_dark_oak_log"
-					type: "item"
-				}
-				{
-					auto: "no_toast"
-					icon: "thermal:machine_cycle_augment"
-					id: "586F20910743E75B"
-					tags: ["reset"]
-					title: "{cabin.reward.586F20910743E75B}"
-					type: "custom"
-				}
-			]
+			rewards: [{
+				auto: "enabled"
+				id: "1854BD659ABE0EC5"
+				item: "kubejs:trade_card_dark_oak_log"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "{cabin.quest.0DA48CA15E17157D.subtitle}"
 			tasks: [{
@@ -779,22 +559,12 @@
 			disable_toast: true
 			icon: "minecraft:crimson_stem"
 			id: "24328C973480E4E8"
-			rewards: [
-				{
-					auto: "enabled"
-					id: "4DDDA8FE8957E1B3"
-					item: "kubejs:trade_card_crimson_stem"
-					type: "item"
-				}
-				{
-					auto: "no_toast"
-					icon: "thermal:machine_cycle_augment"
-					id: "0E3E4BE7B72586D2"
-					tags: ["reset"]
-					title: "{cabin.reward.0E3E4BE7B72586D2}"
-					type: "custom"
-				}
-			]
+			rewards: [{
+				auto: "enabled"
+				id: "4DDDA8FE8957E1B3"
+				item: "kubejs:trade_card_crimson_stem"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "{cabin.quest.01428232944D8BE9.subtitle}"
 			tasks: [{
@@ -813,22 +583,12 @@
 			disable_toast: true
 			icon: "minecraft:warped_stem"
 			id: "725FFE8BD6E45F96"
-			rewards: [
-				{
-					auto: "enabled"
-					id: "2EFE654C949DA5E2"
-					item: "kubejs:trade_card_warped_stem"
-					type: "item"
-				}
-				{
-					auto: "no_toast"
-					icon: "thermal:machine_cycle_augment"
-					id: "7480420CFCFB2BBE"
-					tags: ["reset"]
-					title: "{cabin.reward.7480420CFCFB2BBE}"
-					type: "custom"
-				}
-			]
+			rewards: [{
+				auto: "enabled"
+				id: "2EFE654C949DA5E2"
+				item: "kubejs:trade_card_warped_stem"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "{cabin.quest.01428232944D8BE9.subtitle}"
 			tasks: [{
@@ -847,22 +607,12 @@
 			disable_toast: true
 			icon: "minecraft:iron_ingot"
 			id: "07081911727142C8"
-			rewards: [
-				{
-					auto: "enabled"
-					id: "04EFE1B1037D4425"
-					item: "kubejs:trade_card_iron_ingot"
-					type: "item"
-				}
-				{
-					auto: "no_toast"
-					icon: "thermal:machine_cycle_augment"
-					id: "15021797F1262C44"
-					tags: ["reset"]
-					title: "{cabin.reward.15021797F1262C44}"
-					type: "custom"
-				}
-			]
+			rewards: [{
+				auto: "enabled"
+				id: "04EFE1B1037D4425"
+				item: "kubejs:trade_card_iron_ingot"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "{cabin.quest.07081911727142C8.subtitle}"
 			tasks: [{
@@ -881,22 +631,12 @@
 			disable_toast: true
 			icon: "create:zinc_ingot"
 			id: "69B107895D3CA0B2"
-			rewards: [
-				{
-					auto: "enabled"
-					id: "5D700D1565692EE1"
-					item: "kubejs:trade_card_zinc_ingot"
-					type: "item"
-				}
-				{
-					auto: "no_toast"
-					icon: "thermal:machine_cycle_augment"
-					id: "49A8B503F5F78F19"
-					tags: ["reset"]
-					title: "{cabin.reward.49A8B503F5F78F19}"
-					type: "custom"
-				}
-			]
+			rewards: [{
+				auto: "enabled"
+				id: "5D700D1565692EE1"
+				item: "kubejs:trade_card_zinc_ingot"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "{cabin.quest.07081911727142C8.subtitle}"
 			tasks: [{
@@ -915,22 +655,12 @@
 			disable_toast: true
 			icon: "minecraft:copper_ingot"
 			id: "74F96A8D400FD059"
-			rewards: [
-				{
-					auto: "enabled"
-					id: "5FDA4963F53EC5F5"
-					item: "kubejs:trade_card_copper_ingot"
-					type: "item"
-				}
-				{
-					auto: "no_toast"
-					icon: "thermal:machine_cycle_augment"
-					id: "04A9BCE6680495C6"
-					tags: ["reset"]
-					title: "{cabin.reward.04A9BCE6680495C6}"
-					type: "custom"
-				}
-			]
+			rewards: [{
+				auto: "enabled"
+				id: "5FDA4963F53EC5F5"
+				item: "kubejs:trade_card_copper_ingot"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "{cabin.quest.07081911727142C8.subtitle}"
 			tasks: [{
@@ -949,22 +679,12 @@
 			disable_toast: true
 			icon: "thermal:nickel_ingot"
 			id: "6D8E4C9DCFFB2C90"
-			rewards: [
-				{
-					auto: "enabled"
-					id: "645226D860AF3F5E"
-					item: "kubejs:trade_card_nickel_ingot"
-					type: "item"
-				}
-				{
-					auto: "no_toast"
-					icon: "thermal:machine_cycle_augment"
-					id: "09FD51124DC69B46"
-					tags: ["reset"]
-					title: "{cabin.reward.09FD51124DC69B46}"
-					type: "custom"
-				}
-			]
+			rewards: [{
+				auto: "enabled"
+				id: "645226D860AF3F5E"
+				item: "kubejs:trade_card_nickel_ingot"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "{cabin.quest.01F3EDC327B63908.subtitle}"
 			tasks: [{
@@ -983,22 +703,12 @@
 			disable_toast: true
 			icon: "thermal:lead_ingot"
 			id: "3FC1029AF9BB245E"
-			rewards: [
-				{
-					auto: "enabled"
-					id: "5FB6D6D6595BFA31"
-					item: "kubejs:trade_card_lead_ingot"
-					type: "item"
-				}
-				{
-					auto: "no_toast"
-					icon: "thermal:machine_cycle_augment"
-					id: "02F412F0E75365AE"
-					tags: ["reset"]
-					title: "{cabin.reward.02F412F0E75365AE}"
-					type: "custom"
-				}
-			]
+			rewards: [{
+				auto: "enabled"
+				id: "5FB6D6D6595BFA31"
+				item: "kubejs:trade_card_lead_ingot"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "{cabin.quest.01F3EDC327B63908.subtitle}"
 			tasks: [{
@@ -1017,22 +727,12 @@
 			disable_toast: true
 			icon: "minecraft:gold_ingot"
 			id: "417DD17A5C96CEE2"
-			rewards: [
-				{
-					auto: "enabled"
-					id: "5DF7A47F2DF28050"
-					item: "kubejs:trade_card_gold_ingot"
-					type: "item"
-				}
-				{
-					auto: "no_toast"
-					icon: "thermal:machine_cycle_augment"
-					id: "28E0E330F2FEF3D8"
-					tags: ["reset"]
-					title: "{cabin.reward.28E0E330F2FEF3D8}"
-					type: "custom"
-				}
-			]
+			rewards: [{
+				auto: "enabled"
+				id: "5DF7A47F2DF28050"
+				item: "kubejs:trade_card_gold_ingot"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "{cabin.quest.003E0D1CE60B166A.subtitle}"
 			tasks: [{
@@ -1051,22 +751,12 @@
 			disable_toast: true
 			icon: "create:andesite_alloy"
 			id: "7B5B7BB304E14C6D"
-			rewards: [
-				{
-					auto: "enabled"
-					id: "086F1AC96402FBDE"
-					item: "kubejs:trade_card_andesite_alloy"
-					type: "item"
-				}
-				{
-					auto: "no_toast"
-					icon: "thermal:machine_cycle_augment"
-					id: "6B9745A3B2507A90"
-					tags: ["reset"]
-					title: "{cabin.reward.6B9745A3B2507A90}"
-					type: "custom"
-				}
-			]
+			rewards: [{
+				auto: "enabled"
+				id: "086F1AC96402FBDE"
+				item: "kubejs:trade_card_andesite_alloy"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "{cabin.quest.01428232944D8BE9.subtitle}"
 			tasks: [{
@@ -1085,22 +775,12 @@
 			disable_toast: true
 			icon: "minecraft:amethyst_shard"
 			id: "01F3EDC327B63908"
-			rewards: [
-				{
-					auto: "enabled"
-					id: "7FDA0A2FE7C3CC29"
-					item: "kubejs:trade_card_amethyst"
-					type: "item"
-				}
-				{
-					auto: "no_toast"
-					icon: "thermal:machine_cycle_augment"
-					id: "20A44ED461BA79A6"
-					tags: ["reset"]
-					title: "{cabin.reward.20A44ED461BA79A6}"
-					type: "custom"
-				}
-			]
+			rewards: [{
+				auto: "enabled"
+				id: "7FDA0A2FE7C3CC29"
+				item: "kubejs:trade_card_amethyst"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "{cabin.quest.01F3EDC327B63908.subtitle}"
 			tasks: [{
@@ -1119,22 +799,12 @@
 			disable_toast: true
 			icon: "create:brass_ingot"
 			id: "040A0552921E1115"
-			rewards: [
-				{
-					auto: "enabled"
-					id: "5BBBE855F52ED029"
-					item: "kubejs:trade_card_brass_ingot"
-					type: "item"
-				}
-				{
-					auto: "no_toast"
-					icon: "thermal:machine_cycle_augment"
-					id: "5324E6C8D0854FB6"
-					tags: ["reset"]
-					title: "{cabin.reward.5324E6C8D0854FB6}"
-					type: "custom"
-				}
-			]
+			rewards: [{
+				auto: "enabled"
+				id: "5BBBE855F52ED029"
+				item: "kubejs:trade_card_brass_ingot"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "{cabin.quest.003E0D1CE60B166A.subtitle}"
 			tasks: [{
@@ -1153,22 +823,12 @@
 			disable_toast: true
 			icon: "thermal:invar_ingot"
 			id: "2D022872F99F9907"
-			rewards: [
-				{
-					auto: "enabled"
-					id: "302C6F91CA94F1E1"
-					item: "kubejs:trade_card_invar_ingot"
-					type: "item"
-				}
-				{
-					auto: "no_toast"
-					icon: "thermal:machine_cycle_augment"
-					id: "2CCCC558C8490FBA"
-					tags: ["reset"]
-					title: "{cabin.reward.2CCCC558C8490FBA}"
-					type: "custom"
-				}
-			]
+			rewards: [{
+				auto: "enabled"
+				id: "302C6F91CA94F1E1"
+				item: "kubejs:trade_card_invar_ingot"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "{cabin.quest.2D022872F99F9907.subtitle}"
 			tasks: [{
@@ -1187,22 +847,12 @@
 			disable_toast: true
 			icon: "minecraft:coal"
 			id: "0DA48CA15E17157D"
-			rewards: [
-				{
-					auto: "enabled"
-					id: "2EBABA88E1067F51"
-					item: "kubejs:trade_card_coal"
-					type: "item"
-				}
-				{
-					auto: "no_toast"
-					icon: "thermal:machine_cycle_augment"
-					id: "7B783BD2B49FEAB8"
-					tags: ["reset"]
-					title: "{cabin.reward.7B783BD2B49FEAB8}"
-					type: "custom"
-				}
-			]
+			rewards: [{
+				auto: "enabled"
+				id: "2EBABA88E1067F51"
+				item: "kubejs:trade_card_coal"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "{cabin.quest.0DA48CA15E17157D.subtitle}"
 			tasks: [{
@@ -1221,22 +871,12 @@
 			disable_toast: true
 			icon: "minecraft:flint"
 			id: "70FDB8C2F2C4A825"
-			rewards: [
-				{
-					auto: "enabled"
-					id: "3E183FFAFED2D1D9"
-					item: "kubejs:trade_card_flint"
-					type: "item"
-				}
-				{
-					auto: "no_toast"
-					icon: "thermal:machine_cycle_augment"
-					id: "1A63C1380ECE209B"
-					tags: ["reset"]
-					title: "{cabin.reward.1A63C1380ECE209B}"
-					type: "custom"
-				}
-			]
+			rewards: [{
+				auto: "enabled"
+				id: "3E183FFAFED2D1D9"
+				item: "kubejs:trade_card_flint"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "{cabin.quest.0DA48CA15E17157D.subtitle}"
 			tasks: [{
@@ -1255,22 +895,12 @@
 			disable_toast: true
 			icon: "thermal:cinnabar"
 			id: "78ECB6EB48347D08"
-			rewards: [
-				{
-					auto: "enabled"
-					id: "48E779E7241F8B64"
-					item: "kubejs:trade_card_cinnabar"
-					type: "item"
-				}
-				{
-					auto: "no_toast"
-					icon: "thermal:machine_cycle_augment"
-					id: "497CE4C0BE785277"
-					tags: ["reset"]
-					title: "{cabin.reward.497CE4C0BE785277}"
-					type: "custom"
-				}
-			]
+			rewards: [{
+				auto: "enabled"
+				id: "48E779E7241F8B64"
+				item: "kubejs:trade_card_cinnabar"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "{cabin.quest.07081911727142C8.subtitle}"
 			tasks: [{
@@ -1289,22 +919,12 @@
 			disable_toast: true
 			icon: "minecraft:redstone"
 			id: "21CC162C06BBFAE6"
-			rewards: [
-				{
-					auto: "enabled"
-					id: "288A91044CFC9BEA"
-					item: "kubejs:trade_card_redstone_dust"
-					type: "item"
-				}
-				{
-					auto: "no_toast"
-					icon: "thermal:machine_cycle_augment"
-					id: "656C412A2E462DB7"
-					tags: ["reset"]
-					title: "{cabin.reward.656C412A2E462DB7}"
-					type: "custom"
-				}
-			]
+			rewards: [{
+				auto: "enabled"
+				id: "288A91044CFC9BEA"
+				item: "kubejs:trade_card_redstone_dust"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "{cabin.quest.01428232944D8BE9.subtitle}"
 			tasks: [{
@@ -1323,22 +943,12 @@
 			disable_toast: true
 			icon: "minecraft:diamond"
 			id: "00EBF8DED4E51A4F"
-			rewards: [
-				{
-					auto: "enabled"
-					id: "703407B7CF1C8911"
-					item: "kubejs:trade_card_diamond"
-					type: "item"
-				}
-				{
-					auto: "no_toast"
-					icon: "thermal:machine_cycle_augment"
-					id: "4D70632E6F7C117C"
-					tags: ["reset"]
-					title: "{cabin.reward.4D70632E6F7C117C}"
-					type: "custom"
-				}
-			]
+			rewards: [{
+				auto: "enabled"
+				id: "703407B7CF1C8911"
+				item: "kubejs:trade_card_diamond"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "{cabin.quest.00EBF8DED4E51A4F.subtitle}"
 			tasks: [{
@@ -1357,22 +967,12 @@
 			disable_toast: true
 			icon: "minecraft:lapis_lazuli"
 			id: "258C779897D1AEF0"
-			rewards: [
-				{
-					auto: "enabled"
-					id: "0351079CD0288700"
-					item: "kubejs:trade_card_lapis_lazuli"
-					type: "item"
-				}
-				{
-					auto: "no_toast"
-					icon: "thermal:machine_cycle_augment"
-					id: "3F1CC1912310FBB1"
-					tags: ["reset"]
-					title: "{cabin.reward.3F1CC1912310FBB1}"
-					type: "custom"
-				}
-			]
+			rewards: [{
+				auto: "enabled"
+				id: "0351079CD0288700"
+				item: "kubejs:trade_card_lapis_lazuli"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "{cabin.quest.01F3EDC327B63908.subtitle}"
 			tasks: [{
@@ -1391,22 +991,12 @@
 			disable_toast: true
 			icon: "minecraft:emerald"
 			id: "38CD5CE18FE09D23"
-			rewards: [
-				{
-					auto: "enabled"
-					id: "14762B422E1D7D3B"
-					item: "kubejs:trade_card_emerald"
-					type: "item"
-				}
-				{
-					auto: "no_toast"
-					icon: "thermal:machine_cycle_augment"
-					id: "18413CE7A70980E3"
-					tags: ["reset"]
-					title: "{cabin.reward.18413CE7A70980E3}"
-					type: "custom"
-				}
-			]
+			rewards: [{
+				auto: "enabled"
+				id: "14762B422E1D7D3B"
+				item: "kubejs:trade_card_emerald"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "{cabin.quest.00EBF8DED4E51A4F.subtitle}"
 			tasks: [{
@@ -1425,22 +1015,12 @@
 			disable_toast: true
 			icon: "thermal:sulfur"
 			id: "1C104893F5481A58"
-			rewards: [
-				{
-					auto: "enabled"
-					id: "1F521871F7BF5D3B"
-					item: "kubejs:trade_card_sulfur"
-					type: "item"
-				}
-				{
-					auto: "no_toast"
-					icon: "thermal:machine_cycle_augment"
-					id: "7BA3F9373DF0F1F8"
-					tags: ["reset"]
-					title: "{cabin.reward.7BA3F9373DF0F1F8}"
-					type: "custom"
-				}
-			]
+			rewards: [{
+				auto: "enabled"
+				id: "1F521871F7BF5D3B"
+				item: "kubejs:trade_card_sulfur"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "{cabin.quest.01428232944D8BE9.subtitle}"
 			tasks: [{
@@ -1459,22 +1039,12 @@
 			disable_toast: true
 			icon: "thermal:apatite"
 			id: "7509D8FA29C6AB31"
-			rewards: [
-				{
-					auto: "enabled"
-					id: "2FC89C2C89DA4253"
-					item: "kubejs:trade_card_apatite"
-					type: "item"
-				}
-				{
-					auto: "no_toast"
-					icon: "thermal:machine_cycle_augment"
-					id: "11DD631CC9E7B242"
-					tags: ["reset"]
-					title: "{cabin.reward.11DD631CC9E7B242}"
-					type: "custom"
-				}
-			]
+			rewards: [{
+				auto: "enabled"
+				id: "2FC89C2C89DA4253"
+				item: "kubejs:trade_card_apatite"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "{cabin.quest.01428232944D8BE9.subtitle}"
 			tasks: [{
@@ -1493,22 +1063,12 @@
 			disable_toast: true
 			icon: "thermal:niter"
 			id: "3A4A3B749FBDBEF1"
-			rewards: [
-				{
-					auto: "enabled"
-					id: "2064E44195ACEC5B"
-					item: "kubejs:trade_card_niter"
-					type: "item"
-				}
-				{
-					auto: "no_toast"
-					icon: "thermal:machine_cycle_augment"
-					id: "4146275713529900"
-					tags: ["reset"]
-					title: "{cabin.reward.4146275713529900}"
-					type: "custom"
-				}
-			]
+			rewards: [{
+				auto: "enabled"
+				id: "2064E44195ACEC5B"
+				item: "kubejs:trade_card_niter"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "{cabin.quest.01428232944D8BE9.subtitle}"
 			tasks: [{
@@ -1527,22 +1087,12 @@
 			disable_toast: true
 			icon: "minecraft:quartz"
 			id: "1D6150F2480B976E"
-			rewards: [
-				{
-					auto: "enabled"
-					id: "13C6D81EC3938304"
-					item: "kubejs:trade_card_nether_quartz"
-					type: "item"
-				}
-				{
-					auto: "no_toast"
-					icon: "thermal:machine_cycle_augment"
-					id: "0A2365C2957AFD25"
-					tags: ["reset"]
-					title: "{cabin.reward.0A2365C2957AFD25}"
-					type: "custom"
-				}
-			]
+			rewards: [{
+				auto: "enabled"
+				id: "13C6D81EC3938304"
+				item: "kubejs:trade_card_nether_quartz"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "{cabin.quest.1D6150F2480B976E.subtitle}"
 			tasks: [{
@@ -1561,22 +1111,12 @@
 			disable_toast: true
 			icon: "ae2:certus_quartz_crystal"
 			id: "48F72CFAB336FE73"
-			rewards: [
-				{
-					auto: "enabled"
-					id: "4DE00DE8BF5936C9"
-					item: "kubejs:trade_card_certus_quartz"
-					type: "item"
-				}
-				{
-					auto: "no_toast"
-					icon: "thermal:machine_cycle_augment"
-					id: "569F8F41270B936C"
-					tags: ["reset"]
-					title: "{cabin.reward.569F8F41270B936C}"
-					type: "custom"
-				}
-			]
+			rewards: [{
+				auto: "enabled"
+				id: "4DE00DE8BF5936C9"
+				item: "kubejs:trade_card_certus_quartz"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "{cabin.quest.1D6150F2480B976E.subtitle}"
 			tasks: [{
@@ -1595,22 +1135,12 @@
 			disable_toast: true
 			icon: "ae2:fluix_crystal"
 			id: "4A678C0BE97177DB"
-			rewards: [
-				{
-					auto: "enabled"
-					id: "08DDDFEFD8A7C4D7"
-					item: "kubejs:trade_card_fluix_quartz"
-					type: "item"
-				}
-				{
-					auto: "no_toast"
-					icon: "thermal:machine_cycle_augment"
-					id: "379CA074F5FDA6B3"
-					tags: ["reset"]
-					title: "{cabin.reward.379CA074F5FDA6B3}"
-					type: "custom"
-				}
-			]
+			rewards: [{
+				auto: "enabled"
+				id: "08DDDFEFD8A7C4D7"
+				item: "kubejs:trade_card_fluix_quartz"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "{cabin.quest.01F3EDC327B63908.subtitle}"
 			tasks: [{
@@ -1629,22 +1159,12 @@
 			disable_toast: true
 			icon: "thermal:cured_rubber"
 			id: "488A4B4A3295CF10"
-			rewards: [
-				{
-					auto: "enabled"
-					id: "22DD9D3AF87567E2"
-					item: "kubejs:trade_card_cured_rubber"
-					type: "item"
-				}
-				{
-					auto: "no_toast"
-					icon: "thermal:machine_cycle_augment"
-					id: "7E5019FC90848D61"
-					tags: ["reset"]
-					title: "{cabin.reward.7E5019FC90848D61}"
-					type: "custom"
-				}
-			]
+			rewards: [{
+				auto: "enabled"
+				id: "22DD9D3AF87567E2"
+				item: "kubejs:trade_card_cured_rubber"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "{cabin.quest.07081911727142C8.subtitle}"
 			tasks: [{
@@ -1663,22 +1183,12 @@
 			disable_toast: true
 			icon: "minecraft:scaffolding"
 			id: "49634E835B948A4F"
-			rewards: [
-				{
-					auto: "enabled"
-					id: "4E2898367E1E0619"
-					item: "kubejs:trade_card_scaffolding"
-					type: "item"
-				}
-				{
-					auto: "no_toast"
-					icon: "thermal:machine_cycle_augment"
-					id: "554CE24AF5C12775"
-					tags: ["reset"]
-					title: "{cabin.reward.554CE24AF5C12775}"
-					type: "custom"
-				}
-			]
+			rewards: [{
+				auto: "enabled"
+				id: "4E2898367E1E0619"
+				item: "kubejs:trade_card_scaffolding"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "{cabin.quest.1A27F6CC5196D116.subtitle}"
 			tasks: [{
@@ -1697,22 +1207,12 @@
 			disable_toast: true
 			icon: "minecraft:white_wool"
 			id: "20CB646041616191"
-			rewards: [
-				{
-					auto: "enabled"
-					id: "36A65ACB4695944E"
-					item: "kubejs:trade_card_wool"
-					type: "item"
-				}
-				{
-					auto: "no_toast"
-					icon: "thermal:machine_cycle_augment"
-					id: "4D65BD92C51B1944"
-					tags: ["reset"]
-					title: "{cabin.reward.4D65BD92C51B1944}"
-					type: "custom"
-				}
-			]
+			rewards: [{
+				auto: "enabled"
+				id: "36A65ACB4695944E"
+				item: "kubejs:trade_card_wool"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "{cabin.quest.01428232944D8BE9.subtitle}"
 			tasks: [{
@@ -1731,22 +1231,12 @@
 			disable_toast: true
 			icon: "minecraft:sponge"
 			id: "58E93229D6552D4B"
-			rewards: [
-				{
-					auto: "enabled"
-					id: "53B0394912B56DD3"
-					item: "kubejs:trade_card_sponge"
-					type: "item"
-				}
-				{
-					auto: "no_toast"
-					icon: "thermal:machine_cycle_augment"
-					id: "14446C53A4A9F61A"
-					tags: ["reset"]
-					title: "{cabin.reward.14446C53A4A9F61A}"
-					type: "custom"
-				}
-			]
+			rewards: [{
+				auto: "enabled"
+				id: "53B0394912B56DD3"
+				item: "kubejs:trade_card_sponge"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "{cabin.quest.07081911727142C8.subtitle}"
 			tasks: [{
@@ -1765,22 +1255,12 @@
 			disable_toast: true
 			icon: "minecraft:cobweb"
 			id: "3C45250D863E65CB"
-			rewards: [
-				{
-					auto: "enabled"
-					id: "4CD2BDCF1A0AF73B"
-					item: "kubejs:trade_card_cobweb"
-					type: "item"
-				}
-				{
-					auto: "no_toast"
-					icon: "thermal:machine_cycle_augment"
-					id: "1E410D0CDD72EEA7"
-					tags: ["reset"]
-					title: "{cabin.reward.1E410D0CDD72EEA7}"
-					type: "custom"
-				}
-			]
+			rewards: [{
+				auto: "enabled"
+				id: "4CD2BDCF1A0AF73B"
+				item: "kubejs:trade_card_cobweb"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "{cabin.quest.07081911727142C8.subtitle}"
 			tasks: [{
@@ -1799,22 +1279,12 @@
 			disable_toast: true
 			icon: "farmersdelight:rice_bag"
 			id: "7BDF86B9E3E607C5"
-			rewards: [
-				{
-					auto: "enabled"
-					id: "3A5740C10BBF0430"
-					item: "kubejs:trade_card_rice"
-					type: "item"
-				}
-				{
-					auto: "no_toast"
-					icon: "thermal:machine_cycle_augment"
-					id: "58814DC84AEC1308"
-					tags: ["reset"]
-					title: "{cabin.reward.58814DC84AEC1308}"
-					type: "custom"
-				}
-			]
+			rewards: [{
+				auto: "enabled"
+				id: "3A5740C10BBF0430"
+				item: "kubejs:trade_card_rice"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "{cabin.quest.0DA48CA15E17157D.subtitle}"
 			tasks: [{
@@ -1833,22 +1303,12 @@
 			disable_toast: true
 			icon: "farmersdelight:straw"
 			id: "59EBD3DADD002D3A"
-			rewards: [
-				{
-					auto: "enabled"
-					id: "78B01F12E7EDFC53"
-					item: "kubejs:trade_card_straw"
-					type: "item"
-				}
-				{
-					auto: "no_toast"
-					icon: "thermal:machine_cycle_augment"
-					id: "08420FCE5515F7FF"
-					tags: ["reset"]
-					title: "{cabin.reward.08420FCE5515F7FF}"
-					type: "custom"
-				}
-			]
+			rewards: [{
+				auto: "enabled"
+				id: "78B01F12E7EDFC53"
+				item: "kubejs:trade_card_straw"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "{cabin.quest.01428232944D8BE9.subtitle}"
 			tasks: [{
@@ -1867,22 +1327,12 @@
 			disable_toast: true
 			icon: "biomesoplenty:glowshroom"
 			id: "7F4D9F958EBDEAF8"
-			rewards: [
-				{
-					auto: "enabled"
-					id: "6056A6105CB0C763"
-					item: "kubejs:trade_card_glowshroom"
-					type: "item"
-				}
-				{
-					auto: "no_toast"
-					icon: "thermal:machine_cycle_augment"
-					id: "2685513A14EC62F4"
-					tags: ["reset"]
-					title: "{cabin.reward.2685513A14EC62F4}"
-					type: "custom"
-				}
-			]
+			rewards: [{
+				auto: "enabled"
+				id: "6056A6105CB0C763"
+				item: "kubejs:trade_card_glowshroom"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "{cabin.quest.737E670DC8AD5E19.subtitle}"
 			tasks: [{
@@ -1901,22 +1351,12 @@
 			disable_toast: true
 			icon: "biomesoplenty:bramble"
 			id: "737E670DC8AD5E19"
-			rewards: [
-				{
-					auto: "enabled"
-					id: "7B54EAB8073173F1"
-					item: "kubejs:trade_card_bramble"
-					type: "item"
-				}
-				{
-					auto: "no_toast"
-					icon: "thermal:machine_cycle_augment"
-					id: "37B5C7EC7F055F2F"
-					tags: ["reset"]
-					title: "{cabin.reward.37B5C7EC7F055F2F}"
-					type: "custom"
-				}
-			]
+			rewards: [{
+				auto: "enabled"
+				id: "7B54EAB8073173F1"
+				item: "kubejs:trade_card_bramble"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "{cabin.quest.737E670DC8AD5E19.subtitle}"
 			tasks: [{
@@ -1935,22 +1375,12 @@
 			disable_toast: true
 			icon: "biomesoplenty:barley"
 			id: "1EF5AB1D7882167F"
-			rewards: [
-				{
-					auto: "enabled"
-					id: "3EE0DCF1E01DE583"
-					item: "kubejs:trade_card_barley"
-					type: "item"
-				}
-				{
-					auto: "no_toast"
-					icon: "thermal:machine_cycle_augment"
-					id: "191FB310CBA7D093"
-					tags: ["reset"]
-					title: "{cabin.reward.191FB310CBA7D093}"
-					type: "custom"
-				}
-			]
+			rewards: [{
+				auto: "enabled"
+				id: "3EE0DCF1E01DE583"
+				item: "kubejs:trade_card_barley"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "{cabin.quest.0DA48CA15E17157D.subtitle}"
 			tasks: [{
@@ -1969,22 +1399,12 @@
 			disable_toast: true
 			icon: "biomesoplenty:watergrass"
 			id: "576E0B50F2015C9E"
-			rewards: [
-				{
-					auto: "enabled"
-					id: "05836F075B2DD93C"
-					item: "kubejs:trade_card_watergrass"
-					type: "item"
-				}
-				{
-					auto: "no_toast"
-					icon: "thermal:machine_cycle_augment"
-					id: "5F776DF7288000AD"
-					tags: ["reset"]
-					title: "{cabin.reward.5F776DF7288000AD}"
-					type: "custom"
-				}
-			]
+			rewards: [{
+				auto: "enabled"
+				id: "05836F075B2DD93C"
+				item: "kubejs:trade_card_watergrass"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "{cabin.quest.0DA48CA15E17157D.subtitle}"
 			tasks: [{
@@ -2003,22 +1423,12 @@
 			disable_toast: true
 			icon: "biomesoplenty:reed"
 			id: "3CA6DD7C5516A330"
-			rewards: [
-				{
-					auto: "enabled"
-					id: "5DF1491360FCF3FA"
-					item: "kubejs:trade_card_reed"
-					type: "item"
-				}
-				{
-					auto: "no_toast"
-					icon: "thermal:machine_cycle_augment"
-					id: "11A2A1E7BD35FDB0"
-					tags: ["reset"]
-					title: "{cabin.reward.11A2A1E7BD35FDB0}"
-					type: "custom"
-				}
-			]
+			rewards: [{
+				auto: "enabled"
+				id: "5DF1491360FCF3FA"
+				item: "kubejs:trade_card_reed"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "{cabin.quest.04468935C9A7298F.subtitle}"
 			tasks: [{
@@ -2037,22 +1447,12 @@
 			disable_toast: true
 			icon: "biomesoplenty:huge_clover_petal"
 			id: "6C6C1C2E7CA882BD"
-			rewards: [
-				{
-					auto: "enabled"
-					id: "07C4BD06D929D08A"
-					item: "kubejs:trade_card_clover_petal"
-					type: "item"
-				}
-				{
-					auto: "no_toast"
-					icon: "thermal:machine_cycle_augment"
-					id: "663C265DA6F4E930"
-					tags: ["reset"]
-					title: "{cabin.reward.663C265DA6F4E930}"
-					type: "custom"
-				}
-			]
+			rewards: [{
+				auto: "enabled"
+				id: "07C4BD06D929D08A"
+				item: "kubejs:trade_card_clover_petal"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "{cabin.quest.09DC2E2BE2BE32F4.subtitle}"
 			tasks: [{
@@ -2071,22 +1471,12 @@
 			disable_toast: true
 			icon: "biomesoplenty:spanish_moss"
 			id: "3E27961386364EDF"
-			rewards: [
-				{
-					auto: "enabled"
-					id: "1D32702F20FE8AAB"
-					item: "kubejs:trade_card_spanish_moss"
-					type: "item"
-				}
-				{
-					auto: "no_toast"
-					icon: "thermal:machine_cycle_augment"
-					id: "1DF5C29759963F36"
-					tags: ["reset"]
-					title: "{cabin.reward.1DF5C29759963F36}"
-					type: "custom"
-				}
-			]
+			rewards: [{
+				auto: "enabled"
+				id: "1D32702F20FE8AAB"
+				item: "kubejs:trade_card_spanish_moss"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "{cabin.quest.286C553AD3E15266.subtitle}"
 			tasks: [{
@@ -2105,22 +1495,12 @@
 			disable_toast: true
 			icon: "biomesoplenty:willow_vine"
 			id: "286C553AD3E15266"
-			rewards: [
-				{
-					auto: "enabled"
-					id: "0A9B1BF968F82301"
-					item: "kubejs:trade_card_willow_vine"
-					type: "item"
-				}
-				{
-					auto: "no_toast"
-					icon: "thermal:machine_cycle_augment"
-					id: "7D9276C2D669D0FF"
-					tags: ["reset"]
-					title: "{cabin.reward.7D9276C2D669D0FF}"
-					type: "custom"
-				}
-			]
+			rewards: [{
+				auto: "enabled"
+				id: "0A9B1BF968F82301"
+				item: "kubejs:trade_card_willow_vine"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "{cabin.quest.286C553AD3E15266.subtitle}"
 			tasks: [{
@@ -2139,22 +1519,12 @@
 			disable_toast: true
 			icon: "biomesoplenty:cattail"
 			id: "70B164A5F22452CA"
-			rewards: [
-				{
-					auto: "enabled"
-					id: "1BD8FA059ED750C8"
-					item: "kubejs:trade_card_cattail"
-					type: "item"
-				}
-				{
-					auto: "no_toast"
-					icon: "thermal:machine_cycle_augment"
-					id: "6A27CCF65FF6FDDE"
-					tags: ["reset"]
-					title: "{cabin.reward.6A27CCF65FF6FDDE}"
-					type: "custom"
-				}
-			]
+			rewards: [{
+				auto: "enabled"
+				id: "1BD8FA059ED750C8"
+				item: "kubejs:trade_card_cattail"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "{cabin.quest.0DA48CA15E17157D.subtitle}"
 			tasks: [{
@@ -2173,22 +1543,12 @@
 			disable_toast: true
 			icon: "minecraft:sugar_cane"
 			id: "5BB058D52AA40751"
-			rewards: [
-				{
-					auto: "enabled"
-					id: "3D70673520E3563B"
-					item: "kubejs:trade_card_sugar_cane"
-					type: "item"
-				}
-				{
-					auto: "no_toast"
-					icon: "thermal:machine_cycle_augment"
-					id: "4107B1A81710E1B6"
-					tags: ["reset"]
-					title: "{cabin.reward.4107B1A81710E1B6}"
-					type: "custom"
-				}
-			]
+			rewards: [{
+				auto: "enabled"
+				id: "3D70673520E3563B"
+				item: "kubejs:trade_card_sugar_cane"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "{cabin.quest.136DA2C41AD2EE31.subtitle}"
 			tasks: [{
@@ -2207,22 +1567,12 @@
 			disable_toast: true
 			icon: "minecraft:kelp"
 			id: "4C068341DD17068B"
-			rewards: [
-				{
-					auto: "enabled"
-					id: "51D175FD782BBBB1"
-					item: "kubejs:trade_card_kelp"
-					type: "item"
-				}
-				{
-					auto: "no_toast"
-					icon: "thermal:machine_cycle_augment"
-					id: "4B2323CA042E2C7D"
-					tags: ["reset"]
-					title: "{cabin.reward.4B2323CA042E2C7D}"
-					type: "custom"
-				}
-			]
+			rewards: [{
+				auto: "enabled"
+				id: "51D175FD782BBBB1"
+				item: "kubejs:trade_card_kelp"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "{cabin.quest.136DA2C41AD2EE31.subtitle}"
 			tasks: [{
@@ -2241,22 +1591,12 @@
 			disable_toast: true
 			icon: "minecraft:bamboo"
 			id: "3A86EA1C2AD21C29"
-			rewards: [
-				{
-					auto: "enabled"
-					id: "1C92DCE87F116947"
-					item: "kubejs:trade_card_bamboo"
-					type: "item"
-				}
-				{
-					auto: "no_toast"
-					icon: "thermal:machine_cycle_augment"
-					id: "724438A0F5E7CC2F"
-					tags: ["reset"]
-					title: "{cabin.reward.724438A0F5E7CC2F}"
-					type: "custom"
-				}
-			]
+			rewards: [{
+				auto: "enabled"
+				id: "1C92DCE87F116947"
+				item: "kubejs:trade_card_bamboo"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "{cabin.quest.04468935C9A7298F.subtitle}"
 			tasks: [{
@@ -2275,22 +1615,12 @@
 			disable_toast: true
 			icon: "minecraft:sweet_berries"
 			id: "33B5C951B4AE8322"
-			rewards: [
-				{
-					auto: "enabled"
-					id: "68F58624A48FD804"
-					item: "kubejs:trade_card_sweet_berries"
-					type: "item"
-				}
-				{
-					auto: "no_toast"
-					icon: "thermal:machine_cycle_augment"
-					id: "602A39C6C25E8B43"
-					tags: ["reset"]
-					title: "{cabin.reward.602A39C6C25E8B43}"
-					type: "custom"
-				}
-			]
+			rewards: [{
+				auto: "enabled"
+				id: "68F58624A48FD804"
+				item: "kubejs:trade_card_sweet_berries"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "{cabin.quest.33B5C951B4AE8322.subtitle}"
 			tasks: [{
@@ -2309,22 +1639,12 @@
 			disable_toast: true
 			icon: "minecraft:vine"
 			id: "57CD030DE2CD7715"
-			rewards: [
-				{
-					auto: "enabled"
-					id: "10F61F3602889BF0"
-					item: "kubejs:trade_card_vines"
-					type: "item"
-				}
-				{
-					auto: "no_toast"
-					icon: "thermal:machine_cycle_augment"
-					id: "0D5F5E76F108F90E"
-					tags: ["reset"]
-					title: "{cabin.reward.0D5F5E76F108F90E}"
-					type: "custom"
-				}
-			]
+			rewards: [{
+				auto: "enabled"
+				id: "10F61F3602889BF0"
+				item: "kubejs:trade_card_vines"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "{cabin.quest.286C553AD3E15266.subtitle}"
 			tasks: [{
@@ -2343,22 +1663,12 @@
 			disable_toast: true
 			icon: "create:tree_fertilizer"
 			id: "0726837174BCED3D"
-			rewards: [
-				{
-					auto: "enabled"
-					id: "24A86054AF92BE82"
-					item: "kubejs:trade_card_tree_fertilizer"
-					type: "item"
-				}
-				{
-					auto: "no_toast"
-					icon: "thermal:machine_cycle_augment"
-					id: "253E6D5AEF81F17B"
-					tags: ["reset"]
-					title: "{cabin.reward.253E6D5AEF81F17B}"
-					type: "custom"
-				}
-			]
+			rewards: [{
+				auto: "enabled"
+				id: "24A86054AF92BE82"
+				item: "kubejs:trade_card_tree_fertilizer"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "{cabin.quest.01428232944D8BE9.subtitle}"
 			tasks: [{
@@ -2377,22 +1687,12 @@
 			disable_toast: true
 			icon: "supplementaries:daub"
 			id: "091671443430B31B"
-			rewards: [
-				{
-					auto: "enabled"
-					id: "16A5440919178342"
-					item: "kubejs:trade_card_daub"
-					type: "item"
-				}
-				{
-					auto: "no_toast"
-					icon: "thermal:machine_cycle_augment"
-					id: "10CDE3C2EBC04C68"
-					tags: ["reset"]
-					title: "{cabin.reward.10CDE3C2EBC04C68}"
-					type: "custom"
-				}
-			]
+			rewards: [{
+				auto: "enabled"
+				id: "16A5440919178342"
+				item: "kubejs:trade_card_daub"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "{cabin.quest.04468935C9A7298F.subtitle}"
 			tasks: [{
@@ -2411,22 +1711,12 @@
 			disable_toast: true
 			icon: "tconstruct:clear_glass"
 			id: "7DFB9DD1A1BB63E4"
-			rewards: [
-				{
-					auto: "enabled"
-					id: "2944EA4C610DACB4"
-					item: "kubejs:trade_card_clear_glass"
-					type: "item"
-				}
-				{
-					auto: "no_toast"
-					icon: "thermal:machine_cycle_augment"
-					id: "422D4CE1FC10A3C8"
-					tags: ["reset"]
-					title: "{cabin.reward.422D4CE1FC10A3C8}"
-					type: "custom"
-				}
-			]
+			rewards: [{
+				auto: "enabled"
+				id: "2944EA4C610DACB4"
+				item: "kubejs:trade_card_clear_glass"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "{cabin.quest.0DA48CA15E17157D.subtitle}"
 			tasks: [{
@@ -2445,22 +1735,12 @@
 			disable_toast: true
 			icon: "create:copper_shingles"
 			id: "1A2E4E06037E009A"
-			rewards: [
-				{
-					auto: "enabled"
-					id: "26925EEB466FCEBD"
-					item: "kubejs:trade_card_copper_shingles"
-					type: "item"
-				}
-				{
-					auto: "no_toast"
-					icon: "thermal:machine_cycle_augment"
-					id: "0A9854892CC48853"
-					tags: ["reset"]
-					title: "{cabin.reward.0A9854892CC48853}"
-					type: "custom"
-				}
-			]
+			rewards: [{
+				auto: "enabled"
+				id: "26925EEB466FCEBD"
+				item: "kubejs:trade_card_copper_shingles"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "{cabin.quest.136DA2C41AD2EE31.subtitle}"
 			tasks: [{
@@ -2479,22 +1759,12 @@
 			disable_toast: true
 			icon: "architects_palette:algal_bricks"
 			id: "011F64B48766234B"
-			rewards: [
-				{
-					auto: "enabled"
-					id: "72F40F26027377A2"
-					item: "kubejs:trade_card_algal_bricks"
-					type: "item"
-				}
-				{
-					auto: "no_toast"
-					icon: "thermal:machine_cycle_augment"
-					id: "46294ECFE64E5954"
-					tags: ["reset"]
-					title: "{cabin.reward.46294ECFE64E5954}"
-					type: "custom"
-				}
-			]
+			rewards: [{
+				auto: "enabled"
+				id: "72F40F26027377A2"
+				item: "kubejs:trade_card_algal_bricks"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "{cabin.quest.011F64B48766234B.subtitle}"
 			tasks: [{
@@ -2513,22 +1783,12 @@
 			disable_toast: true
 			icon: "architects_palette:olivestone_bricks"
 			id: "2C9012E65F43EC72"
-			rewards: [
-				{
-					auto: "enabled"
-					id: "4F7BF38D3490B8C2"
-					item: "kubejs:trade_card_olivestone_bricks"
-					type: "item"
-				}
-				{
-					auto: "no_toast"
-					icon: "thermal:machine_cycle_augment"
-					id: "397DC93DEF4B9C30"
-					tags: ["reset"]
-					title: "{cabin.reward.397DC93DEF4B9C30}"
-					type: "custom"
-				}
-			]
+			rewards: [{
+				auto: "enabled"
+				id: "4F7BF38D3490B8C2"
+				item: "kubejs:trade_card_olivestone_bricks"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "{cabin.quest.01428232944D8BE9.subtitle}"
 			tasks: [{
@@ -2547,22 +1807,12 @@
 			disable_toast: true
 			icon: "architects_palette:sunmetal_block"
 			id: "4202EDD798183934"
-			rewards: [
-				{
-					auto: "enabled"
-					id: "32A8DF7DE9B0A29A"
-					item: "kubejs:trade_card_sunmetal"
-					type: "item"
-				}
-				{
-					auto: "no_toast"
-					icon: "thermal:machine_cycle_augment"
-					id: "23F66204131BA686"
-					tags: ["reset"]
-					title: "{cabin.reward.23F66204131BA686}"
-					type: "custom"
-				}
-			]
+			rewards: [{
+				auto: "enabled"
+				id: "32A8DF7DE9B0A29A"
+				item: "kubejs:trade_card_sunmetal"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "{cabin.quest.01428232944D8BE9.subtitle}"
 			tasks: [{
@@ -2581,22 +1831,12 @@
 			disable_toast: true
 			icon: "architects_palette:plating_block"
 			id: "3D7AD3AF3857F7D9"
-			rewards: [
-				{
-					auto: "enabled"
-					id: "72E68D6D7A7E8F25"
-					item: "kubejs:trade_card_plating_block"
-					type: "item"
-				}
-				{
-					auto: "no_toast"
-					icon: "thermal:machine_cycle_augment"
-					id: "79CD6C18B40FD1CF"
-					tags: ["reset"]
-					title: "{cabin.reward.79CD6C18B40FD1CF}"
-					type: "custom"
-				}
-			]
+			rewards: [{
+				auto: "enabled"
+				id: "72E68D6D7A7E8F25"
+				item: "kubejs:trade_card_plating_block"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "{cabin.quest.01428232944D8BE9.subtitle}"
 			tasks: [{
@@ -2615,22 +1855,12 @@
 			disable_toast: true
 			icon: "architects_palette:twisted_planks"
 			id: "1D4B76A3C724C40D"
-			rewards: [
-				{
-					auto: "enabled"
-					id: "22523CAC4C6C6970"
-					item: "kubejs:trade_card_twisted_planks"
-					type: "item"
-				}
-				{
-					auto: "no_toast"
-					icon: "thermal:machine_cycle_augment"
-					id: "48E8694EB482190C"
-					tags: ["reset"]
-					title: "{cabin.reward.48E8694EB482190C}"
-					type: "custom"
-				}
-			]
+			rewards: [{
+				auto: "enabled"
+				id: "22523CAC4C6C6970"
+				item: "kubejs:trade_card_twisted_planks"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "{cabin.quest.01428232944D8BE9.subtitle}"
 			tasks: [{
@@ -2649,22 +1879,12 @@
 			disable_toast: true
 			icon: "architects_palette:osseous_bricks"
 			id: "01428232944D8BE9"
-			rewards: [
-				{
-					auto: "enabled"
-					id: "1E7F2B3B05EA97E2"
-					item: "kubejs:trade_card_osseous_bricks"
-					type: "item"
-				}
-				{
-					auto: "no_toast"
-					icon: "thermal:machine_cycle_augment"
-					id: "320943421E92B877"
-					tags: ["reset"]
-					title: "{cabin.reward.320943421E92B877}"
-					type: "custom"
-				}
-			]
+			rewards: [{
+				auto: "enabled"
+				id: "1E7F2B3B05EA97E2"
+				item: "kubejs:trade_card_osseous_bricks"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "{cabin.quest.01428232944D8BE9.subtitle}"
 			tasks: [{
@@ -2683,22 +1903,12 @@
 			disable_toast: true
 			icon: "tconstruct:seared_stone"
 			id: "3A7A2C8D56500426"
-			rewards: [
-				{
-					auto: "enabled"
-					id: "50F49365A310C7AF"
-					item: "kubejs:trade_card_seared_stone"
-					type: "item"
-				}
-				{
-					auto: "no_toast"
-					icon: "thermal:machine_cycle_augment"
-					id: "19B7AEF1C4855DDD"
-					tags: ["reset"]
-					title: "{cabin.reward.19B7AEF1C4855DDD}"
-					type: "custom"
-				}
-			]
+			rewards: [{
+				auto: "enabled"
+				id: "50F49365A310C7AF"
+				item: "kubejs:trade_card_seared_stone"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "{cabin.quest.01F3EDC327B63908.subtitle}"
 			tasks: [{
@@ -2717,22 +1927,12 @@
 			disable_toast: true
 			icon: "tconstruct:scorched_stone"
 			id: "70EBB5E32545ACEC"
-			rewards: [
-				{
-					auto: "enabled"
-					id: "2212B9D7C3CE5596"
-					item: "kubejs:trade_card_scorched_stone"
-					type: "item"
-				}
-				{
-					auto: "no_toast"
-					icon: "thermal:machine_cycle_augment"
-					id: "043E4ABC60E1B8DE"
-					tags: ["reset"]
-					title: "{cabin.reward.043E4ABC60E1B8DE}"
-					type: "custom"
-				}
-			]
+			rewards: [{
+				auto: "enabled"
+				id: "2212B9D7C3CE5596"
+				item: "kubejs:trade_card_scorched_stone"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "{cabin.quest.01F3EDC327B63908.subtitle}"
 			tasks: [{
@@ -2751,22 +1951,12 @@
 			disable_toast: true
 			icon: "minecraft:lantern"
 			id: "10D5B3EF6A77B918"
-			rewards: [
-				{
-					auto: "enabled"
-					id: "2D46F83411D1BE3E"
-					item: "kubejs:trade_card_lantern"
-					type: "item"
-				}
-				{
-					auto: "no_toast"
-					icon: "thermal:machine_cycle_augment"
-					id: "3E14CB7EB614B0B8"
-					tags: ["reset"]
-					title: "{cabin.reward.3E14CB7EB614B0B8}"
-					type: "custom"
-				}
-			]
+			rewards: [{
+				auto: "enabled"
+				id: "2D46F83411D1BE3E"
+				item: "kubejs:trade_card_lantern"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "{cabin.quest.0DEFAE2746209F1A.subtitle}"
 			tasks: [{
@@ -2785,22 +1975,12 @@
 			disable_toast: true
 			icon: "minecraft:soul_lantern"
 			id: "6BC9B96B2C6684DC"
-			rewards: [
-				{
-					auto: "enabled"
-					id: "7902C2C3CA649D96"
-					item: "kubejs:trade_card_soul_lantern"
-					type: "item"
-				}
-				{
-					auto: "no_toast"
-					icon: "thermal:machine_cycle_augment"
-					id: "3F717BD0A1F4942C"
-					tags: ["reset"]
-					title: "{cabin.reward.3F717BD0A1F4942C}"
-					type: "custom"
-				}
-			]
+			rewards: [{
+				auto: "enabled"
+				id: "7902C2C3CA649D96"
+				item: "kubejs:trade_card_soul_lantern"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "{cabin.quest.0DEFAE2746209F1A.subtitle}"
 			tasks: [{
@@ -2819,22 +1999,12 @@
 			disable_toast: true
 			icon: "createdeco:brass_sheet_metal"
 			id: "44CDD45033A93614"
-			rewards: [
-				{
-					auto: "enabled"
-					id: "45FEF3A32F7766AD"
-					item: "kubejs:trade_card_brass_sheet_metal"
-					type: "item"
-				}
-				{
-					auto: "no_toast"
-					icon: "thermal:machine_cycle_augment"
-					id: "2CBB9DC78809B69A"
-					tags: ["reset"]
-					title: "{cabin.reward.2CBB9DC78809B69A}"
-					type: "custom"
-				}
-			]
+			rewards: [{
+				auto: "enabled"
+				id: "45FEF3A32F7766AD"
+				item: "kubejs:trade_card_brass_sheet_metal"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "{cabin.quest.136DA2C41AD2EE31.subtitle}"
 			tasks: [{
@@ -2853,22 +2023,12 @@
 			disable_toast: true
 			icon: "createdeco:industrial_iron_sheet_metal"
 			id: "7B7A161B4BAB89AD"
-			rewards: [
-				{
-					auto: "enabled"
-					id: "2E705AE0E825C6B5"
-					item: "kubejs:trade_card_industrial_iron_sheet_metal"
-					type: "item"
-				}
-				{
-					auto: "no_toast"
-					icon: "thermal:machine_cycle_augment"
-					id: "0216E125D5D1F8CD"
-					tags: ["reset"]
-					title: "{cabin.reward.0216E125D5D1F8CD}"
-					type: "custom"
-				}
-			]
+			rewards: [{
+				auto: "enabled"
+				id: "2E705AE0E825C6B5"
+				item: "kubejs:trade_card_industrial_iron_sheet_metal"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "{cabin.quest.136DA2C41AD2EE31.subtitle}"
 			tasks: [{
@@ -2887,22 +2047,12 @@
 			disable_toast: true
 			icon: "minecraft:slime_ball"
 			id: "522D9970B8C43046"
-			rewards: [
-				{
-					auto: "enabled"
-					id: "576ECF50EAF96452"
-					item: "kubejs:trade_card_slime_ball"
-					type: "item"
-				}
-				{
-					auto: "no_toast"
-					icon: "thermal:machine_cycle_augment"
-					id: "262EA522BA6AB242"
-					tags: ["reset"]
-					title: "{cabin.reward.262EA522BA6AB242}"
-					type: "custom"
-				}
-			]
+			rewards: [{
+				auto: "enabled"
+				id: "576ECF50EAF96452"
+				item: "kubejs:trade_card_slime_ball"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "{cabin.quest.1D6150F2480B976E.subtitle}"
 			tasks: [{
@@ -2921,22 +2071,12 @@
 			disable_toast: true
 			icon: "minecraft:string"
 			id: "11B239EF3DAE4463"
-			rewards: [
-				{
-					auto: "enabled"
-					id: "7B223CF62CA3E5E3"
-					item: "kubejs:trade_card_string"
-					type: "item"
-				}
-				{
-					auto: "no_toast"
-					icon: "thermal:machine_cycle_augment"
-					id: "065F048F04F02915"
-					tags: ["reset"]
-					title: "{cabin.reward.065F048F04F02915}"
-					type: "custom"
-				}
-			]
+			rewards: [{
+				auto: "enabled"
+				id: "7B223CF62CA3E5E3"
+				item: "kubejs:trade_card_string"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "{cabin.quest.04468935C9A7298F.subtitle}"
 			tasks: [{
@@ -2955,22 +2095,12 @@
 			disable_toast: true
 			icon: "minecraft:feather"
 			id: "339BC75AD23B70D7"
-			rewards: [
-				{
-					auto: "enabled"
-					id: "1522E7E6CC270122"
-					item: "kubejs:trade_card_feather"
-					type: "item"
-				}
-				{
-					auto: "no_toast"
-					icon: "thermal:machine_cycle_augment"
-					id: "071961F1447FA25D"
-					tags: ["reset"]
-					title: "{cabin.reward.071961F1447FA25D}"
-					type: "custom"
-				}
-			]
+			rewards: [{
+				auto: "enabled"
+				id: "1522E7E6CC270122"
+				item: "kubejs:trade_card_feather"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "{cabin.quest.011F64B48766234B.subtitle}"
 			tasks: [{
@@ -2989,22 +2119,12 @@
 			disable_toast: true
 			icon: "minecraft:gunpowder"
 			id: "52CCFCE2733F76BC"
-			rewards: [
-				{
-					auto: "enabled"
-					id: "2A5CE406A8184B62"
-					item: "kubejs:trade_card_gunpowder"
-					type: "item"
-				}
-				{
-					auto: "no_toast"
-					icon: "thermal:machine_cycle_augment"
-					id: "10A3816277F873ED"
-					tags: ["reset"]
-					title: "{cabin.reward.10A3816277F873ED}"
-					type: "custom"
-				}
-			]
+			rewards: [{
+				auto: "enabled"
+				id: "2A5CE406A8184B62"
+				item: "kubejs:trade_card_gunpowder"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "{cabin.quest.286C553AD3E15266.subtitle}"
 			tasks: [{
@@ -3023,22 +2143,12 @@
 			disable_toast: true
 			icon: "minecraft:leather"
 			id: "42F951B44FB2BFE3"
-			rewards: [
-				{
-					auto: "enabled"
-					id: "74F3E9B2AFC611AE"
-					item: "kubejs:trade_card_leather"
-					type: "item"
-				}
-				{
-					auto: "no_toast"
-					icon: "thermal:machine_cycle_augment"
-					id: "039D78EF3F40A706"
-					tags: ["reset"]
-					title: "{cabin.reward.039D78EF3F40A706}"
-					type: "custom"
-				}
-			]
+			rewards: [{
+				auto: "enabled"
+				id: "74F3E9B2AFC611AE"
+				item: "kubejs:trade_card_leather"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "{cabin.quest.01428232944D8BE9.subtitle}"
 			tasks: [{
@@ -3057,22 +2167,12 @@
 			disable_toast: true
 			icon: "minecraft:ink_sac"
 			id: "108550230A95C7D4"
-			rewards: [
-				{
-					auto: "enabled"
-					id: "505F6AE0E7831D5A"
-					item: "kubejs:trade_card_ink_sac"
-					type: "item"
-				}
-				{
-					auto: "no_toast"
-					icon: "thermal:machine_cycle_augment"
-					id: "0C78E802E87B2319"
-					tags: ["reset"]
-					title: "{cabin.reward.0C78E802E87B2319}"
-					type: "custom"
-				}
-			]
+			rewards: [{
+				auto: "enabled"
+				id: "505F6AE0E7831D5A"
+				item: "kubejs:trade_card_ink_sac"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "{cabin.quest.01428232944D8BE9.subtitle}"
 			tasks: [{
@@ -3091,22 +2191,12 @@
 			disable_toast: true
 			icon: "minecraft:experience_bottle"
 			id: "1BF763E3FD8C2245"
-			rewards: [
-				{
-					auto: "enabled"
-					id: "4C973FACE23E9458"
-					item: "kubejs:trade_card_experience"
-					type: "item"
-				}
-				{
-					auto: "no_toast"
-					icon: "thermal:machine_cycle_augment"
-					id: "75F3834DA4E193E2"
-					tags: ["reset"]
-					title: "{cabin.reward.75F3834DA4E193E2}"
-					type: "custom"
-				}
-			]
+			rewards: [{
+				auto: "enabled"
+				id: "4C973FACE23E9458"
+				item: "kubejs:trade_card_experience"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "{cabin.quest.01428232944D8BE9.subtitle}"
 			tasks: [{
@@ -3125,22 +2215,12 @@
 			disable_toast: true
 			icon: "minecraft:shulker_shell"
 			id: "1F05704C3B1FA528"
-			rewards: [
-				{
-					auto: "enabled"
-					id: "303058DFD6FFB21A"
-					item: "kubejs:trade_card_shulker_shell"
-					type: "item"
-				}
-				{
-					auto: "no_toast"
-					icon: "thermal:machine_cycle_augment"
-					id: "370F996437560335"
-					tags: ["reset"]
-					title: "{cabin.reward.370F996437560335}"
-					type: "custom"
-				}
-			]
+			rewards: [{
+				auto: "enabled"
+				id: "303058DFD6FFB21A"
+				item: "kubejs:trade_card_shulker_shell"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "{cabin.quest.093FB7B7FEC6B886.subtitle}"
 			tasks: [{
@@ -3159,22 +2239,12 @@
 			disable_toast: true
 			icon: "minecraft:spider_eye"
 			id: "0C6B2EEE280F7667"
-			rewards: [
-				{
-					auto: "enabled"
-					id: "27371A9101CF9D19"
-					item: "kubejs:trade_card_spider_eye"
-					type: "item"
-				}
-				{
-					auto: "no_toast"
-					icon: "thermal:machine_cycle_augment"
-					id: "0ED014C23F3EF88A"
-					tags: ["reset"]
-					title: "{cabin.reward.0ED014C23F3EF88A}"
-					type: "custom"
-				}
-			]
+			rewards: [{
+				auto: "enabled"
+				id: "27371A9101CF9D19"
+				item: "kubejs:trade_card_spider_eye"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "{cabin.quest.09DC2E2BE2BE32F4.subtitle}"
 			tasks: [{
@@ -3193,22 +2263,12 @@
 			disable_toast: true
 			icon: "minecraft:ender_pearl"
 			id: "46F150CC9BE2D856"
-			rewards: [
-				{
-					auto: "enabled"
-					id: "1F0E6C70D37E2509"
-					item: "kubejs:trade_card_ender_pearl"
-					type: "item"
-				}
-				{
-					auto: "no_toast"
-					icon: "thermal:machine_cycle_augment"
-					id: "3859EB4A3068BDE0"
-					tags: ["reset"]
-					title: "{cabin.reward.3859EB4A3068BDE0}"
-					type: "custom"
-				}
-			]
+			rewards: [{
+				auto: "enabled"
+				id: "1F0E6C70D37E2509"
+				item: "kubejs:trade_card_ender_pearl"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "{cabin.quest.003E0D1CE60B166A.subtitle}"
 			tasks: [{
@@ -3227,22 +2287,12 @@
 			disable_toast: true
 			icon: "minecraft:rotten_flesh"
 			id: "76287BDB2E9B7BC8"
-			rewards: [
-				{
-					auto: "enabled"
-					id: "7C5CB53B93CA20F6"
-					item: "kubejs:trade_card_rotten_flesh"
-					type: "item"
-				}
-				{
-					auto: "no_toast"
-					icon: "thermal:machine_cycle_augment"
-					id: "3675850E12202E3F"
-					tags: ["reset"]
-					title: "{cabin.reward.3675850E12202E3F}"
-					type: "custom"
-				}
-			]
+			rewards: [{
+				auto: "enabled"
+				id: "7C5CB53B93CA20F6"
+				item: "kubejs:trade_card_rotten_flesh"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "{cabin.quest.136DA2C41AD2EE31.subtitle}"
 			tasks: [{
@@ -3261,22 +2311,12 @@
 			disable_toast: true
 			icon: "minecraft:blaze_rod"
 			id: "685DD2A4DFF56193"
-			rewards: [
-				{
-					auto: "enabled"
-					id: "17E28B4A42E7977B"
-					item: "kubejs:trade_card_blaze_rod"
-					type: "item"
-				}
-				{
-					auto: "no_toast"
-					icon: "thermal:machine_cycle_augment"
-					id: "444D0769A4583EF5"
-					tags: ["reset"]
-					title: "{cabin.reward.444D0769A4583EF5}"
-					type: "custom"
-				}
-			]
+			rewards: [{
+				auto: "enabled"
+				id: "17E28B4A42E7977B"
+				item: "kubejs:trade_card_blaze_rod"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "{cabin.quest.185F9F8EBD0F8F87.subtitle}"
 			tasks: [{
@@ -3295,22 +2335,12 @@
 			disable_toast: true
 			icon: "minecraft:bone"
 			id: "433E103CD81712C1"
-			rewards: [
-				{
-					auto: "enabled"
-					id: "3AE918FEFE0A3CB9"
-					item: "kubejs:trade_card_bone"
-					type: "item"
-				}
-				{
-					auto: "no_toast"
-					icon: "thermal:machine_cycle_augment"
-					id: "29F8DB5173884DF8"
-					tags: ["reset"]
-					title: "{cabin.reward.29F8DB5173884DF8}"
-					type: "custom"
-				}
-			]
+			rewards: [{
+				auto: "enabled"
+				id: "3AE918FEFE0A3CB9"
+				item: "kubejs:trade_card_bone"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "{cabin.quest.01428232944D8BE9.subtitle}"
 			tasks: [{
@@ -3329,22 +2359,12 @@
 			disable_toast: true
 			icon: "minecraft:prismarine_shard"
 			id: "29696B4965010CED"
-			rewards: [
-				{
-					auto: "enabled"
-					id: "2D8C5A5E22AB7A9A"
-					item: "kubejs:trade_card_prismarine_shard"
-					type: "item"
-				}
-				{
-					auto: "no_toast"
-					icon: "thermal:machine_cycle_augment"
-					id: "3030A2D06513A5EE"
-					tags: ["reset"]
-					title: "{cabin.reward.3030A2D06513A5EE}"
-					type: "custom"
-				}
-			]
+			rewards: [{
+				auto: "enabled"
+				id: "2D8C5A5E22AB7A9A"
+				item: "kubejs:trade_card_prismarine_shard"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "{cabin.quest.07081911727142C8.subtitle}"
 			tasks: [{
@@ -3363,22 +2383,12 @@
 			disable_toast: true
 			icon: "minecraft:prismarine_crystals"
 			id: "7C7B81ABFC586379"
-			rewards: [
-				{
-					auto: "enabled"
-					id: "77F93921DB94E45A"
-					item: "kubejs:trade_card_prismarine_crystals"
-					type: "item"
-				}
-				{
-					auto: "no_toast"
-					icon: "thermal:machine_cycle_augment"
-					id: "4FDA3ED6EE0395A0"
-					tags: ["reset"]
-					title: "{cabin.reward.4FDA3ED6EE0395A0}"
-					type: "custom"
-				}
-			]
+			rewards: [{
+				auto: "enabled"
+				id: "77F93921DB94E45A"
+				item: "kubejs:trade_card_prismarine_crystals"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "{cabin.quest.1D6150F2480B976E.subtitle}"
 			tasks: [{
@@ -3397,22 +2407,12 @@
 			disable_toast: true
 			icon: "reliquary:witch_hat"
 			id: "4864E6BA6AE2B49B"
-			rewards: [
-				{
-					auto: "enabled"
-					id: "3BFE36CE8DEED04B"
-					item: "kubejs:trade_card_witch_hat"
-					type: "item"
-				}
-				{
-					auto: "no_toast"
-					icon: "thermal:machine_cycle_augment"
-					id: "01BE4FFA1E63C514"
-					tags: ["reset"]
-					title: "{cabin.reward.01BE4FFA1E63C514}"
-					type: "custom"
-				}
-			]
+			rewards: [{
+				auto: "enabled"
+				id: "3BFE36CE8DEED04B"
+				item: "kubejs:trade_card_witch_hat"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "{cabin.quest.00EBF8DED4E51A4F.subtitle}"
 			tasks: [{
@@ -3431,22 +2431,12 @@
 			disable_toast: true
 			icon: "reliquary:zombie_heart"
 			id: "2714FE0125D3E953"
-			rewards: [
-				{
-					auto: "enabled"
-					id: "2683AEBC65309590"
-					item: "kubejs:trade_card_zombie_heart"
-					type: "item"
-				}
-				{
-					auto: "no_toast"
-					icon: "thermal:machine_cycle_augment"
-					id: "73A3D6B10C29ED74"
-					tags: ["reset"]
-					title: "{cabin.reward.73A3D6B10C29ED74}"
-					type: "custom"
-				}
-			]
+			rewards: [{
+				auto: "enabled"
+				id: "2683AEBC65309590"
+				item: "kubejs:trade_card_zombie_heart"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "{cabin.quest.01F3EDC327B63908.subtitle}"
 			tasks: [{
@@ -3465,22 +2455,12 @@
 			disable_toast: true
 			icon: "reliquary:squid_beak"
 			id: "395978A711E14931"
-			rewards: [
-				{
-					auto: "enabled"
-					id: "08D7DF6BC677E813"
-					item: "kubejs:trade_card_squid_beak"
-					type: "item"
-				}
-				{
-					auto: "no_toast"
-					icon: "thermal:machine_cycle_augment"
-					id: "19A177F7D96252D8"
-					tags: ["reset"]
-					title: "{cabin.reward.19A177F7D96252D8}"
-					type: "custom"
-				}
-			]
+			rewards: [{
+				auto: "enabled"
+				id: "08D7DF6BC677E813"
+				item: "kubejs:trade_card_squid_beak"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "{cabin.quest.01F3EDC327B63908.subtitle}"
 			tasks: [{
@@ -3499,22 +2479,12 @@
 			disable_toast: true
 			icon: "reliquary:rib_bone"
 			id: "23F9DB562ED7C2F6"
-			rewards: [
-				{
-					auto: "enabled"
-					id: "5B6DB6D9D5226D0E"
-					item: "kubejs:trade_card_rib_bone"
-					type: "item"
-				}
-				{
-					auto: "no_toast"
-					icon: "thermal:machine_cycle_augment"
-					id: "6B6BB0304A01C6EF"
-					tags: ["reset"]
-					title: "{cabin.reward.6B6BB0304A01C6EF}"
-					type: "custom"
-				}
-			]
+			rewards: [{
+				auto: "enabled"
+				id: "5B6DB6D9D5226D0E"
+				item: "kubejs:trade_card_rib_bone"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "{cabin.quest.01F3EDC327B63908.subtitle}"
 			tasks: [{
@@ -3533,22 +2503,12 @@
 			disable_toast: true
 			icon: "reliquary:catalyzing_gland"
 			id: "4764EAB921EE1F19"
-			rewards: [
-				{
-					auto: "enabled"
-					id: "3045E27533693F14"
-					item: "kubejs:trade_card_catalyzing_gland"
-					type: "item"
-				}
-				{
-					auto: "no_toast"
-					icon: "thermal:machine_cycle_augment"
-					id: "61B524642CB5B885"
-					tags: ["reset"]
-					title: "{cabin.reward.61B524642CB5B885}"
-					type: "custom"
-				}
-			]
+			rewards: [{
+				auto: "enabled"
+				id: "3045E27533693F14"
+				item: "kubejs:trade_card_catalyzing_gland"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "{cabin.quest.003E0D1CE60B166A.subtitle}"
 			tasks: [{
@@ -3567,22 +2527,12 @@
 			disable_toast: true
 			icon: "reliquary:chelicerae"
 			id: "2E10D7FE1BC4FDBB"
-			rewards: [
-				{
-					auto: "enabled"
-					id: "4F8FF287C3AC4EB4"
-					item: "kubejs:trade_card_chelicerae"
-					type: "item"
-				}
-				{
-					auto: "no_toast"
-					icon: "thermal:machine_cycle_augment"
-					id: "2799CEE57EB4ECD0"
-					tags: ["reset"]
-					title: "{cabin.reward.2799CEE57EB4ECD0}"
-					type: "custom"
-				}
-			]
+			rewards: [{
+				auto: "enabled"
+				id: "4F8FF287C3AC4EB4"
+				item: "kubejs:trade_card_chelicerae"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "{cabin.quest.01F3EDC327B63908.subtitle}"
 			tasks: [{
@@ -3601,22 +2551,12 @@
 			disable_toast: true
 			icon: "reliquary:slime_pearl"
 			id: "67B45D6767F8BFD9"
-			rewards: [
-				{
-					auto: "enabled"
-					id: "3DD074848EA13D6A"
-					item: "kubejs:trade_card_slime_pearl"
-					type: "item"
-				}
-				{
-					auto: "no_toast"
-					icon: "thermal:machine_cycle_augment"
-					id: "45B100689244D7A7"
-					tags: ["reset"]
-					title: "{cabin.reward.45B100689244D7A7}"
-					type: "custom"
-				}
-			]
+			rewards: [{
+				auto: "enabled"
+				id: "3DD074848EA13D6A"
+				item: "kubejs:trade_card_slime_pearl"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "{cabin.quest.003E0D1CE60B166A.subtitle}"
 			tasks: [{
@@ -3635,22 +2575,12 @@
 			disable_toast: true
 			icon: "reliquary:bat_wing"
 			id: "5491C5600D7F039A"
-			rewards: [
-				{
-					auto: "enabled"
-					id: "1F9F748792E58E29"
-					item: "kubejs:trade_card_bat_wing"
-					type: "item"
-				}
-				{
-					auto: "no_toast"
-					icon: "thermal:machine_cycle_augment"
-					id: "7FADC35EA2E6ACED"
-					tags: ["reset"]
-					title: "{cabin.reward.7FADC35EA2E6ACED}"
-					type: "custom"
-				}
-			]
+			rewards: [{
+				auto: "enabled"
+				id: "1F9F748792E58E29"
+				item: "kubejs:trade_card_bat_wing"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "{cabin.quest.093FB7B7FEC6B886.subtitle}"
 			tasks: [{
@@ -3669,22 +2599,12 @@
 			disable_toast: true
 			icon: "reliquary:withered_rib"
 			id: "4BD2016AFC2A2035"
-			rewards: [
-				{
-					auto: "enabled"
-					id: "1DF2FEEF65D1FE87"
-					item: "kubejs:trade_card_withered_rib"
-					type: "item"
-				}
-				{
-					auto: "no_toast"
-					icon: "thermal:machine_cycle_augment"
-					id: "195F0927009B73EF"
-					tags: ["reset"]
-					title: "{cabin.reward.195F0927009B73EF}"
-					type: "custom"
-				}
-			]
+			rewards: [{
+				auto: "enabled"
+				id: "1DF2FEEF65D1FE87"
+				item: "kubejs:trade_card_withered_rib"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "{cabin.quest.093FB7B7FEC6B886.subtitle}"
 			tasks: [{
@@ -3703,22 +2623,12 @@
 			disable_toast: true
 			icon: "reliquary:molten_core"
 			id: "59474208A27099BF"
-			rewards: [
-				{
-					auto: "enabled"
-					id: "716125125B3BC02C"
-					item: "kubejs:trade_card_molten_core"
-					type: "item"
-				}
-				{
-					auto: "no_toast"
-					icon: "thermal:machine_cycle_augment"
-					id: "71831976680DE6F6"
-					tags: ["reset"]
-					title: "{cabin.reward.71831976680DE6F6}"
-					type: "custom"
-				}
-			]
+			rewards: [{
+				auto: "enabled"
+				id: "716125125B3BC02C"
+				item: "kubejs:trade_card_molten_core"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "{cabin.quest.003E0D1CE60B166A.subtitle}"
 			tasks: [{
@@ -3737,22 +2647,12 @@
 			disable_toast: true
 			icon: "reliquary:eye_of_the_storm"
 			id: "6FF65841E3EA0FCD"
-			rewards: [
-				{
-					auto: "enabled"
-					id: "70F1845989BF7E3D"
-					item: "kubejs:trade_card_eye_of_the_storm"
-					type: "item"
-				}
-				{
-					auto: "no_toast"
-					icon: "thermal:machine_cycle_augment"
-					id: "4BAD8D6BF6D31582"
-					tags: ["reset"]
-					title: "{cabin.reward.4BAD8D6BF6D31582}"
-					type: "custom"
-				}
-			]
+			rewards: [{
+				auto: "enabled"
+				id: "70F1845989BF7E3D"
+				item: "kubejs:trade_card_eye_of_the_storm"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "{cabin.quest.093FB7B7FEC6B886.subtitle}"
 			tasks: [{
@@ -3771,22 +2671,12 @@
 			disable_toast: true
 			icon: "reliquary:frozen_core"
 			id: "0CF82AABD5E05A0D"
-			rewards: [
-				{
-					auto: "enabled"
-					id: "4AA8F100108F0558"
-					item: "kubejs:trade_card_frozen_core"
-					type: "item"
-				}
-				{
-					auto: "no_toast"
-					icon: "thermal:machine_cycle_augment"
-					id: "4969544C0854A10B"
-					tags: ["reset"]
-					title: "{cabin.reward.4969544C0854A10B}"
-					type: "custom"
-				}
-			]
+			rewards: [{
+				auto: "enabled"
+				id: "4AA8F100108F0558"
+				item: "kubejs:trade_card_frozen_core"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "{cabin.quest.003E0D1CE60B166A.subtitle}"
 			tasks: [{
@@ -3805,22 +2695,12 @@
 			disable_toast: true
 			icon: "reliquary:nebulous_heart"
 			id: "73EEAE66CC2014E9"
-			rewards: [
-				{
-					auto: "enabled"
-					id: "327EA87B6F1EB3B3"
-					item: "kubejs:trade_card_nebulous_heart"
-					type: "item"
-				}
-				{
-					auto: "no_toast"
-					icon: "thermal:machine_cycle_augment"
-					id: "39882DC6BD539342"
-					tags: ["reset"]
-					title: "{cabin.reward.39882DC6BD539342}"
-					type: "custom"
-				}
-			]
+			rewards: [{
+				auto: "enabled"
+				id: "327EA87B6F1EB3B3"
+				item: "kubejs:trade_card_nebulous_heart"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "{cabin.quest.00EBF8DED4E51A4F.subtitle}"
 			tasks: [{
@@ -3839,22 +2719,12 @@
 			disable_toast: true
 			icon: "reliquary:guardian_spike"
 			id: "662583DB97721FE8"
-			rewards: [
-				{
-					auto: "enabled"
-					id: "138ED529F3D10981"
-					item: "kubejs:trade_card_guardian_spike"
-					type: "item"
-				}
-				{
-					auto: "no_toast"
-					icon: "thermal:machine_cycle_augment"
-					id: "09369014D3B6F533"
-					tags: ["reset"]
-					title: "{cabin.reward.09369014D3B6F533}"
-					type: "custom"
-				}
-			]
+			rewards: [{
+				auto: "enabled"
+				id: "138ED529F3D10981"
+				item: "kubejs:trade_card_guardian_spike"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "{cabin.quest.00EBF8DED4E51A4F.subtitle}"
 			tasks: [{
@@ -3873,22 +2743,12 @@
 			disable_toast: true
 			icon: "minecraft:phantom_membrane"
 			id: "210A3F8C44AAD89A"
-			rewards: [
-				{
-					auto: "enabled"
-					id: "00ECC786C2F2BD74"
-					item: "kubejs:trade_card_phantom_membrane"
-					type: "item"
-				}
-				{
-					auto: "no_toast"
-					icon: "thermal:machine_cycle_augment"
-					id: "4D303377FAFBBD2D"
-					tags: ["reset"]
-					title: "{cabin.reward.4D303377FAFBBD2D}"
-					type: "custom"
-				}
-			]
+			rewards: [{
+				auto: "enabled"
+				id: "00ECC786C2F2BD74"
+				item: "kubejs:trade_card_phantom_membrane"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "{cabin.quest.1D6150F2480B976E.subtitle}"
 			tasks: [{
@@ -3907,22 +2767,12 @@
 			disable_toast: true
 			icon: "create:blaze_cake"
 			id: "3CEC6538990D89C3"
-			rewards: [
-				{
-					auto: "enabled"
-					id: "2523CFB9FE014C2B"
-					item: "kubejs:trade_card_blaze_cake"
-					type: "item"
-				}
-				{
-					auto: "no_toast"
-					icon: "thermal:machine_cycle_augment"
-					id: "0CDBD71213AA5C84"
-					tags: ["reset"]
-					title: "{cabin.reward.0CDBD71213AA5C84}"
-					type: "custom"
-				}
-			]
+			rewards: [{
+				auto: "enabled"
+				id: "2523CFB9FE014C2B"
+				item: "kubejs:trade_card_blaze_cake"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "{cabin.quest.07081911727142C8.subtitle}"
 			tasks: [{
@@ -3958,14 +2808,6 @@
 					item: "thermal:dynamo_stirling"
 					type: "item"
 				}
-				{
-					auto: "no_toast"
-					icon: "thermal:machine_cycle_augment"
-					id: "61448EF131387AEF"
-					tags: ["reset"]
-					title: "{cabin.reward.61448EF131387AEF}"
-					type: "custom"
-				}
 			]
 			shape: "circle"
 			subtitle: "{cabin.quest.39D56A2B01DBD865.subtitle}"
@@ -3983,22 +2825,12 @@
 		{
 			icon: "createdeco:iron_sheet_metal"
 			id: "136DA2C41AD2EE31"
-			rewards: [
-				{
-					auto: "enabled"
-					id: "1B9ABC1FB22D5A5F"
-					item: "kubejs:trade_card_iron_sheet_metal"
-					type: "item"
-				}
-				{
-					auto: "no_toast"
-					icon: "thermal:machine_cycle_augment"
-					id: "6E73E740C0833472"
-					tags: ["reset"]
-					title: "{cabin.reward.6E73E740C0833472}"
-					type: "custom"
-				}
-			]
+			rewards: [{
+				auto: "enabled"
+				id: "1B9ABC1FB22D5A5F"
+				item: "kubejs:trade_card_iron_sheet_metal"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "{cabin.quest.136DA2C41AD2EE31.subtitle}"
 			tasks: [{
@@ -4016,22 +2848,12 @@
 		{
 			icon: "minecraft:glow_berries"
 			id: "3CD739455666E2A8"
-			rewards: [
-				{
-					auto: "enabled"
-					id: "392B8B372A0EFB42"
-					item: "kubejs:trade_card_glow_berries"
-					type: "item"
-				}
-				{
-					auto: "no_toast"
-					icon: "thermal:machine_cycle_augment"
-					id: "39F52B3413C2FC26"
-					tags: ["reset"]
-					title: "{cabin.reward.39F52B3413C2FC26}"
-					type: "custom"
-				}
-			]
+			rewards: [{
+				auto: "enabled"
+				id: "392B8B372A0EFB42"
+				item: "kubejs:trade_card_glow_berries"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "{cabin.quest.33B5C951B4AE8322.subtitle}"
 			tasks: [{
@@ -4079,22 +2901,12 @@
 		{
 			icon: "minecraft:moss_block"
 			id: "5D6C7D1C371A4D6E"
-			rewards: [
-				{
-					auto: "enabled"
-					id: "027915A405B20646"
-					item: "kubejs:trade_card_moss_block"
-					type: "item"
-				}
-				{
-					auto: "no_toast"
-					icon: "thermal:machine_cycle_augment"
-					id: "5044D587A73EA793"
-					tags: ["reset"]
-					title: "{cabin.reward.5044D587A73EA793}"
-					type: "custom"
-				}
-			]
+			rewards: [{
+				auto: "enabled"
+				id: "027915A405B20646"
+				item: "kubejs:trade_card_moss_block"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "{cabin.quest.01428232944D8BE9.subtitle}"
 			tasks: [{
@@ -4111,22 +2923,12 @@
 		{
 			icon: "biomesoplenty:glowing_moss_block"
 			id: "2E692532C4C69001"
-			rewards: [
-				{
-					auto: "enabled"
-					id: "3734299704FB3F86"
-					item: "kubejs:trade_card_glowing_moss_block"
-					type: "item"
-				}
-				{
-					auto: "no_toast"
-					icon: "thermal:machine_cycle_augment"
-					id: "5E62020F368A8B3C"
-					tags: ["reset"]
-					title: "{cabin.reward.5E62020F368A8B3C}"
-					type: "custom"
-				}
-			]
+			rewards: [{
+				auto: "enabled"
+				id: "3734299704FB3F86"
+				item: "kubejs:trade_card_glowing_moss_block"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "{cabin.quest.1509D36A982217C6.subtitle}"
 			tasks: [{
@@ -4143,22 +2945,12 @@
 		{
 			icon: "minecraft:glow_ink_sac"
 			id: "12D18A30803D57D6"
-			rewards: [
-				{
-					auto: "enabled"
-					id: "17462E7C5F835004"
-					item: "kubejs:trade_card_glow_ink_sac"
-					type: "item"
-				}
-				{
-					auto: "no_toast"
-					icon: "thermal:machine_cycle_augment"
-					id: "629907BC19801F8E"
-					tags: ["reset"]
-					title: "{cabin.reward.629907BC19801F8E}"
-					type: "custom"
-				}
-			]
+			rewards: [{
+				auto: "enabled"
+				id: "17462E7C5F835004"
+				item: "kubejs:trade_card_glow_ink_sac"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "{cabin.quest.01428232944D8BE9.subtitle}"
 			tasks: [{
@@ -4177,22 +2969,12 @@
 			disable_toast: true
 			icon: "minecraft:cobbled_deepslate"
 			id: "7722ADDCAD9987BD"
-			rewards: [
-				{
-					auto: "enabled"
-					id: "4BC62D1FB35515D6"
-					item: "kubejs:trade_card_cobbled_deepslate"
-					type: "item"
-				}
-				{
-					auto: "no_toast"
-					icon: "thermal:machine_cycle_augment"
-					id: "2769CF9418EBFCC0"
-					tags: ["reset"]
-					title: "{cabin.reward.2769CF9418EBFCC0}"
-					type: "custom"
-				}
-			]
+			rewards: [{
+				auto: "enabled"
+				id: "4BC62D1FB35515D6"
+				item: "kubejs:trade_card_cobbled_deepslate"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "{cabin.quest.0DEFAE2746209F1A.subtitle}"
 			tasks: [{
@@ -4242,22 +3024,12 @@
 		{
 			icon: "thermal:bitumen"
 			id: "53A0ED15395EE1C9"
-			rewards: [
-				{
-					auto: "enabled"
-					id: "7B2ED7C22E8D675B"
-					item: "kubejs:trade_card_bitumen"
-					type: "item"
-				}
-				{
-					auto: "no_toast"
-					icon: "thermal:machine_cycle_augment"
-					id: "44861FFB651C7796"
-					tags: ["reset"]
-					title: "{cabin.reward.44861FFB651C7796}"
-					type: "custom"
-				}
-			]
+			rewards: [{
+				auto: "enabled"
+				id: "7B2ED7C22E8D675B"
+				item: "kubejs:trade_card_bitumen"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "{cabin.quest.53A0ED15395EE1C9.subtitle}"
 			tasks: [{
@@ -4276,22 +3048,12 @@
 			disable_toast: true
 			icon: "minecraft:cherry_log"
 			id: "52C7EF47A0423CAB"
-			rewards: [
-				{
-					auto: "enabled"
-					id: "0F61EDD703FCC266"
-					item: "kubejs:trade_card_cherry_log"
-					type: "item"
-				}
-				{
-					auto: "no_toast"
-					icon: "thermal:machine_cycle_augment"
-					id: "1EA93EAF7BE1943A"
-					tags: ["reset"]
-					title: "{cabin.reward.1EA93EAF7BE1943A}"
-					type: "custom"
-				}
-			]
+			rewards: [{
+				auto: "enabled"
+				id: "0F61EDD703FCC266"
+				item: "kubejs:trade_card_cherry_log"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "{cabin.quest.01428232944D8BE9.subtitle}"
 			tasks: [{
@@ -4308,22 +3070,12 @@
 		{
 			icon: "minecraft:sculk"
 			id: "25D02F1FB231C466"
-			rewards: [
-				{
-					auto: "enabled"
-					id: "3C7C6226724A6520"
-					item: "kubejs:trade_card_sculk"
-					type: "item"
-				}
-				{
-					auto: "no_toast"
-					icon: "thermal:machine_cycle_augment"
-					id: "4A6ADA35AEFF4AF7"
-					tags: ["reset"]
-					title: "{cabin.reward.4A6ADA35AEFF4AF7}"
-					type: "custom"
-				}
-			]
+			rewards: [{
+				auto: "enabled"
+				id: "3C7C6226724A6520"
+				item: "kubejs:trade_card_sculk"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "{cabin.quest.011F64B48766234B.subtitle}"
 			tasks: [{
@@ -4340,22 +3092,12 @@
 		{
 			icon: "minecraft:pink_petals"
 			id: "3C79A7679BA1AA3C"
-			rewards: [
-				{
-					auto: "enabled"
-					id: "3A35385CDE57FC2D"
-					item: "kubejs:trade_card_pink_petals"
-					type: "item"
-				}
-				{
-					auto: "no_toast"
-					icon: "thermal:machine_cycle_augment"
-					id: "6759A62FD047DEB4"
-					tags: ["reset"]
-					title: "{cabin.reward.6759A62FD047DEB4}"
-					type: "custom"
-				}
-			]
+			rewards: [{
+				auto: "enabled"
+				id: "3A35385CDE57FC2D"
+				item: "kubejs:trade_card_pink_petals"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "{cabin.quest.136DA2C41AD2EE31.subtitle}"
 			tasks: [{
@@ -4372,22 +3114,12 @@
 		{
 			icon: "minecraft:big_dripleaf"
 			id: "5F32791B5284E321"
-			rewards: [
-				{
-					auto: "enabled"
-					id: "068A1A1CEB5E7F76"
-					item: "kubejs:trade_card_big_dripleaf"
-					type: "item"
-				}
-				{
-					auto: "no_toast"
-					icon: "thermal:machine_cycle_augment"
-					id: "7A95B159914EF1BC"
-					tags: ["reset"]
-					title: "{cabin.reward.7A95B159914EF1BC}"
-					type: "custom"
-				}
-			]
+			rewards: [{
+				auto: "enabled"
+				id: "068A1A1CEB5E7F76"
+				item: "kubejs:trade_card_big_dripleaf"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "{cabin.quest.136DA2C41AD2EE31.subtitle}"
 			tasks: [{
