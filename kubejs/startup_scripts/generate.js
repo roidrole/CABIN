@@ -1,5 +1,7 @@
 // priority: 0
 
+const BlockStateProperties = Java.loadClass('net.minecraft.world.level.block.state.properties.BlockStateProperties');
+
 //Textures must use the 'cabin' namespace to avoid a bug involving kubejs loading textures from resource packs.
 //Textures must also be stored in a resource pack since the kubejs assets folder cannot be overridden using resource packs for whatever reason
 StartupEvents.registry('item', event => {
@@ -162,6 +164,9 @@ StartupEvents.registry("block", event => {
 			.renderType(layer)
 			.redstoneConductor(false)
 			.tagBlock("create:wrench_pickup")
+			.defaultState(blockState =>{
+				blockState.set(BlockStateProperties.HORIZONTAL_FACING, "south")
+			})
 	}
 
 	machine('Andesite', "solid").tagBlock("mineable/axe").box(0, 0, 3, 16, 16, 16).box(3, 14, 3, 13, 18, 17)
