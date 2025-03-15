@@ -18,7 +18,15 @@
       {
         "structure": "cabin:log_cabin",
         "weight": 1
-      }
+      },
+      {
+        "structure": "cabin:mountain_cabin",
+        "weight": 1
+      },
+      {
+        "structure": "cabin:blacksmith_shop",
+        "weight": 1
+      } 
     ]
   }
   
