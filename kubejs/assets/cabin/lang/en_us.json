@@ -189,6 +189,7 @@
     "fluid.kubejs.number_9": "Liquified Logic (9)",
     "fluid.kubejs.matrix": "Liquified Computation Matrix",
     "fluid.kubejs.fine_sand": "Fine Sand",
+    "fluid.kubejs.liquid_pulp": "Liquid Pulp",
     "item.metalbarrels.barrel.tooltip": "§7{0} Slots",
     "item.kubejs.main_assembly": "§7Main Assembly: §6{0}",
     "item.kubejs.bonus_assembly": "§7Bonus Assembly: §6{0}",
