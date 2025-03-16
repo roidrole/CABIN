@@ -4,7 +4,9 @@
 !/config-overrides
 !/kubejs
 !/defaultconfigs
-!/resourcepacks
+!/resourcepacks/
+/resourcepacks/*
+!/resourcepacks/CABIN*/
 !/.gitignore
 !/.gitattributes
 !/manifest.json
