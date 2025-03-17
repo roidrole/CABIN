@@ -14,25 +14,25 @@
 				"675C395B2074C24C"
 			]
 			description: [
-				"With Kinetic Mechanisms automated, many new possibilities unfold. Most of Create's machinery can now be crafted without much hassle. The early game just got a bit less early!"
+				"{cabin.quest.0E98B4D2BBF55308.description1}"
 				""
-				"You can now continue, or choose to spend some time in the bonus section of Chapter 1. After all, a stronger supply of Copper Machines will come to be quite useful, too!"
+				"{cabin.quest.0E98B4D2BBF55308.description2}"
 			]
 			disable_toast: true
 			hide_text_until_complete: true
 			id: "0E98B4D2BBF55308"
 			shape: "square"
-			subtitle: "Milestone"
+			subtitle: "{cabin.quest.08716DBF9C882623.subtitle}"
 			tasks: [{
 				disable_toast: true
 				icon: "kubejs:kinetic_mechanism"
 				id: "36F8C3CAF6FC3FB2"
 				stat: "minecraft:play_time"
-				title: "Complete Chapter 1"
+				title: "{cabin.task.36F8C3CAF6FC3FB2}"
 				type: "stat"
 				value: 1
 			}]
-			title: "Andesite Machinery"
+			title: "{cabin.quest.0E98B4D2BBF55308.title}"
 			x: -10.0d
 			y: 0.0d
 		}
@@ -42,23 +42,23 @@
 				"19715EBCBBA1B4AD"
 			]
 			description: [
-				"With Precision Mechanisms automated, a large number of great tools become accessible. Both for automation and quality of life."
+				"{cabin.quest.69275ECFC147E15B.description1}"
 				""
-				"It also opens the gate leading towards the Invar Age- potentially after a quick stop by the bonus section.."
+				"{cabin.quest.69275ECFC147E15B.description2}"
 			]
 			disable_toast: true
 			id: "69275ECFC147E15B"
-			subtitle: "Milestone"
+			subtitle: "{cabin.quest.08716DBF9C882623.subtitle}"
 			tasks: [{
 				disable_toast: true
 				icon: "create:precision_mechanism"
 				id: "0FF38BBE3B19D9C2"
 				stat: "minecraft:play_time"
-				title: "Complete Chapter 2"
+				title: "{cabin.task.0FF38BBE3B19D9C2}"
 				type: "stat"
 				value: 1
 			}]
-			title: "Brass Machinery"
+			title: "{cabin.quest.69275ECFC147E15B.title}"
 			x: -7.0d
 			y: 0.0d
 		}
@@ -68,23 +68,23 @@
 				"6CBA3D97CAD5DB63"
 			]
 			description: [
-				"A completely different age of Technology. Some machines are suddenly powered by some hardly observable magical energy."
+				"{cabin.quest.400CDC316DCDFE88.description1}"
 				""
-				"The Launch feels very close now. While there still lie challenges ahead, the solution footprint will shrink again thanks to the new Appliances."
+				"{cabin.quest.400CDC316DCDFE88.description2}"
 			]
 			disable_toast: true
 			id: "400CDC316DCDFE88"
-			subtitle: "Milestone"
+			subtitle: "{cabin.quest.08716DBF9C882623.subtitle}"
 			tasks: [{
 				disable_toast: true
 				icon: "kubejs:inductive_mechanism"
 				id: "7FEEF6BED2C3F31B"
 				stat: "minecraft:play_time"
-				title: "Complete Chapter 3"
+				title: "{cabin.task.7FEEF6BED2C3F31B}"
 				type: "stat"
 				value: 1
 			}]
-			title: "Invar Machinery"
+			title: "{cabin.quest.400CDC316DCDFE88.title}"
 			x: -4.0d
 			y: 0.0d
 		}
@@ -96,25 +96,25 @@
 				"1BF8F3CC8BEBB620"
 			]
 			description: [
-				"With Calculation Mechanisms, the Factory enters the Digital Age. Instant Material-Energy conversion (ME) revolutionises item and fluid logistics for both the assembly lines and personal use."
+				"{cabin.quest.08716DBF9C882623.description1}"
 				""
-				"At this point, all of the tools necessary to facilitate space travel have become accessible. Might as well start a countdown."
+				"{cabin.quest.08716DBF9C882623.description2}"
 			]
 			disable_toast: true
 			hide_until_deps_visible: false
 			id: "08716DBF9C882623"
 			min_required_dependencies: 3
-			subtitle: "Milestone"
+			subtitle: "{cabin.quest.08716DBF9C882623.subtitle}"
 			tasks: [{
 				disable_toast: true
 				icon: "kubejs:calculation_mechanism"
 				id: "79AB928A6C8E21DA"
 				stat: "minecraft:play_time"
-				title: "Complete Chapter 4"
+				title: "{cabin.task.79AB928A6C8E21DA}"
 				type: "stat"
 				value: 1
 			}]
-			title: "Fluix Machinery"
+			title: "{cabin.quest.08716DBF9C882623.title}"
 			x: -1.0d
 			y: 0.0d
 		}
@@ -124,23 +124,23 @@
 				"6545C3F427B12106"
 			]
 			description: [
-				"Copper Machines unlock the capability of Fluid Manipulation. Fill, drain, filter and collect liquids for all of your automation needs."
+				"{cabin.quest.342BB6EF80EBFDCA.description1}"
 				""
-				"Note that Sealed Mechanisms are an ingredient to nothing else. The main assembly line will continue with Kinetic Mechanisms."
+				"{cabin.quest.342BB6EF80EBFDCA.description2}"
 			]
 			disable_toast: true
 			id: "342BB6EF80EBFDCA"
-			subtitle: "Utility"
+			subtitle: "{cabin.quest.11C36A243F5108DC.subtitle}"
 			tasks: [{
 				disable_toast: true
 				icon: "kubejs:sealed_mechanism"
 				id: "27B07858A6018539"
-				stat: "minecraft:play_one_minute"
-				title: "Complete Bonus 1A"
+				stat: "minecraft:play_time"
+				title: "{cabin.task.27B07858A6018539}"
 				type: "stat"
 				value: 1
 			}]
-			title: "Copper Machinery"
+			title: "{cabin.quest.342BB6EF80EBFDCA.title}"
 			x: -8.0d
 			y: 2.5d
 		}
@@ -150,23 +150,23 @@
 				"3C50B4556375178E"
 			]
 			description: [
-				"Zinc Machines are incredibly powerful. From efficient Cobblestone Harvesters to long-ranged Item Collectors, a useful new suite of equipment now sits at the ready."
+				"{cabin.quest.2DC3AA8A89005C42.description1}"
 				""
-				"Note that Infernal Mechanisms are an ingredient to nothing else. The main assembly line will continue with Precision Mechanisms."
+				"{cabin.quest.2DC3AA8A89005C42.description2}"
 			]
 			disable_toast: true
 			id: "2DC3AA8A89005C42"
-			subtitle: "Utility"
+			subtitle: "{cabin.quest.11C36A243F5108DC.subtitle}"
 			tasks: [{
 				disable_toast: true
 				icon: "kubejs:infernal_mechanism"
 				id: "12CFC84D3F01F49F"
-				stat: "minecraft:play_one_minute"
-				title: "Complete Bonus 2A"
+				stat: "minecraft:play_time"
+				title: "{cabin.task.12CFC84D3F01F49F}"
 				type: "stat"
 				value: 1
 			}]
-			title: "Zinc Machinery"
+			title: "{cabin.quest.2DC3AA8A89005C42.title}"
 			x: -5.0d
 			y: -2.5d
 		}
@@ -175,25 +175,25 @@
 				"2BB2C7B95E3C89AE"
 				"6DBEF7A11890ADF8"
 			]
-			description: ["Ender Machines provide not only access to instant Teleportation, but also to the most powerful upgrades for your machines."]
+			description: ["{cabin.quest.2F50046724A0DF9C.description1}"]
 			disable_toast: true
 			id: "2F50046724A0DF9C"
-			subtitle: "Utility"
+			subtitle: "{cabin.quest.11C36A243F5108DC.subtitle}"
 			tasks: [{
 				disable_toast: true
 				icon: "kubejs:abstruse_mechanism"
 				id: "4BC5C43C7B23CA16"
 				stat: "minecraft:play_one_minute"
-				title: "Complete Bonus 3A"
+				title: "{cabin.task.4BC5C43C7B23CA16}"
 				type: "stat"
 				value: 1
 			}]
-			title: "Ender Machinery"
+			title: "{cabin.quest.2F50046724A0DF9C.title}"
 			x: -2.0d
 			y: 2.5d
 		}
 		{
-			description: ["Welcome to the Overview. You can always come back here to catch up on your current position in the Progression of Technology. If you look closely, your Journey to the Moon completes the final step of the way on the right side."]
+			description: ["{cabin.quest.75FB28B253B14876.description1}"]
 			icon: "ad_astra:earth_globe"
 			id: "75FB28B253B14876"
 			rewards: [{
@@ -214,10 +214,10 @@
 						value: "minecraft:logs"
 					}
 				}
-				title: "Any Logs"
+				title: "{cabin.task.7F88BABEC9889C76}"
 				type: "item"
 			}]
-			title: "From a Tree Puncher..."
+			title: "{cabin.quest.75FB28B253B14876.title}"
 			x: -13.5d
 			y: 0.0d
 		}
@@ -227,15 +227,15 @@
 				"47965C310D9847DC"
 			]
 			description: [
-				"The Dream of walking the Moon's surface finally came to fruition."
+				"{cabin.quest.4F7A70041B67A348.description1}"
 				""
-				"With that, the role of this Factory Guide has been fulfilled. Enjoy building up your new Hi-Tech Empire, and we'll see you in the next modpack!"
+				"{cabin.quest.4F7A70041B67A348.description2}"
 			]
 			icon: "ad_astra:moon_globe"
 			id: "4F7A70041B67A348"
 			rewards: [{
 				id: "52F34D324E5E10E9"
-				item: "beyond_earth:moon_globe"
+				item: "ad_astra:moon_globe"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -243,119 +243,119 @@
 			tasks: [{
 				dimension: "beyond_earth:moon"
 				icon: {
-					Count: 1b
-					id: "beyond_earth:rocket_t1"
+					Count: 1
+					id: "ad_astra:tier_1_rocket"
 					tag: { }
 				}
 				id: "696B878D65A6BFCC"
-				title: "Land on the Moon"
+				title: "{cabin.task.696B878D65A6BFCC}"
 				type: "dimension"
 			}]
-			title: "...to a Spacefarer"
+			title: "{cabin.quest.4F7A70041B67A348.title}"
 			x: 2.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["75FB28B253B14876"]
 			description: [
-				"The earliest inventions reveal ones resourcefulness with low level equipment: Auto-Crafting? None. Filtering? Not cheap! Item Transport? May the Belt Spaghetti mesh in your favour."
+				"{cabin.quest.61147823CC87F711.description1}"
 				""
-				"After hitting the Checkmark above, the first Chapter of the Factory Guide will become accessible from the Quest Sidebar."
+				"{cabin.quest.61147823CC87F711.description2}"
 			]
 			icon: "create:andesite_alloy"
 			id: "61147823CC87F711"
 			shape: "circle"
-			subtitle: "Chapter 1"
+			subtitle: "{cabin.quest.61147823CC87F711.subtitle}"
 			tasks: [{
 				id: "5A8DF2D8553904BF"
-				title: "Unlock Chapter 1"
+				title: "{cabin.task.5A8DF2D8553904BF}"
 				type: "checkmark"
 			}]
-			title: "High Aspirations"
+			title: "{cabin.quest.61147823CC87F711.title}"
 			x: -11.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["0E98B4D2BBF55308"]
 			description: [
-				"The chicken and egg problem remains: in order to automate precision mechanisms for brass equipment more conveniently, having more brass equipment would be really useful!"
+				"{cabin.quest.1E263994D4883A08.description1}"
 				""
-				"After hitting the Checkmark above, the second Chapter of the Factory Guide will become accessible from the Quest Sidebar."
+				"{cabin.quest.1E263994D4883A08.description2}"
 			]
 			icon: "create:electron_tube"
 			id: "1E263994D4883A08"
 			shape: "circle"
-			subtitle: "Chapter 2"
+			subtitle: "{cabin.quest.1E263994D4883A08.subtitle}"
 			tasks: [{
 				id: "28C41C062843C2CA"
-				title: "Unlock Chapter 2"
+				title: "{cabin.task.28C41C062843C2CA}"
 				type: "checkmark"
 			}]
-			title: "Alluring Expedience"
+			title: "{cabin.quest.1E263994D4883A08.title}"
 			x: -8.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["69275ECFC147E15B"]
 			description: [
-				"The Groundwork has been laid with all that has been created so far. The pace should really pick up from here."
+				"{cabin.quest.780E8AE86250C73D.description1}"
 				""
-				"Producing components for inductive technology relies on very peculiar techniques. Though with all the new equipment ready, automating even the more convoluted interactions should become a cakewalk."
+				"{cabin.quest.780E8AE86250C73D.description2}"
 				""
-				"After hitting the Checkmark above, the third Chapter of the Factory Guide will become accessible from the Quest Sidebar."
+				"{cabin.quest.780E8AE86250C73D.description3}"
 			]
 			icon: "kubejs:radiant_coil"
 			id: "780E8AE86250C73D"
 			shape: "circle"
-			subtitle: "Chapter 3"
+			subtitle: "{cabin.quest.780E8AE86250C73D.subtitle}"
 			tasks: [{
 				id: "2F6FEDBB1BDCB36C"
-				title: "Unlock Chapter 3"
+				title: "{cabin.task.2F6FEDBB1BDCB36C}"
 				type: "checkmark"
 			}]
-			title: "The Catharsis"
+			title: "{cabin.quest.780E8AE86250C73D.title}"
 			x: -5.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["400CDC316DCDFE88"]
 			description: [
-				"A new Energy Unit joins the ranks: the production facility for silicon will involve an interplay of thermal induction machinery and the familiar kinetic components. "
+				"{cabin.quest.26173D4777F439B1.description1}"
 				""
-				"Between Flux and Stress, a peculiar innovation in Laser technology will be required to produce some of the ingredients involved."
+				"{cabin.quest.26173D4777F439B1.description2}"
 				""
-				"After hitting the Checkmark above, the fourth Chapter of the Factory Guide will become accessible from the Quest Sidebar."
+				"{cabin.quest.26173D4777F439B1.description3}"
 			]
 			icon: "kubejs:silicon_compound"
 			id: "26173D4777F439B1"
 			shape: "circle"
-			subtitle: "Chapter 4"
+			subtitle: "{cabin.quest.26173D4777F439B1.subtitle}"
 			tasks: [{
 				id: "74CFD83C501C4952"
-				title: "Unlock Chapter 4"
+				title: "{cabin.task.74CFD83C501C4952}"
 				type: "checkmark"
 			}]
-			title: "Into the Box"
+			title: "{cabin.quest.26173D4777F439B1.title}"
 			x: -2.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["08716DBF9C882623"]
 			description: [
-				"The entire factory is started back up for one final sprint. With a steady supply of Calculation Mechanisms, the Digital Infrastucture performs the necessary operations to put together an ideal Trajectory."
+				"{cabin.quest.5E62059675895213.description1}"
 				""
-				"While this Data Center visibly crunches the numbers, the designated Astronaut starts getting themselves and the spaceship prepared for launch."
+				"{cabin.quest.5E62059675895213.description2}"
 			]
 			icon: "kubejs:divide"
 			id: "5E62059675895213"
 			shape: "circle"
-			subtitle: "Finale"
+			subtitle: "{cabin.quest.5E62059675895213.subtitle}"
 			tasks: [{
 				id: "251A91F6C21AEAFB"
-				title: "Unlock the Final Chapter"
+				title: "{cabin.task.251A91F6C21AEAFB}"
 				type: "checkmark"
 			}]
-			title: "Divide by Digital"
+			title: "{cabin.quest.5E62059675895213.title}"
 			x: 0.5d
 			y: 0.0d
 		}
@@ -363,93 +363,93 @@
 			dependencies: ["0E98B4D2BBF55308"]
 			description: [
 				""
-				"While Copper Machines will definitely be required going forward; full automation of their ingredients is completely optional."
+				"{cabin.quest.7D872F933F45809B.description1}"
 				""
-				"After hitting the Checkmark above, additional Quests located in the First Chapter will be revealed."
+				"{cabin.quest.7664FBB32FCC6BE6.description2}"
 			]
 			icon: "thermal:cured_rubber"
 			id: "7D872F933F45809B"
 			shape: "circle"
-			subtitle: "Bonus 1A"
+			subtitle: "{cabin.quest.7D872F933F45809B.subtitle}"
 			tasks: [{
 				id: "681DACF11F193771"
-				title: "Unlock Bonus 1A"
+				title: "{cabin.task.681DACF11F193771}"
 				type: "checkmark"
 			}]
-			title: "Rubber Tycoon"
+			title: "{cabin.quest.7D872F933F45809B.title}"
 			x: -9.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["69275ECFC147E15B"]
 			description: [
-				"We need to go Deeper!"
-				"Access to Zinc Machines will require for some engineering in another dimension. Even if it's literally Hell, a change of scene will always bring forth new ideas and inspiration."
+				"{cabin.quest.7888F9129E9FE517.description1}"
+				"{cabin.quest.7888F9129E9FE517.description2}"
 				""
-				"After hitting the Checkmark above, additional Quests located in the Second Chapter will be revealed."
+				"{cabin.quest.6D7D2E63F1E35329.description2}"
 			]
 			icon: "minecraft:lava_bucket"
 			id: "7888F9129E9FE517"
 			shape: "circle"
-			subtitle: "Bonus 2A"
+			subtitle: "{cabin.quest.7888F9129E9FE517.subtitle}"
 			tasks: [{
 				id: "21753CBB528EAADF"
-				title: "Unlock Bonus 2A"
+				title: "{cabin.task.21753CBB528EAADF}"
 				type: "checkmark"
 			}]
-			title: "Magmatic Exploits"
+			title: "{cabin.quest.7888F9129E9FE517.title}"
 			x: -6.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["400CDC316DCDFE88"]
 			description: [
-				"The Prospect of Teleportation alone might be reason enough to explore that mysterious End Dimension."
-				"In researching the required technologies, you will find that your hard earned silver suddenly finds a second use.."
+				"{cabin.quest.2BB2C7B95E3C89AE.description1}"
+				"{cabin.quest.2BB2C7B95E3C89AE.description2}"
 				""
-				"After hitting the Checkmark above, additional Quests located in the Third Chapter will be revealed."
+				"{cabin.quest.2BB2C7B95E3C89AE.description3}"
 			]
 			icon: "thermal:enderium_ingot"
 			id: "2BB2C7B95E3C89AE"
 			shape: "circle"
-			subtitle: "Bonus 3A"
+			subtitle: "{cabin.quest.2BB2C7B95E3C89AE.subtitle}"
 			tasks: [{
 				id: "722CA19434E722FB"
-				title: "Unlock Bonus 3A"
+				title: "{cabin.task.722CA19434E722FB}"
 				type: "checkmark"
 			}]
-			title: "Melting the Funds"
+			title: "{cabin.quest.2BB2C7B95E3C89AE.title}"
 			x: -3.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["400CDC316DCDFE88"]
 			description: [
-				"You'll find that the newly discovered Laser setup has other interesting capabilities."
+				"{cabin.quest.3934AD57122B6FFE.description1}"
 				""
-				"Behind a bit of science and experimentation lies a way to transmute seemingly unrelated materials between another. The demanded Silicon element is one of them, but which is its counterpart?"
+				"{cabin.quest.3934AD57122B6FFE.description2}"
 				""
-				"After hitting the Checkmark above, the alternative fourth Chapter of the Factory Guide will become accessible from the Quest Sidebar. It will still be possible to return to the other chapter."
+				"{cabin.quest.3934AD57122B6FFE.description3}"
 			]
 			icon: "kubejs:substrate_chaos"
 			id: "3934AD57122B6FFE"
 			shape: "circle"
-			subtitle: "Alternative Path"
+			subtitle: "{cabin.quest.3934AD57122B6FFE.subtitle}"
 			tasks: [{
 				id: "5DF206B1738D08A0"
-				title: "Unlock Chapter 4a"
+				title: "{cabin.task.5DF206B1738D08A0}"
 				type: "checkmark"
 			}]
-			title: "Chaotic Alchemy"
+			title: "{cabin.quest.3934AD57122B6FFE.title}"
 			x: -2.5d
 			y: -1.25d
 		}
 		{
 			dependencies: ["75FB28B253B14876"]
 			description: [
-				"Careful! Before you are ready to embark on the journey of automation, it can help to set up a basic workshop first."
+				"{cabin.quest.7D6BC99CCCB29924.description1}"
 				""
-				"Here are some recommendations for a successful start."
+				"{cabin.quest.7D6BC99CCCB29924.description2}"
 			]
 			icon: "minecraft:cobblestone_stairs"
 			id: "7D6BC99CCCB29924"
@@ -504,7 +504,7 @@
 					type: "item"
 				}
 			]
-			title: "Preparations"
+			title: "{cabin.quest.7D6BC99CCCB29924.title}"
 			x: -12.5d
 			y: -1.5d
 		}
@@ -513,41 +513,87 @@
 				"7664FBB32FCC6BE6"
 				"667F4F686A45EF3E"
 			]
-			description: ["Like explained before, trains are a super useful option for item and fluid movement, especially with how cheap they are."]
+			description: ["{cabin.quest.11C36A243F5108DC.description1}"]
 			id: "11C36A243F5108DC"
-			subtitle: "Utility"
+			subtitle: "{cabin.quest.11C36A243F5108DC.subtitle}"
 			tasks: [{
 				icon: "kubejs:reinforced_mechanism"
 				id: "159661080AE7707A"
 				stat: "minecraft:play_time"
-				title: "Completed Bonus 1B"
+				title: "{cabin.task.159661080AE7707A}"
 				type: "stat"
 				value: 1
 			}]
-			title: "Gold Machinary"
+			title: "{cabin.quest.11C36A243F5108DC.title}"
 			x: -8.0d
 			y: -2.5d
 		}
 		{
 			dependencies: ["0E98B4D2BBF55308"]
 			description: [
-				"Trains can be used to transport materials and fluids across long distances and the nether, without the need for chunkloading."
+				"{cabin.quest.7664FBB32FCC6BE6.description1}"
 				""
-				"After hitting the Checkmark above, additional Quests located in the First Chapter will be revealed."
+				"{cabin.quest.7664FBB32FCC6BE6.description2}"
 			]
 			icon: "minecraft:deepslate"
 			id: "7664FBB32FCC6BE6"
 			shape: "circle"
-			subtitle: "Bonus 1B"
+			subtitle: "{cabin.quest.7664FBB32FCC6BE6.subtitle}"
 			tasks: [{
 				id: "28D3347E8FA277AD"
-				title: "Unlock Bonus 1B"
+				title: "{cabin.task.28D3347E8FA277AD}"
 				type: "checkmark"
 			}]
-			title: "Quenching Deepslate"
+			title: "{cabin.quest.7664FBB32FCC6BE6.title}"
 			x: -9.5d
 			y: -1.5d
 		}
+		{
+			dependencies: ["69275ECFC147E15B"]
+			description: [
+				"{cabin.quest.6D7D2E63F1E35329.description1}"
+				""
+				"{cabin.quest.6D7D2E63F1E35329.description2}"
+			]
+			icon: "kubejs:liquid_pulp_bucket"
+			id: "6D7D2E63F1E35329"
+			shape: "circle"
+			subtitle: "{cabin.quest.6D7D2E63F1E35329.subtitle}"
+			tasks: [{
+				id: "6EDA86E4BE0F096B"
+				title: "{cabin.task.6EDA86E4BE0F096B}"
+				type: "checkmark"
+			}]
+			title: "{cabin.quest.6D7D2E63F1E35329.title}"
+			x: -6.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"44540B11F341AE09"
+				"6D7D2E63F1E35329"
+			]
+			description: [
+				"{cabin.quest.68DF462185A9AF63.description1}"
+				""
+				"{cabin.quest.68DF462185A9AF63.description2}"
+			]
+			disable_toast: true
+			id: "68DF462185A9AF63"
+			subtitle: "{cabin.quest.11C36A243F5108DC.subtitle}"
+			tasks: [{
+				disable_toast: true
+				icon: "kubejs:logistic_mechanism"
+				id: "4F0DC063E1D872BC"
+				stat: "minecraft:play_time"
+				title: "{cabin.task.4F0DC063E1D872BC}"
+				type: "stat"
+				value: 1
+			}]
+			title: "{cabin.quest.68DF462185A9AF63.title}"
+			x: -5.0d
+			y: 2.5d
+		}
 	]
-	title: " Overview"
+	title: "{cabin.chapter.1F9517DCFB1DB297.title}"
 }

@@ -1,5 +1,7 @@
 // priority: 0
 
+const BlockStateProperties = Java.loadClass('net.minecraft.world.level.block.state.properties.BlockStateProperties');
+
 //Textures must use the 'cabin' namespace to avoid a bug involving kubejs loading textures from resource packs.
 //Textures must also be stored in a resource pack since the kubejs assets folder cannot be overridden using resource packs for whatever reason
 StartupEvents.registry('item', event => {
@@ -54,6 +56,7 @@ StartupEvents.registry('item', event => {
 	mechanism('Sealed')
 	mechanism('Reinforced')
 	mechanism('Infernal', 'uncommon')
+	mechanism('Logistic', 'uncommon')
 	mechanism('Inductive', 'uncommon')
 	mechanism('Abstruse', 'rare')
 	mechanism('Calculation', 'rare')
@@ -126,8 +129,10 @@ StartupEvents.registry('item', event => {
 	event.create('nickel_compound').texture("cabin:item/nickel_compound").displayName('Nickel Compound')
 	event.create('invar_compound','create:sequenced_assembly').texture("cabin:item/invar_compound").displayName('Unprocessed Invar Ingot')
 	event.create('dye_entangled_singularity').texture("cabin:item/dye_entangled_singularity").unstackable().displayName('Chromatic Singularity')
-	event.create('chromatic_resonator').texture("cabin:item/chromatic_resonator").displayName('Chromatic Resonator').maxDamage(512)
+  
+  event.create('chromatic_resonator').texture("cabin:item/chromatic_resonator").displayName('Chromatic Resonator').maxDamage(512)
 	event.create('flash_drive').texture("cabin:item/boot_medium").displayName('Flash Drive').maxDamage(512)
+   event.create('strainer_filter').texture("waterstrainer:items/strainer_survivalist").displayName('Strainer Filter').maxDamage(384)
 
 	event.create('alchemical_laser').parentModel("cabin:block/ponder_laser_lamp_on").displayName('Alchemical Laser (Ponder Entry)').unstackable()
 	event.create('thermal_cast').texture("cabin:item/thermal_cast").displayName('Thermal Cast').unstackable()
@@ -140,26 +145,30 @@ StartupEvents.registry('item', event => {
 	event.create('attachment_base').texture("cabin:item/attachment_base").displayName('Attachment Base')
 	event.create('silver_coin').texture("cabin:item/silver_coin").displayName('Silver Coin Stack Icon')
 	event.create('gold_coin').texture("cabin:item/gold_coin").displayName('Gold Coin Stack Icon')
-	event.create('strainer_filter').texture("waterstrainer:items/strainer_survivalist").displayName('Strainer Filter').maxDamage(120)
+
+	event.create('mystic_pottery_sherd').texture("cabin:item/mystic_pottery_sherd").displayName('Mystic Pottery Sherd').tag("minecraft:decorated_pot_ingredients").tag("minecraft:decorated_pot_sherds")
+	event.create('cozy_pottery_sherd').texture("cabin:item/cozy_pottery_sherd").displayName('Cozy Pottery Sherd').tag("minecraft:decorated_pot_ingredients").tag("minecraft:decorated_pot_sherds")
+	event.create('circuit_pottery_sherd').texture("cabin:item/circuit_pottery_sherd").displayName('Circuit Pottery Sherd').tag("minecraft:decorated_pot_ingredients").tag("minecraft:decorated_pot_sherds")
 })
 
 StartupEvents.registry("block", event => {
 
-	event.create('trial_copper_block').model('minecraft:block/copper_block').soundType('metal').tagBlock("mineable/pickaxe").tagBlock("needs_stone_tool").requiresTool(true).hardness(3.0).resistance(6.0).displayName("Illusionary Block of Copper")
-	event.create('trial_cut_copper').model('minecraft:block/cut_copper').soundType('metal').tagBlock("mineable/pickaxe").tagBlock("needs_stone_tool").requiresTool(true).hardness(3.0).resistance(6.0).displayName("Illusionary Cut Copper")
-	event.create('trial_chiseled_copper').model('trials:block/chiseled_copper').soundType('metal').tagBlock("mineable/pickaxe").tagBlock("needs_stone_tool").requiresTool(true).hardness(3.0).resistance(6.0).displayName("Illusionary Chiseled Copper")
-	event.create('trial_copper_grate').model('trials:block/copper_grate').soundType('metal').tagBlock("mineable/pickaxe").tagBlock("needs_stone_tool").requiresTool(true).hardness(3.0).resistance(6.0).displayName("Illusionary Copper Grate").notSolid().waterlogged()
-	event.create('trial_cut_copper_stairs', "stairs").textureAll('minecraft:block/cut_copper').soundType('metal').tagBlock("mineable/pickaxe").tagBlock("needs_stone_tool").requiresTool(true).hardness(3.0).resistance(6.0).displayName("Illusionary Cut Copper Stairs")
-	event.create('trial_cut_copper_slab', "slab").textureAll('minecraft:block/cut_copper').soundType('metal').tagBlock("mineable/pickaxe").tagBlock("needs_stone_tool").requiresTool(true).hardness(3.0).resistance(6.0).displayName("Illusionary Cut Copper Slab")
+	event.create('trial_copper_block').model('minecraft:block/copper_block').soundType('metal').tagBlock("mineable/pickaxe").tagBlock("needs_stone_tool").requiresTool(true).hardness(3.0).resistance(6.0)
+	event.create('trial_cut_copper').model('minecraft:block/cut_copper').soundType('metal').tagBlock("mineable/pickaxe").tagBlock("needs_stone_tool").requiresTool(true).hardness(3.0).resistance(6.0)
+	event.create('trial_chiseled_copper').model('trials:block/chiseled_copper').soundType('metal').tagBlock("mineable/pickaxe").tagBlock("needs_stone_tool").requiresTool(true).hardness(3.0).resistance(6.0)
+	event.create('trial_copper_grate').model('trials:block/copper_grate').soundType('metal').tagBlock("mineable/pickaxe").tagBlock("needs_stone_tool").requiresTool(true).hardness(3.0).resistance(6.0).notSolid().waterlogged()
+	event.create('trial_cut_copper_stairs', "stairs").textureAll('minecraft:block/cut_copper').soundType('metal').tagBlock("mineable/pickaxe").tagBlock("needs_stone_tool").requiresTool(true).hardness(3.0).resistance(6.0)
+	event.create('trial_cut_copper_slab', "slab").textureAll('minecraft:block/cut_copper').soundType('metal').tagBlock("mineable/pickaxe").tagBlock("needs_stone_tool").requiresTool(true).hardness(3.0).resistance(6.0)
 	
-	event.create('trial_oxidized_copper_block').model('minecraft:block/oxidized_copper').soundType('metal').tagBlock("mineable/pickaxe").tagBlock("needs_stone_tool").requiresTool(true).hardness(3.0).resistance(6.0).displayName("Illusionary Oxidized Block of Copper")
-	event.create('trial_oxidized_cut_copper').model('minecraft:block/oxidized_cut_copper').soundType('metal').tagBlock("mineable/pickaxe").tagBlock("needs_stone_tool").requiresTool(true).hardness(3.0).resistance(6.0).displayName("Illusionary Oxidized Cut Copper")
-	event.create('trial_oxidized_chiseled_copper').model('trials:block/chiseled_copper_oxidized').soundType('metal').tagBlock("mineable/pickaxe").tagBlock("needs_stone_tool").requiresTool(true).hardness(3.0).resistance(6.0).displayName("Illusionary Oxidized Chiseled Copper")
-	event.create('trial_oxidized_copper_grate').model('trials:block/copper_grate_oxidized').soundType('metal').tagBlock("mineable/pickaxe").tagBlock("needs_stone_tool").requiresTool(true).hardness(3.0).resistance(6.0).displayName("Illusionary Oxidized Copper Grate").notSolid().waterlogged()
-	event.create('trial_oxidized_cut_copper_stairs', "stairs").textureAll('minecraft:block/oxidized_cut_copper').soundType('metal').tagBlock("mineable/pickaxe").tagBlock("needs_stone_tool").requiresTool(true).hardness(3.0).resistance(6.0).displayName("Illusionary Oxidized Cut Copper Stairs")
-	event.create('trial_oxidized_cut_copper_slab', "slab").textureAll('minecraft:block/oxidized_cut_copper').soundType('metal').tagBlock("mineable/pickaxe").tagBlock("needs_stone_tool").requiresTool(true).hardness(3.0).resistance(6.0).displayName("Illusionary Oxidized Cut Copper Slab")
+	event.create('trial_oxidized_copper').model('minecraft:block/oxidized_copper').soundType('metal').tagBlock("mineable/pickaxe").tagBlock("needs_stone_tool").requiresTool(true).hardness(3.0).resistance(6.0)
+	event.create('trial_oxidized_cut_copper').model('minecraft:block/oxidized_cut_copper').soundType('metal').tagBlock("mineable/pickaxe").tagBlock("needs_stone_tool").requiresTool(true).hardness(3.0).resistance(6.0)
+	event.create('trial_chiseled_copper_oxidized').model('trials:block/chiseled_copper_oxidized').soundType('metal').tagBlock("mineable/pickaxe").tagBlock("needs_stone_tool").requiresTool(true).hardness(3.0).resistance(6.0)
+	event.create('trial_copper_grate_oxidized').model('trials:block/copper_grate_oxidized').soundType('metal').tagBlock("mineable/pickaxe").tagBlock("needs_stone_tool").requiresTool(true).hardness(3.0).resistance(6.0).notSolid().waterlogged()
+	event.create('trial_oxidized_cut_copper_stairs', "stairs").textureAll('minecraft:block/oxidized_cut_copper').soundType('metal').tagBlock("mineable/pickaxe").tagBlock("needs_stone_tool").requiresTool(true).hardness(3.0).resistance(6.0)
+	event.create('trial_oxidized_cut_copper_slab', "slab").textureAll('minecraft:block/oxidized_cut_copper').soundType('metal').tagBlock("mineable/pickaxe").tagBlock("needs_stone_tool").requiresTool(true).hardness(3.0).resistance(6.0)
 
 	event.create('enderium_casing').model('cabin:block/enderium_casing').soundType('metal').tagBlock("mineable/pickaxe").tagBlock("create:wrench_pickup").requiresTool(true).hardness(4.0).displayName('Ender Casing')
+	event.create('lead_casing').textureAll('cabin:block/lead_casing').soundType('metal').tagBlock("mineable/pickaxe").tagBlock("create:wrench_pickup").requiresTool(true).hardness(3.0).displayName('Lead Casing')
 	event.create('zinc_casing').textureAll('cabin:block/zinc_casing').soundType('metal').tagBlock("mineable/pickaxe").tagBlock("create:wrench_pickup").requiresTool(true).hardness(3.0).displayName('Zinc Casing')
 	event.create('invar_casing').textureAll('cabin:block/invar_casing').soundType('metal').tagBlock("mineable/pickaxe").tagBlock("create:wrench_pickup").requiresTool(true).hardness(3.0).displayName('Invar Casing')
 	event.create('fluix_casing').textureAll('cabin:block/fluix_casing').soundType('metal').tagBlock("mineable/pickaxe").tagBlock("create:wrench_pickup").requiresTool(true).hardness(3.0).displayName('Fluix Casing')
@@ -170,9 +179,6 @@ StartupEvents.registry("block", event => {
 	event.create('ponder_laser_lamp_on').model('cabin:block/ponder_laser_lamp_on').notSolid().lightLevel(15).renderType("translucent").displayName('Laser Lamp (For Ponder)')
 	event.create('navigation_computer', 'cardinal').model('cabin:block/navigation_computer').soundType('metal').tagBlock("mineable/pickaxe").hardness(3.0).requiresTool(true).displayName('Navigation Computer')
 	event.create('lander_deployer', 'cardinal').model('cabin:block/lander_deployer').soundType('metal').tagBlock("mineable/pickaxe").hardness(3.0).requiresTool(true).displayName('Lander Deployer')
-
-	
-
 
 	let machine = (name, layer) => {
 		let id = name.toLowerCase()
@@ -187,14 +193,37 @@ StartupEvents.registry("block", event => {
 			.renderType(layer)
 			.redstoneConductor(false)
 			.tagBlock("create:wrench_pickup")
+			.defaultState(blockState =>{
+				blockState.set(BlockStateProperties.HORIZONTAL_FACING, "south")
+			})
 	}
 
 	machine('Andesite', "solid").tagBlock("mineable/axe").box(0, 0, 3, 16, 16, 16).box(3, 14, 3, 13, 18, 17)
 	machine('Brass', "translucent").tagBlock("mineable/axe").box(0, 0, 0, 16, 4, 16).box(0, 0, 3, 16, 10, 13).box(8, 3, 4, 16, 16, 16).box(1, 10, 5, 7, 21, 11)
 	machine('Copper', "cutout").tagBlock("mineable/axe").box(0, 0, 0, 16, 4, 16).box(1.9, 2, -2, 14.9, 10, 10).box(6, 4, 6, 16, 20, 16).box(0, 4, 6, 10, 24, 16)
 	machine('Gold', "solid").tagBlock("mineable/axe").box(0, 0, 4, 16, 16, 14)
+	machine('Lead', "cutout")
 	machine('Zinc', "cutout")
 	machine('Enderium', "cutout")
+
+	let pot = function (name) {
+		let id = name.toLowerCase().split(' ').join('_')
+		return event.create(id, 'cardinal')
+			.model(`cabin:block/${id}`)
+			.notSolid()
+			.renderType("translucent")
+			.displayName(name)
+			.hardness(0)
+			.material("COLOR_ORANGE") // Set a material (affects the sounds and some properties)
+			.soundType('glass')
+			.waterlogged()
+	}
+
+	pot("Treasure Pot").box(4, 0, 4, 12, 10, 12)
+	pot("Tall Treasure Pot").box(5, 0, 5, 11, 12, 11)
+	pot("Small Treasure Pot").box(5, 0, 5, 11, 8, 11)
+	pot("Small Quartz Treasure Pot").box(5, 0, 5, 11, 8, 11)
+	pot("Tall Quartz Treasure Pot").box(5, 0, 5, 11, 12, 11)
 
 	for (let i = 0; i < 15; i++)
 		event.create(`failed_alchemy_${i}`)
@@ -313,7 +342,6 @@ StartupEvents.registry("block", event => {
 		.hardness(0.1)
 		.box(.25, 0, .25, .75, 14.0 / 16.0, .75, false)
 		.model("cabin:block/chaos_catalyst")
-		.displayName("Chaos Catalyst")
 		.renderType("cutout")
 		.waterlogged()
 		// .item(e => e.rarity('rare')
@@ -328,7 +356,6 @@ StartupEvents.registry("block", event => {
 		.hardness(0.1)
 		.box(.25, 0, .25, .75, 14.0 / 16.0, .75, false)
 		.model("cabin:block/substrate")
-		.displayName("Silicon Reagent")
 		.renderType("cutout")
 		.waterlogged()
 		// .item(e => e.rarity('rare')
@@ -343,7 +370,6 @@ StartupEvents.registry("block", event => {
 		.hardness(0.1)
 		.box(.25, 0, .25, .75, 14.0 / 16.0, .75, false)
 		.model("cabin:block/substrate")
-		.displayName("Silver Reagent")
 		.renderType("cutout")
 		.waterlogged()
 		// .item(e =>  e.rarity('rare')
@@ -357,7 +383,6 @@ StartupEvents.registry("block", event => {
 		.hardness(0.1)
 		.box(.125, 0, .125, .875, 10.0 / 16.0, .875, false)
 		.model("cabin:block/accellerator")
-		.displayName("Glowstone Accelerator")
 		.renderType("cutout")
 		.waterlogged()
 		.item(e => e
@@ -370,7 +395,6 @@ StartupEvents.registry("block", event => {
 		.hardness(0.1)
 		.box(.125, 0, .125, .875, 10.0 / 16.0, .875, false)
 		.model("cabin:block/accellerator")
-		.displayName("Redstone Accelerator")
 		.renderType("cutout")
 		.waterlogged()
 		.item(e => e
@@ -386,8 +410,9 @@ StartupEvents.registry("fluid", event => {
 	event.create('matrix').displayName(`Liquified Computation Matrix`).stillTexture('cabin:fluid/matrix_still').flowingTexture('cabin:fluid/matrix_flow').bucketColor(colors[0])
 	event.create('fine_sand').displayName(`Fine Sand`).stillTexture('cabin:fluid/fine_sand_still').flowingTexture('cabin:fluid/fine_sand_flow').bucketColor(0xE3DBB0)
 	event.create('crude_oil').displayName(`Crude Oil`).stillTexture('thermal:block/fluids/crude_oil_still').flowingTexture('thermal:block/fluids/crude_oil_flow').bucketColor(0x222118)
-	event.create('volatile_sky_solution').displayName(`Volatile Sky Solution`).stillTexture('tconstruct:block/fluid/obsidian/still').flowingTexture('tconstruct:block/fluid/obsidian/flowing').color(0x8feebf).bucketColor(0x1A1123)
-	event.create('chromatic_waste').displayName(`Chromatic Waste`).stillTexture('tconstruct:block/fluid/enderium/still').flowingTexture('tconstruct:block/fluid/enderium/flowing').color(0x0B3E36)
+	event.create('volatile_sky_solution').displayName(`Volatile Sky Solution`).stillTexture('tconstruct:fluid/molten/compat_alloy/refined_obsidian/still').flowingTexture('tconstruct:fluid/molten/compat_alloy/refined_obsidian/flowing').color(0x8feebf).bucketColor(0x1A1123)
+	event.create('chromatic_waste').displayName(`Chromatic Waste`).stillTexture('tconstruct:fluid/molten/compat_alloy/enderium/still').flowingTexture('tconstruct:fluid/molten/compat_alloy/enderium/flowing').color(0x0B3E36)
+	event.create('liquid_pulp').displayName(`Liquid Pulp`).stillTexture('tconstruct:fluid/molten/compat_alloy/pewter/still').flowingTexture('tconstruct:fluid/molten/compat_alloy/pewter/still').color(0xb4a498)
 //	event.create('liquid_smoke').displayName(`Liquid Smoke`).stillTexture('advancedrocketry:blocks/fluid/oxygen_still').flowingTexture('advancedrocketry:blocks/fluid/oxygen_flow').bucketColor(0xEBEBEB)
 	event.create('ink').stillTexture('thermal:block/fluids/crude_oil_still').flowingTexture('thermal:block/fluids/crude_oil_flow').bucketColor(0x222118)
 
@@ -417,3 +442,27 @@ ItemEvents.modification(event => {
 	})
 })
 
+StartupEvents.registry("potion", (event) => {
+    let createCustomPotion = (name, effect, duration, long_duration, strong_duration) => {
+        event.create(name).effect(
+            effect,
+            20 * duration,
+            0
+        )
+
+        event.create('long_'+name).effect(
+            effect,
+            20 * long_duration,
+            0
+        )
+
+        if (strong_duration != undefined)
+		event.create('strong_'+name).effect(
+            effect,
+            20 * strong_duration,
+            1
+        )
+    }
+
+    createCustomPotion('haste', 'minecraft:haste', 180, 480, 90)
+  })

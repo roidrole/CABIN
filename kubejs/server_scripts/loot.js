@@ -32,25 +32,18 @@ let metal_ores_drop_dust = (id, dust_id) => ({
 							"functions": [
 								{
 									"function": "minecraft:set_count",
-									"count": 1,
-									"add": true,
-									"conditions": [
-										{
-											"condition": "minecraft:table_bonus",
-											"enchantment": "minecraft:fortune",
-											"chances": [
-												0,
-												0.125,
-												0.25,
-												0.375,
-												0.5,
-												0.625,
-												0.75,
-												0.875,
-												1
-											]
-										}
-									]
+                                    "count":
+                                    {
+                                        "min": 2.0,
+                                        "max": 3.0,
+                                        "type": "minecraft:uniform"
+                                    }
+								},
+								{
+									"function": "minecraft:apply_bonus",
+									"enchantment": "minecraft:fortune",
+									"formula": "minecraft:uniform_bonus_count",
+									"parameters": { "bonusMultiplier": 1 }
 								},
 								{
 									"function": "minecraft:explosion_decay"
@@ -72,10 +65,10 @@ ServerEvents.blockLootTables(event => {
 	let extra_ores = ['minecraft:', 'minecraft:deepslate_']
 
 	extra_ores.forEach(e => {
-			let iron = e + "iron_ore"
-			event.addJson(iron, metal_ores_drop_dust(iron, CR('crushed_raw_iron')))
-			let gold = e + "gold_ore"
-			event.addJson(gold, metal_ores_drop_dust(gold, CR('crushed_raw_gold')))
+		let iron = e + "iron_ore"
+		event.addJson(iron, metal_ores_drop_dust(iron, CR('crushed_raw_iron')))
+		let gold = e + "gold_ore"
+		event.addJson(gold, metal_ores_drop_dust(gold, CR('crushed_raw_gold')))
 	})
 	event.addJson(MC('copper_ore'), metal_ores_drop_dust(MC('copper_ore'), CR('crushed_raw_copper')))
 	event.addJson(MC('deepslate_copper_ore'), metal_ores_drop_dust(MC('deepslate_copper_ore'), CR('crushed_raw_copper')))

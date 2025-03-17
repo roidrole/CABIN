@@ -121,6 +121,11 @@ const zincMachine = (event, outputIngredient, inputIngredient) => {
 	return createMachine('kubejs:zinc_machine', event, outputIngredient, inputIngredient)
 }
 
+const leadMachine = (event, outputIngredient, inputIngredient) => {
+	return createMachine('kubejs:lead_machine', event, outputIngredient, inputIngredient)
+}
+
+
 const invarMachine = (event, outputIngredient, inputIngredient) => {
 	return createMachine('thermal:machine_frame', event, outputIngredient, inputIngredient)
 }

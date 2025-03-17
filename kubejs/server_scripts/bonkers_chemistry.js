@@ -524,10 +524,21 @@ BlockEvents.leftClicked(event => {
 
         let color = ''
 
-        if (laser.hasTag('kubejs:alchemical_laser_lamp/yellow')) color = 'yellow'
-        else if (laser.hasTag('kubejs:alchemical_laser_lamp/red')) color = 'red'
-        else if (laser.hasTag('kubejs:alchemical_laser_lamp/green')) color = 'green'
-        else if (laser.hasTag('kubejs:alchemical_laser_lamp/blue')) color = 'blue'
+        if (laser.hasTag('kubejs:alchemical_laser_lamp/white')) color =  "white";
+        else if (laser.hasTag('kubejs:alchemical_laser_lamp/orange')) color =  "orange";
+        else if (laser.hasTag('kubejs:alchemical_laser_lamp/magenta')) color =  "magenta";
+        else if (laser.hasTag('kubejs:alchemical_laser_lamp/light_blue')) color =  "light_blue";
+        else if (laser.hasTag('kubejs:alchemical_laser_lamp/yellow')) color =  "yellow";
+        else if (laser.hasTag('kubejs:alchemical_laser_lamp/lime')) color =  "lime";
+        else if (laser.hasTag('kubejs:alchemical_laser_lamp/pink')) color =  "pink";
+        else if (laser.hasTag('kubejs:alchemical_laser_lamp/gray')) color =  "gray";
+        else if (laser.hasTag('kubejs:alchemical_laser_lamp/light_gray')) color =  "light_gray";
+        else if (laser.hasTag('kubejs:alchemical_laser_lamp/cyan')) color =  "cyan";
+        else if (laser.hasTag('kubejs:alchemical_laser_lamp/purple')) color =  "purple";
+        else if (laser.hasTag('kubejs:alchemical_laser_lamp/blue')) color =  "blue";
+        else if (laser.hasTag('kubejs:alchemical_laser_lamp/brown')) color =  "brown";
+        else if (laser.hasTag('kubejs:alchemical_laser_lamp/green')) color =  "green";
+        else if (laser.hasTag('kubejs:alchemical_laser_lamp/red')) color =  "red";
 		
         // let te = laser.getEntity()
         // if (!te)

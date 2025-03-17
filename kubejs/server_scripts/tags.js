@@ -1,23 +1,3 @@
-//for some inexplicable reason these need to be kept in seperate onEvent triggers.
-//I've been told that this is some Rino (compiler) jank
-ServerEvents.tags('item', event => {
-	global.itemBlacklist.forEach(item=>{
-		if (Item.exists(item)) {
-			event.add('randomium:blacklist', item)
-		} else {
-			console.warn(`Failed to add \"randomium:blacklist\" tag to ${item} from randomium blacklist`)
-		}
-	})
-})
-ServerEvents.tags('item', event => {
-	global.randomiumBlacklist.forEach(item=>{
-		if (Item.exists(item)) {
-			event.add('randomium:blacklist', item)
-		} else {
-			console.warn(`Failed to add \"randomium:blacklist\" tag to ${item} from randomium blacklist`)
-		}
-	})
-})
 
 ServerEvents.tags('item', event => {
 
@@ -99,17 +79,33 @@ ServerEvents.tags('item', event => {
 	event.get('kubejs:chromatic_resonators').add(KJ('chromatic_resonator'))
 	event.get('kubejs:flash_drives').add(KJ('flash_drive'))
 
+	event.get('kubejs:machines').add('kubejs:andesite_machine').add('kubejs:copper_machine').add('kubejs:gold_machine').add('kubejs:brass_machine').add('kubejs:zinc_machine').add('kubejs:lead_machine').add('thermal:machine_frame').add('kubejs:enderium_machine').add('ae2:controller')
+
+	event.get('kubejs:sellable_discs').add('minecraft:music_disc_13', 'minecraft:music_disc_cat', 'minecraft:music_disc_blocks', 'minecraft:music_disc_chirp', 'minecraft:music_disc_far', 'minecraft:music_disc_mall', 'minecraft:music_disc_mellohi', 'minecraft:music_disc_stal', 'minecraft:music_disc_strad', 'minecraft:music_disc_ward', 'minecraft:music_disc_11', 'minecraft:music_disc_wait', 'minecraft:music_disc_otherside', 'minecraft:music_disc_5', 'minecraft:music_disc_pigstep', 'minecraft:music_disc_relic', 'supplementaries:music_disc_heave_ho', 'quark:music_disc_endermosh', 'trials:music_disc_creator_box', 'trials:music_disc_precipice', 'trials:music_disc_creator', 'biomesoplenty:music_disc_wanderer', 'integrated_stronghold:music_disc_sight', 'integrated_stronghold:music_disc_forlorn');
 	event.get('kubejs:transaction_cards').add('#kubejs:transaction_cards/import')
 	event.get('kubejs:transaction_cards').add('#kubejs:transaction_cards/profession')
 
-	let lampColours = ['yellow', 'red', 'green', 'blue']
-	let lampMaterials = ['andesite', 'brass', 'iron', 'copper', 'industrial_iron', 'zinc']
-	for (let i=0;i<lampColours.length;++i) {
-		for (let j=0;j<lampMaterials.length;++j) {
-			let lamp = `createdeco:${lampColours[i]}_${lampMaterials[j]}_lamp`
+	event.add("kubejs:strainer/sands", "minecraft:sand")
+
+	//Create Deco laser lamps
+	let decoLampColours = ['yellow', 'red', 'green', 'blue']
+	let decoLampMaterials = ['andesite', 'brass', 'iron', 'copper', 'industrial_iron', 'zinc']
+	for (let i=0;i<decoLampColours.length;++i) {
+		for (let j=0;j<decoLampMaterials.length;++j) {
+			let lamp = `createdeco:${decoLampColours[i]}_${decoLampMaterials[j]}_lamp`
 			event.add('kubejs:alchemical_laser_lamp', lamp)
-			event.add(`kubejs:alchemical_laser_lamp/${lampColours[i]}`, lamp)
+			event.add(`kubejs:alchemical_laser_lamp/${decoLampColours[i]}`, lamp)
 		}
+	}
+
+	//Ad Astra laser lamps
+	for (let i=0;i<colours.length;++i) {
+		let lamp = `ad_astra:${colours[i]}_industrial_lamp`;
+		event.add('kubejs:alchemical_laser_lamp', lamp)
+		event.add(`kubejs:alchemical_laser_lamp/${colours[i]}`, lamp)
+		lamp = `ad_astra:small_${colours[i]}_industrial_lamp`;
+		event.add('kubejs:alchemical_laser_lamp', lamp)
+		event.add(`kubejs:alchemical_laser_lamp/${colours[i]}`, lamp)
 	}
 	
 	//This tag prevents items from being consumed in press (market) recipes
@@ -253,14 +249,26 @@ ServerEvents.tags("fluid", event => {
 })
 
 ServerEvents.tags('block', event => {
-	let lampColours = ['yellow', 'red', 'green', 'blue']
-	let lampMaterials = ['andesite', 'brass', 'iron', 'copper', 'industrial_iron', 'zinc']
-	for (let i=0;i<lampColours.length;++i) {
-		for (let j=0;j<lampMaterials.length;++j) {
-			let lamp = `createdeco:${lampColours[i]}_${lampMaterials[j]}_lamp`
+
+	//Create Deco laser lamps
+	let decoLampColours = ['yellow', 'red', 'green', 'blue']
+	let decoLampMaterials = ['andesite', 'brass', 'iron', 'copper', 'industrial_iron', 'zinc']
+	for (let i=0;i<decoLampColours.length;++i) {
+		for (let j=0;j<decoLampMaterials.length;++j) {
+			let lamp = `createdeco:${decoLampColours[i]}_${decoLampMaterials[j]}_lamp`
 			event.add('kubejs:alchemical_laser_lamp', lamp)
-			event.add(`kubejs:alchemical_laser_lamp/${lampColours[i]}`, lamp)
+			event.add(`kubejs:alchemical_laser_lamp/${decoLampColours[i]}`, lamp)
 		}
+	}
+
+	//Ad Astra laser lamps
+	for (let i=0;i<colours.length;++i) {
+		let lamp = `ad_astra:${colours[i]}_industrial_lamp`;
+		event.add('kubejs:alchemical_laser_lamp', lamp)
+		event.add(`kubejs:alchemical_laser_lamp/${colours[i]}`, lamp)
+		lamp = `ad_astra:small_${colours[i]}_industrial_lamp`;
+		event.add('kubejs:alchemical_laser_lamp', lamp)
+		event.add(`kubejs:alchemical_laser_lamp/${colours[i]}`, lamp)
 	}
 
 	event.remove('minecraft:beacon_base_blocks', 'thermal:bronze_block')
@@ -271,7 +279,7 @@ ServerEvents.tags('block', event => {
 	//I don't know why this isn't wrenchable by default
 	event.add("create:wrench_pickup", "minecraft:note_block")
 
-	event.add("create:wrench_pickup", "waterstrainer:strainer_base")
+	event.add("create:wrench_pickup", "mbd2:strainer")
 
 	event.add("create:wrench_pickup", /thermal:machine/)
 	event.add("create:wrench_pickup", /thermal:device/)

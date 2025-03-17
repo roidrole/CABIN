@@ -7,6 +7,10 @@
             "name": "KubeJS",
             "path": "../kubejs"
         },{
+        },{
+            "name": "Assets",
+            "path": "../resourcepacks/CABIN/assets"
+        },{
             "name": "Configs",
             "path": "../config"
         },{

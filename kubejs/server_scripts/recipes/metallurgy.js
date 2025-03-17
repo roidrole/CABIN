@@ -96,11 +96,6 @@ ServerEvents.recipes(event => {
 	event.remove({ id: TE("storage/netherite_ingot_from_nuggets")})
 	event.remove({ id: TC("common/materials/netherite_ingot_from_nuggets")})
 
-	event.remove({ id: TE('storage/bronze_nugget_from_ingot')})
-	event.remove({ id: TE('storage/bronze_ingot_from_nuggets')})
-	event.remove({ id: TE('storage/bronze_ingot_from_block')})
-	event.remove({ id: TE('storage/bronze_block')})
-
 	//Remove unwanted Alloying recipes
 	event.remove({ id: CR('mixing/brass_ingot') })
 	event.remove({id: /centrifuge_bronze_dust/})
@@ -135,8 +130,17 @@ ServerEvents.recipes(event => {
 	//mixing alloys
 	let moltenAlloy = function (fluidAlloy, fluid1, fluid2) {
 		//Recipe ids are actually important here since the id that comes later in alphabetical order is the one that is prioritized
-		event.recipes.createMixing(Fluid.of(TC(fluidAlloy), 3), [Fluid.of(fluid1, 3), Fluid.of(fluid2, 3)]).processingTime(1).id(`kubejs:mixing/${fluidAlloy}_3`)
-		event.recipes.createMixing(Fluid.of(TC(fluidAlloy), 1), [Fluid.of(fluid1, 1), Fluid.of(fluid2, 1)]).processingTime(1).id(`kubejs:mixing/${fluidAlloy}_1`)
+		event.custom({
+			"type": "create:mixing",
+			"ingredients": [
+				{ "amount": 2, "fluid": fluid1 },
+				{ "amount": 2, "fluid": fluid2 }
+			],
+			"results": [
+				{ "amount": 2, "fluid": TC(fluidAlloy) }
+			],
+			processingTime: 1
+		}).id(`kubejs:mixing/${fluidAlloy}_2`)
 	}
 	moltenAlloy('molten_brass', TC('molten_copper'), TC('molten_zinc'))
 	moltenAlloy('molten_constantan', TC('molten_copper'), TC('molten_nickel'))
@@ -152,7 +156,7 @@ ServerEvents.recipes(event => {
 	event.replaceInput({ id: TE("machines/smelter/smelter_alloy_electrum")}, F('#dusts/silver'), TE("silver_ingot"))
 	event.replaceInput({ id: TE("machines/smelter/smelter_alloy_netherite")}, F('#dusts/gold'), MC("gold_ingot"))
 	//bronze
-	thermalSmelter(event, "3x alloyed:bronze_ingot", [MC("copper_ingot", 3), '#forge:sand'])
+	thermalSmelter(event, "3x thermal:bronze_ingot", [MC("copper_ingot", 3), '#forge:sand'])
 	
 	// Nickel Compound
 	event.shapeless(KJ('nickel_compound'), [TE('nickel_ingot'), TE("iron_dust"), TE("iron_dust"), TE("iron_dust"), TE("iron_dust")])
@@ -264,7 +268,7 @@ ServerEvents.recipes(event => {
 	
 	//other metal unification
 	event.replaceOutput({}, '#forge:ingots/silver', TE('silver_ingot'))
-	event.replaceOutput({}, '#forge:ingots/bronze', 'alloyed:bronze_ingot')
+	event.replaceOutput({}, '#forge:ingots/bronze', 'thermal:bronze_ingot')
 	event.replaceOutput({ id:OC('crafting/silver_block')}, '#forge:storage_blocks/silver', TE('silver_block'))
 
 	//Ore processing
@@ -283,17 +287,18 @@ ServerEvents.recipes(event => {
 	const stone = Item.of(MC("cobblestone"), 1).withChance(.5)
 	let experience = Item.of(CR("experience_nugget"), 1).withChance(0.75)
 
-	let dust_process = (materialName, byproduct, fluidByproductName) => {
+	let dust_process = (materialName, byproduct, ByproductName) => {
 		let crushedOre = CR('crushed_' + 'raw_' + materialName)
 		let oreTag = ('#forge:ores/' + materialName)
 		let dustTag = ('#forge:dusts/' + materialName)
 		let fluid = TC("molten_" + materialName)
-		let fluidByproduct = TC("molten_" + fluidByproductName)
+		let fluidByproduct = TC("molten_" + ByproductName)
 		let rawOreTag = ('#forge:raw_materials/' + materialName)
 
 		//slightly slower than passing the name directly but it reduces how many parameters this function needs.
 		let ingot = getPreferredItemFromTag('forge:ingots/'+materialName);
 		let nugget = getPreferredItemFromTag('forge:nuggets/'+materialName);
+		let nuggetByproduct = getPreferredItemFromTag('forge:nuggets/'+ByproductName);
 		let dust = getPreferredItemFromTag('forge:dusts/'+materialName);
 
 		//raw ore block compression and decompression
@@ -310,6 +315,8 @@ ServerEvents.recipes(event => {
 		event.remove({ id: TC('smeltery/melting/metal/' + materialName + '/raw_block') })
 		event.remove({ id: TC('smeltery/melting/metal/' + materialName + '/dust') })
 		event.remove({ id: CR('crushing/raw_' + materialName + '_block') })	
+
+		event.remove({ id: `thermal:machines/pulverizer/pulverizer_${materialName}_ore` })
 		
 
 		//'concentrated ore' to crushed ore
@@ -317,12 +324,12 @@ ServerEvents.recipes(event => {
 		event.recipes.createCrushing([Item.of(crushedOre, 5), Item.of(crushedOre, 2).withChance(0.5)], rawOreTag).id('kubejs:ore_processing/crushing/raw_ore/'+materialName)
 
 		//ore to crushed ore
-		event.recipes.createCrushing([Item.of(crushedOre, 1), Item.of(crushedOre, 1).withChance(0.25), experience, stone], oreTag).id('kubejs:ore_processing/crushing/ore/'+materialName)
-		thermalPulverizer(event, [Item.of(crushedOre).withChance(1.25), Item.of('minecraft:gravel').withChance(0.2)], oreTag, 3000).id('kubejs:ore_processing/pulverizing/ore/'+materialName)
+		event.recipes.createCrushing([Item.of(crushedOre, 3), Item.of(crushedOre, 1).withChance(0.5), experience, stone], oreTag).id('kubejs:ore_processing/crushing/ore/'+materialName)
+		thermalPulverizer(event, [Item.of(crushedOre).withChance(4.5), Item.of('minecraft:gravel').withChance(0.2)], oreTag, 3000).id('kubejs:ore_processing/pulverizing/ore/'+materialName)
 		
 		//crushed ore to nuggets
 		event.smelting(Item.of(nugget, 3), crushedOre).id('kubejs:ore_processing/smelting/crushed/'+materialName)
-		event.recipes.createSplashing([Item.of(nugget, 2)], dustTag).id('kubejs:ore_processing/splashing/dust/'+materialName)
+		event.recipes.createSplashing([Item.of(nugget, 2), Item.of(nuggetByproduct, 1).withChance(0.85)], dustTag).id('kubejs:ore_processing/splashing/dust/'+materialName)
 
 		//crushed ore to ore dust
 		event.recipes.createMilling([Item.of(dust, 3)], crushedOre).id('kubejs:ore_processing/milling/crushed/'+materialName)

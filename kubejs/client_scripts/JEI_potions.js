@@ -19,7 +19,8 @@ const POTIONS = [ //The order that we create these rei entries in is important!
     ["minecraft:strength", ['long', 'strong']],
     ["minecraft:weakness", ['long']],
     ["minecraft:luck", []],
-    ["minecraft:slow_falling", ['long']]
+    ["minecraft:slow_falling", ['long']],
+    ["kubejs:haste", ['long', 'strong']]
 ];
 
 

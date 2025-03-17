@@ -4,8 +4,26 @@ ServerEvents.recipes(event => {
 	event.remove({ mod: 'projectred_core' })
 
 	//red alloy ingot
-	event.recipes.createCompacting([PR_C('red_ingot')], [MC('copper_ingot'), Fluid.of(TE("redstone"), 250)])
-	event.recipes.createCompacting([PR_C('red_ingot')], [MC('copper_ingot'), MC("redstone"), MC("redstone"), MC("redstone"), MC("redstone")])
+	event.custom({
+		type: "create:compacting",
+		ingredients: [
+			{ "item": MC('copper_ingot') },
+			{ "amount": 250, "fluid": TE("redstone"), "nbt": {} }
+		],
+		results: [
+			{ "item": PR_C('red_ingot') }
+		]
+	})
+	event.custom({
+		type: "create:compacting",
+		ingredients: [
+			{ "item": MC('copper_ingot') },
+			{ "amount": 250, "fluid": TE("redstone"), "nbt": {} }
+		],
+		results: [
+			{ "item": PR_C('red_ingot') }
+		]
+	})
 	thermalSmelter(event, PR_C('red_ingot'), [MC("copper_ingot"), MC("redstone")])
 
 	//recreate the circuit plate smelting recipes
@@ -37,6 +55,7 @@ ServerEvents.recipes(event => {
 	circuit(MC("comparator"), false)
 	circuit(CR("pulse_repeater"), true)
 	circuit(CR("pulse_extender"), true)
+	circuit(CR("pulse_timer"), true)
 	circuit(CR("powered_latch"), true)
 	circuit(CR("powered_toggle_latch"), true)
 })

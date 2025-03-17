@@ -8,11 +8,6 @@ FTBQuestsEvents.customReward('custom_reward_id', event => {
             callback.data.runCommandSilent(cmd)
         })
     }
-    if (reward.hasTag('reset'))
-        runCommand(`/ftbquests change_progress ${event.player.name.text} reset ${id}`)
-
-    if (reward.hasTag('bad_omen'))
-        runCommand(`/effect clear ${event.player.name.text} minecraft:bad_omen`)
 
     if (reward.hasTag('fortress')) {
 			let message;
